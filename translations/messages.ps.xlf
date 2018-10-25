@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="ps" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="ayp4kO2" resname="menu.school">
+        <source>menu.school</source>
+        <target>__menu.school</target>
+      </trans-unit>
+      <trans-unit id="IyiaHy2" resname="menu.news">
+        <source>menu.news</source>
+        <target>__menu.news</target>
+      </trans-unit>
+      <trans-unit id="GPtxWS6" resname="menu.courses">
+        <source>menu.courses</source>
+        <target>__menu.courses</target>
+      </trans-unit>
+      <trans-unit id="C3HpPzJ" resname="menu.contact">
+        <source>menu.contact</source>
+        <target>__menu.contact</target>
+      </trans-unit>
+      <trans-unit id="Nn38Z8v" resname="menu.jobs">
+        <source>menu.jobs</source>
+        <target>__menu.jobs</target>
+      </trans-unit>
+      <trans-unit id="ZmS0a_T" resname="menu.donate">
+        <source>menu.donate</source>
+        <target>__menu.donate</target>
+      </trans-unit>
+      <trans-unit id="wNnQCIQ" resname="footer.legal">
+        <source>footer.legal</source>
+        <target>__footer.legal</target>
+      </trans-unit>
+      <trans-unit id="3P24U.9" resname="home.title">
+        <source>home.title</source>
+        <target>__home.title</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
