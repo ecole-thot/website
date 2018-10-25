@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}École Thot >{% endblock %}</title>
+        <title>{% block title %}{{ "title.home"|trans }} >{% endblock %}</title>
 
         {% block stylesheets %}
           <link rel="stylesheet" type="text/css" href="{{ asset('build/css/app.css') }}" media="screen"/>
@@ -15,7 +15,6 @@
                 <div class="item">
                     <img src="{{ asset('/images/logo.png') }}">
                 </div>
-
                 <a class="item" href="{{ path('school') }}">{{ "menu.school"|trans }}</a>
                 <a class="item" href="{{ path('news') }}">{{ "menu.news"|trans }}</a>
                 <a class="item" href="{{ path('courses') }}">{{ "menu.courses"|trans }}</a>
@@ -27,11 +26,11 @@
                     {{ ("lang." ~ app.request.locale)|trans }}
                     <i class="dropdown icon"></i>
                     <div class="menu">
-                        <div class="item">{{ "lang.fr"|trans }}</div>
-                        <div class="item">{{ "lang.en"|trans }}</div>
-                        <div class="item rtl">{{ "lang.ar"|trans }}</div>
-                        <div class="item rtl">{{ "lang.ps"|trans }}</div>
-                        <div class="item rtl">{{ "lang.fa"|trans }}</div>
+                        <a href="{{ path("home", { _locale: "fr"}) }}" class="item">{{ "lang.fr"|trans }}</a>
+                        <a href="{{ path("home", { _locale: "en"}) }}" class="item">{{ "lang.en"|trans }}</a>
+                        <a href="{{ path("home", { _locale: "ar"}) }}" class="item rtl">{{ "lang.ar"|trans }}</a>
+                        <a href="{{ path("home", { _locale: "ps"}) }}" class="item rtl">{{ "lang.ps"|trans }}</a>
+                        <a href="{{ path("home", { _locale: "fa"}) }}" class="item rtl">{{ "lang.fa"|trans }}</a>
                     </div>
                 </div>
             </div>
@@ -54,6 +53,13 @@
 
             {% block body %}{% endblock %}
         </div>
+
+        <div class="ui container headline">
+            <div class="first-circle">TODO</div>
+            <div class="big-circle">{{ "headline"|trans }} </div>
+            <a href="#" class="donate">{{ "menu.donate"|trans }}<br>♥</a>
+        </div>
+
         <footer class="ui container">
             <a href="{{ path('legal') }}">{{ "footer.legal"|trans }}</a>
         </footer>

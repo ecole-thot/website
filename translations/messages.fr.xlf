@@ -57,6 +57,14 @@
         <source>lang.fa</source>
         <target>زبان فارسي</target>
       </trans-unit>
+      <trans-unit id="JbHtlhW" resname="headline">
+        <source>headline</source>
+        <target>Pour transmettre un horizon à tous, nous avons créé Thot, école diplômante de français pour les réfugiés et demandeurs d'asile.</target>
+      </trans-unit>
+      <trans-unit id="DRMZYH6" resname="title.home">
+        <source>title.home</source>
+        <target>École Thot</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
