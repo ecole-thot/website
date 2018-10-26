@@ -7,6 +7,11 @@ nav > div.ui.text.menu {
         &.highlight {
             color: $tertiary_color;
         }
+        & >img:not(.ui) {
+            z-index: 100;
+            width: 142px;
+            margin-top: 30px;
+        }
     }
     & .item.lang-menu, & .item.lang-menu:hover, & .item.lang-menu.active:hover {
         background: $tertiary_color;
