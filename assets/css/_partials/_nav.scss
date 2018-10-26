@@ -1,0 +1,25 @@
+nav > div.ui.text.menu {
+    margin: 0;
+    height: 120px;
+    background: transparent;
+    & > .item {
+        padding: 20px;
+        &.highlight {
+            color: $tertiary_color;
+        }
+    }
+    & .item.lang-menu, & .item.lang-menu:hover, & .item.lang-menu.active:hover {
+        background: $tertiary_color;
+        color: white;
+        &:after {
+            content: "";
+            display: block;
+            width: 41px;
+            height: 40px;
+            position: absolute;
+            left: -40px;
+            background: url('images/world.png') center center transparent no-repeat;
+            background-size: 20px;
+        }
+    }
+}

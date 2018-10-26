@@ -3,8 +3,93 @@
 {% block title %}{{ parent() }} {{ "home.title"|trans }}{% endblock %}
 
 {% block body %}
-HOME
 
-<a href="" class="button">Je m'inscris</a>
+<section class="ui padded grid stackable intro">
+    <div class="main-color ten wide column">
+        <h1 class="title">{{ "welcome"|trans }}</h1>
+        <h2 class="subtitle">{{ "headline"|trans }}</h2>
+        {% if not settings.inscriptions_open %}<a href="" class="button">{{ "inscriptions.know.more"|trans }}</a>{% endif %}
+    </div>
+    <div class="secondary-color six wide column">
+        <div class='ui segment basic'>Depuis 2016</div>
+        <div class="ui grid stackable centered">
+            <div class="eight wide column aligned">{{ settings.nb_students|number_format(0) }}<span>étudiants admins</span></div>
+            <div class="eight wide column aligned">{{ settings.percent_diplomas|number_format(0) }}%<span>de diplômes Dilf/Delf</span></div>
+            <div class="eight wide column aligned">2,5<span>promotions par an</span></div>
+            <div class="eight wide column aligned"><span>Lauréats « La France s'engage »</span></div>
+        </div>
+    </div>
+    {% if settings.inscriptions_open %}
+        <div class="info-banner">
+            <div class="infoplus">
+                <div class="open">{{"inscriptions.now.open"|trans }}</div>
+                <div class="remaining">{{ "inscription.limit"|trans({'%date%': settings.inscription_limit_date|date('d/m')}) }}</div>
+                <a href="{{ settings['inscription_link_' ~ app.request.locale]}}" class="button inverted">Je veux m'inscrire</a>
+            </div>
+        </div>
+    {% else %}
+        <div class="info-banner">
+            <div class="content">{{ "inscription.next"|trans({'%date%': settings.inscription_next_date|date('d/m')}) }}</div>
+        </div>
+    {% endif %}
+</section>
+
+<section class="text">
+    <div class="title">{{ "who.can.study"|trans }}</div>
+    <div class="subtitle">{{ "who.can.study.sub"|trans }}</div>
+</section>
+
+<section class="checks">
+    <div class='ui padded grid centered'>
+        <div class="secondary-color three wide column"><div class="inside">Niveau de français Alpha à A2</div></div>
+        <div class="secondary-color light1 three wide column"><div class="inside">Pas ou peu scolarisés à l'origine<br><span>sans équivalent du Baccalauréat</span></div></div>
+        <div class="secondary-color light2 three wide column"><div class="inside">Disponibles 14h par semaine</div></div>
+        <div class="secondary-color light3 three wide column"><div class="inside">En échange de 7€</div></div>
+    </div>
+</section>
+
+<section class="main-color dispositif">
+    <h3>{{ "dispositif"|trans }}</h3>
+    <h4>{{ "dispositif.sub"|trans }}</h4>
+    <div class="ui grid centered">
+        <div class="four wide column aligned">3½<span>mois de formation par session</span></div>
+        <div class="four wide column aligned">160<span>heures de français</span></div>
+        <div class="four wide column aligned">1<span>professeur de francais langue étrangère par classe de 15</span></div>
+        <div class="four wide column aligned">5<span>jours d'ateliers artistiques</span></div>
+    </div>
+    <div class="ui grid centered">
+        <div class="four wide column aligned">3<span>pôles d'assistance (psychologique, sociale, juridique)</span></div>
+        <div class="four wide column aligned">1<span>pôle d'orientation professionnelle pour préparer la suite</span></div>
+        <div class="four wide column aligned">1<span>examen en fin de session : le DILF/DELF</span></div>
+    </div>
+    <div class="info-banner">
+        <div class="info">Thot s'engage tous les jours. <span class="highlight">Suivez nos actions !</span> <a href="#"><i class="ui icon facebook"></i><span>FB</span></a> <a href="#"><i class="ui icon twitter"></i><span>TW</span></a> <a href="#"><i class="ui icon youtube"></i><span>YT</span></a></div>
+    </div>
+</section>
+
+{% if settings.inscriptions_open %}
+<section class="text">
+    <div class="subtitle">{{ "inscriptions.now.open"|trans }}</div>
+    <div class="title">{{ "inscription.limit.alt"|trans({'%date%': settings.inscription_limit_date|date('d M'), '%time%': settings.inscription_limit_date|date('H\\hi')}) }}</div>
+    <div class="warning">
+        <div class="title">{{ "warning"|trans }}</div>
+        <p>{{ "warning.lang"|trans }}</p>
+    </div>
+    <a href="{{ settings['inscription_link_' ~ app.request.locale]}}" class="button">Je veux m'inscrire</a>
+</section>
+{% endif %}
+
+<section class="text">
+    <div class="title">{{ "partners"|trans }}</div>
+    <div class="subtitle">{{ "partners.sub"|trans }}</div>
+</section>
+
+<section class="ui grid four columns stackable partners">
+    {% for partner in partners %}
+        <div class="column">
+            <div class="logo" style="background-image: url('{{ asset('uploads/partners/' ~ partner.image) }}')"></div>
+        </div>
+    {% endfor %}
+</section>
 
 {% endblock %}

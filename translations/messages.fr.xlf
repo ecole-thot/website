@@ -5,6 +5,10 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
+      <trans-unit id="qvIyBkY" resname="title">
+        <source>title</source>
+        <target>École Thot</target>
+      </trans-unit>
       <trans-unit id="ayp4kO2" resname="menu.school">
         <source>menu.school</source>
         <target>L'École</target>
@@ -35,7 +39,7 @@
       </trans-unit>
       <trans-unit id="3P24U.9" resname="home.title">
         <source>home.title</source>
-        <target>__home.title</target>
+        <target>Accueil</target>
       </trans-unit>
       <trans-unit id="X_Ennoc" resname="lang.fr">
         <source>lang.fr</source>
@@ -59,11 +63,67 @@
       </trans-unit>
       <trans-unit id="JbHtlhW" resname="headline">
         <source>headline</source>
+        <target>L'école diplômante de Français pour les réfugiés et les demandeurs d'asile</target>
+      </trans-unit>
+      <trans-unit id="fbuLFEI" resname="moto">
+        <source>moto</source>
         <target>Pour transmettre un horizon à tous, nous avons créé Thot, école diplômante de français pour les réfugiés et demandeurs d'asile.</target>
       </trans-unit>
-      <trans-unit id="DRMZYH6" resname="title.home">
-        <source>title.home</source>
-        <target>École Thot</target>
+      <trans-unit id="KA1Eqx6" resname="welcome">
+        <source>welcome</source>
+        <target>Bienvenue chez Thot</target>
+      </trans-unit>
+      <trans-unit id="25GXUyE" resname="inscriptions.know.more">
+        <source>inscriptions.know.more</source>
+        <target>En savoir plus sur les inscriptions</target>
+      </trans-unit>
+      <trans-unit id="S9k1S7Z" resname="warning">
+        <source>warning</source>
+        <target>Attention</target>
+      </trans-unit>
+      <trans-unit id="2Lgvscd" resname="warning.lang">
+        <source>warning.lang</source>
+        <target>Il est indispensable que le formulaire soit rempli par le candidat (le formulaire est traduit en pashto, farsi, arabe et anglais). Cette règle ne s'applique pas aux personnes ne sachant ni lire ni écrire ou dont la langue n'est pas traduite.</target>
+      </trans-unit>
+      <trans-unit id="c1zwxoc" resname="who.can.study">
+        <source>who.can.study</source>
+        <target>Qui peut être étudiant chez Thot ?</target>
+      </trans-unit>
+      <trans-unit id="rcYhXyd" resname="who.can.study.sub">
+        <source>who.can.study.sub</source>
+        <target>Nos cours s'adressent aux exilés (demandeurs d'asile, dublinés, réfugiés)</target>
+      </trans-unit>
+      <trans-unit id="U.bO1Xs" resname="dispositif">
+        <source>dispositif</source>
+        <target>Notre dispositif</target>
+      </trans-unit>
+      <trans-unit id="uceE5Pa" resname="dispositif.sub">
+        <source>dispositif.sub</source>
+        <target>Des sessions courtes, intensives, spécifiques, variées et diplômantes</target>
+      </trans-unit>
+      <trans-unit id="Bst18TJ" resname="partners">
+        <source>partners</source>
+        <target>Nos partenaires</target>
+      </trans-unit>
+      <trans-unit id="HQdLIVe" resname="partners.sub">
+        <source>partners.sub</source>
+        <target>Thot remercie ses donateurs, soutiens et partenaires</target>
+      </trans-unit>
+      <trans-unit id="5vyWyFT" resname="inscription.limit">
+        <source>inscription.limit</source>
+        <target>Vous avez jusqu'au %date% pour vous inscrire</target>
+      </trans-unit>
+      <trans-unit id="Qk4wHwr" resname="inscription.limit.alt">
+        <source>inscription.limit.alt</source>
+        <target>Vous pouvez vous inscrire jusqu'au %date% à %time%.</target>
+      </trans-unit>
+      <trans-unit id="kMUOXXt" resname="inscriptions.now.open">
+        <source>inscriptions.now.open</source>
+        <target>Les inscriptions sont maintenant ouvertes</target>
+      </trans-unit>
+      <trans-unit id="36whLxz" resname="inscription.next">
+        <source>inscription.next</source>
+        <target>RDV le %date% pour vous inscrire</target>
       </trans-unit>
     </body>
   </file>

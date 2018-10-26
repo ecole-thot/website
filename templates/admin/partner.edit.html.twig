@@ -1,0 +1,10 @@
+{% extends 'admin/base.html.twig' %}
+
+{% block body %}
+Partenaire {{ partner.name }}
+
+{{ form_start(form) }}
+{{ form_row(form.image) }}
+<input type="submit" value="Enregistrer"/>
+{{ form_rest(form) }}
+{% endblock %}

@@ -1,4 +1,4 @@
-a, p, div, em, strong {
+a, p, em, strong {
     color: $text_color;
 }
 
@@ -6,92 +6,231 @@ a, p, div, em, strong {
     direction: rtl;
 }
 
+.main-color { background: $main-color; color: $secondary-color; }
+.secondary-color { 
+    background: $secondary-color;
+    color: $main-color;
+    &.light1 { background: lighten($secondary-color, 10%); }
+    &.light2 { background: lighten($secondary-color, 15%); }
+    &.light3 { background: lighten($secondary-color, 20%); }
+}
+.tertiary-color { background: $tertiary-color; color: white; }
+
 a.button {
     display: inline-block;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: $tertiary_color;
+    border: 2px solid $tertiary_color;
     color: white;
+    &.inverted {
+        background-color: white;
+        color: $tertiary_color;
+        border: 2px solid white;
+    }
     border-radius: 0;
-    border: none;
-}
-
-nav > div.ui.text.menu {
-    margin: 0;
-    height: 120px;
-    background: transparent;
-    & > .item {
-        padding: 20px;
-        &.highlight {
-            color: $tertiary_color;
-        }
-    }
-    & .item.lang-menu, & .item.lang-menu:hover, & .item.lang-menu.active:hover {
-        background: $tertiary_color;
-        color: white;
-        &:after {
-            content: "";
-            display: block;
-            width: 41px;
-            height: 40px;
-            position: absolute;
-            left: -40px;
-            background: url('images/world.png') center center transparent no-repeat;
-            background-size: 20px;
+    &:hover {
+        background: white;
+        color: $tertiary_color;
+        &.inverted {
+            background-color: $tertiary_color;
+            color: white;
         }
     }
 }
 
-.headline {
-    height: 620px;
-    display: block;
+section {
     position: relative;
-    font-weight: bold;
-    text-align: center;
-    .first-circle {
-        position: absolute;
-        top: 0px;
-        left: 50%;
-        margin-left: -340px;
-        border-radius: 50%;
-        width: 190px;
-        height: 190px;
-        background: $secondary_color;
-        color: $main_color;
+    &.intro.ui.grid > .column:not(.row) {
+        padding: 100px 70px 220px 70px;
+        margin-bottom: 60px;
+        h1.title {
+            font-size: 1.3em;
+            line-height: 2.2em;
+            &:after {
+                content: "";
+                display: block;
+                width: 80px;
+                height: 5px;
+                background: white;
+            }
+        }
+        h2.subtitle {
+            margin: 20px 0;
+            font-size: 3em;
+            line-height: 1.2em;
+        }
+        .grid {
+            .column {
+                font-size: 3.5em;
+                text-align: center;
+                span {
+                    margin-top: 20px;
+                    display: block;
+                    font-size: 0.3em;
+                    font-weight: lighter;
+                }
+            }
+        }
     }
-    .big-circle {
+    .info-banner {
         position: absolute;
-        top: 40px;
-        left: 50%;
-        margin-left: -230px;
-        width: 460px;
-        height: 460px;
-        border-radius: 50%;
-        background: url('http://thot-fle.fr/static/img/thot-white.png') no-repeat 204px -96px $secondary_color;
-        background-size: 400px;
-        padding: 180px 0;
-        color: $main_color;
-        font-size: 2em;
-        line-height: 1em;
-    }
-    a.donate {
-        position: absolute;
-        top: 420px;
-        left: 50%;
-        margin-left: 50px;
-        display: inline-block;
-        border-radius: 50%;
-        width: 190px;
-        height: 190px;
-        background: $tertiary_color;
-        color: white;
+        bottom: -30px;
+        left: 0;
+        width: 100%;
         text-align: center;
-        padding: 80px 0;
-        font-size: 1.5em;
+        & > * {
+            display: inline-block;
+            padding: 20px;
+            font-size: 1.5em;
+        }
+        .content {
+            font-weight: bolder;
+            border: 5px solid $main_color;
+            background: white;
+            color: $main_color;
+        }
+        .info {
+            background-color: $tertiary_color;
+            color: white;
+            font-size: 1.2em;
+            .highlight {
+                font-weight: bolder;
+            }
+            a {
+                color: white;
+                padding: 0 20px;
+                span {
+                    font-size: 0.75em;
+                }
+            }
+        }
+        .infoplus {
+            height: 280px;
+            width: 260px;
+            background-color: $tertiary_color;
+            color: white;
+            text-align: left;
+            font-size: 1em;
+            padding: 30px;
+            position: absolute;
+            bottom: 15px;
+            left: 60px;
+            div.open {
+                margin-top: 20px;
+                margin-bottom: 10px;
+                font-size: 1.7em;
+                line-height: 1em;
+                font-weight: bold;
+            }
+            div.remaining {
+                font-size: 1.2em;
+                font-weight: lighter;
+                margin-bottom: 20px;
+                &:after {
+                    content: "";
+                    display: block;
+                    margin-top: 10px;
+                    width: 80px;
+                    height: 5px;
+                    background: white;
+                }
+            }
+        }
+    }
+    &.text {
+        color: $text_color;
+        text-align: center;
+        padding: 100px 260px;
+        & > div.title {
+            margin-top: 20px;
+            font-size: 3em;
+            font-weight: bolder;
+            line-height: 1.2em;
+        }
+        & > div.subtitle {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+        & > div.warning {
+            margin: 40px 0;
+            font-size: 1em;
+            & .title {
+                font-size: 1.2em;
+                text-transform: uppercase;
+            }
+        }
+    }
+    &.checks {
+        margin-bottom: 100px;
+        .column {
+            height: 160px;
+            &:before {
+                position: absolute;
+                left: 50%;
+                margin-left: -30px;
+                top: -30px;
+                content: "✓";
+                background: $main_color;
+                color: white;
+                text-align: center;
+                font-size: 2em;
+                padding: 20px;
+                display: block;
+                border-radius: 50%;
+                width: 60px;
+                height: 60px;
+            }
+            & > .inside {
+                padding: 40px 30px 30px 30px;
+                color: $text_color;
+                text-align: center;
+                span {
+                    margin-top: 10px;
+                    display: block;
+                    font-size: 0.75em;
+                    color: $light_text_color;
+                    line-height: 1em;
+                }
+            }
+        }
+    }
+    &.dispositif {
+        text-align: center;
+        padding: 80px 40px 120px 40px;
+        h3 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        h4 {
+            font-size: 1.5em;
+            font-weight: normal;
+            margin: 0 0 100px 0;
+        }
+        .column {
+            font-size: 3.5em;
+            text-align: center;
+            span {
+                margin-top: 20px;
+                display: block;
+                font-size: 0.3em;
+                font-weight: lighter;
+            }
+        }
+    }
+
+    &.partners {
+        .logo {
+            height: 100px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+        }
     }
 }
 
 footer {
     text-align: center;
+    margin: 20px;
     & > a {
         color: $light_text_color;
     }

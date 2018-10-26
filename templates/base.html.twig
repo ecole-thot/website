@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}{{ "title.home"|trans }} >{% endblock %}</title>
+        <title>{% block title %}{{ "title"|trans }} >{% endblock %}</title>
 
         {% block stylesheets %}
           <link rel="stylesheet" type="text/css" href="{{ asset('build/css/app.css') }}" media="screen"/>
@@ -37,26 +37,12 @@
         </nav>
 
         <div class="ui main container">
-            {% for label, messages in app.flashes %}
-              {% for message in messages %}
-                  <div class="ui icon message {{ label }} no-print">
-                      <i class="question circle outline icon"></i>
-                      <div class="content">
-                        <div class="header">
-                          {{ ("message." ~ label)|trans }}
-                        </div>
-                        <p>{{ message }}</p>
-                      </div>
-                  </div>
-              {% endfor %}
-            {% endfor %}
-
             {% block body %}{% endblock %}
         </div>
 
-        <div class="ui container headline">
+        <div class="ui container moto">
             <div class="first-circle">TODO</div>
-            <div class="big-circle">{{ "headline"|trans }} </div>
+            <div class="big-circle">{{ "moto"|trans }} </div>
             <a href="#" class="donate">{{ "menu.donate"|trans }}<br>♥</a>
         </div>
 

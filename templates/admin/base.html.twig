@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Thot Admin{% endblock %}</title>
+        {% block stylesheets %}
+          <link rel="stylesheet" type="text/css" href="{{ asset('build/css/admin.css') }}" media="screen"/>
+        {% endblock %}
+    </head>
+    <body>
+        <div class="ui main container">
+            {% for label, messages in app.flashes %}
+              {% for message in messages %}
+                  <div class="ui icon message {{ label }} no-print">
+                      <i class="question circle outline icon"></i>
+                      <div class="content">
+                        <div class="header">
+                          {{ ("message." ~ label)|trans }}
+                        </div>
+                        <p>{{ message }}</p>
+                      </div>
+                  </div>
+              {% endfor %}
+            {% endfor %}
+
+            <div class="ui secondary pointing menu">
+              <a href="{{ path('admin_home') }}" class="active item">Accueil</a>
+              <a href="{{ path('admin_partners') }}" class="item">Partenaires</a>
+              <a class="item">Actualités</a>
+              <a href="{{ path('admin_inscriptions') }}" class="item">Inscriptions</a>
+              <div class="right menu">
+                <a href="{{ path('home') }}" class="ui item">Revenir au site</a>
+              </div>
+            </div>
+
+            {% block body %}{% endblock %}
+        </div>
+        {% block javascripts %}
+          <script type="text/javascript" src="{{ asset('build/js/admin.js') }}"></script>
+        {% endblock %}
+    </body>
+</html>

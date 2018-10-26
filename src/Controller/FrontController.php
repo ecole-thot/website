@@ -2,11 +2,11 @@
 
 namespace App\Controller;
 
+use App\Entity\Partner;
+use App\Entity\Setting;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Component\Translation\TranslatorInterface;
 
 /**
  * Controller FrontController.
@@ -24,7 +24,19 @@ class FrontController extends Controller
      */
     public function home(): Response
     {
-        return $this->render('front/home.html.twig');
+        // We need all settings and all partners
+        $settingsRaw = $this->getDoctrine()->getRepository(Setting::class)->findAll();
+        $partners = $this->getDoctrine()->getRepository(Partner::class)->findAll();
+
+        // Flatten settings array
+        foreach ($settingsRaw as $setting) {
+            $settings[$setting->getSlug()] = $setting->getTypedValue();
+        }
+
+        return $this->render('front/home.html.twig', [
+            'settings' => $settings,
+            'partners' => $partners,
+        ]);
     }
 
     /**
