@@ -11,10 +11,30 @@
         left: 50%;
         margin-left: -340px;
         border-radius: 50%;
+        padding-top: 50px;
+        z-index: 10;
         width: 190px;
         height: 190px;
         background: $secondary_color;
         color: $main_color;
+        font-weight: lighter;
+        .action {
+            font-weight: bold;
+            font-size: 1.5em;
+            margin: 10px 0 20px 0;
+        }
+        .social a {
+            color: $tertiary_color;
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 1.8em;
+            &:first-child {
+                margin-left: 20px;
+            }
+            &:hover {
+                color: white;
+            }
+        }
     }
     .big-circle {
         position: absolute;

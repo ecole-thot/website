@@ -11,6 +11,9 @@ nav > div.ui.text.menu {
             z-index: 100;
             width: 142px;
             margin-top: 30px;
+            border-radius: 50%;
+            background: white;
+            padding: 4px;
         }
     }
     & .item.lang-menu, & .item.lang-menu:hover, & .item.lang-menu.active:hover {

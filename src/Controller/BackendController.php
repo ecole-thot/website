@@ -70,7 +70,6 @@ class BackendController extends Controller
             $file = $partner->getImage();
             $fileName = md5(uniqid()).'.'.$file->guessExtension();
 
-            // Move the file to the directory where brochures are stored
             try {
                 $file->move(
                     $this->getParameter('partner_images_directory'),

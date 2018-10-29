@@ -12,15 +12,15 @@
 
         <nav class="ui container">
             <div class="ui text menu">
-                <div class="item">
+                <a href="{{ path('home') }}" class="item">
                     <img src="{{ asset('/images/logo.png') }}">
-                </div>
+                </a>
                 <a class="item" href="{{ path('school') }}">{{ "menu.school"|trans }}</a>
                 <a class="item" href="{{ path('news') }}">{{ "menu.news"|trans }}</a>
                 <a class="item" href="{{ path('courses') }}">{{ "menu.courses"|trans }}</a>
                 <a class="item" href="{{ path('contact') }}">{{ "menu.contact"|trans }}</a>
                 <a class="item" href="{{ path('jobs') }}">{{ "menu.jobs"|trans }}</a>
-                <a class="item highlight" href="">{{ "menu.donate"|trans }} ♥</a>
+                <a class="item highlight" href="{{ donation_link }}">{{ "menu.donate"|trans }} ♥</a>
 
                 <div class="ui right dropdown item lang-menu">
                     {{ ("lang." ~ app.request.locale)|trans }}
@@ -41,16 +41,20 @@
         </div>
 
         <div class="ui container moto">
-            <div class="first-circle">TODO</div>
+            <div class="first-circle">
+                {{ "engaged.every.day"|trans }}
+                <div class="action">{{ "follow.our.actions"|trans }}</div>
+                <div class="social"><a href="{{ social_facebook }}"><i class="ui icon facebook"></i></a> <a href="{{ social_twitter }}"><i class="ui icon twitter"></i></a> <a href="{{ social_youtube }}"><i class="ui icon youtube"></i></a></div>
+            </div>
             <div class="big-circle">{{ "moto"|trans }} </div>
-            <a href="#" class="donate">{{ "menu.donate"|trans }}<br>♥</a>
+            <a href="{{ donation_link }}" class="donate">{{ "menu.donate"|trans }}<br>♥</a>
         </div>
 
         <footer class="ui container">
             <a href="{{ path('legal') }}">{{ "footer.legal"|trans }}</a>
         </footer>
         {% block javascripts %}
-          <script type="text/javascript" src="{{ asset('build/js/app.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('build/js/app.js') }}"></script>
         {% endblock %}
     </body>
 </html>

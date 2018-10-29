@@ -217,7 +217,46 @@ section {
             }
         }
     }
-
+    &.life {
+        text-align: center;
+        & > div.title {
+            margin-top: 20px;
+            font-size: 3em;
+            font-weight: bolder;
+            line-height: 1.2em;
+        }
+        & > div.subtitle {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            font-size: 1.5em;
+        }
+        .ui.grid > .row {
+            padding: 0;
+        }
+        .column {
+            height: 260px;
+            background-size: cover;
+            padding: 120px;
+            font-weight: bold;
+            font-size: 1.4em;
+            &:after, &:before {
+                position: absolute;
+                display: block;
+                width: 120px;
+                height: 240px;
+                background: $secondary-color;
+                opacity: 0.8;
+                z-index: 10;
+            }
+            &.top-left:before {content: ""; border-radius: 0 120px 120px 0; top: -120px; left:0;}
+            &.top-right:before {content: ""; border-radius: 120px 0 0 120px; top: -120px; right: 0;}
+            &.bottom-left:after {content: ""; border-radius: 0 120px 120px 0;  bottom: -120px; left: 0;}
+            &.bottom-right:after {content: ""; border-radius: 120px 0 0 120px; bottom: -120px; right: 0;}
+        }
+        .button.manifesto {
+            margin-top: 80px;
+        }
+    }
     &.partners {
         .logo {
             height: 126px;

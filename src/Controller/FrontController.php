@@ -64,6 +64,18 @@ class FrontController extends Controller
     }
 
     /**
+     * Serves manifesto page.
+     *
+     * @return Response
+     *
+     * @Route("/manifeste", name="manifesto", methods={"GET"})
+     */
+    public function manifesto(): Response
+    {
+        return $this->render('front/manifesto.html.twig');
+    }
+
+    /**
      * Serves contact page.
      *
      * @return Response

@@ -125,6 +125,58 @@
         <source>inscription.next</source>
         <target>RDV le %date% pour vous inscrire</target>
       </trans-unit>
+      <trans-unit id="ro0hUeD" resname="engaged.every.day">
+        <source>engaged.every.day</source>
+        <target>Thot s'engage tous les jours.</target>
+      </trans-unit>
+      <trans-unit id="Y73.wK2" resname="follow.our.actions">
+        <source>follow.our.actions</source>
+        <target>Suivez nos actions !</target>
+      </trans-unit>
+      <trans-unit id="rQTpS2M" resname="manifesto.title">
+        <source>manifesto.title</source>
+        <target>Notre manifeste</target>
+      </trans-unit>
+      <trans-unit id="n63ZTWz" resname="legal.title">
+        <source>legal.title</source>
+        <target>Mentions légales</target>
+      </trans-unit>
+      <trans-unit id="jkAv0mB" resname="from.date">
+        <source>from.date</source>
+        <target>Depuis 2016</target>
+      </trans-unit>
+      <trans-unit id="gb_1s_Y" resname="i.want.to.register">
+        <source>i.want.to.register</source>
+        <target>Je veux m'inscrire</target>
+      </trans-unit>
+      <trans-unit id="Y71wZe8" resname="life">
+        <source>life</source>
+        <target>La vie chez Thot</target>
+      </trans-unit>
+      <trans-unit id="qo6fhxC" resname="life.sub">
+        <source>life.sub</source>
+        <target>L'école diplômante de français pour les réfugiés et les demandeurs d'asile</target>
+      </trans-unit>
+      <trans-unit id="raQCp6b" resname="life.equality">
+        <source>life.equality</source>
+        <target>Égalité en droit</target>
+      </trans-unit>
+      <trans-unit id="vkpTHGv" resname="life.ambition">
+        <source>life.ambition</source>
+        <target>Ambition</target>
+      </trans-unit>
+      <trans-unit id="z0d1_fw" resname="life.humanism">
+        <source>life.humanism</source>
+        <target>Humanisme</target>
+      </trans-unit>
+      <trans-unit id="3iD2ZPz" resname="life.access">
+        <source>life.access</source>
+        <target>Accès culturel et social</target>
+      </trans-unit>
+      <trans-unit id="FN7vV4l" resname="read.manifesto">
+        <source>read.manifesto</source>
+        <target>Litre notre manifeste</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -11,7 +11,7 @@
         {% if not settings.inscriptions_open %}<a href="" class="button">{{ "inscriptions.know.more"|trans }}</a>{% endif %}
     </div>
     <div class="secondary-color six wide column">
-        <div class='ui segment basic'>Depuis 2016</div>
+        <div class='ui segment basic'>{{ "from.date"|trans }}</div>
         <div class="ui grid stackable centered">
             <div class="eight wide column aligned">{{ settings.nb_students|number_format(0) }}<span>étudiants admins</span></div>
             <div class="eight wide column aligned">{{ settings.percent_diplomas|number_format(0) }}%<span>de diplômes Dilf/Delf</span></div>
@@ -24,7 +24,7 @@
             <div class="infoplus">
                 <div class="open">{{"inscriptions.now.open"|trans }}</div>
                 <div class="remaining">{{ "inscription.limit"|trans({'%date%': settings.inscription_limit_date|date('d/m')}) }}</div>
-                <a href="{{ settings['inscription_link_' ~ app.request.locale]}}" class="button inverted">Je veux m'inscrire</a>
+                <a href="{{ settings['inscription_link_' ~ app.request.locale]}}" class="button inverted">{{ "i.want.to.register"|trans }}</a>
             </div>
         </div>
     {% else %}
@@ -63,7 +63,7 @@
         <div class="four wide column aligned">1<span>examen en fin de session : le DILF/DELF</span></div>
     </div>
     <div class="info-banner">
-        <div class="info">Thot s'engage tous les jours. <span class="highlight">Suivez nos actions !</span> <a href="#"><i class="ui icon facebook"></i><span>FB</span></a> <a href="#"><i class="ui icon twitter"></i><span>TW</span></a> <a href="#"><i class="ui icon youtube"></i><span>YT</span></a></div>
+        <div class="info">{{ "engaged.every.day"|trans }} <span class="highlight">{{ "follow.our.actions"|trans }}</span> <a href="{{ social_facebook }}"><i class="ui icon facebook"></i><span>FB</span></a> <a href="{{ social_twitter }}"><i class="ui icon twitter"></i><span>TW</span></a> <a href="{{ social_youtube }}"><i class="ui icon youtube"></i><span>YT</span></a></div>
     </div>
 </section>
 
@@ -75,9 +75,29 @@
         <div class="title">{{ "warning"|trans }}</div>
         <p>{{ "warning.lang"|trans }}</p>
     </div>
-    <a href="{{ settings['inscription_link_' ~ app.request.locale]}}" class="button">Je veux m'inscrire</a>
+    <a href="{{ settings['inscription_link_' ~ app.request.locale]}}" class="button">{{ "i.want.to.register"|trans }}</a>
 </section>
 {% endif %}
+
+<section class="life">
+    <div class="title">{{ "life"|trans }}</div>
+    <div class="subtitle">{{ "life.sub"|trans }}</div>
+    <div class="ui equal width center aligned padded grid stackable">
+        <div class="row">
+            <div class="image column bottom-right top-left" style="background-image: url('{{ asset('images/test.png') }}');"></div>
+            <div class="column bottom-left">{{ "life.equality"|trans }}</div>
+            <div class="image column bottom-right" style="background-image: url('{{ asset('images/test.png') }}');"></div>
+            <div class="column bottom-left top-right">{{ "life.ambition"|trans }}</div>
+        </div>
+        <div class="row">
+            <div class="column bottom-left">{{ "life.humanism"|trans }}</div>
+            <div class="image column" style="background-image: url('{{ asset('images/test.png') }}');"></div>
+            <div class="column">{{ "life.access"|trans }}</div>
+            <div class="image column bottom-right" style="background-image: url('{{ asset('images/test.png') }}');"></div>
+        </div>
+    </div>
+    <a href="{{ path('manifesto') }}" class="button manifesto">{{ "read.manifesto"|trans }}</a>
+</section>
 
 <section class="text">
     <div class="title">{{ "partners"|trans }}</div>
@@ -87,7 +107,7 @@
 <section class="ui grid four columns stackable centered partners">
     {% for partner in partners %}
         <div class="column">
-            <div class="logo" style="background-image: url('{{ asset('uploads/partners/' ~ partner.image) }}')"></div>
+            <div class="logo" style="background-image: url('{{ asset('uploads/partners/' ~ partner.image) }}')" alt="{{ partner.name }}"></div>
         </div>
     {% endfor %}
 </section>
