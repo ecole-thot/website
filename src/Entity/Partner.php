@@ -25,7 +25,7 @@ class Partner
     /**
      * @ORM\Column(type="string")
      *
-     * @Assert\NotBlank(message="Please, upload the product image as a PDF file.")
+     * @Assert\NotBlank(message="Please, upload the partner image.")
      * @Assert\File()
      */
     private $image;

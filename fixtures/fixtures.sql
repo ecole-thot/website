@@ -15,7 +15,6 @@ INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('inscriptio
 INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('candidatures_open', "Candidatures ouvertes", "bool", '1');
 INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('benevoles_open', "Bénévoles ouverts", "bool", '1');
 
-
 TRUNCATE partner;
 
 INSERT INTO partner (`name`, `image`) VALUES ('Académie de Paris', "academie.png");
@@ -37,3 +36,13 @@ INSERT INTO partner (`name`, `image`) VALUES ('Fondation Société Générale', 
 INSERT INTO partner (`name`, `image`) VALUES ('La Social Factory', "socialf.png");
 INSERT INTO partner (`name`, `image`) VALUES ('TV5 Monde', "tv5.png");
 INSERT INTO partner (`name`, `image`) VALUES ('Ulule', "ulule.png");
+
+TRUNCATE team_member;
+
+INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Jennifer Leblond', 'Direction administrative et Présidence', "jennifer.png");
+INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Héloîse Nio', "Direction de l'école", "heloise.png");
+INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Mariame Camara', 'Direction pédagogique', "mariame.png");
+INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Bérénice Geoffray', "Chargée de l'insertion professionnelle", "berenice.png");
+INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Hanae El Bakkali', "Psychothérapeute", "hanae.png");
+
+
