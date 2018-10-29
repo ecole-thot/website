@@ -42,7 +42,6 @@ section {
     position: relative;
     &.intro.ui.grid > .column:not(.row) {
         padding: 100px 70px 220px 70px;
-        margin-bottom: 60px;
         h1.title {
             font-size: 1.3em;
             line-height: 2.2em;
@@ -113,7 +112,7 @@ section {
             font-size: 1em;
             padding: 30px;
             position: absolute;
-            bottom: 15px;
+            bottom: -5px;
             left: 60px;
             div.open {
                 margin-top: 20px;
@@ -140,7 +139,8 @@ section {
     &.text {
         color: $text_color;
         text-align: center;
-        padding: 100px 260px;
+        padding: 80px 40px 0 40px;
+        &.narrow {padding: 80px 260px;}
         & > div.title {
             margin-top: 20px;
             font-size: 3em;
@@ -158,6 +158,10 @@ section {
                 font-size: 1.2em;
                 text-transform: uppercase;
             }
+        }
+        .ui.grid.texts {
+            margin-top: 40px;
+            margin-bottom: 70px;
         }
     }
     &.checks {
@@ -263,6 +267,39 @@ section {
             background-repeat: no-repeat;
             background-position: center center;
             background-size: 60%;
+        }
+    }
+}
+
+.texts {
+    text-align: left;
+    h4 {
+        padding: 15px 0;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 1.5em;
+        border-bottom: 4px solid $text_color;
+    }
+    h3 {
+        margin-top: 20px;
+        padding: 30px;
+        height: 100%;
+        display: flex;
+        font-size: 1.5em;
+        align-items: center;
+        text-align: left;
+        span {
+            position: relative;
+            &:after {
+                content: "";
+                position: absolute;
+                bottom: -20px;
+                left: 0px;
+                background: white;
+                height: 4px;
+                width: 60%;
+                display: block;
+            }
         }
     }
 }

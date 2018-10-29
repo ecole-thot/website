@@ -10,12 +10,22 @@
         top: 0px;
         left: 50%;
         margin-left: -340px;
-        border-radius: 50%;
         padding-top: 50px;
         z-index: 10;
-        width: 190px;
-        height: 190px;
-        background: $secondary_color;
+        font-size: 1.2em;
+        &:before {
+            position: absolute;
+            top: 0;
+            content: "";
+            display: block;
+            border-radius: 50%;
+            left: 50%;
+            margin-left: -95px;
+            width: 190px;
+            height: 190px;
+            background: $secondary_color;
+            z-index: -10;
+        }
         color: $main_color;
         font-weight: lighter;
         .action {
@@ -27,7 +37,7 @@
             color: $tertiary_color;
             display: inline-block;
             margin-right: 20px;
-            font-size: 1.8em;
+            font-size: 1.6em;
             &:first-child {
                 margin-left: 20px;
             }
@@ -38,18 +48,25 @@
     }
     .big-circle {
         position: absolute;
-        top: 40px;
-        left: 50%;
-        margin-left: -230px;
-        width: 460px;
-        height: 460px;
-        border-radius: 50%;
-        background: url('http://thot-fle.fr/static/img/thot-white.png') no-repeat 204px -96px $secondary_color;
-        background-size: 400px;
-        padding: 180px 0;
+        top: 70px;
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -230px;
+            width: 460px;
+            height: 460px;
+            border-radius: 50%;
+            background: url('http://thot-fle.fr/static/img/thot-white.png') no-repeat 204px -96px $secondary_color;
+            background-size: 400px;
+            z-index: -10;
+        }
+        padding: 180px 220px;
         color: $main_color;
         font-size: 2em;
-        line-height: 1em;
+        line-height: 1.2em;
     }
     a.donate {
         position: absolute;

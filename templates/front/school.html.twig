@@ -1,0 +1,75 @@
+{% extends 'base.html.twig' %}
+{% set menu = "school" %}
+{% block title %}{{ parent() }} {{ "school.title"|trans }}{% endblock %}
+
+{% block body %}
+<section class="ui padded grid stackable intro">
+    <div class="main-color ten wide column">
+        <h1 class="title">{{ "the.school"|trans }}</h1>
+        <h2 class="subtitle">{{ "intensive.cursus"|trans }}</h2>
+    </div>
+    <div class="secondary-color six wide column">
+        <div class='ui segment basic centered'>{{ "quick.access"|trans }}</div>
+        <div class='ui segment basic centered'><a href="#histoire">{{ "our.story"|trans }}</a></div>
+        <div class='ui segment basic centered'><a href="#pedagogie">{{ "our.pedagogy"|trans }}</a></div>
+        <div class='ui segment basic centered'><a href="#equipe">{{ "our.team"|trans }}</a></div>
+    </div>
+</section>
+
+<section class="text">
+    <a name="histoire"></a>
+    <div class="title">{{ "about"|trans }}</div>
+    <div class="ui grid texts">
+        <div class="ten wide column">
+            <h4>{{ "school.who.are.we"|trans }}</h4>
+            <div class="ui grid equal width stackable">
+                <div class="column"><p>{{ "school.constitution"|trans }}</p></div>
+                <div class="column"><p>{{ "school.creation"|trans }}</p></div>
+            </div>
+        </div>
+        <div class="six wide column">
+            <h4>{{ "school.accronym"|trans }}</h4>
+            <p>{{ "school.egypt"|trans }}</p>
+        </div>
+    </div>
+    <a href="{{ path('manifesto') }}" class="button">{{ "read.manifesto"|trans }}</a>
+</section>
+
+<section class="text">
+    <a name="pedagogie"></a>
+    <div class="title">{{ "pedagogy"|trans }}</div>
+    <div class="ui grid equal three columns width texts">
+        <div class="column">
+            <h3 class="main-color"><span>Les session d'apprentissage durent 16 semaines à raison de 14h/semaine.</span></h3>
+        </div>
+        <div class="column">
+            <h4>Transmettre un horizon à tous</h4>
+            <p>Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France.<br>Thot : Transmettre un Horizon à Tous.</p>
+        </div>
+        <div class="column">
+            <h4>Transmettre un horizon à tous</h4>
+            <p>Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France.<br>Thot : Transmettre un Horizon à Tous.</p>
+        </div>
+        <div class="column">
+            <h4>Transmettre un horizon à tous</h4>
+            <p>Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France.<br>Thot : Transmettre un Horizon à Tous.</p>
+        </div>
+        <div class="column">
+            <h4>Transmettre un horizon à tous</h4>
+            <p>Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France.<br>Thot : Transmettre un Horizon à Tous.</p>
+        </div>
+        <div class="column">
+            <h4>Transmettre un horizon à tous</h4>
+            <p>Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France.<br>Thot : Transmettre un Horizon à Tous.</p>
+        </div>
+    </div>
+</section>
+
+<section class="ui grid four columns stackable centered team">
+    {% for member in members %}
+        <div class="column">
+            <div class="member" style="background-image: url('{{ asset('uploads/members/' ~ member.image) }}')" alt="{{ member.name }}"></div>
+        </div>
+    {% endfor %}
+</section>
+{% endblock %}

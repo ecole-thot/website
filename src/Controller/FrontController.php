@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Partner;
 use App\Entity\Setting;
+use App\Entity\TeamMember;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -60,7 +61,9 @@ class FrontController extends Controller
      */
     public function school(): Response
     {
-        return $this->render('front/school.html.twig');
+        $members = $this->getDoctrine()->getRepository(TeamMember::class)->findAll();
+
+        return $this->render('front/school.html.twig', ['members' => $members]);
     }
 
     /**

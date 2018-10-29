@@ -4,7 +4,7 @@
 
 {% block body %}
 
-<section class="ui padded grid stackable intro">
+<section class="ui padded grid stackable intro"{% if settings.inscriptions_open %} style="padding-bottom: 40px"{% endif %}>
     <div class="main-color ten wide column">
         <h1 class="title">{{ "welcome"|trans }}</h1>
         <h2 class="subtitle">{{ "headline"|trans }}</h2>
@@ -34,7 +34,7 @@
     {% endif %}
 </section>
 
-<section class="text">
+<section class="text narrow">
     <div class="title">{{ "who.can.study"|trans }}</div>
     <div class="subtitle">{{ "who.can.study.sub"|trans }}</div>
 </section>
@@ -68,7 +68,7 @@
 </section>
 
 {% if settings.inscriptions_open %}
-<section class="text">
+<section class="text narrow">
     <div class="subtitle">{{ "inscriptions.now.open"|trans }}</div>
     <div class="title">{{ "inscription.limit.alt"|trans({'%date%': settings.inscription_limit_date|date('d M'), '%time%': settings.inscription_limit_date|date('H\\hi')}) }}</div>
     <div class="warning">
@@ -84,16 +84,16 @@
     <div class="subtitle">{{ "life.sub"|trans }}</div>
     <div class="ui equal width center aligned padded grid stackable">
         <div class="row">
-            <div class="image column bottom-right top-left" style="background-image: url('{{ asset('images/test.png') }}');"></div>
+            <div class="image column bottom-right top-left" style="background-image: url('{{ asset('images/home1.png') }}');"></div>
             <div class="column bottom-left">{{ "life.equality"|trans }}</div>
-            <div class="image column bottom-right" style="background-image: url('{{ asset('images/test.png') }}');"></div>
+            <div class="image column bottom-right" style="background-image: url('{{ asset('images/home2.png') }}');"></div>
             <div class="column bottom-left top-right">{{ "life.ambition"|trans }}</div>
         </div>
         <div class="row">
             <div class="column bottom-left">{{ "life.humanism"|trans }}</div>
-            <div class="image column" style="background-image: url('{{ asset('images/test.png') }}');"></div>
+            <div class="image column" style="background-image: url('{{ asset('images/home3.png') }}');"></div>
             <div class="column">{{ "life.access"|trans }}</div>
-            <div class="image column bottom-right" style="background-image: url('{{ asset('images/test.png') }}');"></div>
+            <div class="image column bottom-right" style="background-image: url('{{ asset('images/home4.png') }}');"></div>
         </div>
     </div>
     <a href="{{ path('manifesto') }}" class="button manifesto">{{ "read.manifesto"|trans }}</a>

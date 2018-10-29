@@ -175,7 +175,79 @@
       </trans-unit>
       <trans-unit id="FN7vV4l" resname="read.manifesto">
         <source>read.manifesto</source>
-        <target>Litre notre manifeste</target>
+        <target>Lire notre manifeste</target>
+      </trans-unit>
+      <trans-unit id="w9TspZq" resname="school.title">
+        <source>school.title</source>
+        <target>L'école</target>
+      </trans-unit>
+      <trans-unit id="8XxPGfs" resname="the.school">
+        <source>the.school</source>
+        <target>L'école</target>
+      </trans-unit>
+      <trans-unit id="h0gbLhU" resname="intensive.cursus">
+        <source>intensive.cursus</source>
+        <target>Des cours riches et intensifs, pour obtenir un diplôme d'État, valable à vie.</target>
+      </trans-unit>
+      <trans-unit id="ziXSsoQ" resname="quick.access">
+        <source>quick.access</source>
+        <target>Accès rapide</target>
+      </trans-unit>
+      <trans-unit id="ffxry50" resname="our.story">
+        <source>our.story</source>
+        <target>Notre histoire</target>
+      </trans-unit>
+      <trans-unit id="E57rtHY" resname="our.pedagogy">
+        <source>our.pedagogy</source>
+        <target>Notre pédagogie</target>
+      </trans-unit>
+      <trans-unit id="rg.Ogv4" resname="our.team">
+        <source>our.team</source>
+        <target>L'équipe</target>
+      </trans-unit>
+      <trans-unit id="pCYuHJv" resname="about">
+        <source>about</source>
+        <target>À propos</target>
+      </trans-unit>
+      <trans-unit id="F8n4s_j" resname="pedagogy">
+        <source>pedagogy</source>
+        <target>Notre pédagogie</target>
+      </trans-unit>
+      <trans-unit id="jbjkLYq" resname="news.title">
+        <source>news.title</source>
+        <target>Actualités</target>
+      </trans-unit>
+      <trans-unit id="V6An5qD" resname="contact.title">
+        <source>contact.title</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id=".1aW1IX" resname="courses.title">
+        <source>courses.title</source>
+        <target>Formation</target>
+      </trans-unit>
+      <trans-unit id="2wlRIeG" resname="jobs.title">
+        <source>jobs.title</source>
+        <target>Recrutement</target>
+      </trans-unit>
+      <trans-unit id="SAq26Zm" resname="school.who.are.we">
+        <source>school.who.are.we</source>
+        <target>Qui sommes-nous ?</target>
+      </trans-unit>
+      <trans-unit id="FVqTlTZ" resname="school.constitution">
+        <source>school.constitution</source>
+        <target>L'équipe de Thot s'est constituée depuis le terrain à l'été 2015 où nous tentions de venir en aide aux réfugiés et demandaeurs d'asile. Malgré leurs nationalités nombreuses et leurs niveaux sociaux très variés, nous avons constaté qu'une question leur demeurait commune : « Où pouvons-nous apprendre le français ? »</target>
+      </trans-unit>
+      <trans-unit id="A1IVo.Z" resname="school.creation">
+        <source>school.creation</source>
+        <target>Nous avons donc créé Thot afin de proposer une formation diplômante, prise en charge pas de vrais professeurs, dans un cadre stable, spécifique et complet, à destination des réfugiés et demandeurs d'asile on diplômés, et répondre à une demande toujours croissante de formation en FLE pour ce public.</target>
+      </trans-unit>
+      <trans-unit id="hn1724o" resname="school.accronym">
+        <source>school.accronym</source>
+        <target>Transmettre un horizon à tous</target>
+      </trans-unit>
+      <trans-unit id="2S_4Bii" resname="school.egypt">
+        <source>school.egypt</source>
+        <target>Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France.<![CDATA[<br>]]>Thot : Transmettre un Horizon à Tous.</target>
       </trans-unit>
     </body>
   </file>
