@@ -83,10 +83,37 @@ class FrontController extends Controller
      *
      * @return Response
      *
-     * @Route("/contact", name="contact", methods={"GET"})
+     * @Route("/contact", name="contact", methods={"GET", "POST"})
      */
-    public function contact(): Response
+    public function contact(Request $request): Response
     {
+        if ($request->getMethod() === "POST") {
+
+            $form = [
+                'name' => $request->request->get('name'),
+                'email' => $request->request->get('email'),
+                'type' => $request->request->get('type'),
+                'message' => $request->request->get('message')
+            ];
+
+            if (!filter_var($form['email'], FILTER_VALIDATE_EMAIL)) {
+                return $this->render('front/contact.html.twig', ['error' => 'contact.email.notvalid']);
+            }
+
+            $message = (new \Swift_Message('Email de contact site web'))
+                ->setFrom($form['email'])
+                ->setTo($this->getParameter('contact_email'))
+                ->setBody(
+                    $this->renderView(
+                        'emails/contact.html.twig',
+                        $form
+                    ),
+                    'text/html'
+                );
+
+            $mailer->send($message);
+        }
+
         return $this->render('front/contact.html.twig');
     }
 

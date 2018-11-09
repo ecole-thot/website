@@ -6,6 +6,7 @@
 parameters:
     locale: 'fr'
     app.locales: en|fr|ar|ps|fa
+    contact_email: contact@thot-fle.fr
     social_facebook: "https://www.facebook.com/thot.fle/"
     social_twitter: "https://twitter.com/Thot_fle"
     social_youtube: "https://www.youtube.com/channel/UCbKtvXMn1XspArDyJvbIGLQ"

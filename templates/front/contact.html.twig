@@ -3,4 +3,42 @@
 {% block title %}{{ parent() }} {{ "contact.title"|trans }}{% endblock %}
 
 {% block body %}
+<section class="ui padded grid stackable intro">
+    <div class="main-color ten wide column">
+        <h1 class="title">{{ "contact.title"|trans }}</h1>
+        <h2 class="subtitle">{{ "contact.text"|trans }}</h2>
+    </div>
+    <div class="secondary-color six wide column"></div>
+</section>
+
+<section class="contact">
+    {% if error is defined and error is not null %}
+    <div class="ui error message">
+        <div class="header">{{ "contact.form.error"|trans }}</div>
+        <p>{{ error|trans }}</p>
+    </div>
+    {% endif %}
+    <form class="ui form" method="POST">
+        <div class="field">
+            <label>{{ "contact.form.name"|trans }}</label>
+            <input type="text" name="name">
+        </div>
+        <div class="field">
+            <label>{{ "contact.form.email"|trans }}</label>
+            <input type="email" name="email">
+        </div>
+        <div class="field">
+            <label>{{ "contact.form.subject"|trans }}</label>
+            <select name="subject" class="dropdown">
+                <option>Recrutement</option>
+            </select>
+        </div>
+        <div class="field">
+            <label>{{ "contact.form.message"|trans }}</label>
+            <textarea name="message"></textarea>
+        </div>
+        <button class="submit button">{{ "contact.form.send"|trans }}</button>
+    </form>
+</section>
+
 {% endblock %}
