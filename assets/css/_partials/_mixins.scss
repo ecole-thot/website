@@ -1,0 +1,14 @@
+
+@mixin afterbar($color: white) {
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 0px;
+        background: $color;
+        height: 4px;
+        width: 60%;
+        display: block;
+    }
+}

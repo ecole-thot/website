@@ -6,22 +6,41 @@ a, p, em, strong {
     direction: rtl;
 }
 
-.main-color { background: $main-color; color: $secondary-color; }
+.main-color {
+    background: $main-color;
+    color: $secondary-color;
+}
+.main-color-framed {
+    background: white;
+    color: $main-color;
+    border: 4px solid $main-color;
+    .afterbar {
+        @include afterbar($main-color);
+    }
+}
 .secondary-color { 
     background: $secondary-color;
     color: $main-color;
+    a { color: $main-color; text-decoration: underline; }
     &.light1 { background: lighten($secondary-color, 10%); }
     &.light2 { background: lighten($secondary-color, 15%); }
     &.light3 { background: lighten($secondary-color, 20%); }
 }
-.tertiary-color { background: $tertiary-color; color: white; }
+.tertiary-color {
+    background: $tertiary-color;
+    color: white;
+    .afterbar {
+        @include afterbar(white);
+    }
+}
 
-a.button {
+a.button, button.button {
     display: inline-block;
     padding: 10px 20px;
     background-color: $tertiary_color;
     border: 2px solid $tertiary_color;
     color: white;
+    cursor: pointer;
     &.inverted {
         background-color: white;
         color: $tertiary_color;
@@ -53,10 +72,16 @@ section {
                 background: white;
             }
         }
+        div.title {
+            font-size: 1.5em;
+        }
         h2.subtitle {
             margin: 20px 0;
             font-size: 3em;
             line-height: 1.2em;
+        }
+        a.link {
+            text-decoration: underline;
         }
         .grid {
             .column {
@@ -151,6 +176,10 @@ section {
             margin-top: 20px;
             font-size: 1.5em;
         }
+        & > div.aftertitle {
+            margin-top: 60px;
+            font-size: 1.1em;
+        }
         & > div.warning {
             margin: 40px 0;
             font-size: 1em;
@@ -162,6 +191,9 @@ section {
         .ui.grid.texts {
             margin-top: 40px;
             margin-bottom: 70px;
+        }
+        .column p {
+            text-align: left;
         }
     }
     &.checks {
@@ -269,10 +301,30 @@ section {
             background-size: 60%;
         }
     }
+    &.team {
+        margin: 0 80px;
+        .grid {
+            margin-top: 40px;
+        }
+        .member {
+            height: 200px;
+            width: 200px;
+            background-size: contain;
+            border-radius: 50%;
+            margin: 20px auto 0 auto;
+        }
+        .name {
+            font-size: 1.5em;
+            margin: 20px 0 2px 0;
+        }
+    }
 }
 
 .texts {
     text-align: left;
+    .full-height {
+        height: 100%;
+    }
     h4 {
         padding: 15px 0;
         margin-bottom: 20px;
@@ -281,25 +333,49 @@ section {
         border-bottom: 4px solid $text_color;
     }
     h3 {
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 30px;
-        height: 100%;
         display: flex;
         font-size: 1.5em;
         align-items: center;
         text-align: left;
-        span {
-            position: relative;
-            &:after {
-                content: "";
-                position: absolute;
-                bottom: -20px;
-                left: 0px;
-                background: white;
-                height: 4px;
-                width: 60%;
-                display: block;
-            }
+    }
+    div.h3-extra {
+        padding: 0 30px;
+        margin-bottom: 20px;
+    }
+    a {
+        margin: 0px 0 0 30px;
+    }
+}
+
+.ui.segment.centered {
+    text-align: center;
+}
+
+.teacher {
+    font-size: 2em;
+    margin: 50px 0;
+    &.open {
+        background: $tertiary_color;
+        padding: 10px;
+        color: white;
+        line-height: 2em;
+        a {
+            float: right;
+            font-size: 0.5em;
+            line-height: 2.3em;
+        }
+    }
+    &.closed {
+        text-align: left;
+        line-height: 1.3em;
+        font-weight: bolder;
+        .explication {
+            font-size: 0.7em;
+            line-height: 1em;
+            text-align: left;
+            font-weight: normal;
         }
     }
 }
