@@ -7,6 +7,7 @@ use App\Entity\Setting;
 use App\Entity\TeamMember;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
@@ -16,6 +17,19 @@ use Symfony\Component\Routing\Annotation\Route;
  */
 class FrontController extends Controller
 {
+    private function getAllSettings(): array
+    {
+        $settingsRaw = $this->getDoctrine()->getRepository(Setting::class)->findAll();
+
+        // Flatten settings array
+        $settings = [];
+        foreach ($settingsRaw as $setting) {
+            $settings[$setting->getSlug()] = $setting->getTypedValue();
+        }
+
+        return $settings;
+    }
+
     /**
      * Serves home page.
      *
@@ -25,17 +39,11 @@ class FrontController extends Controller
      */
     public function home(): Response
     {
-        // We need all settings and all partners
-        $settingsRaw = $this->getDoctrine()->getRepository(Setting::class)->findAll();
+        // We need all partners
         $partners = $this->getDoctrine()->getRepository(Partner::class)->findAll();
 
-        // Flatten settings array
-        foreach ($settingsRaw as $setting) {
-            $settings[$setting->getSlug()] = $setting->getTypedValue();
-        }
-
         return $this->render('front/home.html.twig', [
-            'settings' => $settings,
+            'settings' => $this->getAllSettings(),
             'partners' => $partners,
         ]);
     }
@@ -126,7 +134,9 @@ class FrontController extends Controller
      */
     public function jobs(): Response
     {
-        return $this->render('front/jobs.html.twig');
+        return $this->render('front/jobs.html.twig', [
+            'settings' => $this->getAllSettings()
+        ]);
     }
 
     /**

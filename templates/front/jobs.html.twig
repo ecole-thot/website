@@ -3,4 +3,84 @@
 {% block title %}{{ parent() }} {{ "jobs.title"|trans }}{% endblock %}
 
 {% block body %}
+<section class="ui padded grid stackable intro">
+    <div class="main-color ten wide column">
+        <h1 class="title">{{ "pedagogy.jobs"|trans }}</h1>
+        <h2 class="subtitle">{{ "profs.volunteers"|trans }}</h2>
+    </div>
+    <div class="secondary-color six wide column">
+        <div class='ui segment basic centered title'>{{ "quick.access"|trans }}</div>
+        <div class='ui segment basic centered'><a href="#professeur">{{ "become.prof"|trans }}</a> <sub>↴</sub></div>
+        <div class='ui segment basic centered'><a href="#benevole">{{ "become.volunteer"|trans }}</a> <sub>↴</sub></div>
+    </div>
+</section>
+
+<section class="text">
+    <a name="professeur"></a>
+    <div class="title">{{ "prof.jobs.how"|trans }}</div>
+    {% if settings.candidatures_open %}
+        <div class="teacher open">{{ "prof.jobs.open"|trans }} <a href="" class="button inverted">{{ "become.prof"|trans }}</a></div>
+    {% else %}
+        <div class="teacher closed">
+            <div class="ui grid equal width main-color-framed">
+                <div class="column">{{ "prof.jobs.closed"|trans }}</div>
+                <div class="column explication">{{ "profs.jobs.announce"|trans }}</div>
+            </div>
+        </div>
+    {% endif %}
+    <div class="ui grid three columns stackable">
+        <div class="column">
+            <p>{{ "prof.jobs.1"|trans }}</p>
+        </div>
+        <div class="column">
+            <p>{{ "prof.jobs.2"|trans }}</p>
+        </div>
+        <div class="column">
+            <p>{{ "prof.jobs.3"|trans }}</p>
+        </div>
+    </div>
+</section>
+
+<section class="text">
+    <a name="benevole"></a>
+    <div class="title">{{ "volunteer.how"|trans }}</div>
+    <div class="subtitle">{{ "volunteer.subtitle"|trans }}</div>
+    <div class="ui grid equal three columns width texts">
+        {% if settings.benevoles_open %}
+            <div class="column">
+                <div class="tertiary-color full-height">
+                    <h3><span class="afterbar">{{ "volunteer.jobs.open"|trans }}</span></h3>
+                    <a href="" class="button inverted">{{ "become.volunteer"|trans }}</a>
+                </div>
+            </div>
+        {% else %}
+            <div class="column">
+                <div class="main-color-framed full-height">
+                    <h3><span class="afterbar">{{ "volunteer.jobs.closed"|trans }}</span></h3>
+                    <div class="h3-extra">{{ "volunteer.jobs.announce"|trans({'%current_session_start%': settings.current_session_start|localizeddate('MMM YYYY'), '%current_session_end%': settings.current_session_end|localizeddate('MMM YYYY')}) }}</div>
+                </div>
+            </div>
+        {% endif %}
+        <div class="column">
+            <h4>{{ "jobs.tutorat.title"|trans }}</h4>
+            <p>{{ "jobs.tutorat.1"|trans }}</p>
+            <p>{{ "jobs.tutorat.2"|trans }}</p>
+        </div>
+        <div class="column">
+            <h4>{{ "jobs.atelier.title"|trans }}</h4>
+            <p>{{ "jobs.atelier.1"|trans }}</p>
+        </div>
+        <div class="column">
+        </div>
+        <div class="column">
+            <h4>{{ "jobs.accompagnement.title"|trans }}</h4>
+            <p>{{ "jobs.accompagnement.1"|trans }}</p>
+        </div>
+        <div class="column">
+            <h4>{{ "jobs.competence.title"|trans }}</h4>
+            <p>{{ "jobs.competence.1"|trans }}</p>
+        </div>
+    </div>
+</section>
+
 {% endblock %}

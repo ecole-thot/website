@@ -247,7 +247,271 @@
       </trans-unit>
       <trans-unit id="2S_4Bii" resname="school.egypt">
         <source>school.egypt</source>
-        <target>Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France.<![CDATA[<br>]]>Thot : Transmettre un Horizon à Tous.</target>
+        <target><![CDATA[Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France.<br>Thot : Transmettre un Horizon à Tous.]]></target>
+      </trans-unit>
+      <trans-unit id="yosi0Nu" resname="team">
+        <source>team</source>
+        <target>Notre équipe</target>
+      </trans-unit>
+      <trans-unit id="4Y.w.4v" resname="team.more">
+        <source>team.more</source>
+        <target>... Et de nombreux et brillants bénévoles qui aident quotidiennement pour la qualité de l'enseignement et de la structure de Thot.</target>
+      </trans-unit>
+      <trans-unit id="Clf2BAx" resname="pedagogy.headline">
+        <source>pedagogy.headline</source>
+        <target>Les session d'apprentissage durent 16 semaines à raison de 14h/semaine.</target>
+      </trans-unit>
+      <trans-unit id="bvII1Q1" resname="pedagogy.offer.title">
+        <source>pedagogy.offer.title</source>
+        <target>Une offre de Français Langue Étrangère (FLE) opur tous les exilés en dessus du niveau Bac</target>
+      </trans-unit>
+      <trans-unit id="1PXa7Lj" resname="pedagogy.offer.1">
+        <source>pedagogy.offer.1</source>
+        <target>Nous assurons les cours pour les niveaux ALPHA, A1 et A2. L'école est destinée aux exilé(e)s n'ayant pas un niveau équivalent au Baccalauréat.</target>
+      </trans-unit>
+      <trans-unit id="Jj1fSF1" resname="pedagogy.offer.2">
+        <source>pedagogy.offer.2</source>
+        <target>Des structures d'intégration en université existent pour les diplômés du secondaire, que nous encourageons à se renseigner auprès du Resome et de Wintegreat.</target>
+      </trans-unit>
+      <trans-unit id="m.k57aV" resname="pedagogy.pro.title">
+        <source>pedagogy.pro.title</source>
+        <target>Une école fondée sur le professionnalisme des intervenants</target>
+      </trans-unit>
+      <trans-unit id="JcwupV2" resname="pedagogy.pro.1">
+        <source>pedagogy.pro.1</source>
+        <target>Les professeurs de Thot sont tous diplômés en FLE et hébilités à mener nos étudiants vers un diplôme de français</target>
+      </trans-unit>
+      <trans-unit id="uN8ehAM" resname="pedagogy.pro.2">
+        <source>pedagogy.pro.2</source>
+        <target>Une équipe d'artistes professionnels anime les ateliers et sorties culturelles</target>
+      </trans-unit>
+      <trans-unit id="Pe4f.Lw" resname="pedagogy.pro.3">
+        <source>pedagogy.pro.3</source>
+        <target>Les pôles d'écoute (psy, sociale, juridique) et d'orientation sont assurés par des professionnels</target>
+      </trans-unit>
+      <trans-unit id="uxDIdvi" resname="pedagogy.poles.title">
+        <source>pedagogy.poles.title</source>
+        <target>Des pôles d'écoute et d'assistance</target>
+      </trans-unit>
+      <trans-unit id="Qu9TnOm" resname="pedagogy.poles.1">
+        <source>pedagogy.poles.1</source>
+        <target>L'expérience de l'exil est difficile. L'implication dans une formation intensive après une période peu ou pas scolarisée est complexe.</target>
+      </trans-unit>
+      <trans-unit id="Ez9cxxc" resname="pedagogy.poles.2">
+        <source>pedagogy.poles.2</source>
+        <target>Pour permettre à nos étudiants de s'épanouir dans notre langue, nous devons leur permettre de se délester des stress de l'exil. C'est pourquoi nous associons à notre pédagogie</target>
+      </trans-unit>
+      <trans-unit id="wQtfuP_" resname="pedagogy.poles.3">
+        <source>pedagogy.poles.3</source>
+        <target>1 pôle d'écoute psychothérapeutique professionnel</target>
+      </trans-unit>
+      <trans-unit id="87YKuYq" resname="pedagogy.poles.4">
+        <source>pedagogy.poles.4</source>
+        <target>1 permanence sociale</target>
+      </trans-unit>
+      <trans-unit id="gSwiMCe" resname="pedagogy.poles.5">
+        <source>pedagogy.poles.5</source>
+        <target>la présence d'une avocate en droit des étrangers</target>
+      </trans-unit>
+      <trans-unit id="DyoAfV8" resname="pedagogy.orient.title">
+        <source>pedagogy.orient.title</source>
+        <target>De l'orientation professionnelle pour préparer la suite</target>
+      </trans-unit>
+      <trans-unit id="5bnZ6DS" resname="pedagogy.orient.1">
+        <source>pedagogy.orient.1</source>
+        <target>Thot a pour mission de mener les individus à leur autonomie sociale et économique. C'est pourquoi nous détection de manière profilée les opportunités de formation et d'emploi les plus pertinents pour les nos étudiants, tenant compte de leur savoir-faire, de leur parcours et de leurs aspirations personnelles, à raison de 16 heures par session :</target>
+      </trans-unit>
+      <trans-unit id="6aUtiPt" resname="pedagogy.orient.2">
+        <source>pedagogy.orient.2</source>
+        <target>Ateliers hebdomadaires d'introduction à la vie professionnelle française</target>
+      </trans-unit>
+      <trans-unit id="C2FMydQ" resname="pedagogy.orient.3">
+        <source>pedagogy.orient.3</source>
+        <target>Orientation vers des offres de formation et emploi</target>
+      </trans-unit>
+      <trans-unit id="xM7LKuB" resname="pedagogy.diploma.title">
+        <source>pedagogy.diploma.title</source>
+        <target>Un diplôme d'aptitude reconnu par l'État</target>
+      </trans-unit>
+      <trans-unit id="5uFSov7" resname="pedagogy.diploma.1">
+        <source>pedagogy.diploma.1</source>
+        <target>Thot s'engage à mener ses apprenants vers l'otention du DILF ou du DELF A1 et A2.</target>
+      </trans-unit>
+      <trans-unit id="tyjpenU" resname="pedagogy.diploma.2">
+        <source>pedagogy.diploma.2</source>
+        <target>Il est délivré après examen écrit et oral en centre d'examen, et correspond donc à une diplôme international, reconnu par l'État français.</target>
+      </trans-unit>
+      <trans-unit id="ENcvSSf" resname="pedagogy.jobs">
+        <source>pedagogy.jobs</source>
+        <target>Pédagogie / Recrutement</target>
+      </trans-unit>
+      <trans-unit id="HW2bPMj" resname="profs.volunteers">
+        <source>profs.volunteers</source>
+        <target>Professeurs et bénévoles, faisons connaissance !</target>
+      </trans-unit>
+      <trans-unit id="FH4x6dd" resname="become.prof">
+        <source>become.prof</source>
+        <target>Devenir professeur</target>
+      </trans-unit>
+      <trans-unit id="LlgWUtC" resname="become.volunteer">
+        <source>become.volunteer</source>
+        <target>Devenir bénévole</target>
+      </trans-unit>
+      <trans-unit id="4OZE87m" resname="prof.jobs.how">
+        <source>prof.jobs.how</source>
+        <target>Nous recrutons les professeurs sur leur excellence</target>
+      </trans-unit>
+      <trans-unit id="Xl4qJ.f" resname="prof.jobs.open">
+        <source>prof.jobs.open</source>
+        <target>Nous recherchons un(e) professeur !</target>
+      </trans-unit>
+      <trans-unit id="sp6bRsm" resname="prof.jobs.1">
+        <source>prof.jobs.1</source>
+        <target>Les professeurs de Thot sont tous diplômés en FLE et habilités à mener nos étudiants vers le diplôme correspondant à leur objectif en France</target>
+      </trans-unit>
+      <trans-unit id="hjS7k9u" resname="prof.jobs.2">
+        <source>prof.jobs.2</source>
+        <target>Le fait de parler la langue des étudiants (principalement farsi, pashto et arabe) est un plus mais n'est pas aussi nécessaire qu'une expérience avec un public peu scolarisé à la base.</target>
+      </trans-unit>
+      <trans-unit id="hjZg.8R" resname="prof.jobs.3">
+        <source>prof.jobs.3</source>
+        <target>Pour rejoindre Thot en tant que professeur de Français Langue Étrangère, envoyez un mail avec CV et lettre de motivations à professeurs@thot-fle.fr. Les posts sont rémunérés 40€/h et son basés à Saint-Denis.</target>
+      </trans-unit>
+      <trans-unit id="YFONJMF" resname="volunteer.how">
+        <source>volunteer.how</source>
+        <target>Être bénévole chez nous</target>
+      </trans-unit>
+      <trans-unit id="3jrYnX." resname="volunteer.subtitle">
+        <source>volunteer.subtitle</source>
+        <target>Thot est efficace grâce à la conjonction d'un enseignement par des professeurs diplômés et votre intervention en tant que tuteurs et accompangants. Plusieurs types de bénévolats sont possibles :</target>
+      </trans-unit>
+      <trans-unit id="z_HV96w" resname="volunteer.jobs.open">
+        <source>volunteer.jobs.open</source>
+        <target>Les candidatures pour le bénévolat sont ouvertes</target>
+      </trans-unit>
+      <trans-unit id="R4kGWO." resname="jobs.tutorat.title">
+        <source>jobs.tutorat.title</source>
+        <target>Tutorat</target>
+      </trans-unit>
+      <trans-unit id="MG6CVyr" resname="jobs.tutorat.1">
+        <source>jobs.tutorat.1</source>
+        <target>Vous assistez le professeur en cours et/ou prenez en charge un cours de 2 heures de tutorat pendant 16 semaines, à raison de 2h/semaine sur les créneaux 16h-19h ou 10h-13h les lundis, mardis, mercredis ou jeudis.</target>
+      </trans-unit>
+      <trans-unit id="eR.UDD2" resname="jobs.tutorat.2">
+        <source>jobs.tutorat.2</source>
+        <target>Une formation sera organisée par Thot.</target>
+      </trans-unit>
+      <trans-unit id="PIIuH_z" resname="jobs.atelier.title">
+        <source>jobs.atelier.title</source>
+        <target>Ateliers d'insertion professionnelle</target>
+      </trans-unit>
+      <trans-unit id="1wx7V9M" resname="jobs.atelier.1">
+        <source>jobs.atelier.1</source>
+        <target>Vous assistez la personne référente des ateliers d'insertion professionnelle pour 8 ateliers de 2 heures les vendredis entre 17h30 et 19h30 à la Cité des Métiers (Porte de la Villette).</target>
+      </trans-unit>
+      <trans-unit id="vTMqUIw" resname="jobs.accompagnement.title">
+        <source>jobs.accompagnement.title</source>
+        <target>Accompagnement administratif</target>
+      </trans-unit>
+      <trans-unit id="vFRc5ZU" resname="jobs.accompagnement.1">
+        <source>jobs.accompagnement.1</source>
+        <target>Vous êtes contacté(e) par la personne de référente de la permanence sociale pour accompagner des étudiants à leurs rendez-vous et/ou dans leurs démarches administratives. Un briefing est assuré par la personne référente avant chaque rendez-vous. Ces demandes sont très occasionnelles.</target>
+      </trans-unit>
+      <trans-unit id="yKbVhos" resname="jobs.competence.title">
+        <source>jobs.competence.title</source>
+        <target>Compétence</target>
+      </trans-unit>
+      <trans-unit id="fTe_SW9" resname="jobs.competence.1">
+        <source>jobs.competence.1</source>
+        <target>Vos compétences peuvent nous aider, quel que soit le moment de l'année, dans les domaines du social, du droit, de la santé, de la culture, de l'administration, du design, de l'écriture, etc.</target>
+      </trans-unit>
+      <trans-unit id="jHkywNc" resname="prof.jobs.closed">
+        <source>prof.jobs.closed</source>
+        <target>L'équipe de professeurs est au complet.</target>
+      </trans-unit>
+      <trans-unit id="tybxCib" resname="profs.jobs.announce">
+        <source>profs.jobs.announce</source>
+        <target>Si nous recherchons de nouveaux professeurs, nous l'annoncerons ici et sur notre page Facebook.</target>
+      </trans-unit>
+      <trans-unit id="LzfF59z" resname="volunteer.jobs.closed">
+        <source>volunteer.jobs.closed</source>
+        <target>Les candidatures pour le bénévolat sont closes</target>
+      </trans-unit>
+      <trans-unit id="X4BGC6c" resname="volunteer.jobs.announce">
+        <source>volunteer.jobs.announce</source>
+        <target>Nos équipes sont au complet pour la session de %current_session_start% à %current_session_end%. Rendez-vous ici ou sur notre page Facebook pour devenir bénévole à la prochaine session de cours.</target>
+      </trans-unit>
+      <trans-unit id="Ifveqru" resname="manifesto.mission">
+        <source>manifesto.mission</source>
+        <target>Notre manifeste : mission et valeurs</target>
+      </trans-unit>
+      <trans-unit id="laxdpBE" resname="manifesto.intro">
+        <source>manifesto.intro</source>
+        <target>À ce jour, nous n'avions pas présenté nos valeurs phares. Le travail aidant, nous avons produit une charte qui a également valeur de manifeste, et qui constitue un socle pour nos nvaleurs. Ces éléments, nous y croyons, et si nous nous autorisons évidemment à changer et ouvrir nos champs, les mots présentés ci-après demeureront un ancrage pour notre école.</target>
+      </trans-unit>
+      <trans-unit id="K396rVO" resname="manifesto.definition.title">
+        <source>manifesto.definition.title</source>
+        <target>__manifesto.definition.title</target>
+      </trans-unit>
+      <trans-unit id="ldq8L53" resname="manifesto.definition.1">
+        <source>manifesto.definition.1</source>
+        <target>__manifesto.definition.1</target>
+      </trans-unit>
+      <trans-unit id="d2VuZZe" resname="manifesto.equality.title">
+        <source>manifesto.equality.title</source>
+        <target>__manifesto.equality.title</target>
+      </trans-unit>
+      <trans-unit id="N8G24or" resname="manifesto.equality.1">
+        <source>manifesto.equality.1</source>
+        <target>__manifesto.equality.1</target>
+      </trans-unit>
+      <trans-unit id="J5vlV6U" resname="manifesto.mission.title">
+        <source>manifesto.mission.title</source>
+        <target>__manifesto.mission.title</target>
+      </trans-unit>
+      <trans-unit id="f_y73Oo" resname="manifesto.mission.1">
+        <source>manifesto.mission.1</source>
+        <target>__manifesto.mission.1</target>
+      </trans-unit>
+      <trans-unit id="bvjotf0" resname="manifesto.secular.title">
+        <source>manifesto.secular.title</source>
+        <target>__manifesto.secular.title</target>
+      </trans-unit>
+      <trans-unit id="W4WPPFH" resname="manifesto.secular.1">
+        <source>manifesto.secular.1</source>
+        <target>__manifesto.secular.1</target>
+      </trans-unit>
+      <trans-unit id="HArTpF." resname="manifesto.respect.title">
+        <source>manifesto.respect.title</source>
+        <target>__manifesto.respect.title</target>
+      </trans-unit>
+      <trans-unit id="OhjIdr4" resname="manifesto.respect.1">
+        <source>manifesto.respect.1</source>
+        <target>__manifesto.respect.1</target>
+      </trans-unit>
+      <trans-unit id="glRIc1N" resname="contact.text">
+        <source>contact.text</source>
+        <target>Contactez-nous, nous serons ravis de vous répondre</target>
+      </trans-unit>
+      <trans-unit id="6wFd3mH" resname="contact.form.name">
+        <source>contact.form.name</source>
+        <target>Votre nom</target>
+      </trans-unit>
+      <trans-unit id="2pbVlLF" resname="contact.form.email">
+        <source>contact.form.email</source>
+        <target>Votre e-mail</target>
+      </trans-unit>
+      <trans-unit id="uy34jBm" resname="contact.form.subject">
+        <source>contact.form.subject</source>
+        <target>Sujet de votre message</target>
+      </trans-unit>
+      <trans-unit id="kGDlATw" resname="contact.form.message">
+        <source>contact.form.message</source>
+        <target>Votre message</target>
+      </trans-unit>
+      <trans-unit id="rxOf9wM" resname="contact.form.send">
+        <source>contact.form.send</source>
+        <target>Envoyer</target>
       </trans-unit>
     </body>
   </file>
