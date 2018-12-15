@@ -94,7 +94,7 @@ class Setting
         } elseif ('bool' === $this->type) {
             return '1' == $this->value;
         } elseif ('date' === $this->type) {
-            return DateTime::createFromFormat('Y-m-d H:i:s', $this->value);
+            return \DateTime::createFromFormat('Y-m-d H:i:s', $this->value);
         } else {
             return $this->value;
         }

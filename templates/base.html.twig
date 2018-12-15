@@ -17,7 +17,6 @@
                 </a>
                 <a class="item{% if menu|default('home') == "school" %} active{% endif %}" href="{{ path('school') }}">{{ "menu.school"|trans }}</a>
                 <a class="item{% if menu|default('home') == "news" %} active{% endif %}" href="{{ path('news') }}">{{ "menu.news"|trans }}</a>
-                <a class="item{% if menu|default('home') == "courses" %} active{% endif %}" href="{{ path('courses') }}">{{ "menu.courses"|trans }}</a>
                 <a class="item{% if menu|default('home') == "contact" %} active{% endif %}" href="{{ path('contact') }}">{{ "menu.contact"|trans }}</a>
                 <a class="item{% if menu|default('home') == "jobs" %} active{% endif %}" href="{{ path('jobs') }}">{{ "menu.jobs"|trans }}</a>
                 <a class="item highlight" href="{{ donation_link }}">{{ "menu.donate"|trans }} ♥</a>

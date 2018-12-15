@@ -2,11 +2,9 @@
 
 namespace App\Twig;
 
-use App\Service\Utils;
 use Twig\Environment;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;
-use Twig\TwigFunction;
 
 /**
  * Class UtilitiesExtension.

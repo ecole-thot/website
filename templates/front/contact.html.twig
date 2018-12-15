@@ -17,27 +17,41 @@
         <div class="header">{{ "contact.form.error"|trans }}</div>
         <p>{{ error|trans }}</p>
     </div>
+    {% elseif info is defined and info is not null %}
+    <div class="ui success message">
+        <div class="header">{{ "contact.form.info"|trans }}</div>
+        <p>{{ info|trans }}</p>
+    </div>
     {% endif %}
+
     <form class="ui form" method="POST">
-        <div class="field">
-            <label>{{ "contact.form.name"|trans }}</label>
-            <input type="text" name="name">
+        <div class="ui grid  equal width">
+            <div class="column">
+                <div class="field">
+                    <label>{{ "contact.form.name"|trans }}</label>
+                    <input type="text" name="name" required="required">
+                </div>
+                <div class="field">
+                    <label>{{ "contact.form.email"|trans }}</label>
+                    <input type="email" name="email" required="required">
+                </div>
+                <div class="field">
+                    <label>{{ "contact.form.subject"|trans }}</label>
+                    <select name="subject" class="dropdown">
+                        <option>{{ "contact.subject.jobs"|trans }}</option>
+                        <option>{{ "contact.subject.volunteer"|trans }}</option>
+                        <option>{{ "contact.subject.other"|trans }}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="column">
+                <div class="field">
+                    <label>{{ "contact.form.message"|trans }}</label>
+                    <textarea name="message" rows="10"></textarea>
+                </div>
+                <button class="submit button">{{ "contact.form.send"|trans }}</button>
+            </div>
         </div>
-        <div class="field">
-            <label>{{ "contact.form.email"|trans }}</label>
-            <input type="email" name="email">
-        </div>
-        <div class="field">
-            <label>{{ "contact.form.subject"|trans }}</label>
-            <select name="subject" class="dropdown">
-                <option>Recrutement</option>
-            </select>
-        </div>
-        <div class="field">
-            <label>{{ "contact.form.message"|trans }}</label>
-            <textarea name="message"></textarea>
-        </div>
-        <button class="submit button">{{ "contact.form.send"|trans }}</button>
     </form>
 </section>
 

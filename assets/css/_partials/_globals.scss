@@ -318,6 +318,13 @@ section {
             margin: 20px 0 2px 0;
         }
     }
+    &.contact {
+        margin-top: 80px;
+        .ui.form input, .ui.form textarea, .ui.form .dropdown.selection {
+            border-radius: 0;
+            border-color: $text_color;
+        }
+    }
 }
 
 .texts {

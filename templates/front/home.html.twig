@@ -23,13 +23,13 @@
         <div class="info-banner">
             <div class="infoplus">
                 <div class="open">{{"inscriptions.now.open"|trans }}</div>
-                <div class="remaining">{{ "inscription.limit"|trans({'%date%': settings.inscription_limit_date|date('d/m')}) }}</div>
+                <div class="remaining">{{ "inscription.limit"|trans({'%date%': settings.inscription_limit_date|localizeddate('dd MMMM')}) }}</div>
                 <a href="{{ settings['inscription_link_' ~ app.request.locale]}}" class="button inverted">{{ "i.want.to.register"|trans }}</a>
             </div>
         </div>
     {% else %}
         <div class="info-banner">
-            <div class="content">{{ "inscription.next"|trans({'%date%': settings.inscription_next_date|date('d/m')}) }}</div>
+            <div class="content">{{ "inscription.next"|trans({'%date%': settings.inscription_next_date|localizeddate('dd MMMM')}) }}</div>
         </div>
     {% endif %}
 </section>
@@ -70,7 +70,7 @@
 {% if settings.inscriptions_open %}
 <section class="text narrow">
     <div class="subtitle">{{ "inscriptions.now.open"|trans }}</div>
-    <div class="title">{{ "inscription.limit.alt"|trans({'%date%': settings.inscription_limit_date|date('d M'), '%time%': settings.inscription_limit_date|date('H\\hi')}) }}</div>
+    <div class="title">{{ "inscription.limit.alt"|trans({'%date%': settings.inscription_limit_date|localizeddate('dd MMMM'), '%time%': settings.inscription_limit_date|localizeddate('HH\:mm')}) }}</div>
     <div class="warning">
         <div class="title">{{ "warning"|trans }}</div>
         <p>{{ "warning.lang"|trans }}</p>

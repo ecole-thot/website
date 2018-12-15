@@ -6,8 +6,8 @@ use App\Entity\Partner;
 use App\Entity\Setting;
 use App\Entity\TeamMember;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
@@ -93,15 +93,16 @@ class FrontController extends Controller
      *
      * @Route("/contact", name="contact", methods={"GET", "POST"})
      */
-    public function contact(Request $request): Response
+    public function contact(Request $request, \Swift_Mailer $mailer): Response
     {
-        if ($request->getMethod() === "POST") {
+        $info = null;
 
+        if ('POST' === $request->getMethod()) {
             $form = [
                 'name' => $request->request->get('name'),
                 'email' => $request->request->get('email'),
-                'type' => $request->request->get('type'),
-                'message' => $request->request->get('message')
+                'subject' => $request->request->get('subject'),
+                'message' => $request->request->get('message'),
             ];
 
             if (!filter_var($form['email'], FILTER_VALIDATE_EMAIL)) {
@@ -120,9 +121,10 @@ class FrontController extends Controller
                 );
 
             $mailer->send($message);
+            $info = 'contact.success';
         }
 
-        return $this->render('front/contact.html.twig');
+        return $this->render('front/contact.html.twig', ['info' => $info]);
     }
 
     /**
@@ -135,20 +137,8 @@ class FrontController extends Controller
     public function jobs(): Response
     {
         return $this->render('front/jobs.html.twig', [
-            'settings' => $this->getAllSettings()
+            'settings' => $this->getAllSettings(),
         ]);
-    }
-
-    /**
-     * Serves courses page.
-     *
-     * @return Response
-     *
-     * @Route("/formations", name="courses", methods={"GET"})
-     */
-    public function courses(): Response
-    {
-        return $this->render('front/courses.html.twig');
     }
 
     /**

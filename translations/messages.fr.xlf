@@ -451,7 +451,7 @@
       </trans-unit>
       <trans-unit id="K396rVO" resname="manifesto.definition.title">
         <source>manifesto.definition.title</source>
-        <target>__manifesto.definition.title</target>
+        <target>Définition</target>
       </trans-unit>
       <trans-unit id="ldq8L53" resname="manifesto.definition.1">
         <source>manifesto.definition.1</source>
@@ -459,7 +459,7 @@
       </trans-unit>
       <trans-unit id="d2VuZZe" resname="manifesto.equality.title">
         <source>manifesto.equality.title</source>
-        <target>__manifesto.equality.title</target>
+        <target>L'égalité des droits pour tous</target>
       </trans-unit>
       <trans-unit id="N8G24or" resname="manifesto.equality.1">
         <source>manifesto.equality.1</source>
@@ -467,7 +467,7 @@
       </trans-unit>
       <trans-unit id="J5vlV6U" resname="manifesto.mission.title">
         <source>manifesto.mission.title</source>
-        <target>__manifesto.mission.title</target>
+        <target>Notre mission, et notre règle de conduite</target>
       </trans-unit>
       <trans-unit id="f_y73Oo" resname="manifesto.mission.1">
         <source>manifesto.mission.1</source>
@@ -475,7 +475,7 @@
       </trans-unit>
       <trans-unit id="bvjotf0" resname="manifesto.secular.title">
         <source>manifesto.secular.title</source>
-        <target>__manifesto.secular.title</target>
+        <target>Une école laïque</target>
       </trans-unit>
       <trans-unit id="W4WPPFH" resname="manifesto.secular.1">
         <source>manifesto.secular.1</source>
@@ -483,7 +483,7 @@
       </trans-unit>
       <trans-unit id="HArTpF." resname="manifesto.respect.title">
         <source>manifesto.respect.title</source>
-        <target>__manifesto.respect.title</target>
+        <target>Un lieu de respect</target>
       </trans-unit>
       <trans-unit id="OhjIdr4" resname="manifesto.respect.1">
         <source>manifesto.respect.1</source>
@@ -512,6 +512,26 @@
       <trans-unit id="rxOf9wM" resname="contact.form.send">
         <source>contact.form.send</source>
         <target>Envoyer</target>
+      </trans-unit>
+      <trans-unit id="aririzH" resname="contact.form.error">
+        <source>contact.form.error</source>
+        <target>Erreur</target>
+      </trans-unit>
+      <trans-unit id="rM4AE95" resname="contact.form.info">
+        <source>contact.form.info</source>
+        <target>Information</target>
+      </trans-unit>
+      <trans-unit id="va0Dik0" resname="contact.subject.jobs">
+        <source>contact.subject.jobs</source>
+        <target>Recrutement</target>
+      </trans-unit>
+      <trans-unit id="hlbrlVN" resname="contact.subject.volunteer">
+        <source>contact.subject.volunteer</source>
+        <target>Bénévolat</target>
+      </trans-unit>
+      <trans-unit id="2Ki.UTp" resname="contact.subject.other">
+        <source>contact.subject.other</source>
+        <target>Autre</target>
       </trans-unit>
     </body>
   </file>
