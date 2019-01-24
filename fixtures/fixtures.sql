@@ -3,7 +3,7 @@ TRUNCATE setting;
 INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('nb_students', "Nombre d'étudiants depuis le début de l'école", "int", "200");
 INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('percent_diplomas', "Pourcentage de diplomés", "int", "98");
 INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('inscriptions_open', "Inscriptions ouvertes", "bool", '1');
-INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('inscriptions_next_date', "Prochaine date d'inscription", "date", "2018-03-01 00:00:00");
+INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('inscription_next_date', "Prochaine date d'inscription", "date", "2018-03-01 00:00:00");
 INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('inscription_limit_date', "Date limite d'inscription", "date", "2018-03-01 00:00:00");
 
 INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('inscription_link_fr', "Lien inscription français", null, 'https://google.com');
@@ -14,9 +14,6 @@ INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('inscriptio
 
 INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('candidatures_open', "Candidatures ouvertes", "bool", '1');
 INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('benevoles_open', "Bénévoles ouverts", "bool", '1');
-
-INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('current_session_start', "Date de début de la session actuelle", "date", "2018-03-01 00:00:00");
-INSERT INTO setting (`slug`, `description`, `type`, `value`) VALUES ('current_session_end', "Date de fin de la session actuelle", "date", "2018-03-01 00:00:00");
 
 TRUNCATE partner;
 
