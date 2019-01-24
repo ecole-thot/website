@@ -1,5 +1,74 @@
 {% extends 'admin/base.html.twig' %}
 
 {% block body %}
-Admin home
+
+<h2>Administration du site</h2>
+<div class="ui segment clearing">
+  <div class="ui five statistics">
+    <div class="statistic">
+      <div class="value label">
+        {% if settings.inscriptions_open %}<i class='icon check green'></i>{% else %}<i class='icon close red'></i>{% endif %}
+      </div>
+      <div class="label">
+        Inscriptions {% if settings.inscriptions_open %}ouvertes{% else %}fermées{% endif %}
+      </div>
+    </div>
+    <div class="statistic">
+      <div class="value">
+        {{ news|length }}
+      </div>
+      <div class="label">
+        Actualités
+      </div>
+    </div>
+    <div class="statistic">
+      <div class="value">
+        {{ press|length }}
+      </div>
+      <div class="label">
+        Revues de presse
+      </div>
+    </div>
+    <div class="statistic">
+      <div class="value">
+        {{ partners|length }}
+      </div>
+      <div class="label">
+        Partenaires
+      </div>
+    </div>
+    <div class="statistic">
+      <div class="value">
+        <i class="group icon"></i>
+        {{ members|length }}
+      </div>
+      <div class="label">
+        Membres
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2>Chiffres clés modifiables</h2>
+<div class="ui segment clearing">
+    <h3>Nombre d'élèves</h3>
+    <p><em>Affiché en page d'accueil du site</em></p>
+    <div class="item">
+      <div class="ui left labeled input">
+        <label for="nb" class="ui label"><i class="icon group"></i> Nombre d'élèves</label>
+        <input type="text" id="nb_students" value="{{ settings.nb_students }}">
+      </div>
+    </div>
+
+    <h3>Pourcentage de diplomés</h3>
+    <p><em>Affiché en page d'accueil du site</em></p>
+    <div class="item">
+      <div class="ui right labeled input">
+        <input type="text" id="percent_diplomas" value="{{ settings.percent_diplomas }}">
+        <label for="percent_diplomas" class="ui label">%</label>
+      </div>
+    </div>
+  <a href="#" class="ui button right floated teal figures-save" data-url="{{ path('admin_settings_values') }}">Enregistrer les valeurs</a>
+</div>
+
 {% endblock %}

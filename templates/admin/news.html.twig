@@ -1,0 +1,37 @@
+{% extends 'admin/base.html.twig' %}
+{% set menu = 'news' %}
+
+{% block body %}
+<h1>Actualités
+<a href="{{ path('admin_news_new') }}" class="ui button green right floated"><i class="icon add"></i> Nouvelle actualité</a></h1>
+
+<p>Retrouvez ici toutes les actualités publiées sur le site.</p>
+
+<div class="ui link cards">
+  {% for news_item in news %}
+    <div class="card">
+      {% if news_item.image %}
+      <div class="image">
+        <img src="{{ asset( 'uploads/news/' ~ news_item.image) }}">
+      </div>
+      {% endif %}
+      <div class="content">
+        <div class="header">{{ news_item.title }}</div>
+        <div class="meta">
+          <a>{{ news_item.theme }}</a>
+        </div>
+        <div class="description">
+          {{ news_item.content|slice(0,50) }} ... 
+        </div>
+      </div>
+      <div class="extra content">
+        <span><a href="{{ path('admin_news_edit', {id: news_item.id}) }}" class="ui button orange mini">Éditer</a></span>
+        <span class="right floated">
+          <i class="user calendar"></i> {{ news_item.publishedAt|date('d/m/Y') }}
+        </span>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% endblock %}

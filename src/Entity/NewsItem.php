@@ -18,9 +18,24 @@ class NewsItem
     private $id;
 
     /**
+     * @ORM\Column(type="date")
+     */
+    private $createdAt;
+
+    /**
+     * @ORM\Column(type="date", nullable=true)
+     */
+    private $publishedAt;
+
+    /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $title;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $theme;
 
     /**
      * @ORM\Column(type="text", nullable=true)
@@ -30,27 +45,59 @@ class NewsItem
     /**
      * @ORM\Column(type="string", nullable=true)
      *
-     * @Assert\NotBlank(message="Please, upload the news image")
      * @Assert\File()
      */
     private $image;
 
-    /**
-     * @return mixed
-     */
-    public function getName()
+    public function __construct()
     {
-        return $this->name;
+        $this->createdAt = new \DateTime();
     }
 
     /**
-     * @param mixed $name
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTitle()
+    {
+        return $this->title;
+    }
+
+    /**
+     * @param mixed $title
      *
      * @return self
      */
-    public function setName($name)
+    public function setTitle($title)
     {
-        $this->name = $name;
+        $this->title = $title;
+
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTheme()
+    {
+        return $this->theme;
+    }
+
+    /**
+     * @param mixed $theme
+     *
+     * @return self
+     */
+    public function setTheme($theme)
+    {
+        $this->theme = $theme;
 
         return $this;
     }
@@ -91,6 +138,46 @@ class NewsItem
     public function setImage($image)
     {
         $this->image = $image;
+
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCreatedAt()
+    {
+        return $this->createdAt;
+    }
+
+    /**
+     * @param mixed $createdAt
+     *
+     * @return self
+     */
+    public function setCreatedAt($createdAt)
+    {
+        $this->createdAt = $createdAt;
+
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPublishedAt()
+    {
+        return $this->publishedAt;
+    }
+
+    /**
+     * @param mixed $publishedAt
+     *
+     * @return self
+     */
+    public function setPublishedAt($publishedAt)
+    {
+        $this->publishedAt = $publishedAt;
 
         return $this;
     }

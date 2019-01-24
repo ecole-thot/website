@@ -1,0 +1,8 @@
+{% for article in articles %}
+<a class="column" href="{{ path('news_article', {id: article.id}) }}">
+    <div class="news-image" style="background-image: url('{{ asset('/uploads/news/' ~ article.image) }}');"></div>
+    <div class="news-theme">{{ article.theme }}</div>
+    <div class="news-title">{{ article.title }}<div class="link"><i class="ui icon arrow right"></i></div></div>
+    <div class="news-date">{{ article.publishedAt|date('d/m/Y') }}</div>
+</a>
+{% endfor %}

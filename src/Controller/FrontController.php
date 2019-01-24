@@ -2,7 +2,9 @@
 
 namespace App\Controller;
 
+use App\Entity\NewsItem;
 use App\Entity\Partner;
+use App\Entity\PressItem;
 use App\Entity\Setting;
 use App\Entity\TeamMember;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -53,13 +55,62 @@ class FrontController extends Controller
      *
      * @return Response
      *
-     * @Route("/actualites", name="news", methods={"GET"})
+     * @Route("/actualites", name="news", methods={"GET"}, defaults={"page":0})
+     * @Route("/actualites/{page}", name="news_ajax", methods={"GET"})
      */
-    public function news(): Response
+    public function news($_route, int $page): Response
     {
-        return $this->render('front/news.html.twig');
+        if ($_route == "news") {
+        
+            $lastNews = $this->getDoctrine()->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC'], 5);
+
+            $reviews = $this->getDoctrine()->getRepository(PressItem::class)->findBy([], ['publishedAt' => 'DESC']);
+
+            // Order by year
+            $reviewsByYear = [];
+            foreach ($reviews as $review) {
+                $year = $review->getPublishedAt()->format('Y');
+                if (!isset($reviewsByYear[$year])) {
+                    $reviewsByYear[$year] = [];
+                }
+                $reviewsByYear[$year][] = $review;
+            }
+
+            return $this->render('front/news.html.twig', [
+                'lastNews' => $lastNews,
+                'reviews' => $reviewsByYear
+            ]);
+        } else {
+            $lastNews = $this->getDoctrine()->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC'], 4, $page*4 + 1);
+            return $this->render('_partials/articles.html.twig', [
+                'articles' => $lastNews
+            ]);
+        }
     }
 
+    /**
+     * Serves a specific news.
+     *
+     * @return Response
+     *
+     * @Route("/actualites/{id}", name="news_article", methods={"GET"})
+     */
+    public function newsArticle(int $id): Response
+    {
+        $news = $this->getDoctrine()->getRepository(NewsItem::class)->findOneById($id);
+
+        if (!$news) {
+            return $this->redirectToRoute('news');
+        }
+
+        // On the same theme
+        $sameThemeNews = $this->getDoctrine()->getRepository(NewsItem::class)->findBy(['theme' => $news->getTheme()], ['publishedAt' => 'DESC'], 2);
+
+        return $this->render('front/news.article.html.twig', [
+            'news' => $news,
+            'sameThemeNews' => $sameThemeNews,
+        ]);
+    }
     /**
      * Serves school page.
      *

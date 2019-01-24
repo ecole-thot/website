@@ -1,0 +1,42 @@
+{% extends 'admin/base.html.twig' %}
+{% set menu = 'news' %}
+
+{% form_theme form _self %}
+
+{%- block form_row -%}
+    {%- set widget_attr = {} -%}
+    {%- if help is not empty -%}
+        {%- set widget_attr = {attr: {'aria-describedby': id ~"_help"}} -%}
+    {%- endif -%}
+    <div class="field">
+        {{- form_label(form) -}}
+        {{- form_errors(form) -}}
+        {{- form_widget(form, widget_attr) -}}
+        {{- form_help(form) -}}
+    </div>
+{%- endblock form_row -%}
+
+{% block body %}
+<h1>{% if news.id is defined %}Actualité : {{ news.title }}{% else %}Nouvelle actualité{% endif %}</h1>
+
+{{ form_start(form, {attr: {class: 'ui form'}}) }}
+<div class='ui grid columns'>
+  <div class="twelve wide column">
+    {{ form_row(form.title) }}
+    {{ form_row(form.theme, {attr: {class: 'ui dropdown'}}) }}
+    {{ form_row(form.content) }}
+    <a href="{{ path('admin_news') }}" class="ui button"><i class='ui icon left arrow'></i> Annuler</a>
+    <button class="ui button submit green" type="submit"><i class='ui icon save outline'></i> Enregistrer</button>
+    {% if news.id %}
+      <a href="{{ path('admin_news_delete', {id: news.id}) }}" class="ui button red right floated"><i class='ui icon trash'></i> Supprimer</a>
+    {% endif %}
+  </div>
+  <div class="four wide column">
+    {% if image %}
+    <img src="{{ asset('/uploads/news/' ~ image) }}" class="ui image">
+    {% endif %}
+    {{ form_row(form.image) }}
+  </div>
+</div>
+{{ form_rest(form) }}
+{% endblock %}

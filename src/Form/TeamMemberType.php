@@ -5,12 +5,13 @@ namespace App\Form;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 
-class PartnerType extends AbstractType
+class TeamMemberType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('name')
-            ->add('image', null, ['required' => false, 'label' => 'Mettre à jour l\'image']);
+            ->add('name', null, ['label' => 'Nom'])
+            ->add('job', null, ['label' => 'Poste'])
+            ->add('image', null, ['label' => 'Image', 'required' => false]);
     }
 }

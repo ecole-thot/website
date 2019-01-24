@@ -1,3 +1,7 @@
 // Vendors
 @import '~semantic-ui-css/semantic.min.css';
 
+.partners .ui.avatar.image {
+  width: auto;
+  border-radius: 0;
+}

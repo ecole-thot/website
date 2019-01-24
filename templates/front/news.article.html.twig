@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+{% set menu = "news" %}
+{% block title %}{{ parent() }} {{ "news.title"|trans }}{% endblock %}
+
+{% block body %}
+
+<section class="ui padded grid stackable intro">
+    <div class="main-color ten wide column">
+        <h1 class="title">{{ "news.title"|trans }}</h1>
+        <div class="news-image" style="background-image: url('{{ asset('/uploads/news/' ~ lastNews.image) }}');"></div>
+    </div>
+    <div class="secondary-color six wide column">
+        <div class='ui segment basic centered title'>{{ "quick.access"|trans }}</div>
+        <div class='ui segment basic centered'><a href="#professeur">{{ "news.ours"|trans }}</a> <sub>↴</sub></div>
+        <div class='ui segment basic centered'><a href="#benevole">{{ "news.press"|trans }}</a> <sub>↴</sub></div>
+        <div class='ui segment basic centered'><a href="#benevole">{{ "news.others"|trans }}</a> <sub>↴</sub></div>
+    </div>
+</section>
+
+<section class="ui intro-news">
+    <div class="news-theme">{{ lastNews.theme }}</div>
+    <div class="news-title">{{ lastNews.title }}<a class="link" href="{{ path('news_article', {id: lastNews.id}) }}"><i class="ui icon arrow right"></i></a></div>
+    <div class="news-date">{{ lastNews.publishedAt|date('d/m/Y') }}</div>
+    <div class="news-content">{{ lastNews.content|slice(0, 400) }}...</div>
+</section>
+
+{% if sameThemeNews %}
+<section class="main-color articles">
+  <div></div>
+  <div></div>
+</section>
+{% endif %}
+
+{% endblock %}

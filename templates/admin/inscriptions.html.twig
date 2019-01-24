@@ -1,11 +1,90 @@
 {% extends 'admin/base.html.twig' %}
+{% set menu = 'register' %}
 
 {% block body %}
-<div class="ui segment">
-{% if settings.inscriptions_open == "true" %}
-    Les inscriptions sont 'ouvertes'
+
+<h2>Recrutement</h2>
+<div class="ui segment clearing">
+  {% if settings.candidatures_open == 1 %}
+    <a href="{{ path('admin_inscriptions_toggle', {which: 'candidatures_open', status: 0 }) }}" class="ui button right floated red">Fermer</a>
+    <p>Le recrutement est ouvert</p>
+    <p><em>Les candidatures de professeurs arriveront via le mail de contact</em></p>
+  {% else %}
+    <a href="{{ path('admin_inscriptions_toggle', {which: 'candidatures_open', status: 1 }) }}" class="ui button right floated green">Ouvrir</a>
+    <p>Le recrutement est fermé</p>
+    <p><em>L'équipe de professeurs est actuellement au complet.</em></p>
+  {% endif %}
+</div>
+
+<h2>Bénévolat</h2>
+<div class="ui segment clearing">
+  {% if settings.benevoles_open == 1 %}
+    <a href="{{ path('admin_inscriptions_toggle', {which: 'benevoles_open', status: 0 }) }}" class="ui button right floated red">Fermer</a>
+    <p>Le bénévolat est ouvert</p>
+    <p><em>Les candidatures de bénévolat arriveront via le mail de contact</em></p>
+  {% else %}
+    <a href="{{ path('admin_inscriptions_toggle', {which: 'benevoles_open', status: 1 }) }}" class="ui button right floated green">Ouvrir</a>
+    <p>Le bénévolat est fermé</p>
+    <p><em>L'équipe de bénévoles est actuellement au complet.</em></p>
+  {% endif %}
+</div>
+
+<h2>Inscriptions élèves</h2>
+<div class="ui segment clearing">
+{% if settings.inscriptions_open == 1 %}
+  <a href="{{ path('admin_inscriptions_toggle', {which: 'inscriptions_open', status: 0 }) }}" class="ui button right floated red">Fermer</a>
+  <p>Les inscriptions sont ouvertes</p>
+  <h3>Session d'inscription en cours</h3>
+  <p><strong>Dates de cette session d'inscription</strong></p>
+  Les inscriptions sont ouvertes du
 {% else %}
-    Les inscriptions sont 'fermées'
+  <a href="{{ path('admin_inscriptions_toggle', {which: 'inscriptions_open', status: 1 }) }}" class="ui button right floated green">Ouvrir</a>
+  <p>Les inscriptions sont fermées</p>
+  <h3>Prochaine session d'inscription</h3>
+  <p><strong>Dates de la prochaine session d'inscriptions</strong></p>
+  Les inscriptions seront ouvertes du
 {% endif %}
+  <div class="ui input">
+    <input type="date" id="next_date" value="{{ settings.inscription_next_date|date('Y-m-d') }}">
+  </div>
+  au
+  <div class="ui input">
+    <input type="date" id="limit_date" value="{{ settings.inscription_limit_date|date('Y-m-d') }}">
+  </div>
+
+  <p><strong>Liens des formulaires</strong></p>
+  <div class="ui list">
+    <div class="item">
+      <div class="ui left fluid labeled input">
+        <label for="arabe" class="ui label"><i class="flag sa"></i> Arabe</label>
+        <input type="text" id="arabe" value="{{ settings.inscription_link_ar }}">
+      </div>
+    </div>
+    <div class="item">
+      <div class="ui left fluid labeled input">
+        <label for="pashto" class="ui label"><i class="flag af"></i> Pashto</label>
+        <input type="text" id="pashto" value="{{ settings.inscription_link_ps }}">
+      </div>
+    </div>
+    <div class="item">
+      <div class="ui left fluid labeled input">
+        <label for="farsi" class="ui label"><i class="flag ir"></i> Farsi</label>
+        <input type="text" id="farsi" value="{{ settings.inscription_link_fa }}">
+      </div>
+    </div>
+    <div class="item">
+      <div class="ui left fluid labeled input">
+        <label for="francais" class="ui label"><i class="flag fr"></i> Français</label>
+        <input type="text" id="francais" value="{{ settings.inscription_link_fr }}">
+      </div>
+    </div>
+    <div class="item">
+      <div class="ui left fluid labeled input">
+        <label for="anglais" class="ui label"><i class="flag uk"></i> Anglais</label>
+        <input type="text" id="anglais" value="{{ settings.inscription_link_en }}">
+      </div>
+    </div>
+  </div>
+  <a href="#" class="ui button right floated teal inscriptions-save" data-url="{{ path('admin_settings_values') }}">Enregistrer les valeurs</a>
 </div>
 {% endblock %}

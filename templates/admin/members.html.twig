@@ -1,0 +1,21 @@
+{% extends 'admin/base.html.twig' %}
+{% set menu = 'team' %}
+
+{% block body %}
+<h1>Équipe
+<a href="{{ path('admin_member_new') }}" class="ui button green right floated"><i class="icon add"></i> Ajouter un membre</a></h1>
+
+<p>Vous pouvez éditer la liste des membres de l'équipe, leur nom, leur poste et leur image.</p>
+
+<div class='ui divided middle aligned selection list members'>
+  {% for member in members %}
+    <div class="item">
+      <div class="right floated content">
+        <a href="{{ path('admin_member_edit',{id: member.id}) }}" class="ui mini button">Éditer</a>
+      </div>
+      <img class="ui avatar image" src="{{ asset('/uploads/members/' ~ member.image) }}"></img>
+      <div class="content"><a href="{{ path('admin_member_edit',{id: member.id}) }}" class="header">{{ member.name }}</a></div>
+    </div>
+  {% endfor %}
+</div>
+{% endblock %}

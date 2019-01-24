@@ -3,4 +3,64 @@
 {% block title %}{{ parent() }} {{ "news.title"|trans }}{% endblock %}
 
 {% block body %}
+
+<section class="ui padded grid stackable intro">
+    <div class="main-color ten wide column">
+        <h1 class="title">{{ "news.title"|trans }}</h1>
+        <div class="news-image" style="background-image: url('{{ asset('/uploads/news/' ~ lastNews[0].image) }}');"></div>
+    </div>
+    <div class="secondary-color six wide column">
+        <div class='ui segment basic centered title'>{{ "quick.access"|trans }}</div>
+        <div class='ui segment basic centered'><a href="#actualites">{{ "news.ours"|trans }}</a> <sub>↴</sub></div>
+        <div class='ui segment basic centered'><a href="#presse">{{ "news.press"|trans }}</a> <sub>↴</sub></div>
+        <div class='ui segment basic centered'><a href="#revue">{{ "news.others"|trans }}</a> <sub>↴</sub></div>
+    </div>
+</section>
+
+<section class="ui intro-news">
+    <div class="news-theme">{{ lastNews[0].theme }}</div>
+    <div class="news-title">{{ lastNews[0].title }}<a class="link" href="{{ path('news_article', {id: lastNews[0].id}) }}"><i class="ui icon arrow right"></i></a></div>
+    <div class="news-date">{{ lastNews[0].publishedAt|date('d/m/Y') }}</div>
+    <div class="news-content">{{ lastNews[0].content|slice(0, 400) }}...</div>
+</section>
+
+<section class="news" id="actualites">
+    <div class="ui grid two columns stackable">
+      {% include '_partials/articles.html.twig' with { articles: lastNews|slice(1) } %}
+    </div>
+    <a class="see-more button">{{ "see.more"|trans }}</a>
+</section>
+
+<section class="main-color presskit" id="presse">
+    <h3>{{ "presskit"|trans }}</h3>
+    <div class="ui grid centered">
+        <div class="four wide column aligned"><strong>{{ "presskit.photos"|trans }}</strong> <a href=""><i class="icon download"></i></a><span>{{ "presskit.photos.info"|trans }}</span></div>
+        <div class="four wide column aligned"><strong>{{ "presskit.logo"|trans }}</strong> <a href=""><i class="icon download"></i></a><span>{{ "presskit.logo.info"|trans }}</span></div>
+        <div class="four wide column aligned"><strong>{{ "presskit.communique"|trans }}</strong> <a href=""><i class="icon download"></i></a><span>{{ "presskit.communique.info"|trans }}</span></div>
+    </div>
+    <div class="extra">{{ "presskit.notfound"|trans }} <a href="{{ path('contact') }}">{{ "presskit.contact"|trans }}</a></div>
+    <div class="info-banner">
+        <div class="info">{{ "engaged.every.day"|trans }} <span class="highlight">{{ "follow.our.actions"|trans }}</span> <a href="{{ social_facebook }}"><i class="ui icon facebook"></i><span>FB</span></a> <a href="{{ social_twitter }}"><i class="ui icon twitter"></i><span>TW</span></a> <a href="{{ social_youtube }}"><i class="ui icon youtube"></i><span>YT</span></a></div>
+    </div>
+</section>
+
+<section class="text press" id ="#revue">
+    <div class="title">{{ "press.review"|trans }}</div>
+      {% for year, items in reviews %}
+      <h3>{{ year }}</h3>
+      <div class="ui grid three columns stackable">
+        {% for review in items %}
+        <div class="column press-item">
+          <div class="press-image" style="background-image: url('/images/sources/{{ review.source }}.png'), url('/images/news.png')" alt='{{ review.source }}'></div>
+          <div class="press-date">{{ review.publishedAt|date('d/m/Y') }}</div>
+          <div class="press-title">{{ review.title }}</div>
+          <a href="{{ review.link ?? review.document }}" class="press-link">{% if review.document %}<i class="ui icon download"></i>{% else %}<i class="ui icon external square alternate"></i>{% endif %}</a>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="ui divider"></div>
+      {% endfor %}
+    </div>
+</section>
+
 {% endblock %}

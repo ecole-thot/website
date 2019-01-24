@@ -1,5 +1,5 @@
 {% extends 'admin/base.html.twig' %}
-{% set menu = 'partners' %}
+{% set menu = 'press' %}
 
 {% form_theme form _self %}
 
@@ -17,18 +17,15 @@
 {%- endblock form_row -%}
 
 {% block body %}
-<h1>{% if partner.id is defined %}Partenaire : {{ partner.name }}{% else %}Nouveau partenaire{% endif %}</h1>
+<h1>{% if press.id is defined %}Revue de presse : {{ press.title }}{% else %}Nouvelle parution{% endif %}</h1>
 
 {{ form_start(form, {attr: {class: 'ui form'}}) }}
-{{ form_row(form.name) }}
-{% if image %}
-<img src="{{ asset('/uploads/partners/' ~ image) }}">
-{% endif %}
-{{ form_row(form.image) }}
-<a href="{{ path('admin_partners') }}" class="ui button"><i class='ui icon left arrow'></i> Annuler</a>
+{{ form_row(form.title) }}
+{{ form_row(form.source, {attr: {class: 'ui dropdown'}}) }}
+{{ form_row(form.publishedAt) }}
+{{ form_row(form.link) }}
+{{ form_row(form.document) }}
+<a href="{{ path('admin_press') }}" class="ui button"><i class='ui icon left arrow'></i> Annuler</a>
 <button class="ui button submit green" type="submit"><i class='ui icon save outline'></i> Enregistrer</button>
-{% if partner.id %}
-<a href="{{ path('admin_partner_delete', {id: partner.id}) }}" class="ui button red right floated"><i class='ui icon trash'></i> Supprimer</a>
-{% endif %}
 {{ form_rest(form) }}
 {% endblock %}

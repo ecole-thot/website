@@ -1,5 +1,21 @@
 {% extends 'admin/base.html.twig' %}
+{% set menu = 'partners' %}
 
 {% block body %}
-Partenaires
+<h1>Partenaires
+<a href="{{ path('admin_partner_new') }}" class="ui button green right floated"><i class="icon add"></i> Ajouter un partenaire</a></h1>
+
+<p>Vous pouvez éditer la liste des partenaires, leur nom et leur logo.</p>
+
+<div class='ui divided middle aligned selection list partners'>
+  {% for partner in partners %}
+    <div class="item">
+      <div class="right floated content">
+        <a href="{{ path('admin_partner_edit',{id: partner.id}) }}" class="ui mini button">Éditer</a>
+      </div>
+      <img class="ui avatar image" src="{{ asset('/uploads/partners/' ~ partner.image) }}"></img>
+      <div class="content"><a href="{{ path('admin_partner_edit',{id: partner.id}) }}" class="header">{{ partner.name }}</a></div>
+    </div>
+  {% endfor %}
+</div>
 {% endblock %}

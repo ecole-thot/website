@@ -439,7 +439,7 @@
       </trans-unit>
       <trans-unit id="X4BGC6c" resname="volunteer.jobs.announce">
         <source>volunteer.jobs.announce</source>
-        <target>Nos équipes sont au complet pour la session de %current_session_start% à %current_session_end%. Rendez-vous ici ou sur notre page Facebook pour devenir bénévole à la prochaine session de cours.</target>
+        <target>Nos équipes sont au complet pour cette sessions. Rendez-vous ici ou sur notre page Facebook pour devenir bénévole à la prochaine session de cours.</target>
       </trans-unit>
       <trans-unit id="Ifveqru" resname="manifesto.mission">
         <source>manifesto.mission</source>
@@ -532,6 +532,54 @@
       <trans-unit id="2Ki.UTp" resname="contact.subject.other">
         <source>contact.subject.other</source>
         <target>Autre</target>
+      </trans-unit>
+      <trans-unit id="rgB.JAr" resname="news.ours">
+        <source>news.ours</source>
+        <target>Nos actualités</target>
+      </trans-unit>
+      <trans-unit id="P3fkZyj" resname="news.press">
+        <source>news.press</source>
+        <target>Kit presse</target>
+      </trans-unit>
+      <trans-unit id="GOn.I8r" resname="news.others">
+        <source>news.others</source>
+        <target>Revue de presse</target>
+      </trans-unit>
+      <trans-unit id="UXeHGRS" resname="presskit">
+        <source>presskit</source>
+        <target>Kit presse</target>
+      </trans-unit>
+      <trans-unit id="aAvt864" resname="presskit.photos">
+        <source>presskit.photos</source>
+        <target>Nos photos officielles</target>
+      </trans-unit>
+      <trans-unit id="tMTYwJZ" resname="presskit.photos.info">
+        <source>presskit.photos.info</source>
+        <target>15 photos</target>
+      </trans-unit>
+      <trans-unit id="BiscqA1" resname="presskit.logo">
+        <source>presskit.logo</source>
+        <target>Télécharger le logo HD</target>
+      </trans-unit>
+      <trans-unit id="RBLc_TV" resname="presskit.logo.info">
+        <source>presskit.logo.info</source>
+        <target>Formats EPS et TIFF</target>
+      </trans-unit>
+      <trans-unit id="uZiSX6y" resname="presskit.communique">
+        <source>presskit.communique</source>
+        <target>Communiqué de presse</target>
+      </trans-unit>
+      <trans-unit id="hLwXmEC" resname="presskit.communique.info">
+        <source>presskit.communique.info</source>
+        <target>Mise à jour : 19/09/2016</target>
+      </trans-unit>
+      <trans-unit id="t9VJshH" resname="presskit.notfound">
+        <source>presskit.notfound</source>
+        <target>Vous ne trouvez pas ce qu'il vous faut ?</target>
+      </trans-unit>
+      <trans-unit id="gHDzMk4" resname="presskit.contact">
+        <source>presskit.contact</source>
+        <target>Contactez-nous</target>
       </trans-unit>
     </body>
   </file>

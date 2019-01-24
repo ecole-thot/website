@@ -1,0 +1,24 @@
+{% extends 'admin/base.html.twig' %}
+{% set menu = 'press' %}
+
+{% block body %}
+<h1>Revue de presse
+<a href="{{ path('admin_press_new') }}" class="ui button green right floated"><i class="icon add"></i> Ajouter une parution</a></h1>
+
+<p>Vous pouvez éditer la liste des parutions presses, communiqués, etc ...</p>
+
+<div class='ui divided middle aligned selection list partners'>
+  {% for item in press %}
+    <div class="item">
+      <div class="right floated content">
+        <a href="{{ path('admin_press_edit',{id: item.id}) }}" class="ui mini button">Éditer</a>
+      </div>
+      <img class="ui avatar image" src="{{ asset('/uploads/press/' ~ item.source) }}"></img>
+      <div class="content">
+        <div class="header">{{ item.title }}</div>
+        <div class="description">{{ item.source }} du {{ item.publishedAt|date('d/m/Y') }}</div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% endblock %}

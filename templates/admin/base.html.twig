@@ -24,10 +24,12 @@
             {% endfor %}
 
             <div class="ui secondary pointing menu">
-              <a href="{{ path('admin_home') }}" class="active item">Accueil</a>
-              <a href="{{ path('admin_partners') }}" class="item">Partenaires</a>
-              <a class="item">Actualités</a>
-              <a href="{{ path('admin_inscriptions') }}" class="item">Inscriptions</a>
+              <a href="{{ path('admin_home') }}" class="{% if menu|default('home') == 'home' %}active{% endif %} item">Accueil</a>
+              <a href="{{ path('admin_inscriptions') }}" class="{% if menu|default('home') == 'register' %}active{% endif %} item">Inscriptions</a>
+              <a href="{{ path('admin_news') }}" class="{% if menu|default('home') == 'news' %}active{% endif %} item">Actualités</a>
+              <a href="{{ path('admin_press') }}" class="{% if menu|default('home') == 'press' %}active{% endif %} item">Revue de presse</a>
+              <a href="{{ path('admin_partners') }}" class="{% if menu|default('home') == 'partners' %}active{% endif %} item">Partenaires</a>
+              <a href="{{ path('admin_members') }}" class="{% if menu|default('home') == 'team' %}active{% endif %} item">Équipe</a>
               <div class="right menu">
                 <a href="{{ path('home') }}" class="ui item">Revenir au site</a>
               </div>
