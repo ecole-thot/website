@@ -1,6 +1,10 @@
 // Vendors
 @import '~semantic-ui-css/semantic.min.css';
+@import '~quill/dist/quill.snow.css';
 
+.hidden {
+  display: none;
+}
 .partners .ui.avatar.image {
   width: auto;
   border-radius: 0;

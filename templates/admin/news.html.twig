@@ -21,7 +21,7 @@
           <a>{{ news_item.theme }}</a>
         </div>
         <div class="description">
-          {{ news_item.content|slice(0,50) }} ... 
+          {{ news_item.content|striptags|slice(0,50) }} ... 
         </div>
       </div>
       <div class="extra content">

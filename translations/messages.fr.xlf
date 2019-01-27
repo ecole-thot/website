@@ -589,6 +589,10 @@
         <source>see.more</source>
         <target>Voir plus d'actus</target>
       </trans-unit>
+      <trans-unit id="oup04hU" resname="on.the.same.theme">
+        <source>on.the.same.theme</source>
+        <target>Sur le même thème</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

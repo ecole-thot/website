@@ -55,7 +55,7 @@ class FrontController extends Controller
      *
      *
      * @Route("/actualites", name="news", methods={"GET"}, defaults={"page":0})
-     * @Route("/actualites/{page}", name="news_ajax", methods={"GET"})
+     * @Route("/actualites/async/{page}", name="news_ajax", methods={"GET"})
      *
      * @param mixed $_route
      *

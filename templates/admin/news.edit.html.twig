@@ -24,7 +24,12 @@
   <div class="twelve wide column">
     {{ form_row(form.title) }}
     {{ form_row(form.theme, {attr: {class: 'ui dropdown'}}) }}
-    {{ form_row(form.content) }}
+    {{ form_widget(form.content, {attr: {class: "hidden"}}) }}
+    <div class="field">
+        <div class="editor">
+          {{ form.vars.data.content|raw }}
+        </div>
+    </div>
     <a href="{{ path('admin_news') }}" class="ui button"><i class='ui icon left arrow'></i> Annuler</a>
     <button class="ui button submit green" type="submit"><i class='ui icon save outline'></i> Enregistrer</button>
     {% if news.id %}

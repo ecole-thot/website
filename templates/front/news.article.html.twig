@@ -7,27 +7,26 @@
 <section class="ui padded grid stackable intro">
     <div class="main-color ten wide column">
         <h1 class="title">{{ "news.title"|trans }}</h1>
-        <div class="news-image" style="background-image: url('{{ asset('/uploads/news/' ~ lastNews.image) }}');"></div>
+        <h2 class="subtitle">{{ news.title }}</h2>
     </div>
-    <div class="secondary-color six wide column">
-        <div class='ui segment basic centered title'>{{ "quick.access"|trans }}</div>
-        <div class='ui segment basic centered'><a href="#professeur">{{ "news.ours"|trans }}</a> <sub>↴</sub></div>
-        <div class='ui segment basic centered'><a href="#benevole">{{ "news.press"|trans }}</a> <sub>↴</sub></div>
-        <div class='ui segment basic centered'><a href="#benevole">{{ "news.others"|trans }}</a> <sub>↴</sub></div>
+    <div class="secondary-color six wide column"></div>
+    <div class="news-image-wrapper">
+        <div class="news-image" style="background-image: url('{{ asset('/uploads/news/' ~ news.image) }}');"></div>
     </div>
 </section>
 
-<section class="ui intro-news">
-    <div class="news-theme">{{ lastNews.theme }}</div>
-    <div class="news-title">{{ lastNews.title }}<a class="link" href="{{ path('news_article', {id: lastNews.id}) }}"><i class="ui icon arrow right"></i></a></div>
-    <div class="news-date">{{ lastNews.publishedAt|date('d/m/Y') }}</div>
-    <div class="news-content">{{ lastNews.content|slice(0, 400) }}...</div>
+<section class="ui intro-news-article">
+    <div class="news-theme">{{ news.theme }}</div>
+    <div class="news-date">{{ news.publishedAt|date('d/m/Y') }}</div>
+    <div class="news-content">{{ news.content|raw }}</div>
 </section>
 
 {% if sameThemeNews %}
-<section class="main-color articles">
-  <div></div>
-  <div></div>
+<section class="news" id="actualites">
+    <div class="title">{{ "on.the.same.theme"|trans }}</div>
+    <div class="ui grid two columns stackable">
+      {% include '_partials/articles.html.twig' with { articles: sameThemeNews } %}
+    </div>
 </section>
 {% endif %}
 

@@ -5,6 +5,7 @@ require('semantic-ui-css/components/transition')
 require('semantic-ui-css/components/dimmer')
 require('semantic-ui-css/components/dropdown')
 require('semantic-ui-css/components/popup')
+require('./admin/editor.js')
 
 $(document).ready(() => {
   $('.dropdown').dropdown()
