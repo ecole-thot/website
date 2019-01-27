@@ -581,6 +581,14 @@
         <source>presskit.contact</source>
         <target>Contactez-nous</target>
       </trans-unit>
+      <trans-unit id="gZlzcWy" resname="press.review">
+        <source>press.review</source>
+        <target>Revue de presse</target>
+      </trans-unit>
+      <trans-unit id="I5SCDa_" resname="see.more">
+        <source>see.more</source>
+        <target>Voir plus d'actus</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

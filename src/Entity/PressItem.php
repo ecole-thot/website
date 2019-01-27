@@ -23,7 +23,12 @@ class PressItem
     private $title;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $issue;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $source;
 
@@ -68,6 +73,26 @@ class PressItem
     public function setTitle($title)
     {
         $this->title = $title;
+
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIssue()
+    {
+        return $this->issue;
+    }
+
+    /**
+     * @param mixed $issue
+     *
+     * @return self
+     */
+    public function setIssue($issue)
+    {
+        $this->issue = $issue;
 
         return $this;
     }

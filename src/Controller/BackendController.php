@@ -50,7 +50,7 @@ class BackendController extends Controller
             'partners' => $partners,
             'members' => $members,
             'news' => $news,
-            'press' => $press
+            'press' => $press,
         ]);
     }
 

@@ -44,15 +44,15 @@
     </div>
 </section>
 
-<section class="text press" id ="#revue">
+<section class="text press" id ="revue">
     <div class="title">{{ "press.review"|trans }}</div>
       {% for year, items in reviews %}
       <h3>{{ year }}</h3>
       <div class="ui grid three columns stackable">
         {% for review in items %}
         <div class="column press-item">
-          <div class="press-image" style="background-image: url('/images/sources/{{ review.source }}.png'), url('/images/news.png')" alt='{{ review.source }}'></div>
-          <div class="press-date">{{ review.publishedAt|date('d/m/Y') }}</div>
+          <div class="press-image" style="background-image: {% if review.source %}url('/images/sources/{{ review.source }}.png'),{% endif %} url('/images/news.png')" alt='{{ review.source }}'></div>
+          <div class="press-date">{{ review.publishedAt|date('d/m/Y') }} — {{ review.issue }}</div>
           <div class="press-title">{{ review.title }}</div>
           <a href="{{ review.link ?? review.document }}" class="press-link">{% if review.document %}<i class="ui icon download"></i>{% else %}<i class="ui icon external square alternate"></i>{% endif %}</a>
         </div>
