@@ -53,15 +53,17 @@ class FrontController extends Controller
     /**
      * Serves news page.
      *
-     * @return Response
      *
      * @Route("/actualites", name="news", methods={"GET"}, defaults={"page":0})
      * @Route("/actualites/{page}", name="news_ajax", methods={"GET"})
+     *
+     * @param mixed $_route
+     *
+     * @return Response
      */
     public function news($_route, int $page): Response
     {
-        if ($_route == "news") {
-        
+        if ('news' == $_route) {
             $lastNews = $this->getDoctrine()->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC'], 5);
 
             $reviews = $this->getDoctrine()->getRepository(PressItem::class)->findBy([], ['publishedAt' => 'DESC']);
@@ -78,12 +80,13 @@ class FrontController extends Controller
 
             return $this->render('front/news.html.twig', [
                 'lastNews' => $lastNews,
-                'reviews' => $reviewsByYear
+                'reviews' => $reviewsByYear,
             ]);
         } else {
-            $lastNews = $this->getDoctrine()->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC'], 4, $page*4 + 1);
+            $lastNews = $this->getDoctrine()->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC'], 4, $page * 4 + 1);
+
             return $this->render('_partials/articles.html.twig', [
-                'articles' => $lastNews
+                'articles' => $lastNews,
             ]);
         }
     }
@@ -111,6 +114,7 @@ class FrontController extends Controller
             'sameThemeNews' => $sameThemeNews,
         ]);
     }
+
     /**
      * Serves school page.
      *
