@@ -18,6 +18,7 @@ class NewsItemType extends AbstractType
               'label' => 'Thème',
               'choices' => [
                 'Rapport à télécharger' => 'Rapport à télécharger',
+                'L\'école' => 'L\'école',
               ],
             ]);
     }

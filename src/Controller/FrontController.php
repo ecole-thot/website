@@ -107,7 +107,15 @@ class FrontController extends Controller
         }
 
         // On the same theme
-        $sameThemeNews = $this->getDoctrine()->getRepository(NewsItem::class)->findBy(['theme' => $news->getTheme()], ['publishedAt' => 'DESC'], 2);
+        $sameThemeNewsRaw = $this->getDoctrine()->getRepository(NewsItem::class)->findBy(['theme' => $news->getTheme()], ['publishedAt' => 'DESC'], 2);
+
+        $sameThemeNews = [];
+        // Remove the actual news
+        foreach ($sameThemeNewsRaw as $stnews) {
+            if ($news->getId() !== $stnews->getId()) {
+                $sameThemeNews[] = $stnews;
+            }
+        }
 
         return $this->render('front/news.article.html.twig', [
             'news' => $news,
