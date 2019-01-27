@@ -7,7 +7,7 @@
 
 <p>Retrouvez ici toutes les actualités publiées sur le site.</p>
 
-<div class="ui link cards">
+<div class="ui four stackable doubling cards">
   {% for news_item in news %}
     <div class="card">
       {% if news_item.image %}
@@ -25,9 +25,12 @@
         </div>
       </div>
       <div class="extra content">
-        <span><a href="{{ path('admin_news_edit', {id: news_item.id}) }}" class="ui button orange mini">Éditer</a></span>
         <span class="right floated">
-          <i class="user calendar"></i> {{ news_item.publishedAt|date('d/m/Y') }}
+          <a href="{{ path('admin_news_edit', {id: news_item.id}) }}" class="ui button teal mini"><i class="icon pencil"></i> Éditer</a>
+          <a href="{{ path('admin_news_delete', {id: news_item.id}) }}" class="ui button red mini icon"><i class="ui icon trash"></i></a>
+        </span>
+        <span>
+          <i class="icon calendar"></i> {{ news_item.publishedAt|date('d/m/Y') }}
         </span>
       </div>
     </div>

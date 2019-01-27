@@ -21,7 +21,8 @@
 
 {{ form_start(form, {attr: {class: 'ui form'}}) }}
 {{ form_row(form.title) }}
-{{ form_row(form.source, {attr: {class: 'ui dropdown'}}) }}
+{{ form_row(form.issue) }}
+{{ form_row(form.source, {attr: {class: 'ui dropdown search selection'}}) }}
 {{ form_row(form.publishedAt) }}
 {{ form_row(form.link) }}
 {{ form_row(form.document) }}

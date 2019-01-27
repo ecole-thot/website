@@ -2,6 +2,12 @@
 @import '~semantic-ui-css/semantic.min.css';
 @import '~quill/dist/quill.snow.css';
 
+.editor {
+  min-height: 400px;
+}
+.news.ui.image {
+  margin-bottom: 10px;
+}
 .hidden {
   display: none;
 }

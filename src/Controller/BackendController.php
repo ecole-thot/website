@@ -183,7 +183,7 @@ class BackendController extends Controller
      *
      * @return Response
      *
-     * @Route("/ctualites/suppression/{id}", name="admin_news_delete", methods={"GET"})
+     * @Route("/actualites/suppression/{id}", name="admin_news_delete", methods={"GET"})
      */
     public function newsDelete(Request $request, ?int $id): Response
     {

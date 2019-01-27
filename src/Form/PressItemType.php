@@ -14,7 +14,7 @@ class PressItemType extends AbstractType
             ->add('title', null, ['label' => 'Titre de la publication'])
             ->add('publishedAt', null, ['label' => 'Date de publication', 'widget' => 'single_text'])
             ->add('document', null, ['label' => 'ou Fichier', 'required' => false])
-            ->add('issue', null, ['label' => 'Numéro, éition ou détails'])
+            ->add('issue', null, ['label' => 'Numéro, édition ou détails (optionnel)'])
             ->add('link', null, ['label' => 'Lien'])
             ->add('source', ChoiceType::class, [
               'label' => 'Source (Journal / Revue / Site web)',
@@ -59,7 +59,7 @@ class PressItemType extends AbstractType
                 'Le Monde' => 'le_monde',
                 'Les petts frenchies' => 'petit_frenchies',
                 'Ulule' => 'ulule',
-                'Autre' => 'news',
+                'Autre' => null,
               ],
             ]);
     }
