@@ -563,7 +563,7 @@
       </trans-unit>
       <trans-unit id="RBLc_TV" resname="presskit.logo.info">
         <source>presskit.logo.info</source>
-        <target>Formats EPS et TIFF</target>
+        <target>Formats AI</target>
       </trans-unit>
       <trans-unit id="uZiSX6y" resname="presskit.communique">
         <source>presskit.communique</source>
