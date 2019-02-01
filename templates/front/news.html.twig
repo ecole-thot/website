@@ -7,7 +7,9 @@
 <section class="ui padded grid stackable intro">
     <div class="main-color ten wide column">
         <h1 class="title">{{ "news.title"|trans }}</h1>
-        <div class="news-image" style="background-image: url('{{ asset('/uploads/news/' ~ lastNews[0].image) }}');"></div>
+        {% if lastNews|length > 0 %}
+          <div class="news-image" style="background-image: url('{{ asset('/uploads/news/' ~ lastNews[0].image) }}');"></div>
+        {% endif %}
     </div>
     <div class="secondary-color six wide column">
         <div class='ui segment basic centered title'>{{ "quick.access"|trans }}</div>
@@ -17,12 +19,14 @@
     </div>
 </section>
 
-<section class="ui intro-news">
-    <div class="news-theme">{{ lastNews[0].theme }}</div>
-    <div class="news-title">{{ lastNews[0].title }}<a class="link" href="{{ path('news_article', {id: lastNews[0].id}) }}"><i class="ui icon arrow right"></i></a></div>
-    <div class="news-date">{{ lastNews[0].publishedAt|date('d/m/Y') }}</div>
-    <div class="news-content">{{ lastNews[0].content|slice(0, 400) }}...</div>
-</section>
+{% if lastNews|length > 0 %}
+  <section class="ui intro-news">
+      <div class="news-theme">{{ lastNews[0].theme }}</div>
+      <div class="news-title">{{ lastNews[0].title }}<a class="link" href="{{ path('news_article', {id: lastNews[0].id}) }}"><i class="ui icon arrow right"></i></a></div>
+      <div class="news-date">{{ lastNews[0].publishedAt|date('d/m/Y') }}</div>
+      <div class="news-content">{{ lastNews[0].content|slice(0, 400) }}...</div>
+  </section>
+{% endif %}
 
 <section class="news" id="actualites">
     <div class="ui grid two columns stackable">
