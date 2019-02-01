@@ -2,14 +2,14 @@
 
 namespace App\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
  * Controller DefaultController.
  */
-class DefaultController extends Controller
+class DefaultController extends AbstractController
 {
     /**
      * Redirect to correct home page following user's locale.

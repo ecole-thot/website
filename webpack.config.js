@@ -20,9 +20,15 @@ Encore
 
   .autoProvidejQuery()
 
-  .configureUglifyJsPlugin((uglifyJsPluginConfig) => {
+  .enableSingleRuntimeChunk()
+
+  .configureTerserPlugin((options) => {
     if (Encore.isProduction()) {
-      uglifyJsPluginConfig.compress = { drop_console: true }
+      options.terserOptions = {
+        compress: {
+          drop_console: true
+        }
+      }
     }
   })
 

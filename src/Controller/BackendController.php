@@ -11,7 +11,7 @@ use App\Form\NewsItemType;
 use App\Form\PartnerType;
 use App\Form\PressItemType;
 use App\Form\TeamMemberType;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -22,7 +22,7 @@ use Symfony\Component\Routing\Annotation\Route;
  *
  * @Route("/admin")
  */
-class BackendController extends Controller
+class BackendController extends AbstractController
 {
     /**
      * Serves home page.

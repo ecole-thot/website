@@ -7,7 +7,7 @@ use App\Entity\Partner;
 use App\Entity\PressItem;
 use App\Entity\Setting;
 use App\Entity\TeamMember;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -17,7 +17,7 @@ use Symfony\Component\Routing\Annotation\Route;
  *
  * @Route("/{_locale}", requirements={"_locale"="%app.locales%"})
  */
-class FrontController extends Controller
+class FrontController extends AbstractController
 {
     private function getAllSettings(): array
     {

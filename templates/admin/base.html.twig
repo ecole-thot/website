@@ -38,6 +38,7 @@
             {% block body %}{% endblock %}
         </div>
         {% block javascripts %}
+          <script type="text/javascript" src="{{ asset('build/js/runtime.js') }}"></script>
           <script type="text/javascript" src="{{ asset('build/js/admin.js') }}"></script>
         {% endblock %}
     </body>

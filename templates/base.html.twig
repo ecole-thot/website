@@ -53,6 +53,7 @@
             <a href="{{ path('legal') }}">{{ "footer.legal"|trans }}</a>
         </footer>
         {% block javascripts %}
+            <script type="text/javascript" src="{{ asset('build/js/runtime.js') }}"></script>
             <script type="text/javascript" src="{{ asset('build/js/app.js') }}"></script>
         {% endblock %}
     </body>
