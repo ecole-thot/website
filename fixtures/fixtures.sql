@@ -36,6 +36,7 @@ INSERT INTO partner (`name`, `image`) VALUES ('Fondation Société Générale', 
 INSERT INTO partner (`name`, `image`) VALUES ('La Social Factory', "socialf.png");
 INSERT INTO partner (`name`, `image`) VALUES ('TV5 Monde', "tv5.png");
 INSERT INTO partner (`name`, `image`) VALUES ('Ulule', "ulule.png");
+INSERT INTO partner (`name`, `image`) VALUES ('Le plus important', "leplusimportant.png");
 
 TRUNCATE team_member;
 
