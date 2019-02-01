@@ -40,10 +40,16 @@ INSERT INTO partner (`name`, `image`) VALUES ('Le plus important', "leplusimport
 
 TRUNCATE team_member;
 
-INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Jennifer Leblond', 'Direction administrative et Présidence', "jennifer.png");
+INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Jennifer Leblond', 'Direction administrative et Présidence', 'jennifer.png');
 INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Héloîse Nio', "Direction de l'école", "heloise.png");
 INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Mariame Camara', 'Direction pédagogique', "mariame.png");
 INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Bérénice Geoffray', "Chargée de l'insertion professionnelle", "berenice.png");
 INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Hanae El Bakkali', "Psychothérapeute", "hanae.png");
+INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Amal Allaoui', 'Responsable des ateliers chant', "amal.png");
+INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Cécile Adebiyi', "Professeure", "cecile.png");
+INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Hadidja Himidi', "Professeure", "hadidja.png");
+INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Karine Richarme', "Professeure", "karine.png");
+INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Marie Demestre', "Professeure", "marie.png");
+INSERT INTO team_member (`name`, `job`, `image`) VALUES ('Nathalie Bourg', "Responsable des ateliers théâtre", "nathalie.png");
 
 
