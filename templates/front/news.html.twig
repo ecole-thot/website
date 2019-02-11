@@ -58,7 +58,7 @@
           <div class="press-image" style="background-image: {% if review.source %}url('/images/sources/{{ review.source }}.png'),{% endif %} url('/images/news.png')" alt='{{ review.source }}'></div>
           <div class="press-date">{{ review.publishedAt|date('d/m/Y') }} — {{ review.issue }}</div>
           <div class="press-title">{{ review.title }}</div>
-          <a href="{{ review.link ?? review.document }}" class="press-link">{% if review.document %}<i class="ui icon download"></i>{% else %}<i class="ui icon external square alternate"></i>{% endif %}</a>
+          <a href="{{ review.link ?? asset('/uploads/press/' ~ review.document) }}" class="press-link">{% if review.document %}<i class="ui icon download"></i>{% else %}<i class="ui icon external square alternate"></i>{% endif %}</a>
         </div>
         {% endfor %}
       </div>

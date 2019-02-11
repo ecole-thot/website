@@ -63,7 +63,7 @@ class BackendController extends AbstractController
      */
     public function press(): Response
     {
-        $pressItems = $this->getDoctrine()->getRepository(PressItem::class)->findAll();
+        $pressItems = $this->getDoctrine()->getRepository(PressItem::class)->findBy([], ['publishedAt' => 'DESC']);
 
         return $this->render('admin/press.html.twig', ['press' => $pressItems]);
     }
@@ -83,6 +83,10 @@ class BackendController extends AbstractController
             if (!$press) {
                 throw new NotFoundHttpException();
             }
+            if ($press->getDocument()) {
+                $previousDocument = $press->getDocument();
+                $press->setDocument(new File($this->getParameter('press_documents_directory').'/'.$press->getDocument()));
+            }
         } else {
             $press = new PressItem();
         }
@@ -91,6 +95,22 @@ class BackendController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+            // If this is a file
+            if ($press->getDocument() && null != $press->getDocument()) {
+                $file = $press->getDocument();
+                $filename = base_convert(mt_rand(100000, 999999), 10, 36).'-'.$file->getClientOriginalName();
+                try {
+                    $file->move(
+                        $this->getParameter('press_documents_directory'),
+                        $filename
+                    );
+                } catch (FileException $e) {
+                }
+                $press->setDocument($filename);
+            } else {
+                $press->setDocument($previousDocument);
+            }
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($press);
             $em->flush();

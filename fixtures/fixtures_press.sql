@@ -84,7 +84,34 @@ INSERT INTO `press_item` (`link`, `source`, `title`, `published_at`) VALUES
 ("http://www.rfi.fr/emission/20160418-institut-francais-bucarest", "RFI", "Chronique « Ma Parole » : Interview d'Imaad Ali, directeur pédagogique de l'école Thot - 17'55", "2016-04-18"),
 ("https://savoirs.rfi.fr/fr/communaute/langue-francaise/ma-parole-on-vous-presente-thot", "RFI — Émission « Danse avec les mots »", "Chronique « Ma Parole » : on vous présente Thot", "2016-04-11");
 
-INSERT INTO `press_item` (`document`, `source`, `title`, `published_at`) VALUES
-("/pdf/Society54.pdf", "Society", "Judith Aquien - La directrice (n°54 du 13 avril au 10 mai 2017)", "2017-04-13"),
-("/pdf/HumaniteDimanche555.pdf", "L’Humanité Dimanche", "Réfugiés - En lisant, en écrivant (n°555 du 6 au 12 avril 2017)", "2017-04-06"),
-("/pdf/ELLE_Integration_Langue.pdf", "ELLE", "L’intégration sur le bout de la langue", "2016-10-07");
+INSERT INTO `press_item` (`document`, `source`, `issue`, `title`, `published_at`) VALUES
+("Society54.pdf", "society", "Society", "Judith Aquien - La directrice (n°54 du 13 avril au 10 mai 2017)", "2017-04-13"),
+("HumaniteDimanche555.pdf", "lhumanite", "L’Humanité Dimanche", "Réfugiés - En lisant, en écrivant (n°555 du 6 au 12 avril 2017)", "2017-04-06"),
+("ELLE_Integration_Langue.pdf", "elle", "ELLE", "L’intégration sur le bout de la langue", "2016-10-07");
+
+# NEW
+INSERT INTO `press_item` (`document`, `source`, `issue`, `title`, `published_at`) VALUES
+("HD620_20180802_p008-11 planche.pdf", "lhumanite", "L’Humanité dimanche", "Parti pris", "2018-08-02"),
+("CPLmagazinememoiren72-BD-18-18.pdf", null, "Magazine Mémoire - Centre Primo Levi", "De l'exil à l'ancrage linguistique", "2018-04-01"),
+("ArticleArgia-Thot-Heloise-Nio.pdf", "argia", "Argia", "Heloise Nio. Etorkinen aldean", "2017-04-30");
+
+INSERT INTO `press_item` (`link`, `source`, `issue`, `title`, `published_at`) VALUES
+("https://www.rtbf.be/auvio/detail_la-semaine-de-l-europe-reportages?id=2363044", "rtbf", "RTBF", "Reportage RTBF", "2018-06-13"),
+("https://www.youtube.com/watch?v=Z5Nsq7LyXKg","arte", "ARTE", "Abd Al Malik chez ARTE", "2017-01-26"),
+("https://www.respectmag.com/27528-etudiants-thot-transferts", null, "Respect Mag", "Enseignement aux réfugiés : Pourquoi ne pas laisser nos étudiants finir leur cycle ?", "2017-03-29"),
+("http://www.lefigaro.fr/actualite-france/2017/06/22/01016-20170622ARTFIG00062-quand-les-refugies-passent-un-vrai-diplome-de-langue-francaise.php", "lefigaro", "Le Figaro", "Quand les réfugiés passent un vrai diplôme de langue française", "2017-06-22"),
+("https://www.grazia.fr/news-et-societe/societe/ces-personnalites-qui-pronent-le-partage-et-l-education-858892", "grazia", "Grazia", "Ces personnalités qui prônent le partage et l'éducation", "2017-06-23"),
+("http://www.infomigrants.net/fr/post/3944/france-tour-d-horizon-des-associations-d-aide-aux-migrants", null, "Info Migrants", "France : Tour d’horizon des associations d’aide aux migrants", "2017-07-03"),
+("https://www.aufeminin.com/news-societe/thot-ecole-diplomante-francais-pour-migrants-s2356432.html", "aufeminin", "Au féminin", "Ce qui fait réellement de nous des individus au sein de la société, c’est notre capacité à nous exprimer", "2017-08-29"),
+("https://www.20minutes.fr/sante/2126583-20170905-traiter-troubles-psychiques-migrants-defi-taille", "20minutes", "20 minutes", "Traiter les troubles psychiques des migrants, un défi de taille", "2017-09-05"),
+("https://www.nouvelobs.com/societe/20170906.AFP9825/immigration-la-france-trop-chiche-pour-l-integration-des-nouveaux-arrivants-selon-un-rapport.html", "nouvelobs", "Nouvel Obs", "Immigration: la France trop chiche pour l'intégration des nouveaux arrivants, selon un rapport", "2017-09-06"),
+("https://blogs.mediapart.fr/la-redaction-de-mediapart/blog/280917/ce-soir-des-18h-en-direct-de-mediapart-amandine-gay-cedric-herrou-olivier-besancenot?fbclid=IwAR2ZVWopIJFrqXhThL5Lot6IMm46RUvTV6__TkhLAOQJ1FnGK-Kqy9NVFCI", "mediapart", "Médiapart", "Live - Ce soir, dès 18h, «En direct de Mediapart»: Amandine Gay, Cédric Herrou, Olivier Besancenot, Octobre-17, solidaires des migrants", "2017-09-28"),
+("http://www.clique.tv/vente-encheres-refugies/", "cliquetv", "Clique TV", "Pour venir en aide aux réfugiés, 26 artistes mettent leurs œuvres aux enchères à Paris", "2017-10-07"),
+("https://www.deezer.com/fr/episode/3789829", null, "Deezer", "Generation xx: Judith Aquien, co-fondatrice de Thot", "2017-10-18"),
+("http://www.rfi.fr/emission/20171024-ecole-thot-une-ecole-diplomante-migrants", "rfi", "RFI", "L'Ecole Thot, une école diplômante pour les migrants", "2017-10-24"),
+("http://www.carenews.com/fr/news/9185-refugies-cnj9-abd-al-malik-parrain-de-l-association-thot", "carenews", "Carenews", "Abd al Malik, parrain de l’association Thot", "2017-10-31"),
+("https://www.la-croix.com/France/Immigration/strategie-jesuites-ameliorer-lintegration-refugies-2017-12-13-1200899257", "lacroix", "La Croix", "La stratégie des jésuites pour améliorer l’intégration des réfugiés", "2017-12-14"),
+("https://www.france24.com/fr/video/20171218-apprendre-le-francais-une-liberation-refugies-demandeurs-dasile", "france24", "France 24", "Apprendre le français, une 'libération' pour les réfugiés et demandeurs d'asile", "2017-12-18"),
+("https://www.touslesfestivals.com/actualites/trophees-bieres-gifs-la-nuit-des-festivals-comme-si-vous-y-etiez-190218", null, "Tous les festivals", "Trophées, bières & gifs : la Nuit des Festivals comme si vous y étiez", "2018-02-09"),
+("http://www.rfi.fr/emission/20181114-ecole-thot", "rfi", "RFI", "Thot, pour apprendre le français", "2018-11-14"),
+("https://www.mouv.fr/emissions/mouv-13-actu/abd-al-malik-nous-raconte-son-engagement-contre-l-illettrisme-et-les-inegalites-345625", null, "Le Mouv'", "Abd Al Malik nous raconte son engagement contre l'illettrisme et les inégalités", "2018-11-16");

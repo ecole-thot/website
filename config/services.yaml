@@ -14,6 +14,7 @@ parameters:
     partner_images_directory: '%kernel.project_dir%/public/uploads/partners'
     members_images_directory: '%kernel.project_dir%/public/uploads/members'
     news_images_directory: '%kernel.project_dir%/public/uploads/news'
+    press_documents_directory: '%kernel.project_dir%/public/uploads/press'
 
 services:
     # default configuration for services in *this* file
