@@ -61,6 +61,7 @@ section {
     position: relative;
     &.intro.ui.grid > .column:not(.row) {
         padding: 100px 70px 220px 70px;
+        min-height: 555px;
         h1.title {
             font-size: 1.3em;
             line-height: 2.2em;
