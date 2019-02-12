@@ -5,7 +5,7 @@
         <title>{% block title %}{{ "title"|trans }} >{% endblock %}</title>
 
         {% block stylesheets %}
-          <link rel="stylesheet" type="text/css" href="{{ asset('build/css/app.css') }}" media="screen"/>
+            {{ encore_entry_link_tags('app') }}
         {% endblock %}
     </head>
     <body>
@@ -53,8 +53,7 @@
             <a href="{{ path('legal') }}">{{ "footer.legal"|trans }}</a>
         </footer>
         {% block javascripts %}
-            <script type="text/javascript" src="{{ asset('build/runtime.js') }}"></script>
-            <script type="text/javascript" src="{{ asset('build/js/app.js') }}"></script>
+            {{ encore_entry_script_tags('app') }}
         {% endblock %}
     </body>
 </html>

@@ -4,10 +4,10 @@ Encore
   .setOutputPath('public/build/')
   .setPublicPath('/build')
 
-  .addEntry('js/app', './assets/js/app.js')
-  .addEntry('js/admin', './assets/js/admin.js')
-  .addStyleEntry('css/app', './assets/css/app.scss')
-  .addStyleEntry('css/admin', './assets/css/admin.scss')
+  .addEntry('app', './assets/js/app.js')
+  .addEntry('admin', './assets/js/admin.js')
+  // .addStyleEntry('css/app', './assets/css/app.scss')
+  // .addStyleEntry('css/admin', './assets/css/admin.scss')
 
   .cleanupOutputBeforeBuild()
   .enableBuildNotifications()
@@ -21,6 +21,7 @@ Encore
   .autoProvidejQuery()
 
   .enableSingleRuntimeChunk()
+  .splitEntryChunks()
 
   .configureTerserPlugin((options) => {
     if (Encore.isProduction()) {

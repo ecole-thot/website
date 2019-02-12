@@ -1,6 +1,7 @@
 /* jshint strict: true */
 'use strict'
 
+require('../css/admin.scss')
 require('semantic-ui-css/components/transition')
 require('semantic-ui-css/components/dimmer')
 require('semantic-ui-css/components/dropdown')
