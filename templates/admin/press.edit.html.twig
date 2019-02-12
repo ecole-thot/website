@@ -22,8 +22,10 @@
 {{ form_start(form, {attr: {class: 'ui form'}}) }}
 {{ form_row(form.title) }}
 {{ form_row(form.issue) }}
+<div class="two fields">
 {{ form_row(form.source, {attr: {class: 'ui dropdown search selection'}}) }}
 {{ form_row(form.publishedAt) }}
+</div>
 {{ form_row(form.link) }}
 {{ form_row(form.document, {help: form.document.vars.data?" → Fichier actuel : " ~ asset('/uploads/press/' ~ form.document.vars.data.filename): "N/A"}) }}
 <a href="{{ path('admin_press') }}" class="ui button"><i class='ui icon left arrow'></i> Annuler</a>

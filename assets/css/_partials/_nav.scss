@@ -29,15 +29,19 @@ nav > div.ui.text.menu {
     & .item.lang-menu, & .item.lang-menu:hover, & .item.lang-menu.active:hover {
         background: $tertiary_color;
         color: white;
-        &:after {
+        &:before {
             content: "";
-            display: block;
+            display: block !important;
             width: 41px;
             height: 40px;
             position: absolute;
             left: -40px;
+            top: 8px;
             background: url('images/world.png') center center transparent no-repeat;
             background-size: 20px;
+        }
+        &:after {
+            display: none;
         }
     }
 }
