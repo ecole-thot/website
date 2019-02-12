@@ -16,7 +16,7 @@
       <img class="ui avatar image" src="{% if item.source %}{{ asset('/images/sources/' ~ item.source ~ ".png") }}{% else %}{{ asset('/images/news.png') }}{% endif %}" {% if not item.source %}style="padding: 0 43px;"{% endif %}>
       <div class="content">
         <div class="header">{{ item.title }}</div>
-        <div class="description">{{ item.source }} du {{ item.publishedAt|date('d/m/Y') }}</div>
+        <div class="description">{{ item.issue }} du {{ item.publishedAt|date('d/m/Y') }}</div>
       </div>
     </div>
   {% endfor %}
