@@ -23,7 +23,8 @@
         "symfony/twig-bundle": "*",
         "symfony/validator": "*",
         "symfony/web-link": "*",
-        "symfony/yaml": "*"
+        "symfony/yaml": "*",
+        "symfony/webpack-encore-bundle": "^1.1"
     },
     "require-dev": {
         "deployer/deployer": "^6.4",
@@ -33,8 +34,7 @@
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
         "symfony/test-pack": "*",
-        "symfony/web-server-bundle": "*",
-        "symfony/webpack-encore-bundle": "^1.1"
+        "symfony/web-server-bundle": "*"
     },
     "config": {
         "preferred-install": {
