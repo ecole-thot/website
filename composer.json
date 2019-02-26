@@ -13,7 +13,8 @@
         "symfony/form": "*",
         "symfony/framework-bundle": "*",
         "symfony/monolog-bundle": "^3.1",
-        "symfony/orm-pack": "*",
+        "doctrine/orm": "^2.5.11",
+        "doctrine/doctrine-bundle": "^1.6.10",
         "symfony/process": "*",
         "symfony/security-bundle": "*",
         "symfony/serializer-pack": "*",
@@ -25,6 +26,7 @@
         "symfony/yaml": "*"
     },
     "require-dev": {
+        "deployer/deployer": "^6.4",
         "friendsofphp/php-cs-fixer": "^2.13",
         "symfony/debug-pack": "*",
         "symfony/dotenv": "*",

@@ -7,4 +7,5 @@ twig:
       social_twitter: '%social_twitter%'
       social_youtube: '%social_youtube%'
       donation_link: '%donation_link%'
+      GA_TRACKING_ID: '%env(GA_TRACKING_ID)%'
 
