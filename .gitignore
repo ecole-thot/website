@@ -8,6 +8,8 @@ composer.phar
 /vendor/
 ###< symfony/framework-bundle ###
 
+deploy/servers.yml
+
 ###> symfony/phpunit-bridge ###
 .phpunit
 /phpunit.xml
