@@ -39,11 +39,11 @@
       </trans-unit>
       <trans-unit id="X_Ennoc" resname="lang.fr">
         <source>lang.fr</source>
-        <target></target>
+        <target>Français</target>
       </trans-unit>
       <trans-unit id="BFrbIL0" resname="lang.en">
         <source>lang.en</source>
-        <target></target>
+        <target>English</target>
       </trans-unit>
       <trans-unit id="2WY6ZD2" resname="lang.ar">
         <source>lang.ar</source>
@@ -587,6 +587,70 @@
       </trans-unit>
       <trans-unit id="fTe_SW9" resname="jobs.competence.1">
         <source>jobs.competence.1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="aCE9GgT" resname="home.students.admitted">
+        <source>home.students.admitted</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ZpZgEDk" resname="home.diplomas">
+        <source>home.diplomas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="VjMR08z" resname="home.promos">
+        <source>home.promos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="jLHvtjQ" resname="home.laureates">
+        <source>home.laureates</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fkFfCt4" resname="home.levels">
+        <source>home.levels</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="VzKxAl_" resname="home.initialLevel">
+        <source>home.initialLevel</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="q2F5byo" resname="home.noBac">
+        <source>home.noBac</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="DRHpkTj" resname="home.dispos">
+        <source>home.dispos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="U.d1wi5" resname="home.tariff">
+        <source>home.tariff</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="wyEqE6C" resname="home.months.training">
+        <source>home.months.training</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="AhDUYT_" resname="home.hours">
+        <source>home.hours</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="jPjRyyG" resname="home.profPerClass">
+        <source>home.profPerClass</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="2Nmj_CX" resname="home.daysAtelier">
+        <source>home.daysAtelier</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="KmQfaOB" resname="home.polesAssistance">
+        <source>home.polesAssistance</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="lGmTDPe" resname="home.polesOrientation">
+        <source>home.polesOrientation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="6jQM7ME" resname="home.examen">
+        <source>home.examen</source>
         <target></target>
       </trans-unit>
     </body>

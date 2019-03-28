@@ -593,6 +593,70 @@
         <source>on.the.same.theme</source>
         <target>Sur le même thème</target>
       </trans-unit>
+      <trans-unit id="aCE9GgT" resname="home.students.admitted">
+        <source>home.students.admitted</source>
+        <target>étudiants admins</target>
+      </trans-unit>
+      <trans-unit id="ZpZgEDk" resname="home.diplomas">
+        <source>home.diplomas</source>
+        <target>de diplômes Dilf/Delf</target>
+      </trans-unit>
+      <trans-unit id="VjMR08z" resname="home.promos">
+        <source>home.promos</source>
+        <target>promotions par an</target>
+      </trans-unit>
+      <trans-unit id="jLHvtjQ" resname="home.laureates">
+        <source>home.laureates</source>
+        <target>Lauréats « La France s'engage »</target>
+      </trans-unit>
+      <trans-unit id="fkFfCt4" resname="home.levels">
+        <source>home.levels</source>
+        <target>Niveau de français Alpha à A2</target>
+      </trans-unit>
+      <trans-unit id="VzKxAl_" resname="home.initialLevel">
+        <source>home.initialLevel</source>
+        <target>Pas ou peu scolarisés à l'origine</target>
+      </trans-unit>
+      <trans-unit id="DRHpkTj" resname="home.dispos">
+        <source>home.dispos</source>
+        <target>Disponibles 14h par semaine</target>
+      </trans-unit>
+      <trans-unit id="U.d1wi5" resname="home.tariff">
+        <source>home.tariff</source>
+        <target>En échange de 7€</target>
+      </trans-unit>
+      <trans-unit id="q2F5byo" resname="home.noBac">
+        <source>home.noBac</source>
+        <target>sans équivalent du Baccalauréat</target>
+      </trans-unit>
+      <trans-unit id="wyEqE6C" resname="home.months.training">
+        <source>home.months.training</source>
+        <target>mois de formation par session</target>
+      </trans-unit>
+      <trans-unit id="AhDUYT_" resname="home.hours">
+        <source>home.hours</source>
+        <target>heures de français</target>
+      </trans-unit>
+      <trans-unit id="jPjRyyG" resname="home.profPerClass">
+        <source>home.profPerClass</source>
+        <target>professeur de francais langue étrangère par classe de 15</target>
+      </trans-unit>
+      <trans-unit id="2Nmj_CX" resname="home.daysAtelier">
+        <source>home.daysAtelier</source>
+        <target>jours d'ateliers artistiques</target>
+      </trans-unit>
+      <trans-unit id="KmQfaOB" resname="home.polesAssistance">
+        <source>home.polesAssistance</source>
+        <target>pôles d'assistance (psychologique, sociale, juridique)</target>
+      </trans-unit>
+      <trans-unit id="lGmTDPe" resname="home.polesOrientation">
+        <source>home.polesOrientation</source>
+        <target>pôle d'orientation professionnelle pour préparer la suite</target>
+      </trans-unit>
+      <trans-unit id="6jQM7ME" resname="home.examen">
+        <source>home.examen</source>
+        <target>examen en fin de session : le DILF/DELF</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

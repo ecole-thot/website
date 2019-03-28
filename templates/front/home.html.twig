@@ -13,10 +13,10 @@
     <div class="secondary-color six wide column" style='background: url("{{ asset('images/back_home.png')}}"); background-size: cover; background-position: -220px 0px;'>
         <div class='ui segment basic title'>{{ "from.date"|trans }}</div>
         <div class="ui grid stackable centered">
-            <div class="eight wide column aligned"><div>{{ settings.nb_students|number_format(0) }}</div><span>étudiants admins</span></div>
-            <div class="eight wide column aligned"><div>{{ settings.percent_diplomas|number_format(0) }}%</div><span>de diplômes Dilf/Delf</span></div>
-            <div class="eight wide column aligned"><div>2,5</div><span>promotions par an</span></div>
-            <div class="eight wide column aligned"><img src="{{ asset('images/lfs.png') }}" width="120px"><span>Lauréats « La France s'engage »</span></div>
+            <div class="eight wide column aligned"><div>{{ settings.nb_students|number_format(0) }}</div><span>{{ "home.students.admitted"|trans }}</span></div>
+            <div class="eight wide column aligned"><div>{{ settings.percent_diplomas|number_format(0) }}%</div><span>{{ "home.diplomas"|trans }}</span></div>
+            <div class="eight wide column aligned"><div>2,5</div><span>{{ "home.promos"|trans }}</span></div>
+            <div class="eight wide column aligned"><img src="{{ asset('images/lfs.png') }}" width="120px"><span>{{ "home.laureates"|trans }}</span></div>
         </div>
     </div>
     {% if settings.inscriptions_open %}
@@ -41,10 +41,10 @@
 
 <section class="checks">
     <div class='ui padded grid centered'>
-        <div class="secondary-color three wide column"><div class="inside">Niveau de français Alpha à A2</div></div>
-        <div class="secondary-color light1 three wide column"><div class="inside">Pas ou peu scolarisés à l'origine<br><span>sans équivalent du Baccalauréat</span></div></div>
-        <div class="secondary-color light2 three wide column"><div class="inside">Disponibles 14h par semaine</div></div>
-        <div class="secondary-color light3 three wide column"><div class="inside">En échange de 7€</div></div>
+        <div class="secondary-color three wide column"><div class="inside">{{ "home.levels"|trans }}</div></div>
+        <div class="secondary-color light1 three wide column"><div class="inside">{{ "home.initialLevel"|trans }}<br><span>{{ "home.noBac"|trans }}</span></div></div>
+        <div class="secondary-color light2 three wide column"><div class="inside">{{ "home.dispos"|trans }}</div></div>
+        <div class="secondary-color light3 three wide column"><div class="inside">{{ "home.tariff"|trans }}</div></div>
     </div>
 </section>
 
@@ -52,15 +52,15 @@
     <h3>{{ "dispositif"|trans }}</h3>
     <h4>{{ "dispositif.sub"|trans }}</h4>
     <div class="ui grid centered">
-        <div class="four wide column aligned">3½<span>mois de formation par session</span></div>
-        <div class="four wide column aligned">160<span>heures de français</span></div>
-        <div class="four wide column aligned">1<span>professeur de francais langue étrangère par classe de 15</span></div>
-        <div class="four wide column aligned">5<span>jours d'ateliers artistiques</span></div>
+        <div class="four wide column aligned">3½<span>{{ "home.months.training"|trans }}</span></div>
+        <div class="four wide column aligned">160<span>{{ "home.hours"|trans }}</span></div>
+        <div class="four wide column aligned">1<span>{{ "home.profPerClass"|trans }}</span></div>
+        <div class="four wide column aligned">5<span>{{ "home.daysAtelier"|trans }}</span></div>
     </div>
     <div class="ui grid centered">
-        <div class="four wide column aligned">3<span>pôles d'assistance (psychologique, sociale, juridique)</span></div>
-        <div class="four wide column aligned">1<span>pôle d'orientation professionnelle pour préparer la suite</span></div>
-        <div class="four wide column aligned">1<span>examen en fin de session : le DILF/DELF</span></div>
+        <div class="four wide column aligned">3<span>{{ "home.polesAssistance"|trans }}</span></div>
+        <div class="four wide column aligned">1<span>{{ "home.polesOrientation"|trans }}</span></div>
+        <div class="four wide column aligned">1<span>{{ "home.examen"|trans }}</span></div>
     </div>
     <div class="info-banner">
         <div class="info">{{ "engaged.every.day"|trans }} <span class="highlight">{{ "follow.our.actions"|trans }}</span> <a href="{{ social_facebook }}"><i class="ui icon facebook"></i><span>FB</span></a> <a href="{{ social_twitter }}"><i class="ui icon twitter"></i><span>TW</span></a> <a href="{{ social_youtube }}"><i class="ui icon youtube"></i><span>YT</span></a></div>
