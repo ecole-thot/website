@@ -101,8 +101,35 @@
     "nikic/php-parser": {
         "version": "v4.1.0"
     },
+    "nyholm/nsa": {
+        "version": "1.1.0"
+    },
     "php-cs-fixer/diff": {
         "version": "v1.3.0"
+    },
+    "php-translation/common": {
+        "version": "1.0.0"
+    },
+    "php-translation/extractor": {
+        "version": "1.7.1"
+    },
+    "php-translation/symfony-bundle": {
+        "version": "0.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "0.4",
+            "ref": "ee15ad002114fba7b694a7fe429419b518d43bc4"
+        },
+        "files": [
+            "config/packages/dev/php_translation.yaml",
+            "config/packages/php_translation.yaml",
+            "config/routes/dev/php_translation.yaml",
+            "config/routes/php_translation.yaml"
+        ]
+    },
+    "php-translation/symfony-storage": {
+        "version": "1.0.1"
     },
     "phpdocumentor/reflection-common": {
         "version": "1.0.1"

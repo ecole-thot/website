@@ -1,0 +1,13 @@
+{% extends 'admin/base.html.twig' %}
+{% set menu = 'translation' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset("bundles/translation/css/bootstrap.4.1.1.min.css") }}">
+    <link rel="stylesheet" href="{{ asset("bundles/translation/css/webui.css") }}">
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script type="text/javascript" src="{{ asset("bundles/translation/js/webui.js") }}"></script>
+{% endblock %}

@@ -1,42 +1,881 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
-    <header>
-      <tool tool-id="symfony" tool-name="Symfony"/>
-    </header>
-    <body>
-      <trans-unit id="ayp4kO2" resname="menu.school">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="fr" trgLang="en">
+  <file id="messages.en">
+    <unit id="ayp4kO2" name="menu.school">
+      <segment>
         <source>menu.school</source>
-        <target>__menu.school</target>
-      </trans-unit>
-      <trans-unit id="IyiaHy2" resname="menu.news">
+        <target>The school</target>
+      </segment>
+    </unit>
+    <unit id="IyiaHy2" name="menu.news">
+      <segment>
         <source>menu.news</source>
-        <target>__menu.news</target>
-      </trans-unit>
-      <trans-unit id="GPtxWS6" resname="menu.courses">
+        <target>News</target>
+      </segment>
+    </unit>
+    <unit id="GPtxWS6" name="menu.courses">
+      <segment>
         <source>menu.courses</source>
-        <target>__menu.courses</target>
-      </trans-unit>
-      <trans-unit id="C3HpPzJ" resname="menu.contact">
+        <target>Course</target>
+      </segment>
+    </unit>
+    <unit id="C3HpPzJ" name="menu.contact">
+      <segment>
         <source>menu.contact</source>
-        <target>__menu.contact</target>
-      </trans-unit>
-      <trans-unit id="Nn38Z8v" resname="menu.jobs">
+        <target>Contact</target>
+      </segment>
+    </unit>
+    <unit id="Nn38Z8v" name="menu.jobs">
+      <segment>
         <source>menu.jobs</source>
-        <target>__menu.jobs</target>
-      </trans-unit>
-      <trans-unit id="ZmS0a_T" resname="menu.donate">
+        <target>Jobs</target>
+      </segment>
+    </unit>
+    <unit id="ZmS0a_T" name="menu.donate">
+      <segment>
         <source>menu.donate</source>
-        <target>__menu.donate</target>
-      </trans-unit>
-      <trans-unit id="wNnQCIQ" resname="footer.legal">
+        <target>Donate</target>
+      </segment>
+    </unit>
+    <unit id="wNnQCIQ" name="footer.legal">
+      <segment>
         <source>footer.legal</source>
-        <target>__footer.legal</target>
-      </trans-unit>
-      <trans-unit id="3P24U.9" resname="home.title">
+        <target>Terms and credits</target>
+      </segment>
+    </unit>
+    <unit id="3P24U.9" name="home.title">
+      <segment>
         <source>home.title</source>
-        <target>__home.title</target>
-      </trans-unit>
-    </body>
+        <target>Home</target>
+      </segment>
+    </unit>
+    <unit id="X_Ennoc" name="lang.fr">
+      <segment>
+        <source>lang.fr</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="BFrbIL0" name="lang.en">
+      <segment>
+        <source>lang.en</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="2WY6ZD2" name="lang.ar">
+      <segment>
+        <source>lang.ar</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="VjHCuox" name="lang.ps">
+      <segment>
+        <source>lang.ps</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="LAZXf5b" name="lang.fa">
+      <segment>
+        <source>lang.fa</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="ro0hUeD" name="engaged.every.day">
+      <segment>
+        <source>engaged.every.day</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="Y73.wK2" name="follow.our.actions">
+      <segment>
+        <source>follow.our.actions</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="fbuLFEI" name="moto">
+      <segment>
+        <source>moto</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="qvIyBkY" name="title">
+      <segment>
+        <source>title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="rQTpS2M" name="manifesto.title">
+      <segment>
+        <source>manifesto.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="w9TspZq" name="school.title">
+      <segment>
+        <source>school.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="Ifveqru" name="manifesto.mission">
+      <segment>
+        <source>manifesto.mission</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="laxdpBE" name="manifesto.intro">
+      <segment>
+        <source>manifesto.intro</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="K396rVO" name="manifesto.definition.title">
+      <segment>
+        <source>manifesto.definition.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="ldq8L53" name="manifesto.definition.1">
+      <segment>
+        <source>manifesto.definition.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="d2VuZZe" name="manifesto.equality.title">
+      <segment>
+        <source>manifesto.equality.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="N8G24or" name="manifesto.equality.1">
+      <segment>
+        <source>manifesto.equality.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="J5vlV6U" name="manifesto.mission.title">
+      <segment>
+        <source>manifesto.mission.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="f_y73Oo" name="manifesto.mission.1">
+      <segment>
+        <source>manifesto.mission.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="bvjotf0" name="manifesto.secular.title">
+      <segment>
+        <source>manifesto.secular.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="W4WPPFH" name="manifesto.secular.1">
+      <segment>
+        <source>manifesto.secular.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="HArTpF." name="manifesto.respect.title">
+      <segment>
+        <source>manifesto.respect.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="OhjIdr4" name="manifesto.respect.1">
+      <segment>
+        <source>manifesto.respect.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="8XxPGfs" name="the.school">
+      <segment>
+        <source>the.school</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="h0gbLhU" name="intensive.cursus">
+      <segment>
+        <source>intensive.cursus</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="ziXSsoQ" name="quick.access">
+      <segment>
+        <source>quick.access</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="ffxry50" name="our.story">
+      <segment>
+        <source>our.story</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="E57rtHY" name="our.pedagogy">
+      <segment>
+        <source>our.pedagogy</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="rg.Ogv4" name="our.team">
+      <segment>
+        <source>our.team</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="pCYuHJv" name="about">
+      <segment>
+        <source>about</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="SAq26Zm" name="school.who.are.we">
+      <segment>
+        <source>school.who.are.we</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="FVqTlTZ" name="school.constitution">
+      <segment>
+        <source>school.constitution</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="A1IVo.Z" name="school.creation">
+      <segment>
+        <source>school.creation</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="hn1724o" name="school.accronym">
+      <segment>
+        <source>school.accronym</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="2S_4Bii" name="school.egypt">
+      <segment>
+        <source>school.egypt</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="FN7vV4l" name="read.manifesto">
+      <segment>
+        <source>read.manifesto</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="F8n4s_j" name="pedagogy">
+      <segment>
+        <source>pedagogy</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="Clf2BAx" name="pedagogy.headline">
+      <segment>
+        <source>pedagogy.headline</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="bvII1Q1" name="pedagogy.offer.title">
+      <segment>
+        <source>pedagogy.offer.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="1PXa7Lj" name="pedagogy.offer.1">
+      <segment>
+        <source>pedagogy.offer.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="Jj1fSF1" name="pedagogy.offer.2">
+      <segment>
+        <source>pedagogy.offer.2</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="m.k57aV" name="pedagogy.pro.title">
+      <segment>
+        <source>pedagogy.pro.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="JcwupV2" name="pedagogy.pro.1">
+      <segment>
+        <source>pedagogy.pro.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="uN8ehAM" name="pedagogy.pro.2">
+      <segment>
+        <source>pedagogy.pro.2</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="Pe4f.Lw" name="pedagogy.pro.3">
+      <segment>
+        <source>pedagogy.pro.3</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="uxDIdvi" name="pedagogy.poles.title">
+      <segment>
+        <source>pedagogy.poles.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="Qu9TnOm" name="pedagogy.poles.1">
+      <segment>
+        <source>pedagogy.poles.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="Ez9cxxc" name="pedagogy.poles.2">
+      <segment>
+        <source>pedagogy.poles.2</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="wQtfuP_" name="pedagogy.poles.3">
+      <segment>
+        <source>pedagogy.poles.3</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="87YKuYq" name="pedagogy.poles.4">
+      <segment>
+        <source>pedagogy.poles.4</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="gSwiMCe" name="pedagogy.poles.5">
+      <segment>
+        <source>pedagogy.poles.5</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="DyoAfV8" name="pedagogy.orient.title">
+      <segment>
+        <source>pedagogy.orient.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="5bnZ6DS" name="pedagogy.orient.1">
+      <segment>
+        <source>pedagogy.orient.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="6aUtiPt" name="pedagogy.orient.2">
+      <segment>
+        <source>pedagogy.orient.2</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="C2FMydQ" name="pedagogy.orient.3">
+      <segment>
+        <source>pedagogy.orient.3</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="xM7LKuB" name="pedagogy.diploma.title">
+      <segment>
+        <source>pedagogy.diploma.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="5uFSov7" name="pedagogy.diploma.1">
+      <segment>
+        <source>pedagogy.diploma.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="tyjpenU" name="pedagogy.diploma.2">
+      <segment>
+        <source>pedagogy.diploma.2</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="yosi0Nu" name="team">
+      <segment>
+        <source>team</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="4Y.w.4v" name="team.more">
+      <segment>
+        <source>team.more</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="n63ZTWz" name="legal.title">
+      <segment>
+        <source>legal.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="KA1Eqx6" name="welcome">
+      <segment>
+        <source>welcome</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="JbHtlhW" name="headline">
+      <segment>
+        <source>headline</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="25GXUyE" name="inscriptions.know.more">
+      <segment>
+        <source>inscriptions.know.more</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="jkAv0mB" name="from.date">
+      <segment>
+        <source>from.date</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="kMUOXXt" name="inscriptions.now.open">
+      <segment>
+        <source>inscriptions.now.open</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="5vyWyFT" name="inscription.limit">
+      <segment>
+        <source>inscription.limit</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="gb_1s_Y" name="i.want.to.register">
+      <segment>
+        <source>i.want.to.register</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="36whLxz" name="inscription.next">
+      <segment>
+        <source>inscription.next</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="c1zwxoc" name="who.can.study">
+      <segment>
+        <source>who.can.study</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="rcYhXyd" name="who.can.study.sub">
+      <segment>
+        <source>who.can.study.sub</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="U.bO1Xs" name="dispositif">
+      <segment>
+        <source>dispositif</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="uceE5Pa" name="dispositif.sub">
+      <segment>
+        <source>dispositif.sub</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="Qk4wHwr" name="inscription.limit.alt">
+      <segment>
+        <source>inscription.limit.alt</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="S9k1S7Z" name="warning">
+      <segment>
+        <source>warning</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="2Lgvscd" name="warning.lang">
+      <segment>
+        <source>warning.lang</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="Y71wZe8" name="life">
+      <segment>
+        <source>life</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="qo6fhxC" name="life.sub">
+      <segment>
+        <source>life.sub</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="raQCp6b" name="life.equality">
+      <segment>
+        <source>life.equality</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="vkpTHGv" name="life.ambition">
+      <segment>
+        <source>life.ambition</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="z0d1_fw" name="life.humanism">
+      <segment>
+        <source>life.humanism</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="3iD2ZPz" name="life.access">
+      <segment>
+        <source>life.access</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="Bst18TJ" name="partners">
+      <segment>
+        <source>partners</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="HQdLIVe" name="partners.sub">
+      <segment>
+        <source>partners.sub</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="jbjkLYq" name="news.title">
+      <segment>
+        <source>news.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="rgB.JAr" name="news.ours">
+      <segment>
+        <source>news.ours</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="P3fkZyj" name="news.press">
+      <segment>
+        <source>news.press</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="GOn.I8r" name="news.others">
+      <segment>
+        <source>news.others</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="I5SCDa_" name="see.more">
+      <segment>
+        <source>see.more</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="UXeHGRS" name="presskit">
+      <segment>
+        <source>presskit</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="aAvt864" name="presskit.photos">
+      <segment>
+        <source>presskit.photos</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="tMTYwJZ" name="presskit.photos.info">
+      <segment>
+        <source>presskit.photos.info</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="BiscqA1" name="presskit.logo">
+      <segment>
+        <source>presskit.logo</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="RBLc_TV" name="presskit.logo.info">
+      <segment>
+        <source>presskit.logo.info</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="uZiSX6y" name="presskit.communique">
+      <segment>
+        <source>presskit.communique</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="hLwXmEC" name="presskit.communique.info">
+      <segment>
+        <source>presskit.communique.info</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="t9VJshH" name="presskit.notfound">
+      <segment>
+        <source>presskit.notfound</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="gHDzMk4" name="presskit.contact">
+      <segment>
+        <source>presskit.contact</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="gZlzcWy" name="press.review">
+      <segment>
+        <source>press.review</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="V6An5qD" name="contact.title">
+      <segment>
+        <source>contact.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="glRIc1N" name="contact.text">
+      <segment>
+        <source>contact.text</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="aririzH" name="contact.form.error">
+      <segment>
+        <source>contact.form.error</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="rM4AE95" name="contact.form.info">
+      <segment>
+        <source>contact.form.info</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="6wFd3mH" name="contact.form.name">
+      <segment>
+        <source>contact.form.name</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="2pbVlLF" name="contact.form.email">
+      <segment>
+        <source>contact.form.email</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="uy34jBm" name="contact.form.subject">
+      <segment>
+        <source>contact.form.subject</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="va0Dik0" name="contact.subject.jobs">
+      <segment>
+        <source>contact.subject.jobs</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="hlbrlVN" name="contact.subject.volunteer">
+      <segment>
+        <source>contact.subject.volunteer</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="2Ki.UTp" name="contact.subject.other">
+      <segment>
+        <source>contact.subject.other</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="kGDlATw" name="contact.form.message">
+      <segment>
+        <source>contact.form.message</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="rxOf9wM" name="contact.form.send">
+      <segment>
+        <source>contact.form.send</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="oup04hU" name="on.the.same.theme">
+      <segment>
+        <source>on.the.same.theme</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="2wlRIeG" name="jobs.title">
+      <segment>
+        <source>jobs.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="ENcvSSf" name="pedagogy.jobs">
+      <segment>
+        <source>pedagogy.jobs</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="HW2bPMj" name="profs.volunteers">
+      <segment>
+        <source>profs.volunteers</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="FH4x6dd" name="become.prof">
+      <segment>
+        <source>become.prof</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="LlgWUtC" name="become.volunteer">
+      <segment>
+        <source>become.volunteer</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="4OZE87m" name="prof.jobs.how">
+      <segment>
+        <source>prof.jobs.how</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="Xl4qJ.f" name="prof.jobs.open">
+      <segment>
+        <source>prof.jobs.open</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="jHkywNc" name="prof.jobs.closed">
+      <segment>
+        <source>prof.jobs.closed</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="tybxCib" name="profs.jobs.announce">
+      <segment>
+        <source>profs.jobs.announce</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="sp6bRsm" name="prof.jobs.1">
+      <segment>
+        <source>prof.jobs.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="hjS7k9u" name="prof.jobs.2">
+      <segment>
+        <source>prof.jobs.2</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="hjZg.8R" name="prof.jobs.3">
+      <segment>
+        <source>prof.jobs.3</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="YFONJMF" name="volunteer.how">
+      <segment>
+        <source>volunteer.how</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="3jrYnX." name="volunteer.subtitle">
+      <segment>
+        <source>volunteer.subtitle</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="z_HV96w" name="volunteer.jobs.open">
+      <segment>
+        <source>volunteer.jobs.open</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="LzfF59z" name="volunteer.jobs.closed">
+      <segment>
+        <source>volunteer.jobs.closed</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="X4BGC6c" name="volunteer.jobs.announce">
+      <segment>
+        <source>volunteer.jobs.announce</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="R4kGWO." name="jobs.tutorat.title">
+      <segment>
+        <source>jobs.tutorat.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="MG6CVyr" name="jobs.tutorat.1">
+      <segment>
+        <source>jobs.tutorat.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="eR.UDD2" name="jobs.tutorat.2">
+      <segment>
+        <source>jobs.tutorat.2</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="PIIuH_z" name="jobs.atelier.title">
+      <segment>
+        <source>jobs.atelier.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="1wx7V9M" name="jobs.atelier.1">
+      <segment>
+        <source>jobs.atelier.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="vTMqUIw" name="jobs.accompagnement.title">
+      <segment>
+        <source>jobs.accompagnement.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="vFRc5ZU" name="jobs.accompagnement.1">
+      <segment>
+        <source>jobs.accompagnement.1</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="yKbVhos" name="jobs.competence.title">
+      <segment>
+        <source>jobs.competence.title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="fTe_SW9" name="jobs.competence.1">
+      <segment>
+        <source>jobs.competence.1</source>
+        <target></target>
+      </segment>
+    </unit>
   </file>
 </xliff>

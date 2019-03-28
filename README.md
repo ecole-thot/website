@@ -14,3 +14,9 @@ Based on Symfony 4 + Webpack
 #### To run a dev server
 
     php -S localhost:8000 -t public
+
+## Translations
+
+To extract translations from templates :
+
+    bin/console translation:update --no-backup --output-format xlf fr --force
