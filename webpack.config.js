@@ -6,8 +6,6 @@ Encore
 
   .addEntry('app', './assets/js/app.js')
   .addEntry('admin', './assets/js/admin.js')
-  // .addStyleEntry('css/app', './assets/css/app.scss')
-  // .addStyleEntry('css/admin', './assets/css/admin.scss')
 
   .cleanupOutputBeforeBuild()
   .enableBuildNotifications()
