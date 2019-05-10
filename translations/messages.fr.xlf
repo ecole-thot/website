@@ -355,7 +355,7 @@
       </trans-unit>
       <trans-unit id="LlgWUtC" resname="become.volunteer">
         <source>become.volunteer</source>
-        <target>Devenir bénévole</target>
+        <target>Je m'engage</target>
       </trans-unit>
       <trans-unit id="4OZE87m" resname="prof.jobs.how">
         <source>prof.jobs.how</source>
@@ -377,6 +377,10 @@
         <source>prof.jobs.3</source>
         <target>Pour rejoindre Thot en tant que professeur de Français Langue Étrangère, envoyez un mail avec CV et lettre de motivations à professeurs@thot-fle.fr. Les posts sont rémunérés 40€/h et son basés à Saint-Denis.</target>
       </trans-unit>
+      <trans-unit id="1dw5iG7" resname="prof.jobs.3.closed">
+        <source>prof.jobs.3.closed</source>
+        <target>Nous vous remercions pour votre intérêt pour notre école, nos équipes de professeurs sont actuellement au complet, consultez notre site régulièrement pour voir si nous recrutons !</target>
+      </trans-unit>
       <trans-unit id="YFONJMF" resname="volunteer.how">
         <source>volunteer.how</source>
         <target>Être bénévole chez nous</target>
@@ -385,45 +389,37 @@
         <source>volunteer.subtitle</source>
         <target>Thot est efficace grâce à la conjonction d'un enseignement par des professeurs diplômés et votre intervention en tant que tuteurs et accompangants. Plusieurs types de bénévolats sont possibles :</target>
       </trans-unit>
+      <trans-unit id="xi00ZjG" resname="volunteer.jobs">
+        <source>volunteer.jobs</source>
+        <target>Bénévole à l'école</target>
+      </trans-unit>
+      <trans-unit id="MgfNoPf" resname="volunteer.jobs.asso">
+        <source>volunteer.jobs.asso</source>
+        <target>Bénévolat pour l'association</target>
+      </trans-unit>
+      <trans-unit id="bbdU0wF" resname="volunteer.jobs.asso.text">
+        <source>volunteer.jobs.asso.text</source>
+        <target>Si vous souhaitez aider l'association Thot dans son fonctionnement car vous avez des capacités en communication, en levée de fonds, en graphisme ou d'autres magnifiques compétences à nous faire partager, écrivez nous un email : contact@thot-fle.fr. Nous vous répondrons dans les meilleurs délais.</target>
+      </trans-unit>
       <trans-unit id="z_HV96w" resname="volunteer.jobs.open">
         <source>volunteer.jobs.open</source>
         <target>Les candidatures pour le bénévolat sont ouvertes</target>
       </trans-unit>
-      <trans-unit id="R4kGWO." resname="jobs.tutorat.title">
-        <source>jobs.tutorat.title</source>
-        <target>Tutorat</target>
+      <trans-unit id="kC_E5EM" resname="jobs.school.1">
+        <source>jobs.school.1</source>
+        <target>Notre formulaire vous permettra de vous inscrire - dans la limite des besoins de l'école - en tant qu'assistant ou tuteur pour les cours de français, animateur de français dans le monde de l'emploi ou traducteur/interprète. Nous vous en dirons plus dans le formulaire.</target>
       </trans-unit>
-      <trans-unit id="MG6CVyr" resname="jobs.tutorat.1">
-        <source>jobs.tutorat.1</source>
-        <target>Vous assistez le professeur en cours et/ou prenez en charge un cours de 2 heures de tutorat pendant 16 semaines, à raison de 2h/semaine sur les créneaux 16h-19h ou 10h-13h les lundis, mardis, mercredis ou jeudis.</target>
+      <trans-unit id="4OAR6pk" resname="jobs.school.2">
+        <source>jobs.school.2</source>
+        <target>Nous recevons beaucoup de candidatures pour intégrer nos équipes de bénévoles, nous sommes navrées de ne pouvoir répondre à toutes les demandes. Les futur.e.s bénévoles seront ensuite convié.e.s à une réunion d'information qui aura lieu la première semaine de mars 2019 (sauf modifications).</target>
       </trans-unit>
-      <trans-unit id="eR.UDD2" resname="jobs.tutorat.2">
-        <source>jobs.tutorat.2</source>
-        <target>Une formation sera organisée par Thot.</target>
+      <trans-unit id="IkFIJQo" resname="jobs.school.3.warning">
+        <source>jobs.school.3.warning</source>
+        <target>ATTENTION</target>
       </trans-unit>
-      <trans-unit id="PIIuH_z" resname="jobs.atelier.title">
-        <source>jobs.atelier.title</source>
-        <target>Ateliers d'insertion professionnelle</target>
-      </trans-unit>
-      <trans-unit id="1wx7V9M" resname="jobs.atelier.1">
-        <source>jobs.atelier.1</source>
-        <target>Vous assistez la personne référente des ateliers d'insertion professionnelle pour 8 ateliers de 2 heures les vendredis entre 17h30 et 19h30 à la Cité des Métiers (Porte de la Villette).</target>
-      </trans-unit>
-      <trans-unit id="vTMqUIw" resname="jobs.accompagnement.title">
-        <source>jobs.accompagnement.title</source>
-        <target>Accompagnement administratif</target>
-      </trans-unit>
-      <trans-unit id="vFRc5ZU" resname="jobs.accompagnement.1">
-        <source>jobs.accompagnement.1</source>
-        <target>Vous êtes contacté(e) par la personne de référente de la permanence sociale pour accompagner des étudiants à leurs rendez-vous et/ou dans leurs démarches administratives. Un briefing est assuré par la personne référente avant chaque rendez-vous. Ces demandes sont très occasionnelles.</target>
-      </trans-unit>
-      <trans-unit id="yKbVhos" resname="jobs.competence.title">
-        <source>jobs.competence.title</source>
-        <target>Compétence</target>
-      </trans-unit>
-      <trans-unit id="fTe_SW9" resname="jobs.competence.1">
-        <source>jobs.competence.1</source>
-        <target>Vos compétences peuvent nous aider, quel que soit le moment de l'année, dans les domaines du social, du droit, de la santé, de la culture, de l'administration, du design, de l'écriture, etc.</target>
+      <trans-unit id="5cIoX_9" resname="jobs.school.3.text">
+        <source>jobs.school.3.text</source>
+        <target>Notre action concerne aujourd'hui uniquement Paris et sa région.</target>
       </trans-unit>
       <trans-unit id="jHkywNc" resname="prof.jobs.closed">
         <source>prof.jobs.closed</source>

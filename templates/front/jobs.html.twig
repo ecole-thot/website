@@ -19,7 +19,7 @@
     <a name="professeur"></a>
     <div class="title">{{ "prof.jobs.how"|trans }}</div>
     {% if settings.candidatures_open %}
-        <div class="teacher open">{{ "prof.jobs.open"|trans }} <a href="" class="button inverted">{{ "become.prof"|trans }}</a></div>
+        <div class="teacher open">{{ "prof.jobs.open"|trans }}</div>
     {% else %}
         <div class="teacher closed">
             <div class="ui grid equal width main-color-framed">
@@ -36,7 +36,11 @@
             <p>{{ "prof.jobs.2"|trans }}</p>
         </div>
         <div class="column">
+            {% if settings.candidatures_open %}
             <p>{{ "prof.jobs.3"|trans }}</p>
+            {% else %}
+            <p>{{ "prof.jobs.3.closed"|trans }}</p>
+            {% endif %}
         </div>
     </div>
 </section>
@@ -45,40 +49,31 @@
     <a name="benevole"></a>
     <div class="title">{{ "volunteer.how"|trans }}</div>
     <div class="subtitle">{{ "volunteer.subtitle"|trans }}</div>
-    <div class="ui grid equal three columns width texts">
+    <div class="ui grid equal two columns width texts">
         {% if settings.benevoles_open %}
             <div class="column">
-                <div class="tertiary-color full-height">
-                    <h3><span class="afterbar">{{ "volunteer.jobs.open"|trans }}</span></h3>
-                    <a href="" class="button inverted">{{ "become.volunteer"|trans }}</a>
+                <div class="full-height">
+                    <h4>{{ "volunteer.jobs"|trans }}</h4>
+                    <p>{{ "jobs.school.1"|trans }}</p>
+                    <p>{{ "jobs.school.2"|trans }}</p>
+                    <p><strong>{{ "jobs.school.3.warning"|trans }}</strong> : {{ "jobs.school.3.text"|trans }}</p>
+                    <a href="https://forms.gle/efgeUg3oHE4bhmFs5" class="button no-margin">{{ "become.volunteer"|trans }}</a>
                 </div>
             </div>
         {% else %}
             <div class="column">
-                <div class="main-color-framed full-height">
-                    <h3><span class="afterbar">{{ "volunteer.jobs.closed"|trans }}</span></h3>
-                    <div class="h3-extra">{{ "volunteer.jobs.announce"|trans }}</div>
+                <div class="full-height">
+                    <h4>{{ "volunteer.jobs"|trans }}</h4>
+                    <p>{{ "volunteer.jobs.closed"|trans }}</p>
+                    <p>{{ "volunteer.jobs.announce"|trans }}</p>
                 </div>
             </div>
         {% endif %}
         <div class="column">
-            <h4>{{ "jobs.tutorat.title"|trans }}</h4>
-            <p>{{ "jobs.tutorat.1"|trans }}</p>
-            <p>{{ "jobs.tutorat.2"|trans }}</p>
-        </div>
-        <div class="column">
-            <h4>{{ "jobs.atelier.title"|trans }}</h4>
-            <p>{{ "jobs.atelier.1"|trans }}</p>
-        </div>
-        <div class="column">
-        </div>
-        <div class="column">
-            <h4>{{ "jobs.accompagnement.title"|trans }}</h4>
-            <p>{{ "jobs.accompagnement.1"|trans }}</p>
-        </div>
-        <div class="column">
-            <h4>{{ "jobs.competence.title"|trans }}</h4>
-            <p>{{ "jobs.competence.1"|trans }}</p>
+            <div class="tertiary-color full-height">
+                <h3><span class="afterbar">{{ "volunteer.jobs.asso"|trans }}</span></h3>
+                <p>{{ "volunteer.jobs.asso.text"|trans }}</p>
+            </div>
         </div>
     </div>
 </section>

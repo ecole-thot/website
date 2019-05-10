@@ -32,6 +32,10 @@ a, p, em, strong {
     .afterbar {
         @include afterbar(white);
     }
+    p {
+        color: white;
+        padding: 0 30px 20px 30px;
+    }
 }
 
 a.button, button.button {
@@ -576,6 +580,9 @@ section {
     }
     a {
         margin: 0px 0 0 30px;
+        &.no-margin {
+            margin: 0;
+        }
     }
 }
 
