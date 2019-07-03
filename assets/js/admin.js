@@ -15,8 +15,8 @@ $(document).ready(() => {
     e.preventDefault()
     let url = $(this).data('url')
     let data = {
-      inscription_next_date: $('#next_date').val(),
-      inscription_limit_date: $('#limit_date').val(),
+      inscription_next_date: $('#next_date').val() + ' 00:00:00',
+      inscription_limit_date: $('#limit_date').val() + ' 00:00:00',
       inscription_link_fr: $('#francais').val(),
       inscription_link_en: $('#anglais').val(),
       inscription_link_fa: $('#farsi').val(),

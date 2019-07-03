@@ -63,7 +63,7 @@
       </trans-unit>
       <trans-unit id="JbHtlhW" resname="headline">
         <source>headline</source>
-        <target>L'école diplômante de Français pour les réfugiés et les demandeurs d'asile</target>
+        <target>L'école diplômante de Français pour les personnes en situation d’exil</target>
       </trans-unit>
       <trans-unit id="fbuLFEI" resname="moto">
         <source>moto</source>
@@ -85,13 +85,17 @@
         <source>warning.lang</source>
         <target>Il est indispensable que le formulaire soit rempli par le candidat (le formulaire est traduit en pashto, farsi, arabe et anglais). Cette règle ne s'applique pas aux personnes ne sachant ni lire ni écrire ou dont la langue n'est pas traduite.</target>
       </trans-unit>
+      <trans-unit id="TsiZaJH" resname="warning.lang.2">
+        <source>warning.lang.2</source>
+        <target>Nous recevons un très grand nombre de candidatures, une inscription sur les formulaires ne garantit pas une place à l’école. Nous répondrons à l’ensemble des candidats par SMS au numéro renseigné dans le formulaire dans un délai de 1 mois.</target>
+      </trans-unit>
       <trans-unit id="c1zwxoc" resname="who.can.study">
         <source>who.can.study</source>
         <target>Qui peut être étudiant chez Thot ?</target>
       </trans-unit>
       <trans-unit id="rcYhXyd" resname="who.can.study.sub">
         <source>who.can.study.sub</source>
-        <target>Nos cours s'adressent aux exilés (demandeurs d'asile, dublinés, réfugiés)</target>
+        <target>Nos cours s'adressent aux exilés (demandeurs d'asile, dublinés, réfugiés, etc.)</target>
       </trans-unit>
       <trans-unit id="U.bO1Xs" resname="dispositif">
         <source>dispositif</source>
@@ -259,11 +263,11 @@
       </trans-unit>
       <trans-unit id="Clf2BAx" resname="pedagogy.headline">
         <source>pedagogy.headline</source>
-        <target>Les session d'apprentissage durent 16 semaines à raison de 14h/semaine.</target>
+        <target>Les sessions d'apprentissage durent 16 semaines à raison de 14h/semaine.</target>
       </trans-unit>
       <trans-unit id="bvII1Q1" resname="pedagogy.offer.title">
         <source>pedagogy.offer.title</source>
-        <target>Une offre de Français Langue Étrangère (FLE) opur tous les exilés en dessus du niveau Bac</target>
+        <target>Une offre de Français Langue Étrangère (FLE) pour tous les exilé.e.s en dessous du niveau Bac</target>
       </trans-unit>
       <trans-unit id="1PXa7Lj" resname="pedagogy.offer.1">
         <source>pedagogy.offer.1</source>
@@ -319,7 +323,7 @@
       </trans-unit>
       <trans-unit id="5bnZ6DS" resname="pedagogy.orient.1">
         <source>pedagogy.orient.1</source>
-        <target>Thot a pour mission de mener les individus à leur autonomie sociale et économique. C'est pourquoi nous détection de manière profilée les opportunités de formation et d'emploi les plus pertinents pour les nos étudiants, tenant compte de leur savoir-faire, de leur parcours et de leurs aspirations personnelles, à raison de 16 heures par session :</target>
+        <target>Thot a pour mission de mener les individus à leur autonomie sociale et économique. C'est pourquoi nous détection de manière profilée les opportunités de formation et d'emploi les plus pertinents pour nos étudiants, tenant compte de leur savoir-faire, de leur parcours et de leurs aspirations personnelles, à raison de 16 heures par session :</target>
       </trans-unit>
       <trans-unit id="6aUtiPt" resname="pedagogy.orient.2">
         <source>pedagogy.orient.2</source>
@@ -335,11 +339,11 @@
       </trans-unit>
       <trans-unit id="5uFSov7" resname="pedagogy.diploma.1">
         <source>pedagogy.diploma.1</source>
-        <target>Thot s'engage à mener ses apprenants vers l'otention du DILF ou du DELF A1 et A2.</target>
+        <target>Thot s'engage à mener ses apprenants vers l'obtention du DILF ou du DELF A1 et A2.</target>
       </trans-unit>
       <trans-unit id="tyjpenU" resname="pedagogy.diploma.2">
         <source>pedagogy.diploma.2</source>
-        <target>Il est délivré après examen écrit et oral en centre d'examen, et correspond donc à une diplôme international, reconnu par l'État français.</target>
+        <target>Il est délivré après examen écrit et oral en centre d'examen, et correspond donc à un diplôme international, reconnu par l'État français.</target>
       </trans-unit>
       <trans-unit id="ENcvSSf" resname="pedagogy.jobs">
         <source>pedagogy.jobs</source>
@@ -591,7 +595,7 @@
       </trans-unit>
       <trans-unit id="aCE9GgT" resname="home.students.admitted">
         <source>home.students.admitted</source>
-        <target>étudiants admins</target>
+        <target>étudiants admis</target>
       </trans-unit>
       <trans-unit id="ZpZgEDk" resname="home.diplomas">
         <source>home.diplomas</source>
@@ -639,7 +643,11 @@
       </trans-unit>
       <trans-unit id="2Nmj_CX" resname="home.daysAtelier">
         <source>home.daysAtelier</source>
-        <target>jours d'ateliers artistiques</target>
+        <target>heures d'ateliers artistiques</target>
+      </trans-unit>
+      <trans-unit id="iyOCQW0" resname="home.benevoles">
+        <source>home.benevoles</source>
+        <target>bénévoles</target>
       </trans-unit>
       <trans-unit id="KmQfaOB" resname="home.polesAssistance">
         <source>home.polesAssistance</source>

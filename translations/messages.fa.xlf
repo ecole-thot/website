@@ -641,6 +641,14 @@
         <source>volunteer.jobs.asso.text</source>
         <target>__volunteer.jobs.asso.text</target>
       </trans-unit>
+      <trans-unit id="iyOCQW0" resname="home.benevoles">
+        <source>home.benevoles</source>
+        <target>__home.benevoles</target>
+      </trans-unit>
+      <trans-unit id="TsiZaJH" resname="warning.lang.2">
+        <source>warning.lang.2</source>
+        <target>__warning.lang.2</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
