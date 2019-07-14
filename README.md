@@ -21,6 +21,6 @@ To extract translations from templates :
 
     bin/console translation:update --no-backup --output-format xlf fr --force
     bin/console translation:update --no-backup --output-format xlf en --force
-    bin/console translation:update --no-backup --output-format xlf ar --force
-    bin/console translation:update --no-backup --output-format xlf ps --force
     bin/console translation:update --no-backup --output-format xlf fa --force
+    bin/console translation:update --no-backup --output-format xlf ps --force
+    bin/console translation:update --no-backup --output-format xlf ar --force
