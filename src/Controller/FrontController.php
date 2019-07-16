@@ -132,7 +132,7 @@ class FrontController extends AbstractController
      */
     public function school(): Response
     {
-        $members = $this->getDoctrine()->getRepository(TeamMember::class)->findBy([], ['sortingOrder' => 'ASC']);;
+        $members = $this->getDoctrine()->getRepository(TeamMember::class)->findBy([], ['sortingOrder' => 'ASC']);
 
         return $this->render('front/school.html.twig', ['members' => $members]);
     }

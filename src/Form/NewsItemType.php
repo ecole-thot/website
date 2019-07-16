@@ -18,8 +18,13 @@ class NewsItemType extends AbstractType
             ->add('theme', ChoiceType::class, [
               'label' => 'Thème',
               'choices' => [
-                'Rapport à télécharger' => 'Rapport à télécharger',
-                'L\'école' => 'L\'école',
+                "Rapport d'activité" => "Rapport d'activité",
+                "L'école" => "L'école",
+                'Partenaires' => 'Partenaires',
+                'Développement' => 'Développement',
+                'Financement' => 'Financement',
+                'Prise de parole' => 'Prise de parole',
+                'Conférences' => 'Conférences',
               ],
             ]);
     }
