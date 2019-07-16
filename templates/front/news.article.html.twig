@@ -21,9 +21,11 @@
     <div class="news-content">{{ news.content|raw }}</div>
 </section>
 
+{% if news.linkeFile %}
 <section class="ui file-news-article">
     <div class="news-file"><strong><i class="ui icon file"></i> {{ "linked.file"|trans }}</strong> : <a href="{{ asset('/uploads/files/' ~  news.linkedFile) }}" target="_blank">{{ (news.linkedFile)[13:] }}</a></div>
 </section>
+{% endif %}
 
 {% if sameThemeNews %}
 <section class="news" id="actualites">
