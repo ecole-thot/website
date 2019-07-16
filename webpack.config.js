@@ -3,6 +3,7 @@ var Encore = require('@symfony/webpack-encore')
 Encore
   .setOutputPath('public/build/')
   .setPublicPath('/build')
+  .setManifestKeyPrefix('public/')
 
   .addEntry('app', './assets/js/app.js')
   .addEntry('admin', './assets/js/admin.js')
@@ -14,7 +15,13 @@ Encore
   .enableVersioning(Encore.isProduction())
 
 // enables Sass/SCSS support
-  .enableSassLoader()
+  .enableSassLoader(function (options) {
+    // https://github.com/sass/node-sass#options
+    // options.includePaths = [...]
+  }, {
+    // set optional Encore-specific options
+    resolveUrlLoader: false
+  })
 
   .autoProvidejQuery()
 
