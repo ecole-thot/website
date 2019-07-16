@@ -8,7 +8,7 @@
     <div class="main-color ten wide column">
         <h1 class="title">{{ "welcome"|trans }}</h1>
         <h2 class="subtitle">{{ "headline"|trans }}</h2>
-        {% if not settings.inscriptions_open %}<a href="" class="button">{{ "inscriptions.know.more"|trans }}</a>{% endif %}
+        {% if not settings.inscriptions_open %}<a href="#inscriptions-fermees" class="button">{{ "inscriptions.know.more"|trans }}</a>{% endif %}
     </div>
     <div class="secondary-color six wide column" style='background: url("{{ asset('images/back_home.png')}}"); background-size: cover; background-position: -220px 0px;'>
         <div class='ui segment basic title'>{{ "from.date"|trans }}</div>
@@ -78,6 +78,16 @@
         <p>{{ "warning.lang.2"|trans }}</p>
     </div>
     <a href="{{ settings['inscription_link_' ~ app.request.locale]}}" class="button">{{ "i.want.to.register"|trans }}</a>
+</section>
+{% else %}
+<section class="text narrow" id="inscriptions-fermees">
+    <div class="subtitle">{{ "inscription.next"|trans({'%date%': settings.inscription_next_date|localizeddate('dd MMMM')}) }}</div>
+    <div class="warning">
+        <div class="title">{{ "warning"|trans }}</div>
+        <p>{{ "warning.closed"|trans }}</p>
+        <p>{{ "warning.closed.2"|trans }}</p>
+        <p>{{ "warning.closed.3"|trans }}</p>
+    </div>
 </section>
 {% endif %}
 
