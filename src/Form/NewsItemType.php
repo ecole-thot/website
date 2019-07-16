@@ -14,6 +14,7 @@ class NewsItemType extends AbstractType
             ->add('title', null, ['label' => 'Titre de la news'])
             ->add('content', null, ['label' => 'Texte'])
             ->add('image', null, ['required' => false, 'label' => 'Mettre à jour l\'image'])
+            ->add('linkedFile', null, ['required' => false, 'label' => 'Mettre à jour le fichier associé'])
             ->add('theme', ChoiceType::class, [
               'label' => 'Thème',
               'choices' => [

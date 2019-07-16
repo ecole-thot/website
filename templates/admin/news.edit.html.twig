@@ -41,6 +41,13 @@
     <img src="{{ asset('/uploads/news/' ~ image) }}" class="news ui image">
     {% endif %}
     {{ form_row(form.image) }}
+
+    <hr>
+    {% if linkedFile %}
+    <strong>Fichier</strong> : {{ linkedFile }}
+    {% endif %}
+    {{ form_row(form.linkedFile) }}
+
   </div>
 </div>
 {{ form_rest(form) }}

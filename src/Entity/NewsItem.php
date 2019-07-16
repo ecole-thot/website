@@ -49,6 +49,13 @@ class NewsItem
      */
     private $image;
 
+    /**
+     * @ORM\Column(type="string", nullable=true)
+     *
+     * @Assert\File()
+     */
+    private $linkedFile;
+
     public function __construct()
     {
         $this->createdAt = new \DateTime();
@@ -138,6 +145,26 @@ class NewsItem
     public function setImage($image)
     {
         $this->image = $image;
+
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getLinkedFile()
+    {
+        return $this->linkedFile;
+    }
+
+    /**
+     * @param mixed $linkedFile
+     *
+     * @return self
+     */
+    public function setLinkedFile($linkedFile)
+    {
+        $this->linkedFile = $linkedFile;
 
         return $this;
     }

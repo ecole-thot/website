@@ -157,6 +157,10 @@ class BackendController extends AbstractController
                 $image = $news->getImage();
                 $news->setImage(new File($this->getParameter('news_images_directory').'/'.$news->getImage()));
             }
+            if ($news->getLinkedFile()) {
+                $linkedFile = $news->getLinkedFile();
+                $news->setLinkedFile(new File($this->getParameter('news_files_directory').'/'.$news->getLinkedFile()));
+            }
         } else {
             $news = new NewsItem();
         }
@@ -171,21 +175,38 @@ class BackendController extends AbstractController
 
         if ($form->isSubmitted() && $form->isValid()) {
             /** @var Symfony\Component\HttpFoundation\File\UploadedFile $file */
-            $file = $news->getImage();
-            if ($file) {
-                $fileName = md5(uniqid()).'.'.$file->guessExtension();
+            $imageFile = $news->getImage();
+            if ($imageFile) {
+                $imageFileName = md5(uniqid()).'.'.$imageFile->guessExtension();
 
                 try {
-                    $file->move(
+                    $imageFile->move(
                         $this->getParameter('news_images_directory'),
-                        $fileName
+                        $imageFileName
                     );
                 } catch (FileException $e) {
                 }
 
-                $news->setImage($fileName);
+                $news->setImage($imageFileName);
             } else {
                 $news->setImage($image);
+            }
+
+            $linkedFile = $news->getLinkedFile();
+            if ($linkedFile) {
+                $linkedFileName = substr(md5(uniqid()), 0, 12).'_'.$linkedFile->getClientOriginalName();
+
+                try {
+                    $linkedFile->move(
+                        $this->getParameter('news_files_directory'),
+                        $linkedFileName
+                    );
+                } catch (FileException $e) {
+                }
+
+                $news->setLinkedFile($linkedFileName);
+            } else {
+                $news->setLinkedFile($linkedFile);
             }
 
             $em = $this->getDoctrine()->getManager();
@@ -195,7 +216,7 @@ class BackendController extends AbstractController
             return $this->redirectToRoute('admin_news');
         }
 
-        return $this->render('admin/news.edit.html.twig', ['form' => $form->createView(), 'news' => $news, 'image' => $image ?? null]);
+        return $this->render('admin/news.edit.html.twig', ['form' => $form->createView(), 'news' => $news, 'image' => $image ?? null, 'linkedFile' => $linkedFile ?? null]);
     }
 
     /**
