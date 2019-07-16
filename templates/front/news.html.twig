@@ -24,7 +24,7 @@
       <div class="news-theme">{{ lastNews[0].theme }}</div>
       <div class="news-title">{{ lastNews[0].title }}<a class="link" href="{{ path('news_article', {id: lastNews[0].id}) }}"><i class="ui icon arrow right"></i></a></div>
       <div class="news-date">{{ lastNews[0].publishedAt|date('d/m/Y') }}</div>
-      <div class="news-content">{{ lastNews[0].content|slice(0, 400) }}...</div>
+      <div class="news-content">{{ lastNews[0].content|striptags|slice(0, 400) }}...</div>
   </section>
 {% endif %}
 

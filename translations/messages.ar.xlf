@@ -1,141 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="fr" trgLang="ar">
-  <file id="messages.ar">
-    <unit id="ayp4kO2" name="menu.school">
-      <segment>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="ar" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="ayp4kO2" resname="menu.school">
         <source>menu.school</source>
         <target>المدرسه</target>
-      </segment>
-    </unit>
-    <unit id="IyiaHy2" name="menu.news">
-      <segment>
+      </trans-unit>
+      <trans-unit id="IyiaHy2" resname="menu.news">
         <source>menu.news</source>
         <target>اخبار</target>
-      </segment>
-    </unit>
-    <unit id="C3HpPzJ" name="menu.contact">
-      <segment>
+      </trans-unit>
+      <trans-unit id="C3HpPzJ" resname="menu.contact">
         <source>menu.contact</source>
         <target>الاتصال</target>
-      </segment>
-    </unit>
-    <unit id="Nn38Z8v" name="menu.jobs">
-      <segment>
+      </trans-unit>
+      <trans-unit id="Nn38Z8v" resname="menu.jobs">
         <source>menu.jobs</source>
         <target>وظائف</target>
-      </segment>
-    </unit>
-    <unit id="ZmS0a_T" name="menu.donate">
-      <segment>
+      </trans-unit>
+      <trans-unit id="ZmS0a_T" resname="menu.donate">
         <source>menu.donate</source>
         <target>التبرع</target>
-      </segment>
-    </unit>
-    <unit id="X_Ennoc" name="lang.fr">
-      <segment>
+      </trans-unit>
+      <trans-unit id="X_Ennoc" resname="lang.fr">
         <source>lang.fr</source>
         <target>Français</target>
-      </segment>
-    </unit>
-    <unit id="BFrbIL0" name="lang.en">
-      <segment>
+      </trans-unit>
+      <trans-unit id="BFrbIL0" resname="lang.en">
         <source>lang.en</source>
         <target>English</target>
-      </segment>
-    </unit>
-    <unit id="2WY6ZD2" name="lang.ar">
-      <segment>
+      </trans-unit>
+      <trans-unit id="2WY6ZD2" resname="lang.ar">
         <source>lang.ar</source>
         <target>العربية</target>
-      </segment>
-    </unit>
-    <unit id="VjHCuox" name="lang.ps">
-      <segment>
+      </trans-unit>
+      <trans-unit id="VjHCuox" resname="lang.ps">
         <source>lang.ps</source>
         <target>پښتو</target>
-      </segment>
-    </unit>
-    <unit id="LAZXf5b" name="lang.fa">
-      <segment>
+      </trans-unit>
+      <trans-unit id="LAZXf5b" resname="lang.fa">
         <source>lang.fa</source>
         <target>زبان فارسي</target>
-      </segment>
-    </unit>
-    <unit id="ro0hUeD" name="engaged.every.day">
-      <segment>
+      </trans-unit>
+      <trans-unit id="ro0hUeD" resname="engaged.every.day">
         <source>engaged.every.day</source>
         <target>توت ملتزمة كل يوم</target>
-      </segment>
-    </unit>
-    <unit id="Y73.wK2" name="follow.our.actions">
-      <segment>
+      </trans-unit>
+      <trans-unit id="Y73.wK2" resname="follow.our.actions">
         <source>follow.our.actions</source>
         <target>تابعونا!</target>
-      </segment>
-    </unit>
-    <unit id="fbuLFEI" name="moto">
-      <segment>
+      </trans-unit>
+      <trans-unit id="fbuLFEI" resname="moto">
         <source>moto</source>
         <target>ولتوسيع أفق المهاجرين، أنشأنا "تهوت"، وهي مدرسة لتعليم اللغة الفرنسية تمنح اللاجئين وطالبي اللجوء.</target>
-      </segment>
-    </unit>
-    <unit id="wNnQCIQ" name="footer.legal">
-      <segment>
+      </trans-unit>
+      <trans-unit id="wNnQCIQ" resname="footer.legal">
         <source>footer.legal</source>
         <target>الإشعارات القانونية والاعتمادات</target>
-      </segment>
-    </unit>
-    <unit id="qvIyBkY" name="title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="qvIyBkY" resname="title">
         <source>title</source>
         <target>المدرسة توت </target>
-      </segment>
-    </unit>
-    <unit id="rQTpS2M" name="manifesto.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="rQTpS2M" resname="manifesto.title">
         <source>manifesto.title</source>
         <target>بياننا</target>
-      </segment>
-    </unit>
-    <unit id="w9TspZq" name="school.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="w9TspZq" resname="school.title">
         <source>school.title</source>
         <target>المدرسة</target>
-      </segment>
-    </unit>
-    <unit id="Ifveqru" name="manifesto.mission">
-      <segment>
+      </trans-unit>
+      <trans-unit id="Ifveqru" resname="manifesto.mission">
         <source>manifesto.mission</source>
         <target>البيان الرسمي
 مهمة ومبادئ </target>
-      </segment>
-    </unit>
-    <unit id="laxdpBE" name="manifesto.intro">
-      <segment>
+      </trans-unit>
+      <trans-unit id="laxdpBE" resname="manifesto.intro">
         <source>manifesto.intro</source>
         <target>حتى يومنا هذا، لم نقدم قيمنا الرئيسية. لقد كتبنا ميثاقا هو أيضا بيان وأساس لقيمنا. ونحن نؤمن بهذه العناصر، وإذا سمحنا لأنفسنا بوضوح بتغيير حقولنا ورأينا وفتحها، فإن الكلمات المعروضة أدناه ستظل مرساة لمدرستنا.</target>
-      </segment>
-    </unit>
-    <unit id="K396rVO" name="manifesto.definition.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="K396rVO" resname="manifesto.definition.title">
         <source>manifesto.definition.title</source>
         <target>التعريف</target>
-      </segment>
-    </unit>
-    <unit id="ldq8L53" name="manifesto.definition.1">
-      <segment>
+      </trans-unit>
+      <trans-unit id="ldq8L53" resname="manifesto.definition.1">
         <source>manifesto.definition.1</source>
         <target>توت هو مكان إنساني، قد أسميناه توت لأن توت كان إلها مصريا اخترع لغة لنشر المعرفة، هو أيضا اختصار ل "الأفق للجميع"، والفكرة الانتقالية لتحقيق كل أحد لأهدافه الشخصية و حكمه الذاتي الذي هو أساس عملنا</target>
-      </segment>
-    </unit>
-    <unit id="d2VuZZe" name="manifesto.equality.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="d2VuZZe" resname="manifesto.equality.title">
         <source>manifesto.equality.title</source>
         <target>المساواة في الحقوق للجميع</target>
-      </segment>
-    </unit>
-    <unit id="N8G24or" name="manifesto.equality.1">
-      <segment>
+      </trans-unit>
+      <trans-unit id="N8G24or" resname="manifesto.equality.1">
         <source>manifesto.equality.1</source>
         <target>
 
@@ -148,837 +107,577 @@
 لقد انشأنا توت لأن المساواة تبدأ بمعاملة كريمة و حقوقية للجميع. كل منا قد درس مع معلمين، وإطار رقابي و هذا التعليم قد أقر بشهادات. توت هي مدرسة تقدر المعلمين ، و إتاحة الحصول علي درجة الدبلومة. إن اللغة تعتبر عائق أساسي للدخول إلى المجتمع، لقد كان من أولوياتنا انشاء مكان كتوت حيث التعليم المحترف و مشرف عليه. يلعب المتطوعين دورا في دعم المعلمين، فهم يعتبرون وصلة وفرصة ليقدمون مساعدة فردية و محددة للطلاب، ولكن تحت درع المعلمين و الاداريين التعليميين. 
 
 إن الغالبية العظمي من طالبي اللجوء لديهم تعليم محدود أو معدوم. فأردنا إعطاء الأولوية لهؤلاء الأشخاص، الذين لديهم قدرة للعمل، وقوة إرادة، والذين يجب أن يكون دعمهم محدد</target>
-      </segment>
-    </unit>
-    <unit id="J5vlV6U" name="manifesto.mission.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="J5vlV6U" resname="manifesto.mission.title">
         <source>manifesto.mission.title</source>
         <target>مهمتنا وسلوكنا مع طلاب توت</target>
-      </segment>
-    </unit>
-    <unit id="f_y73Oo" name="manifesto.mission.1">
-      <segment>
+      </trans-unit>
+      <trans-unit id="f_y73Oo" resname="manifesto.mission.1">
         <source>manifesto.mission.1</source>
         <target>
 
 طلاب توت هم أشخاص في المنفي، هم أسياد تاريخهم ، ونحن نتعهد بعدم تشجيعهم لقوله. إن الاستعانة بماضيهم يستخدم فقط لأسباب تعليمية أو بناء علي مصلحتهم الشخصية (الماضي المحترف لورش التوجيه المهني) مع كامل الاحترام لخصوصيتهم ومراعاة عدم شعورهم بعدم الارتياح. إن الخطوط الساخنة للعلاج النفسي موجودة لملأ الشعور بالحاجة للكلام مع شخص مؤهل وموجود لهذا الهدف الأوحد وللإضطرابات الشخصية. إن الدوام الاجتماعي تم إعداده أيضا لحل المشاكل الادارية</target>
-      </segment>
-    </unit>
-    <unit id="bvjotf0" name="manifesto.secular.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="bvjotf0" resname="manifesto.secular.title">
         <source>manifesto.secular.title</source>
         <target>مدرسة علمانية</target>
-      </segment>
-    </unit>
-    <unit id="W4WPPFH" name="manifesto.secular.1">
-      <segment>
+      </trans-unit>
+      <trans-unit id="W4WPPFH" resname="manifesto.secular.1">
         <source>manifesto.secular.1</source>
         <target>ربما لم نذكر ذلك، ولكن توت مدرسة علمانية ، فالدين ليس محرم ولكن ممارسته ليس لها مكان فيه، لأننا نعتقد بأنها خصوصية لكل شخص ولا علاقة له بالتعليم الذي نقدمه. ونتخذ ذلك في الاعتبار أيضا لأن العمل والتعليم في فرنسا علماني، ولذا يجب اعداد الطلاب لذلك</target>
-      </segment>
-    </unit>
-    <unit id="HArTpF." name="manifesto.respect.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="HArTpF." resname="manifesto.respect.title">
         <source>manifesto.respect.title</source>
         <target>مكان للاحترام</target>
-      </segment>
-    </unit>
-    <unit id="OhjIdr4" name="manifesto.respect.1">
-      <segment>
+      </trans-unit>
+      <trans-unit id="OhjIdr4" resname="manifesto.respect.1">
         <source>manifesto.respect.1</source>
         <target>طلاب توت بالغين وفي أغلب الأوقات بماضي صعب الأمر الذي يؤثر علي قدرتهم في كونهم مستقلين ، مسئولين و قادرين.توت هو خطوة في رحلتهم ولكن كونهم طلاب في توت ، أو كونهم منفيين لا يحدد كينونتهم</target>
-      </segment>
-    </unit>
-    <unit id="8XxPGfs" name="the.school">
-      <segment>
+      </trans-unit>
+      <trans-unit id="8XxPGfs" resname="the.school">
         <source>the.school</source>
         <target>المدرسة</target>
-      </segment>
-    </unit>
-    <unit id="h0gbLhU" name="intensive.cursus">
-      <segment>
+      </trans-unit>
+      <trans-unit id="h0gbLhU" resname="intensive.cursus">
         <source>intensive.cursus</source>
         <target>دورات مهنية ومكثفة، للحصول على دبلوم الدولة، صالحة للحياة</target>
-      </segment>
-    </unit>
-    <unit id="ziXSsoQ" name="quick.access">
-      <segment>
+      </trans-unit>
+      <trans-unit id="ziXSsoQ" resname="quick.access">
         <source>quick.access</source>
         <target>Quick access</target>
-      </segment>
-    </unit>
-    <unit id="ffxry50" name="our.story">
-      <segment>
+      </trans-unit>
+      <trans-unit id="ffxry50" resname="our.story">
         <source>our.story</source>
         <target>قصتنا</target>
-      </segment>
-    </unit>
-    <unit id="E57rtHY" name="our.pedagogy">
-      <segment>
+      </trans-unit>
+      <trans-unit id="E57rtHY" resname="our.pedagogy">
         <source>our.pedagogy</source>
         <target>برنامجنا التعليمي</target>
-      </segment>
-    </unit>
-    <unit id="rg.Ogv4" name="our.team">
-      <segment>
+      </trans-unit>
+      <trans-unit id="rg.Ogv4" resname="our.team">
         <source>our.team</source>
         <target>الفريق</target>
-      </segment>
-    </unit>
-    <unit id="pCYuHJv" name="about">
-      <segment>
+      </trans-unit>
+      <trans-unit id="pCYuHJv" resname="about">
         <source>about</source>
         <target>عن</target>
-      </segment>
-    </unit>
-    <unit id="SAq26Zm" name="school.who.are.we">
-      <segment>
+      </trans-unit>
+      <trans-unit id="SAq26Zm" resname="school.who.are.we">
         <source>school.who.are.we</source>
         <target>من نحن؟</target>
-      </segment>
-    </unit>
-    <unit id="FVqTlTZ" name="school.constitution">
-      <segment>
+      </trans-unit>
+      <trans-unit id="FVqTlTZ" resname="school.constitution">
         <source>school.constitution</source>
         <target>تم إنشاء فريق توت خلال حملات دعم ودعوة مختلفة للاجئين وطالبي اللجوء خلال صيف عام 2015 على الرغم من جنسياتهم المتنوعة، قصصهم المروعة على قدم المساواة، وخلفياتهم الاجتماعية المتباينة، واحد، يبدو أن السؤال نفسه على شفاه الجميع: "أين يمكننا أن نتعلم الفرنسية؟ </target>
-      </segment>
-    </unit>
-    <unit id="A1IVo.Z" name="school.creation">
-      <segment>
+      </trans-unit>
+      <trans-unit id="A1IVo.Z" resname="school.creation">
         <source>school.creation</source>
         <target>لذلك أنشأنا توت لتقديم دورات التصديق، التي قدمها المعلمين المؤهلين، في برنامج تدريب مستقر ومحدد وعالمي، للاجئين وطالبي اللجوء ذوي الخلفية التعليمية المنخفضة، وتلبية الطلب المتزايد المستمر على التدريب في FFL لهذا الجمهور.  </target>
-      </segment>
-    </unit>
-    <unit id="hn1724o" name="school.accronym">
-      <segment>
+      </trans-unit>
+      <trans-unit id="hn1724o" resname="school.accronym">
         <source>school.accronym</source>
         <target>Transmettre un Horizon à Tous</target>
-      </segment>
-    </unit>
-    <unit id="2S_4Bii" name="school.egypt">
-      <segment>
+      </trans-unit>
+      <trans-unit id="2S_4Bii" resname="school.egypt">
         <source>school.egypt</source>
         <target><![CDATA[كان توت هو الإله المصري الذي جسد مفهوم المعرفة. وكانت مهمته نشر معرفته، وبالتالي اختراعه للغة. هذا الرمز يجسد مهمتنا: أن ننقل، من خلال اللغة، إمكانية لجميع الأفراد لتحقيق إمكاناتهم، هنا في فرنسا<br> توت Transmettre un Horizon à Tous  (توسيع الأفق للجميع).]]></target>
-      </segment>
-    </unit>
-    <unit id="FN7vV4l" name="read.manifesto">
-      <segment>
+      </trans-unit>
+      <trans-unit id="FN7vV4l" resname="read.manifesto">
         <source>read.manifesto</source>
         <target>اقرأ بياننا</target>
-      </segment>
-    </unit>
-    <unit id="F8n4s_j" name="pedagogy">
-      <segment>
+      </trans-unit>
+      <trans-unit id="F8n4s_j" resname="pedagogy">
         <source>pedagogy</source>
         <target>برنامجنا التعليمي</target>
-      </segment>
-    </unit>
-    <unit id="Clf2BAx" name="pedagogy.headline">
-      <segment>
+      </trans-unit>
+      <trans-unit id="Clf2BAx" resname="pedagogy.headline">
         <source>pedagogy.headline</source>
         <target>وتستمر الدورات التدريبية 16 أسبوعاً مع 14 ساعة من التدريب في الأسبوع.</target>
-      </segment>
-    </unit>
-    <unit id="bvII1Q1" name="pedagogy.offer.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="bvII1Q1" resname="pedagogy.offer.title">
         <source>pedagogy.offer.title</source>
         <target>تدريب اللغة الأجنبية الفرنسية للأشخاص المنفيين الذين لم يصلوا بعد إلى مستوى البكالوريا.</target>
-      </segment>
-    </unit>
-    <unit id="1PXa7Lj" name="pedagogy.offer.1">
-      <segment>
+      </trans-unit>
+      <trans-unit id="1PXa7Lj" resname="pedagogy.offer.1">
         <source>pedagogy.offer.1</source>
         <target>نحن نقدم دورات لمحو الأمية، A1 و A2 المستويات. والمدرسة مخصصة للأشخاص المنفيين الذين لم يصلوا بعد إلى مستوى البكالوريا.</target>
-      </segment>
-    </unit>
-    <unit id="Jj1fSF1" name="pedagogy.offer.2">
-      <segment>
+      </trans-unit>
+      <trans-unit id="Jj1fSF1" resname="pedagogy.offer.2">
         <source>pedagogy.offer.2</source>
         <target>توجد برامج تدريبية في الجامعات لخريجي المدارس الثانوية، والتي نشجع على الاتصال (http://resome.org/)Resome وWintegreat (http://wintegreat.org/)</target>
-      </segment>
-    </unit>
-    <unit id="m.k57aV" name="pedagogy.pro.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="m.k57aV" resname="pedagogy.pro.title">
         <source>pedagogy.pro.title</source>
         <target>مدرسة تقوم على الاحتراف المهني للموظفين</target>
-      </segment>
-    </unit>
-    <unit id="JcwupV2" name="pedagogy.pro.1">
-      <segment>
+      </trans-unit>
+      <trans-unit id="JcwupV2" resname="pedagogy.pro.1">
         <source>pedagogy.pro.1</source>
         <target>معلمو توت جميعهم خريجون في FLE  ومؤهلون لقيادة طلابنا نحو دبلوم اللغة الفرنسية</target>
-      </segment>
-    </unit>
-    <unit id="uN8ehAM" name="pedagogy.pro.2">
-      <segment>
+      </trans-unit>
+      <trans-unit id="uN8ehAM" resname="pedagogy.pro.2">
         <source>pedagogy.pro.2</source>
         <target>فريق مؤهل من الفنانين يقود ورشة العمل الفنية ويشرف على النزهات الثقافية</target>
-      </segment>
-    </unit>
-    <unit id="Pe4f.Lw" name="pedagogy.pro.3">
-      <segment>
+      </trans-unit>
+      <trans-unit id="Pe4f.Lw" resname="pedagogy.pro.3">
         <source>pedagogy.pro.3</source>
         <target>المساحات المساعدة والاستماع، ومركز التوجيه يقودها المهنيون</target>
-      </segment>
-    </unit>
-    <unit id="uxDIdvi" name="pedagogy.poles.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="uxDIdvi" resname="pedagogy.poles.title">
         <source>pedagogy.poles.title</source>
         <target>الاستماع, والمساعدة , والمساعدة في المساحات</target>
-      </segment>
-    </unit>
-    <unit id="Qu9TnOm" name="pedagogy.poles.1">
-      <segment>
+      </trans-unit>
+      <trans-unit id="Qu9TnOm" resname="pedagogy.poles.1">
         <source>pedagogy.poles.1</source>
         <target>تجربة المنفى صعبة. والمشاركة في التدريب المكثف ذي الخلفية التعليمية المنخفضة معقدة</target>
-      </segment>
-    </unit>
-    <unit id="Ez9cxxc" name="pedagogy.poles.2">
-      <segment>
+      </trans-unit>
+      <trans-unit id="Ez9cxxc" resname="pedagogy.poles.2">
         <source>pedagogy.poles.2</source>
         <target>لمساعدة طلابنا على أن يكونوا مرتاحين في لغتنا، يجب أن نساعدهم على تخفيف عبء المنفى. هذا هو السبب في أننا نربط مع التربية لدينا مع </target>
-      </segment>
-    </unit>
-    <unit id="wQtfuP_" name="pedagogy.poles.3">
-      <segment>
+      </trans-unit>
+      <trans-unit id="wQtfuP_" resname="pedagogy.poles.3">
         <source>pedagogy.poles.3</source>
         <target> طبيب نفساني متخصص في صدمة المنفى 1</target>
-      </segment>
-    </unit>
-    <unit id="87YKuYq" name="pedagogy.poles.4">
-      <segment>
+      </trans-unit>
+      <trans-unit id="87YKuYq" resname="pedagogy.poles.4">
         <source>pedagogy.poles.4</source>
         <target> مساحة للمساعدة الاجتماعية/الإدارية</target>
-      </segment>
-    </unit>
-    <unit id="gSwiMCe" name="pedagogy.poles.5">
-      <segment>
+      </trans-unit>
+      <trans-unit id="gSwiMCe" resname="pedagogy.poles.5">
         <source>pedagogy.poles.5</source>
         <target>مساعدة محام متخصص في حقوق الأجانب</target>
-      </segment>
-    </unit>
-    <unit id="DyoAfV8" name="pedagogy.orient.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="DyoAfV8" resname="pedagogy.orient.title">
         <source>pedagogy.orient.title</source>
         <target>إرشادات العمالة لإعداد المستقبل</target>
-      </segment>
-    </unit>
-    <unit id="5bnZ6DS" name="pedagogy.orient.1">
-      <segment>
+      </trans-unit>
+      <trans-unit id="5bnZ6DS" resname="pedagogy.orient.1">
         <source>pedagogy.orient.1</source>
         <target>وتتمثل مهمة توت في قيادة الأفراد إلى استقلالهم الاجتماعي والاقتصادي. ولهذا السبب نحدد أهم فرص التدريب والتوظيف لطلابنا، مع مراعاة معارفهم وخلفيتهم وتطلعاتهم الشخصية، لمدة 16 ساعة في كل دورة تدريبية:</target>
-      </segment>
-    </unit>
-    <unit id="6aUtiPt" name="pedagogy.orient.2">
-      <segment>
+      </trans-unit>
+      <trans-unit id="6aUtiPt" resname="pedagogy.orient.2">
         <source>pedagogy.orient.2</source>
         <target>ورش عمل أسبوعية لشرح بيئة العمل الفرنسية </target>
-      </segment>
-    </unit>
-    <unit id="C2FMydQ" name="pedagogy.orient.3">
-      <segment>
+      </trans-unit>
+      <trans-unit id="C2FMydQ" resname="pedagogy.orient.3">
         <source>pedagogy.orient.3</source>
         <target>إرشادات للتدريب وعروض التوظيف</target>
-      </segment>
-    </unit>
-    <unit id="xM7LKuB" name="pedagogy.diploma.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="xM7LKuB" resname="pedagogy.diploma.title">
         <source>pedagogy.diploma.title</source>
         <target>درجة الكفاءة الفرنسية المعترف بها من قبل الدولة الفرنسية</target>
-      </segment>
-    </unit>
-    <unit id="5uFSov7" name="pedagogy.diploma.1">
-      <segment>
+      </trans-unit>
+      <trans-unit id="5uFSov7" resname="pedagogy.diploma.1">
         <source>pedagogy.diploma.1</source>
         <target> DILF أو DELF A1 أو DELF A2.تلتزم توت بقيادة المتعلمين للحصول على  </target>
-      </segment>
-    </unit>
-    <unit id="tyjpenU" name="pedagogy.diploma.2">
-      <segment>
+      </trans-unit>
+      <trans-unit id="tyjpenU" resname="pedagogy.diploma.2">
         <source>pedagogy.diploma.2</source>
         <target>ويصدر بعد امتحان خطي ومركز للامتحانات الشفوية، وبالتالي يتوافق مع دبلوم دولي تعترف به الدولة الفرنسية.</target>
-      </segment>
-    </unit>
-    <unit id="yosi0Nu" name="team">
-      <segment>
+      </trans-unit>
+      <trans-unit id="yosi0Nu" resname="team">
         <source>team</source>
         <target>فريقنا</target>
-      </segment>
-    </unit>
-    <unit id="4Y.w.4v" name="team.more">
-      <segment>
+      </trans-unit>
+      <trans-unit id="4Y.w.4v" resname="team.more">
         <source>team.more</source>
         <target>والعديد من المتطوعين  الذين يساعدون يوميا لجودة التدريس وغيرها من البعثات من توت </target>
-      </segment>
-    </unit>
-    <unit id="n63ZTWz" name="legal.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="n63ZTWz" resname="legal.title">
         <source>legal.title</source>
         <target>الإشعارات القانونية</target>
-      </segment>
-    </unit>
-    <unit id="3P24U.9" name="home.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="3P24U.9" resname="home.title">
         <source>home.title</source>
         <target>المنزل</target>
-      </segment>
-    </unit>
-    <unit id="KA1Eqx6" name="welcome">
-      <segment>
+      </trans-unit>
+      <trans-unit id="KA1Eqx6" resname="welcome">
         <source>welcome</source>
         <target>مرحبا بكم في توت      </target>
-      </segment>
-    </unit>
-    <unit id="JbHtlhW" name="headline">
-      <segment>
+      </trans-unit>
+      <trans-unit id="JbHtlhW" resname="headline">
         <source>headline</source>
         <target>مدرسة منح اللغة الفرنسية للاجئين وطالبي اللجوء</target>
-      </segment>
-    </unit>
-    <unit id="25GXUyE" name="inscriptions.know.more">
-      <segment>
+      </trans-unit>
+      <trans-unit id="25GXUyE" resname="inscriptions.know.more">
         <source>inscriptions.know.more</source>
         <target>لمعرفة المزيد عن التسجيل</target>
-      </segment>
-    </unit>
-    <unit id="jkAv0mB" name="from.date">
-      <segment>
+      </trans-unit>
+      <trans-unit id="jkAv0mB" resname="from.date">
         <source>from.date</source>
         <target>من عام 2016</target>
-      </segment>
-    </unit>
-    <unit id="aCE9GgT" name="home.students.admitted">
-      <segment>
+      </trans-unit>
+      <trans-unit id="aCE9GgT" resname="home.students.admitted">
         <source>home.students.admitted</source>
         <target>اعترف الطلاب</target>
-      </segment>
-    </unit>
-    <unit id="ZpZgEDk" name="home.diplomas">
-      <segment>
+      </trans-unit>
+      <trans-unit id="ZpZgEDk" resname="home.diplomas">
         <source>home.diplomas</source>
         <target> DILF/DELF الشهادات  </target>
-      </segment>
-    </unit>
-    <unit id="VjMR08z" name="home.promos">
-      <segment>
+      </trans-unit>
+      <trans-unit id="VjMR08z" resname="home.promos">
         <source>home.promos</source>
         <target>الدورات التدريبية في السنة:</target>
-      </segment>
-    </unit>
-    <unit id="jLHvtjQ" name="home.laureates">
-      <segment>
+      </trans-unit>
+      <trans-unit id="jLHvtjQ" resname="home.laureates">
         <source>home.laureates</source>
         <target> « La France s'engage »الحائز على جائزة</target>
-      </segment>
-    </unit>
-    <unit id="kMUOXXt" name="inscriptions.now.open">
-      <segment>
+      </trans-unit>
+      <trans-unit id="kMUOXXt" resname="inscriptions.now.open">
         <source>inscriptions.now.open</source>
         <target>التسجيل مفتوح</target>
-      </segment>
-    </unit>
-    <unit id="5vyWyFT" name="inscription.limit">
-      <segment>
+      </trans-unit>
+      <trans-unit id="5vyWyFT" resname="inscription.limit">
         <source>inscription.limit</source>
         <target>لديك حتى %date% للتسجيل</target>
-      </segment>
-    </unit>
-    <unit id="gb_1s_Y" name="i.want.to.register">
-      <segment>
+      </trans-unit>
+      <trans-unit id="gb_1s_Y" resname="i.want.to.register">
         <source>i.want.to.register</source>
         <target>أريد التسجيل</target>
-      </segment>
-    </unit>
-    <unit id="36whLxz" name="inscription.next">
-      <segment>
+      </trans-unit>
+      <trans-unit id="36whLxz" resname="inscription.next">
         <source>inscription.next</source>
         <target>%date%  سيتم فتح التسجيل في </target>
-      </segment>
-    </unit>
-    <unit id="c1zwxoc" name="who.can.study">
-      <segment>
+      </trans-unit>
+      <trans-unit id="c1zwxoc" resname="who.can.study">
         <source>who.can.study</source>
         <target>من يستطيع الدراسة في توت       </target>
-      </segment>
-    </unit>
-    <unit id="rcYhXyd" name="who.can.study.sub">
-      <segment>
+      </trans-unit>
+      <trans-unit id="rcYhXyd" resname="who.can.study.sub">
         <source>who.can.study.sub</source>
         <target>دوراتنا هي للأشخاص في المنفى (طالبي اللجوء، بموجب إجراءات دبلن، واللاجئين، وما إلى ذلك)</target>
-      </segment>
-    </unit>
-    <unit id="fkFfCt4" name="home.levels">
-      <segment>
+      </trans-unit>
+      <trans-unit id="fkFfCt4" resname="home.levels">
         <source>home.levels</source>
         <target> A2المستوى الفرنسي من محو الأمية إلى </target>
-      </segment>
-    </unit>
-    <unit id="VzKxAl_" name="home.initialLevel">
-      <segment>
+      </trans-unit>
+      <trans-unit id="VzKxAl_" resname="home.initialLevel">
         <source>home.initialLevel</source>
         <target>مع انخفاض المستوى التعليمي في بلدهم</target>
-      </segment>
-    </unit>
-    <unit id="q2F5byo" name="home.noBac">
-      <segment>
+      </trans-unit>
+      <trans-unit id="q2F5byo" resname="home.noBac">
         <source>home.noBac</source>
         <target>الذين لم يصلوا بعد إلى مستوى البكالوريا</target>
-      </segment>
-    </unit>
-    <unit id="DRHpkTj" name="home.dispos">
-      <segment>
+      </trans-unit>
+      <trans-unit id="DRHpkTj" resname="home.dispos">
         <source>home.dispos</source>
         <target>متوفر 14 ساعة في الأسبوع</target>
-      </segment>
-    </unit>
-    <unit id="U.d1wi5" name="home.tariff">
-      <segment>
+      </trans-unit>
+      <trans-unit id="U.d1wi5" resname="home.tariff">
         <source>home.tariff</source>
         <target> €7 في مقابل  </target>
-      </segment>
-    </unit>
-    <unit id="U.bO1Xs" name="dispositif">
-      <segment>
+      </trans-unit>
+      <trans-unit id="U.bO1Xs" resname="dispositif">
         <source>dispositif</source>
         <target>مفهومنا</target>
-      </segment>
-    </unit>
-    <unit id="uceE5Pa" name="dispositif.sub">
-      <segment>
+      </trans-unit>
+      <trans-unit id="uceE5Pa" resname="dispositif.sub">
         <source>dispositif.sub</source>
         <target>دورات تدريبية قصيرة ومكثفة ومحددة ومصدقة</target>
-      </segment>
-    </unit>
-    <unit id="wyEqE6C" name="home.months.training">
-      <segment>
+      </trans-unit>
+      <trans-unit id="wyEqE6C" resname="home.months.training">
         <source>home.months.training</source>
         <target>أشهر التدريب لكل دورة</target>
-      </segment>
-    </unit>
-    <unit id="AhDUYT_" name="home.hours">
-      <segment>
+      </trans-unit>
+      <trans-unit id="AhDUYT_" resname="home.hours">
         <source>home.hours</source>
         <target>ساعات من الدروس الفرنسية</target>
-      </segment>
-    </unit>
-    <unit id="jPjRyyG" name="home.profPerClass">
-      <segment>
+      </trans-unit>
+      <trans-unit id="jPjRyyG" resname="home.profPerClass">
         <source>home.profPerClass</source>
         <target>درس لغة فرنسية لكل صف من 15 طالباً</target>
-      </segment>
-    </unit>
-    <unit id="2Nmj_CX" name="home.daysAtelier">
-      <segment>
+      </trans-unit>
+      <trans-unit id="2Nmj_CX" resname="home.daysAtelier">
         <source>home.daysAtelier</source>
         <target>ساعات من ورش العمل الفنية</target>
-      </segment>
-    </unit>
-    <unit id="KmQfaOB" name="home.polesAssistance">
-      <segment>
+      </trans-unit>
+      <trans-unit id="KmQfaOB" resname="home.polesAssistance">
         <source>home.polesAssistance</source>
         <target>مراكز الدعم (النفسية والاجتماعية والقانونية)</target>
-      </segment>
-    </unit>
-    <unit id="lGmTDPe" name="home.polesOrientation">
-      <segment>
+      </trans-unit>
+      <trans-unit id="lGmTDPe" resname="home.polesOrientation">
         <source>home.polesOrientation</source>
         <target>التوجيه المهني للتحضير للمستقبل</target>
-      </segment>
-    </unit>
-    <unit id="6jQM7ME" name="home.examen">
-      <segment>
+      </trans-unit>
+      <trans-unit id="6jQM7ME" resname="home.examen">
         <source>home.examen</source>
         <target>  DILF/DELF الامتحان في نهاية التدريب </target>
-      </segment>
-    </unit>
-    <unit id="Qk4wHwr" name="inscription.limit.alt">
-      <segment>
+      </trans-unit>
+      <trans-unit id="Qk4wHwr" resname="inscription.limit.alt">
         <source>inscription.limit.alt</source>
         <target>  %date% %time%يمكنك التسجيل حتى</target>
-      </segment>
-    </unit>
-    <unit id="S9k1S7Z" name="warning">
-      <segment>
+      </trans-unit>
+      <trans-unit id="S9k1S7Z" resname="warning">
         <source>warning</source>
         <target>_warning</target>
-      </segment>
-    </unit>
-    <unit id="2Lgvscd" name="warning.lang">
-      <segment>
+      </trans-unit>
+      <trans-unit id="2Lgvscd" resname="warning.lang">
         <source>warning.lang</source>
         <target>يجب ملء الاستمارة من قبل المرشحين نفسه. النموذج متاح باللغة العربية، الفارسية، الباشتو، الإنجليزية (يمكن الوصول إلى الإصدارات المختلفة على موقعنا على الانترنت) إذا كان المرشح لا يتحدث واحدة من هذه اللغات و / أو أنه لا يستطيع القراءة والكتابة على لغته الخاصة، يمكن أن يساعده شخص آخر.</target>
-      </segment>
-    </unit>
-    <unit id="Y71wZe8" name="life">
-      <segment>
+      </trans-unit>
+      <trans-unit id="Y71wZe8" resname="life">
         <source>life</source>
         <target>الحياة في توت</target>
-      </segment>
-    </unit>
-    <unit id="qo6fhxC" name="life.sub">
-      <segment>
+      </trans-unit>
+      <trans-unit id="qo6fhxC" resname="life.sub">
         <source>life.sub</source>
         <target>مدرسة منح اللغة الفرنسية للاجئين وطالبي اللجوء</target>
-      </segment>
-    </unit>
-    <unit id="raQCp6b" name="life.equality">
-      <segment>
+      </trans-unit>
+      <trans-unit id="raQCp6b" resname="life.equality">
         <source>life.equality</source>
         <target>المساواة في الحقوق للجميع</target>
-      </segment>
-    </unit>
-    <unit id="vkpTHGv" name="life.ambition">
-      <segment>
+      </trans-unit>
+      <trans-unit id="vkpTHGv" resname="life.ambition">
         <source>life.ambition</source>
         <target>الطموح</target>
-      </segment>
-    </unit>
-    <unit id="z0d1_fw" name="life.humanism">
-      <segment>
+      </trans-unit>
+      <trans-unit id="z0d1_fw" resname="life.humanism">
         <source>life.humanism</source>
         <target>الانسانيه</target>
-      </segment>
-    </unit>
-    <unit id="3iD2ZPz" name="life.access">
-      <segment>
+      </trans-unit>
+      <trans-unit id="3iD2ZPz" resname="life.access">
         <source>life.access</source>
         <target>الوصول الثقافي والاجتماعي</target>
-      </segment>
-    </unit>
-    <unit id="Bst18TJ" name="partners">
-      <segment>
+      </trans-unit>
+      <trans-unit id="Bst18TJ" resname="partners">
         <source>partners</source>
         <target>شركاؤنا</target>
-      </segment>
-    </unit>
-    <unit id="HQdLIVe" name="partners.sub">
-      <segment>
+      </trans-unit>
+      <trans-unit id="HQdLIVe" resname="partners.sub">
         <source>partners.sub</source>
         <target>توت يشكر جميع المانحين والمؤيدين والشركاء</target>
-      </segment>
-    </unit>
-    <unit id="jbjkLYq" name="news.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="jbjkLYq" resname="news.title">
         <source>news.title</source>
         <target>اخبار</target>
-      </segment>
-    </unit>
-    <unit id="rgB.JAr" name="news.ours">
-      <segment>
+      </trans-unit>
+      <trans-unit id="rgB.JAr" resname="news.ours">
         <source>news.ours</source>
         <target>أخبارنا</target>
-      </segment>
-    </unit>
-    <unit id="P3fkZyj" name="news.press">
-      <segment>
+      </trans-unit>
+      <trans-unit id="P3fkZyj" resname="news.press">
         <source>news.press</source>
         <target>Press Kit</target>
-      </segment>
-    </unit>
-    <unit id="GOn.I8r" name="news.others">
-      <segment>
+      </trans-unit>
+      <trans-unit id="GOn.I8r" resname="news.others">
         <source>news.others</source>
         <target>Press review</target>
-      </segment>
-    </unit>
-    <unit id="I5SCDa_" name="see.more">
-      <segment>
+      </trans-unit>
+      <trans-unit id="I5SCDa_" resname="see.more">
         <source>see.more</source>
         <target>شاهد المزيد</target>
-      </segment>
-    </unit>
-    <unit id="UXeHGRS" name="presskit">
-      <segment>
+      </trans-unit>
+      <trans-unit id="UXeHGRS" resname="presskit">
         <source>presskit</source>
         <target>Press Kit</target>
-      </segment>
-    </unit>
-    <unit id="aAvt864" name="presskit.photos">
-      <segment>
+      </trans-unit>
+      <trans-unit id="aAvt864" resname="presskit.photos">
         <source>presskit.photos</source>
         <target>Our official pictures</target>
-      </segment>
-    </unit>
-    <unit id="tMTYwJZ" name="presskit.photos.info">
-      <segment>
+      </trans-unit>
+      <trans-unit id="tMTYwJZ" resname="presskit.photos.info">
         <source>presskit.photos.info</source>
         <target>15 pictures</target>
-      </segment>
-    </unit>
-    <unit id="BiscqA1" name="presskit.logo">
-      <segment>
+      </trans-unit>
+      <trans-unit id="BiscqA1" resname="presskit.logo">
         <source>presskit.logo</source>
         <target>Download the logo in HD</target>
-      </segment>
-    </unit>
-    <unit id="RBLc_TV" name="presskit.logo.info">
-      <segment>
+      </trans-unit>
+      <trans-unit id="RBLc_TV" resname="presskit.logo.info">
         <source>presskit.logo.info</source>
         <target>AI formats</target>
-      </segment>
-    </unit>
-    <unit id="uZiSX6y" name="presskit.communique">
-      <segment>
+      </trans-unit>
+      <trans-unit id="uZiSX6y" resname="presskit.communique">
         <source>presskit.communique</source>
         <target>Press release</target>
-      </segment>
-    </unit>
-    <unit id="hLwXmEC" name="presskit.communique.info">
-      <segment>
+      </trans-unit>
+      <trans-unit id="hLwXmEC" resname="presskit.communique.info">
         <source>presskit.communique.info</source>
         <target>Updated on 09/19/2016</target>
-      </segment>
-    </unit>
-    <unit id="t9VJshH" name="presskit.notfound">
-      <segment>
+      </trans-unit>
+      <trans-unit id="t9VJshH" resname="presskit.notfound">
         <source>presskit.notfound</source>
         <target>You can't find what you need ?</target>
-      </segment>
-    </unit>
-    <unit id="gHDzMk4" name="presskit.contact">
-      <segment>
+      </trans-unit>
+      <trans-unit id="gHDzMk4" resname="presskit.contact">
         <source>presskit.contact</source>
         <target>Contact us</target>
-      </segment>
-    </unit>
-    <unit id="gZlzcWy" name="press.review">
-      <segment>
+      </trans-unit>
+      <trans-unit id="gZlzcWy" resname="press.review">
         <source>press.review</source>
         <target>Press review</target>
-      </segment>
-    </unit>
-    <unit id="V6An5qD" name="contact.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="V6An5qD" resname="contact.title">
         <source>contact.title</source>
         <target>الاتصال</target>
-      </segment>
-    </unit>
-    <unit id="glRIc1N" name="contact.text">
-      <segment>
+      </trans-unit>
+      <trans-unit id="glRIc1N" resname="contact.text">
         <source>contact.text</source>
         <target>اتصل بنا، سنكون سعداء للرد عليك</target>
-      </segment>
-    </unit>
-    <unit id="aririzH" name="contact.form.error">
-      <segment>
+      </trans-unit>
+      <trans-unit id="aririzH" resname="contact.form.error">
         <source>contact.form.error</source>
         <target>الخطا</target>
-      </segment>
-    </unit>
-    <unit id="rM4AE95" name="contact.form.info">
-      <segment>
+      </trans-unit>
+      <trans-unit id="rM4AE95" resname="contact.form.info">
         <source>contact.form.info</source>
         <target>المعلومات</target>
-      </segment>
-    </unit>
-    <unit id="6wFd3mH" name="contact.form.name">
-      <segment>
+      </trans-unit>
+      <trans-unit id="6wFd3mH" resname="contact.form.name">
         <source>contact.form.name</source>
         <target>الاسم</target>
-      </segment>
-    </unit>
-    <unit id="2pbVlLF" name="contact.form.email">
-      <segment>
+      </trans-unit>
+      <trans-unit id="2pbVlLF" resname="contact.form.email">
         <source>contact.form.email</source>
         <target>البريد الإلكتروني الخاص بك</target>
-      </segment>
-    </unit>
-    <unit id="uy34jBm" name="contact.form.subject">
-      <segment>
+      </trans-unit>
+      <trans-unit id="uy34jBm" resname="contact.form.subject">
         <source>contact.form.subject</source>
         <target>موضوع رسالتك</target>
-      </segment>
-    </unit>
-    <unit id="va0Dik0" name="contact.subject.jobs">
-      <segment>
+      </trans-unit>
+      <trans-unit id="va0Dik0" resname="contact.subject.jobs">
         <source>contact.subject.jobs</source>
         <target>التوظيف</target>
-      </segment>
-    </unit>
-    <unit id="hlbrlVN" name="contact.subject.volunteer">
-      <segment>
+      </trans-unit>
+      <trans-unit id="hlbrlVN" resname="contact.subject.volunteer">
         <source>contact.subject.volunteer</source>
         <target>المتطوعين</target>
-      </segment>
-    </unit>
-    <unit id="2Ki.UTp" name="contact.subject.other">
-      <segment>
+      </trans-unit>
+      <trans-unit id="2Ki.UTp" resname="contact.subject.other">
         <source>contact.subject.other</source>
         <target>الاخري</target>
-      </segment>
-    </unit>
-    <unit id="kGDlATw" name="contact.form.message">
-      <segment>
+      </trans-unit>
+      <trans-unit id="kGDlATw" resname="contact.form.message">
         <source>contact.form.message</source>
         <target>رسالتك</target>
-      </segment>
-    </unit>
-    <unit id="rxOf9wM" name="contact.form.send">
-      <segment>
+      </trans-unit>
+      <trans-unit id="rxOf9wM" resname="contact.form.send">
         <source>contact.form.send</source>
         <target>ارسال</target>
-      </segment>
-    </unit>
-    <unit id="oup04hU" name="on.the.same.theme">
-      <segment>
+      </trans-unit>
+      <trans-unit id="oup04hU" resname="on.the.same.theme">
         <source>on.the.same.theme</source>
         <target>حول نفس الموضوع</target>
-      </segment>
-    </unit>
-    <unit id="2wlRIeG" name="jobs.title">
-      <segment>
+      </trans-unit>
+      <trans-unit id="2wlRIeG" resname="jobs.title">
         <source>jobs.title</source>
         <target>Jobs</target>
-      </segment>
-    </unit>
-    <unit id="ENcvSSf" name="pedagogy.jobs">
-      <segment>
+      </trans-unit>
+      <trans-unit id="ENcvSSf" resname="pedagogy.jobs">
         <source>pedagogy.jobs</source>
         <target>Pedagogy / Job</target>
-      </segment>
-    </unit>
-    <unit id="HW2bPMj" name="profs.volunteers">
-      <segment>
+      </trans-unit>
+      <trans-unit id="HW2bPMj" resname="profs.volunteers">
         <source>profs.volunteers</source>
         <target>Teachers and volunteers, let's get to know each other better !</target>
-      </segment>
-    </unit>
-    <unit id="FH4x6dd" name="become.prof">
-      <segment>
+      </trans-unit>
+      <trans-unit id="FH4x6dd" resname="become.prof">
         <source>become.prof</source>
         <target>كن معلماً</target>
-      </segment>
-    </unit>
-    <unit id="LlgWUtC" name="become.volunteer">
-      <segment>
+      </trans-unit>
+      <trans-unit id="LlgWUtC" resname="become.volunteer">
         <source>become.volunteer</source>
         <target>كن متطوعاً</target>
-      </segment>
-    </unit>
-    <unit id="4OZE87m" name="prof.jobs.how">
-      <segment>
+      </trans-unit>
+      <trans-unit id="4OZE87m" resname="prof.jobs.how">
         <source>prof.jobs.how</source>
         <target>We recruit professors on their excellence</target>
-      </segment>
-    </unit>
-    <unit id="Xl4qJ.f" name="prof.jobs.open">
-      <segment>
+      </trans-unit>
+      <trans-unit id="Xl4qJ.f" resname="prof.jobs.open">
         <source>prof.jobs.open</source>
         <target>We are looking for a teacher !</target>
-      </segment>
-    </unit>
-    <unit id="jHkywNc" name="prof.jobs.closed">
-      <segment>
+      </trans-unit>
+      <trans-unit id="jHkywNc" resname="prof.jobs.closed">
         <source>prof.jobs.closed</source>
         <target>The team of teachers is complete.</target>
-      </segment>
-    </unit>
-    <unit id="tybxCib" name="profs.jobs.announce">
-      <segment>
+      </trans-unit>
+      <trans-unit id="tybxCib" resname="profs.jobs.announce">
         <source>profs.jobs.announce</source>
         <target>If we look for new teachers, we will announce it here and on our Facebook page.</target>
-      </segment>
-    </unit>
-    <unit id="sp6bRsm" name="prof.jobs.1">
-      <segment>
+      </trans-unit>
+      <trans-unit id="sp6bRsm" resname="prof.jobs.1">
         <source>prof.jobs.1</source>
         <target>Thot's teachers are all qualified in FFL and able to lead our students to the degree corresponding to their goal in France</target>
-      </segment>
-    </unit>
-    <unit id="hjS7k9u" name="prof.jobs.2">
-      <segment>
+      </trans-unit>
+      <trans-unit id="hjS7k9u" resname="prof.jobs.2">
         <source>prof.jobs.2</source>
         <target>Speaking the language of the students (mainly Farsi, Pashto and Arabic) is a plus but is not as necessary as an qualification with a low educated public.</target>
-      </segment>
-    </unit>
-    <unit id="hjZg.8R" name="prof.jobs.3">
-      <segment>
+      </trans-unit>
+      <trans-unit id="hjZg.8R" resname="prof.jobs.3">
         <source>prof.jobs.3</source>
         <target>To join Thot as a teacher of French as a Foreign Language, send an email with CV and motivational letter to professors@thot-fle.fr. Posts are based in Saint-Denis.</target>
-      </segment>
-    </unit>
-    <unit id="1dw5iG7" name="prof.jobs.3.closed">
-      <segment>
+      </trans-unit>
+      <trans-unit id="1dw5iG7" resname="prof.jobs.3.closed">
         <source>prof.jobs.3.closed</source>
         <target>We thank you for your interest in our school, our team of teachers is currently full, check our site regularly to see if we recruit!</target>
-      </segment>
-    </unit>
-    <unit id="YFONJMF" name="volunteer.how">
-      <segment>
+      </trans-unit>
+      <trans-unit id="YFONJMF" resname="volunteer.how">
         <source>volunteer.how</source>
         <target>كيف تصبح متطوعًا</target>
-      </segment>
-    </unit>
-    <unit id="3jrYnX." name="volunteer.subtitle">
-      <segment>
+      </trans-unit>
+      <trans-unit id="3jrYnX." resname="volunteer.subtitle">
         <source>volunteer.subtitle</source>
         <target>Thot is effective thanks to the combination of teaching by qualified teachers and your intervention as tutors. Several types of volunteering are possible:</target>
-      </segment>
-    </unit>
-    <unit id="xi00ZjG" name="volunteer.jobs">
-      <segment>
+      </trans-unit>
+      <trans-unit id="xi00ZjG" resname="volunteer.jobs">
         <source>volunteer.jobs</source>
         <target>المتطوعون في المدرسة</target>
-      </segment>
-    </unit>
-    <unit id="kC_E5EM" name="jobs.school.1">
-      <segment>
+      </trans-unit>
+      <trans-unit id="kC_E5EM" resname="jobs.school.1">
         <source>jobs.school.1</source>
         <target>Our form will allow you to register - within the limits of the needs of the school - as an assistant or tutor for French courses, tutor in the workshops of employment or translator / interpreter. We will tell you more in the form.</target>
-      </segment>
-    </unit>
-    <unit id="4OAR6pk" name="jobs.school.2">
-      <segment>
+      </trans-unit>
+      <trans-unit id="4OAR6pk" resname="jobs.school.2">
         <source>jobs.school.2</source>
         <target>We receive many applications to join our team of volunteers, we are sorry we can not answer positively to all requests. Future volunteers will be invited to an information meeting at the beginning of the training session.</target>
-      </segment>
-    </unit>
-    <unit id="IkFIJQo" name="jobs.school.3.warning">
-      <segment>
+      </trans-unit>
+      <trans-unit id="IkFIJQo" resname="jobs.school.3.warning">
         <source>jobs.school.3.warning</source>
         <target>Warning</target>
-      </segment>
-    </unit>
-    <unit id="5cIoX_9" name="jobs.school.3.text">
-      <segment>
+      </trans-unit>
+      <trans-unit id="5cIoX_9" resname="jobs.school.3.text">
         <source>jobs.school.3.text</source>
         <target>We are located only in Paris and Ile-de-France region. </target>
-      </segment>
-    </unit>
-    <unit id="LzfF59z" name="volunteer.jobs.closed">
-      <segment>
+      </trans-unit>
+      <trans-unit id="LzfF59z" resname="volunteer.jobs.closed">
         <source>volunteer.jobs.closed</source>
         <target>Applications for volunteering are closed</target>
-      </segment>
-    </unit>
-    <unit id="X4BGC6c" name="volunteer.jobs.announce">
-      <segment>
+      </trans-unit>
+      <trans-unit id="X4BGC6c" resname="volunteer.jobs.announce">
         <source>volunteer.jobs.announce</source>
         <target>Our team is currently full for this session. Let's meet here or on our Facebook page if you want to become a volunteer for the next training session.</target>
-      </segment>
-    </unit>
-    <unit id="MgfNoPf" name="volunteer.jobs.asso">
-      <segment>
+      </trans-unit>
+      <trans-unit id="MgfNoPf" resname="volunteer.jobs.asso">
         <source>volunteer.jobs.asso</source>
         <target>Volunteer for the association</target>
-      </segment>
-    </unit>
-    <unit id="bbdU0wF" name="volunteer.jobs.asso.text">
-      <segment>
+      </trans-unit>
+      <trans-unit id="bbdU0wF" resname="volunteer.jobs.asso.text">
         <source>volunteer.jobs.asso.text</source>
         <target>If you want to help the association Thot in its organization because you have communication, fundraising, graphics or other wonderful skills to share with us, contact us on the contact form. We will respond as soon as possible.</target>
-      </segment>
-    </unit>
-    <unit id="iyOCQW0" name="home.benevoles">
-      <segment>
+      </trans-unit>
+      <trans-unit id="iyOCQW0" resname="home.benevoles">
         <source>home.benevoles</source>
         <target>متطوعي</target>
-      </segment>
-    </unit>
-    <unit id="TsiZaJH" name="warning.lang.2">
-      <segment>
+      </trans-unit>
+      <trans-unit id="TsiZaJH" resname="warning.lang.2">
         <source>warning.lang.2</source>
         <target>نحن نتلقى الكثير من الطلبات، واستكمال هذا النموذج لا تضمن التسجيل الخاص بك في المدرسة وسيتم فحص جميع الطلبات في غضون شهر واحد، وسيتم إجراء مقابلات مع المرشحين المختارين. بعد المقابلات، سوف تؤكد أو لا تسجيلك في توت     </target>
-      </segment>
-    </unit>
+      </trans-unit>
+      <trans-unit id="VLfgfuY" resname="warning.closed">
+        <source>warning.closed</source>
+        <target>__warning.closed</target>
+      </trans-unit>
+      <trans-unit id="mzXEXUg" resname="warning.closed.2">
+        <source>warning.closed.2</source>
+        <target>__warning.closed.2</target>
+      </trans-unit>
+      <trans-unit id="H8MoLmd" resname="warning.closed.3">
+        <source>warning.closed.3</source>
+        <target>__warning.closed.3</target>
+      </trans-unit>
+      <trans-unit id="rxZYalZ" resname="linked.file">
+        <source>linked.file</source>
+        <target>__linked.file</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
