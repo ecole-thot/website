@@ -64,7 +64,7 @@ class FrontController extends AbstractController
     public function news($_route, int $page): Response
     {
         if ('news' == $_route) {
-            $lastNews = $this->getDoctrine()->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC'], 5);
+            $lastNews = $this->getDoctrine()->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC']);
 
             $reviews = $this->getDoctrine()->getRepository(PressItem::class)->findBy([], ['publishedAt' => 'DESC']);
 
