@@ -22,6 +22,7 @@
 {{ form_start(form, {attr: {class: 'ui form'}}) }}
 {{ form_row(form.name) }}
 {{ form_row(form.job) }}
+{{ form_row(form.sortingOrder, {attr: {placeholder: '1'}}) }}
 {% if image %}
 <img src="{{ asset('/uploads/members/' ~ image) }}">
 {% endif %}

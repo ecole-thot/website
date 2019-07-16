@@ -35,6 +35,11 @@ class TeamMember
     private $image;
 
     /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $sortingOrder;
+
+    /**
      * @return mixed
      */
     public function getId()
@@ -78,6 +83,26 @@ class TeamMember
     public function setJob($job)
     {
         $this->job = $job;
+
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSortingOrder()
+    {
+        return $this->sortingOrder;
+    }
+
+    /**
+     * @param mixed $sortingOrder
+     *
+     * @return self
+     */
+    public function setSortingOrder($sortingOrder)
+    {
+        $this->sortingOrder = $sortingOrder;
 
         return $this;
     }
