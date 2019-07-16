@@ -71,7 +71,7 @@
 {% if settings.inscriptions_open %}
 <section class="text narrow">
     <div class="subtitle">{{ "inscriptions.now.open"|trans }}</div>
-    <div class="title">{{ "inscription.limit.alt"|trans({'%date%': settings.inscription_limit_date|localizeddate('dd MMMM'), '%time%': settings.inscription_limit_date|localizeddate('HH\:mm')}) }}</div>
+    <div class="title">{{ "inscription.limit.alt"|trans({'%date%': settings.inscription_limit_date|localizeddate('dd MMMM'), '%time%': "11:00:00 AM"|localizeddate('HH\:mm')}) }}</div>
     <div class="warning">
         <div class="title">{{ "warning"|trans }}</div>
         <p>{{ "warning.lang"|trans }}</p>
