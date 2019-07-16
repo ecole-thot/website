@@ -1,654 +1,971 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="fr" target-language="ps" datatype="plaintext" original="file.ext">
-    <header>
-      <tool tool-id="symfony" tool-name="Symfony"/>
-    </header>
-    <body>
-      <trans-unit id="ayp4kO2" resname="menu.school">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="fr" trgLang="ps">
+  <file id="messages.ps">
+    <unit id="ayp4kO2" name="menu.school">
+      <segment>
         <source>menu.school</source>
         <target>__menu.school</target>
-      </trans-unit>
-      <trans-unit id="IyiaHy2" resname="menu.news">
+      </segment>
+    </unit>
+    <unit id="IyiaHy2" name="menu.news">
+      <segment>
         <source>menu.news</source>
         <target>__menu.news</target>
-      </trans-unit>
-      <trans-unit id="C3HpPzJ" resname="menu.contact">
+      </segment>
+    </unit>
+    <unit id="C3HpPzJ" name="menu.contact">
+      <segment>
         <source>menu.contact</source>
         <target>__menu.contact</target>
-      </trans-unit>
-      <trans-unit id="Nn38Z8v" resname="menu.jobs">
+      </segment>
+    </unit>
+    <unit id="Nn38Z8v" name="menu.jobs">
+      <segment>
         <source>menu.jobs</source>
         <target>__menu.jobs</target>
-      </trans-unit>
-      <trans-unit id="ZmS0a_T" resname="menu.donate">
+      </segment>
+    </unit>
+    <unit id="ZmS0a_T" name="menu.donate">
+      <segment>
         <source>menu.donate</source>
         <target>__menu.donate</target>
-      </trans-unit>
-      <trans-unit id="X_Ennoc" resname="lang.fr">
+      </segment>
+    </unit>
+    <unit id="X_Ennoc" name="lang.fr">
+      <segment>
         <source>lang.fr</source>
-        <target>__lang.fr</target>
-      </trans-unit>
-      <trans-unit id="BFrbIL0" resname="lang.en">
+        <target>Français</target>
+      </segment>
+    </unit>
+    <unit id="BFrbIL0" name="lang.en">
+      <segment>
         <source>lang.en</source>
-        <target>__lang.en</target>
-      </trans-unit>
-      <trans-unit id="2WY6ZD2" resname="lang.ar">
+        <target>English</target>
+      </segment>
+    </unit>
+    <unit id="2WY6ZD2" name="lang.ar">
+      <segment>
         <source>lang.ar</source>
-        <target>__lang.ar</target>
-      </trans-unit>
-      <trans-unit id="VjHCuox" resname="lang.ps">
+        <target>العربية</target>
+      </segment>
+    </unit>
+    <unit id="VjHCuox" name="lang.ps">
+      <segment>
         <source>lang.ps</source>
-        <target>__lang.ps</target>
-      </trans-unit>
-      <trans-unit id="LAZXf5b" resname="lang.fa">
+        <target>پښتو</target>
+      </segment>
+    </unit>
+    <unit id="LAZXf5b" name="lang.fa">
+      <segment>
         <source>lang.fa</source>
-        <target>__lang.fa</target>
-      </trans-unit>
-      <trans-unit id="ro0hUeD" resname="engaged.every.day">
+        <target>زبان فارسي</target>
+      </segment>
+    </unit>
+    <unit id="ro0hUeD" name="engaged.every.day">
+      <segment>
         <source>engaged.every.day</source>
         <target>__engaged.every.day</target>
-      </trans-unit>
-      <trans-unit id="Y73.wK2" resname="follow.our.actions">
+      </segment>
+    </unit>
+    <unit id="Y73.wK2" name="follow.our.actions">
+      <segment>
         <source>follow.our.actions</source>
         <target>__follow.our.actions</target>
-      </trans-unit>
-      <trans-unit id="fbuLFEI" resname="moto">
+      </segment>
+    </unit>
+    <unit id="fbuLFEI" name="moto">
+      <segment>
         <source>moto</source>
         <target>__moto</target>
-      </trans-unit>
-      <trans-unit id="wNnQCIQ" resname="footer.legal">
+      </segment>
+    </unit>
+    <unit id="wNnQCIQ" name="footer.legal">
+      <segment>
         <source>footer.legal</source>
         <target>__footer.legal</target>
-      </trans-unit>
-      <trans-unit id="qvIyBkY" resname="title">
+      </segment>
+    </unit>
+    <unit id="qvIyBkY" name="title">
+      <segment>
         <source>title</source>
         <target>__title</target>
-      </trans-unit>
-      <trans-unit id="rQTpS2M" resname="manifesto.title">
+      </segment>
+    </unit>
+    <unit id="rQTpS2M" name="manifesto.title">
+      <segment>
         <source>manifesto.title</source>
         <target>__manifesto.title</target>
-      </trans-unit>
-      <trans-unit id="w9TspZq" resname="school.title">
+      </segment>
+    </unit>
+    <unit id="w9TspZq" name="school.title">
+      <segment>
         <source>school.title</source>
         <target>__school.title</target>
-      </trans-unit>
-      <trans-unit id="Ifveqru" resname="manifesto.mission">
+      </segment>
+    </unit>
+    <unit id="Ifveqru" name="manifesto.mission">
+      <segment>
         <source>manifesto.mission</source>
         <target>__manifesto.mission</target>
-      </trans-unit>
-      <trans-unit id="laxdpBE" resname="manifesto.intro">
+      </segment>
+    </unit>
+    <unit id="laxdpBE" name="manifesto.intro">
+      <segment>
         <source>manifesto.intro</source>
         <target>__manifesto.intro</target>
-      </trans-unit>
-      <trans-unit id="K396rVO" resname="manifesto.definition.title">
+      </segment>
+    </unit>
+    <unit id="K396rVO" name="manifesto.definition.title">
+      <segment>
         <source>manifesto.definition.title</source>
         <target>__manifesto.definition.title</target>
-      </trans-unit>
-      <trans-unit id="ldq8L53" resname="manifesto.definition.1">
+      </segment>
+    </unit>
+    <unit id="ldq8L53" name="manifesto.definition.1">
+      <segment>
         <source>manifesto.definition.1</source>
         <target>__manifesto.definition.1</target>
-      </trans-unit>
-      <trans-unit id="d2VuZZe" resname="manifesto.equality.title">
+      </segment>
+    </unit>
+    <unit id="d2VuZZe" name="manifesto.equality.title">
+      <segment>
         <source>manifesto.equality.title</source>
         <target>__manifesto.equality.title</target>
-      </trans-unit>
-      <trans-unit id="N8G24or" resname="manifesto.equality.1">
+      </segment>
+    </unit>
+    <unit id="N8G24or" name="manifesto.equality.1">
+      <segment>
         <source>manifesto.equality.1</source>
         <target>__manifesto.equality.1</target>
-      </trans-unit>
-      <trans-unit id="J5vlV6U" resname="manifesto.mission.title">
+      </segment>
+    </unit>
+    <unit id="J5vlV6U" name="manifesto.mission.title">
+      <segment>
         <source>manifesto.mission.title</source>
         <target>__manifesto.mission.title</target>
-      </trans-unit>
-      <trans-unit id="f_y73Oo" resname="manifesto.mission.1">
+      </segment>
+    </unit>
+    <unit id="f_y73Oo" name="manifesto.mission.1">
+      <segment>
         <source>manifesto.mission.1</source>
         <target>__manifesto.mission.1</target>
-      </trans-unit>
-      <trans-unit id="bvjotf0" resname="manifesto.secular.title">
+      </segment>
+    </unit>
+    <unit id="bvjotf0" name="manifesto.secular.title">
+      <segment>
         <source>manifesto.secular.title</source>
         <target>__manifesto.secular.title</target>
-      </trans-unit>
-      <trans-unit id="W4WPPFH" resname="manifesto.secular.1">
+      </segment>
+    </unit>
+    <unit id="W4WPPFH" name="manifesto.secular.1">
+      <segment>
         <source>manifesto.secular.1</source>
         <target>__manifesto.secular.1</target>
-      </trans-unit>
-      <trans-unit id="HArTpF." resname="manifesto.respect.title">
+      </segment>
+    </unit>
+    <unit id="HArTpF." name="manifesto.respect.title">
+      <segment>
         <source>manifesto.respect.title</source>
         <target>__manifesto.respect.title</target>
-      </trans-unit>
-      <trans-unit id="OhjIdr4" resname="manifesto.respect.1">
+      </segment>
+    </unit>
+    <unit id="OhjIdr4" name="manifesto.respect.1">
+      <segment>
         <source>manifesto.respect.1</source>
         <target>__manifesto.respect.1</target>
-      </trans-unit>
-      <trans-unit id="8XxPGfs" resname="the.school">
+      </segment>
+    </unit>
+    <unit id="8XxPGfs" name="the.school">
+      <segment>
         <source>the.school</source>
         <target>__the.school</target>
-      </trans-unit>
-      <trans-unit id="h0gbLhU" resname="intensive.cursus">
+      </segment>
+    </unit>
+    <unit id="h0gbLhU" name="intensive.cursus">
+      <segment>
         <source>intensive.cursus</source>
         <target>__intensive.cursus</target>
-      </trans-unit>
-      <trans-unit id="ziXSsoQ" resname="quick.access">
+      </segment>
+    </unit>
+    <unit id="ziXSsoQ" name="quick.access">
+      <segment>
         <source>quick.access</source>
-        <target>__quick.access</target>
-      </trans-unit>
-      <trans-unit id="ffxry50" resname="our.story">
+        <target>Quick access</target>
+      </segment>
+    </unit>
+    <unit id="ffxry50" name="our.story">
+      <segment>
         <source>our.story</source>
         <target>__our.story</target>
-      </trans-unit>
-      <trans-unit id="E57rtHY" resname="our.pedagogy">
+      </segment>
+    </unit>
+    <unit id="E57rtHY" name="our.pedagogy">
+      <segment>
         <source>our.pedagogy</source>
         <target>__our.pedagogy</target>
-      </trans-unit>
-      <trans-unit id="rg.Ogv4" resname="our.team">
+      </segment>
+    </unit>
+    <unit id="rg.Ogv4" name="our.team">
+      <segment>
         <source>our.team</source>
         <target>__our.team</target>
-      </trans-unit>
-      <trans-unit id="pCYuHJv" resname="about">
+      </segment>
+    </unit>
+    <unit id="pCYuHJv" name="about">
+      <segment>
         <source>about</source>
-        <target>__about</target>
-      </trans-unit>
-      <trans-unit id="SAq26Zm" resname="school.who.are.we">
+        <target>در باره</target>
+      </segment>
+    </unit>
+    <unit id="SAq26Zm" name="school.who.are.we">
+      <segment>
         <source>school.who.are.we</source>
         <target>__school.who.are.we</target>
-      </trans-unit>
-      <trans-unit id="FVqTlTZ" resname="school.constitution">
+      </segment>
+    </unit>
+    <unit id="FVqTlTZ" name="school.constitution">
+      <segment>
         <source>school.constitution</source>
         <target>__school.constitution</target>
-      </trans-unit>
-      <trans-unit id="A1IVo.Z" resname="school.creation">
+      </segment>
+    </unit>
+    <unit id="A1IVo.Z" name="school.creation">
+      <segment>
         <source>school.creation</source>
         <target>__school.creation</target>
-      </trans-unit>
-      <trans-unit id="hn1724o" resname="school.accronym">
+      </segment>
+    </unit>
+    <unit id="hn1724o" name="school.accronym">
+      <segment>
         <source>school.accronym</source>
         <target>__school.accronym</target>
-      </trans-unit>
-      <trans-unit id="2S_4Bii" resname="school.egypt">
+      </segment>
+    </unit>
+    <unit id="2S_4Bii" name="school.egypt">
+      <segment>
         <source>school.egypt</source>
         <target>__school.egypt</target>
-      </trans-unit>
-      <trans-unit id="FN7vV4l" resname="read.manifesto">
+      </segment>
+    </unit>
+    <unit id="FN7vV4l" name="read.manifesto">
+      <segment>
         <source>read.manifesto</source>
         <target>__read.manifesto</target>
-      </trans-unit>
-      <trans-unit id="F8n4s_j" resname="pedagogy">
+      </segment>
+    </unit>
+    <unit id="F8n4s_j" name="pedagogy">
+      <segment>
         <source>pedagogy</source>
         <target>__pedagogy</target>
-      </trans-unit>
-      <trans-unit id="Clf2BAx" resname="pedagogy.headline">
+      </segment>
+    </unit>
+    <unit id="Clf2BAx" name="pedagogy.headline">
+      <segment>
         <source>pedagogy.headline</source>
         <target>__pedagogy.headline</target>
-      </trans-unit>
-      <trans-unit id="bvII1Q1" resname="pedagogy.offer.title">
+      </segment>
+    </unit>
+    <unit id="bvII1Q1" name="pedagogy.offer.title">
+      <segment>
         <source>pedagogy.offer.title</source>
         <target>__pedagogy.offer.title</target>
-      </trans-unit>
-      <trans-unit id="1PXa7Lj" resname="pedagogy.offer.1">
+      </segment>
+    </unit>
+    <unit id="1PXa7Lj" name="pedagogy.offer.1">
+      <segment>
         <source>pedagogy.offer.1</source>
         <target>__pedagogy.offer.1</target>
-      </trans-unit>
-      <trans-unit id="Jj1fSF1" resname="pedagogy.offer.2">
+      </segment>
+    </unit>
+    <unit id="Jj1fSF1" name="pedagogy.offer.2">
+      <segment>
         <source>pedagogy.offer.2</source>
         <target>__pedagogy.offer.2</target>
-      </trans-unit>
-      <trans-unit id="m.k57aV" resname="pedagogy.pro.title">
+      </segment>
+    </unit>
+    <unit id="m.k57aV" name="pedagogy.pro.title">
+      <segment>
         <source>pedagogy.pro.title</source>
         <target>__pedagogy.pro.title</target>
-      </trans-unit>
-      <trans-unit id="JcwupV2" resname="pedagogy.pro.1">
+      </segment>
+    </unit>
+    <unit id="JcwupV2" name="pedagogy.pro.1">
+      <segment>
         <source>pedagogy.pro.1</source>
         <target>__pedagogy.pro.1</target>
-      </trans-unit>
-      <trans-unit id="uN8ehAM" resname="pedagogy.pro.2">
+      </segment>
+    </unit>
+    <unit id="uN8ehAM" name="pedagogy.pro.2">
+      <segment>
         <source>pedagogy.pro.2</source>
         <target>__pedagogy.pro.2</target>
-      </trans-unit>
-      <trans-unit id="Pe4f.Lw" resname="pedagogy.pro.3">
+      </segment>
+    </unit>
+    <unit id="Pe4f.Lw" name="pedagogy.pro.3">
+      <segment>
         <source>pedagogy.pro.3</source>
         <target>__pedagogy.pro.3</target>
-      </trans-unit>
-      <trans-unit id="uxDIdvi" resname="pedagogy.poles.title">
+      </segment>
+    </unit>
+    <unit id="uxDIdvi" name="pedagogy.poles.title">
+      <segment>
         <source>pedagogy.poles.title</source>
         <target>__pedagogy.poles.title</target>
-      </trans-unit>
-      <trans-unit id="Qu9TnOm" resname="pedagogy.poles.1">
+      </segment>
+    </unit>
+    <unit id="Qu9TnOm" name="pedagogy.poles.1">
+      <segment>
         <source>pedagogy.poles.1</source>
         <target>__pedagogy.poles.1</target>
-      </trans-unit>
-      <trans-unit id="Ez9cxxc" resname="pedagogy.poles.2">
+      </segment>
+    </unit>
+    <unit id="Ez9cxxc" name="pedagogy.poles.2">
+      <segment>
         <source>pedagogy.poles.2</source>
         <target>__pedagogy.poles.2</target>
-      </trans-unit>
-      <trans-unit id="wQtfuP_" resname="pedagogy.poles.3">
+      </segment>
+    </unit>
+    <unit id="wQtfuP_" name="pedagogy.poles.3">
+      <segment>
         <source>pedagogy.poles.3</source>
         <target>__pedagogy.poles.3</target>
-      </trans-unit>
-      <trans-unit id="87YKuYq" resname="pedagogy.poles.4">
+      </segment>
+    </unit>
+    <unit id="87YKuYq" name="pedagogy.poles.4">
+      <segment>
         <source>pedagogy.poles.4</source>
         <target>__pedagogy.poles.4</target>
-      </trans-unit>
-      <trans-unit id="gSwiMCe" resname="pedagogy.poles.5">
+      </segment>
+    </unit>
+    <unit id="gSwiMCe" name="pedagogy.poles.5">
+      <segment>
         <source>pedagogy.poles.5</source>
         <target>__pedagogy.poles.5</target>
-      </trans-unit>
-      <trans-unit id="DyoAfV8" resname="pedagogy.orient.title">
+      </segment>
+    </unit>
+    <unit id="DyoAfV8" name="pedagogy.orient.title">
+      <segment>
         <source>pedagogy.orient.title</source>
         <target>__pedagogy.orient.title</target>
-      </trans-unit>
-      <trans-unit id="5bnZ6DS" resname="pedagogy.orient.1">
+      </segment>
+    </unit>
+    <unit id="5bnZ6DS" name="pedagogy.orient.1">
+      <segment>
         <source>pedagogy.orient.1</source>
         <target>__pedagogy.orient.1</target>
-      </trans-unit>
-      <trans-unit id="6aUtiPt" resname="pedagogy.orient.2">
+      </segment>
+    </unit>
+    <unit id="6aUtiPt" name="pedagogy.orient.2">
+      <segment>
         <source>pedagogy.orient.2</source>
         <target>__pedagogy.orient.2</target>
-      </trans-unit>
-      <trans-unit id="C2FMydQ" resname="pedagogy.orient.3">
+      </segment>
+    </unit>
+    <unit id="C2FMydQ" name="pedagogy.orient.3">
+      <segment>
         <source>pedagogy.orient.3</source>
         <target>__pedagogy.orient.3</target>
-      </trans-unit>
-      <trans-unit id="xM7LKuB" resname="pedagogy.diploma.title">
+      </segment>
+    </unit>
+    <unit id="xM7LKuB" name="pedagogy.diploma.title">
+      <segment>
         <source>pedagogy.diploma.title</source>
         <target>__pedagogy.diploma.title</target>
-      </trans-unit>
-      <trans-unit id="5uFSov7" resname="pedagogy.diploma.1">
+      </segment>
+    </unit>
+    <unit id="5uFSov7" name="pedagogy.diploma.1">
+      <segment>
         <source>pedagogy.diploma.1</source>
         <target>__pedagogy.diploma.1</target>
-      </trans-unit>
-      <trans-unit id="tyjpenU" resname="pedagogy.diploma.2">
+      </segment>
+    </unit>
+    <unit id="tyjpenU" name="pedagogy.diploma.2">
+      <segment>
         <source>pedagogy.diploma.2</source>
         <target>__pedagogy.diploma.2</target>
-      </trans-unit>
-      <trans-unit id="yosi0Nu" resname="team">
+      </segment>
+    </unit>
+    <unit id="yosi0Nu" name="team">
+      <segment>
         <source>team</source>
         <target>__team</target>
-      </trans-unit>
-      <trans-unit id="4Y.w.4v" resname="team.more">
+      </segment>
+    </unit>
+    <unit id="4Y.w.4v" name="team.more">
+      <segment>
         <source>team.more</source>
         <target>__team.more</target>
-      </trans-unit>
-      <trans-unit id="n63ZTWz" resname="legal.title">
+      </segment>
+    </unit>
+    <unit id="n63ZTWz" name="legal.title">
+      <segment>
         <source>legal.title</source>
-        <target>__legal.title</target>
-      </trans-unit>
-      <trans-unit id="3P24U.9" resname="home.title">
+        <target>Legal notices</target>
+      </segment>
+    </unit>
+    <unit id="3P24U.9" name="home.title">
+      <segment>
         <source>home.title</source>
         <target>__home.title</target>
-      </trans-unit>
-      <trans-unit id="KA1Eqx6" resname="welcome">
+      </segment>
+    </unit>
+    <unit id="KA1Eqx6" name="welcome">
+      <segment>
         <source>welcome</source>
         <target>__welcome</target>
-      </trans-unit>
-      <trans-unit id="JbHtlhW" resname="headline">
+      </segment>
+    </unit>
+    <unit id="JbHtlhW" name="headline">
+      <segment>
         <source>headline</source>
         <target>__headline</target>
-      </trans-unit>
-      <trans-unit id="25GXUyE" resname="inscriptions.know.more">
+      </segment>
+    </unit>
+    <unit id="25GXUyE" name="inscriptions.know.more">
+      <segment>
         <source>inscriptions.know.more</source>
         <target>__inscriptions.know.more</target>
-      </trans-unit>
-      <trans-unit id="jkAv0mB" resname="from.date">
+      </segment>
+    </unit>
+    <unit id="jkAv0mB" name="from.date">
+      <segment>
         <source>from.date</source>
         <target>__from.date</target>
-      </trans-unit>
-      <trans-unit id="aCE9GgT" resname="home.students.admitted">
+      </segment>
+    </unit>
+    <unit id="aCE9GgT" name="home.students.admitted">
+      <segment>
         <source>home.students.admitted</source>
         <target>__home.students.admitted</target>
-      </trans-unit>
-      <trans-unit id="ZpZgEDk" resname="home.diplomas">
+      </segment>
+    </unit>
+    <unit id="ZpZgEDk" name="home.diplomas">
+      <segment>
         <source>home.diplomas</source>
         <target>__home.diplomas</target>
-      </trans-unit>
-      <trans-unit id="VjMR08z" resname="home.promos">
+      </segment>
+    </unit>
+    <unit id="VjMR08z" name="home.promos">
+      <segment>
         <source>home.promos</source>
         <target>__home.promos</target>
-      </trans-unit>
-      <trans-unit id="jLHvtjQ" resname="home.laureates">
+      </segment>
+    </unit>
+    <unit id="jLHvtjQ" name="home.laureates">
+      <segment>
         <source>home.laureates</source>
         <target>__home.laureates</target>
-      </trans-unit>
-      <trans-unit id="kMUOXXt" resname="inscriptions.now.open">
+      </segment>
+    </unit>
+    <unit id="kMUOXXt" name="inscriptions.now.open">
+      <segment>
         <source>inscriptions.now.open</source>
         <target>__inscriptions.now.open</target>
-      </trans-unit>
-      <trans-unit id="5vyWyFT" resname="inscription.limit">
+      </segment>
+    </unit>
+    <unit id="5vyWyFT" name="inscription.limit">
+      <segment>
         <source>inscription.limit</source>
         <target>__inscription.limit</target>
-      </trans-unit>
-      <trans-unit id="gb_1s_Y" resname="i.want.to.register">
+      </segment>
+    </unit>
+    <unit id="gb_1s_Y" name="i.want.to.register">
+      <segment>
         <source>i.want.to.register</source>
         <target>__i.want.to.register</target>
-      </trans-unit>
-      <trans-unit id="36whLxz" resname="inscription.next">
+      </segment>
+    </unit>
+    <unit id="36whLxz" name="inscription.next">
+      <segment>
         <source>inscription.next</source>
         <target>__inscription.next</target>
-      </trans-unit>
-      <trans-unit id="c1zwxoc" resname="who.can.study">
+      </segment>
+    </unit>
+    <unit id="c1zwxoc" name="who.can.study">
+      <segment>
         <source>who.can.study</source>
         <target>__who.can.study</target>
-      </trans-unit>
-      <trans-unit id="rcYhXyd" resname="who.can.study.sub">
+      </segment>
+    </unit>
+    <unit id="rcYhXyd" name="who.can.study.sub">
+      <segment>
         <source>who.can.study.sub</source>
         <target>__who.can.study.sub</target>
-      </trans-unit>
-      <trans-unit id="fkFfCt4" resname="home.levels">
+      </segment>
+    </unit>
+    <unit id="fkFfCt4" name="home.levels">
+      <segment>
         <source>home.levels</source>
         <target>__home.levels</target>
-      </trans-unit>
-      <trans-unit id="VzKxAl_" resname="home.initialLevel">
+      </segment>
+    </unit>
+    <unit id="VzKxAl_" name="home.initialLevel">
+      <segment>
         <source>home.initialLevel</source>
         <target>__home.initialLevel</target>
-      </trans-unit>
-      <trans-unit id="q2F5byo" resname="home.noBac">
+      </segment>
+    </unit>
+    <unit id="q2F5byo" name="home.noBac">
+      <segment>
         <source>home.noBac</source>
         <target>__home.noBac</target>
-      </trans-unit>
-      <trans-unit id="DRHpkTj" resname="home.dispos">
+      </segment>
+    </unit>
+    <unit id="DRHpkTj" name="home.dispos">
+      <segment>
         <source>home.dispos</source>
         <target>__home.dispos</target>
-      </trans-unit>
-      <trans-unit id="U.d1wi5" resname="home.tariff">
+      </segment>
+    </unit>
+    <unit id="U.d1wi5" name="home.tariff">
+      <segment>
         <source>home.tariff</source>
         <target>__home.tariff</target>
-      </trans-unit>
-      <trans-unit id="U.bO1Xs" resname="dispositif">
+      </segment>
+    </unit>
+    <unit id="U.bO1Xs" name="dispositif">
+      <segment>
         <source>dispositif</source>
         <target>__dispositif</target>
-      </trans-unit>
-      <trans-unit id="uceE5Pa" resname="dispositif.sub">
+      </segment>
+    </unit>
+    <unit id="uceE5Pa" name="dispositif.sub">
+      <segment>
         <source>dispositif.sub</source>
         <target>__dispositif.sub</target>
-      </trans-unit>
-      <trans-unit id="wyEqE6C" resname="home.months.training">
+      </segment>
+    </unit>
+    <unit id="wyEqE6C" name="home.months.training">
+      <segment>
         <source>home.months.training</source>
         <target>__home.months.training</target>
-      </trans-unit>
-      <trans-unit id="AhDUYT_" resname="home.hours">
+      </segment>
+    </unit>
+    <unit id="AhDUYT_" name="home.hours">
+      <segment>
         <source>home.hours</source>
         <target>__home.hours</target>
-      </trans-unit>
-      <trans-unit id="jPjRyyG" resname="home.profPerClass">
+      </segment>
+    </unit>
+    <unit id="jPjRyyG" name="home.profPerClass">
+      <segment>
         <source>home.profPerClass</source>
         <target>__home.profPerClass</target>
-      </trans-unit>
-      <trans-unit id="2Nmj_CX" resname="home.daysAtelier">
+      </segment>
+    </unit>
+    <unit id="2Nmj_CX" name="home.daysAtelier">
+      <segment>
         <source>home.daysAtelier</source>
         <target>__home.daysAtelier</target>
-      </trans-unit>
-      <trans-unit id="KmQfaOB" resname="home.polesAssistance">
+      </segment>
+    </unit>
+    <unit id="KmQfaOB" name="home.polesAssistance">
+      <segment>
         <source>home.polesAssistance</source>
         <target>__home.polesAssistance</target>
-      </trans-unit>
-      <trans-unit id="lGmTDPe" resname="home.polesOrientation">
+      </segment>
+    </unit>
+    <unit id="lGmTDPe" name="home.polesOrientation">
+      <segment>
         <source>home.polesOrientation</source>
         <target>__home.polesOrientation</target>
-      </trans-unit>
-      <trans-unit id="6jQM7ME" resname="home.examen">
+      </segment>
+    </unit>
+    <unit id="6jQM7ME" name="home.examen">
+      <segment>
         <source>home.examen</source>
         <target>__home.examen</target>
-      </trans-unit>
-      <trans-unit id="Qk4wHwr" resname="inscription.limit.alt">
+      </segment>
+    </unit>
+    <unit id="Qk4wHwr" name="inscription.limit.alt">
+      <segment>
         <source>inscription.limit.alt</source>
         <target>__inscription.limit.alt</target>
-      </trans-unit>
-      <trans-unit id="S9k1S7Z" resname="warning">
+      </segment>
+    </unit>
+    <unit id="S9k1S7Z" name="warning">
+      <segment>
         <source>warning</source>
-        <target>__warning</target>
-      </trans-unit>
-      <trans-unit id="2Lgvscd" resname="warning.lang">
+        <target>_warning</target>
+      </segment>
+    </unit>
+    <unit id="2Lgvscd" name="warning.lang">
+      <segment>
         <source>warning.lang</source>
         <target>__warning.lang</target>
-      </trans-unit>
-      <trans-unit id="Y71wZe8" resname="life">
+      </segment>
+    </unit>
+    <unit id="Y71wZe8" name="life">
+      <segment>
         <source>life</source>
         <target>__life</target>
-      </trans-unit>
-      <trans-unit id="qo6fhxC" resname="life.sub">
+      </segment>
+    </unit>
+    <unit id="qo6fhxC" name="life.sub">
+      <segment>
         <source>life.sub</source>
         <target>__life.sub</target>
-      </trans-unit>
-      <trans-unit id="raQCp6b" resname="life.equality">
+      </segment>
+    </unit>
+    <unit id="raQCp6b" name="life.equality">
+      <segment>
         <source>life.equality</source>
         <target>__life.equality</target>
-      </trans-unit>
-      <trans-unit id="vkpTHGv" resname="life.ambition">
+      </segment>
+    </unit>
+    <unit id="vkpTHGv" name="life.ambition">
+      <segment>
         <source>life.ambition</source>
         <target>__life.ambition</target>
-      </trans-unit>
-      <trans-unit id="z0d1_fw" resname="life.humanism">
+      </segment>
+    </unit>
+    <unit id="z0d1_fw" name="life.humanism">
+      <segment>
         <source>life.humanism</source>
         <target>__life.humanism</target>
-      </trans-unit>
-      <trans-unit id="3iD2ZPz" resname="life.access">
+      </segment>
+    </unit>
+    <unit id="3iD2ZPz" name="life.access">
+      <segment>
         <source>life.access</source>
         <target>__life.access</target>
-      </trans-unit>
-      <trans-unit id="Bst18TJ" resname="partners">
+      </segment>
+    </unit>
+    <unit id="Bst18TJ" name="partners">
+      <segment>
         <source>partners</source>
         <target>__partners</target>
-      </trans-unit>
-      <trans-unit id="HQdLIVe" resname="partners.sub">
+      </segment>
+    </unit>
+    <unit id="HQdLIVe" name="partners.sub">
+      <segment>
         <source>partners.sub</source>
         <target>__partners.sub</target>
-      </trans-unit>
-      <trans-unit id="jbjkLYq" resname="news.title">
+      </segment>
+    </unit>
+    <unit id="jbjkLYq" name="news.title">
+      <segment>
         <source>news.title</source>
         <target>__news.title</target>
-      </trans-unit>
-      <trans-unit id="rgB.JAr" resname="news.ours">
+      </segment>
+    </unit>
+    <unit id="rgB.JAr" name="news.ours">
+      <segment>
         <source>news.ours</source>
         <target>__news.ours</target>
-      </trans-unit>
-      <trans-unit id="P3fkZyj" resname="news.press">
+      </segment>
+    </unit>
+    <unit id="P3fkZyj" name="news.press">
+      <segment>
         <source>news.press</source>
-        <target>__news.press</target>
-      </trans-unit>
-      <trans-unit id="GOn.I8r" resname="news.others">
+        <target>Press Kit</target>
+      </segment>
+    </unit>
+    <unit id="GOn.I8r" name="news.others">
+      <segment>
         <source>news.others</source>
-        <target>__news.others</target>
-      </trans-unit>
-      <trans-unit id="I5SCDa_" resname="see.more">
+        <target>Press review</target>
+      </segment>
+    </unit>
+    <unit id="I5SCDa_" name="see.more">
+      <segment>
         <source>see.more</source>
         <target>__see.more</target>
-      </trans-unit>
-      <trans-unit id="UXeHGRS" resname="presskit">
+      </segment>
+    </unit>
+    <unit id="UXeHGRS" name="presskit">
+      <segment>
         <source>presskit</source>
-        <target>__presskit</target>
-      </trans-unit>
-      <trans-unit id="aAvt864" resname="presskit.photos">
+        <target>Press Kit</target>
+      </segment>
+    </unit>
+    <unit id="aAvt864" name="presskit.photos">
+      <segment>
         <source>presskit.photos</source>
-        <target>__presskit.photos</target>
-      </trans-unit>
-      <trans-unit id="tMTYwJZ" resname="presskit.photos.info">
+        <target>Our official pictures</target>
+      </segment>
+    </unit>
+    <unit id="tMTYwJZ" name="presskit.photos.info">
+      <segment>
         <source>presskit.photos.info</source>
-        <target>__presskit.photos.info</target>
-      </trans-unit>
-      <trans-unit id="BiscqA1" resname="presskit.logo">
+        <target>15 pictures</target>
+      </segment>
+    </unit>
+    <unit id="BiscqA1" name="presskit.logo">
+      <segment>
         <source>presskit.logo</source>
-        <target>__presskit.logo</target>
-      </trans-unit>
-      <trans-unit id="RBLc_TV" resname="presskit.logo.info">
+        <target>Download the logo in HD</target>
+      </segment>
+    </unit>
+    <unit id="RBLc_TV" name="presskit.logo.info">
+      <segment>
         <source>presskit.logo.info</source>
-        <target>__presskit.logo.info</target>
-      </trans-unit>
-      <trans-unit id="uZiSX6y" resname="presskit.communique">
+        <target>AI formats</target>
+      </segment>
+    </unit>
+    <unit id="uZiSX6y" name="presskit.communique">
+      <segment>
         <source>presskit.communique</source>
-        <target>__presskit.communique</target>
-      </trans-unit>
-      <trans-unit id="hLwXmEC" resname="presskit.communique.info">
+        <target>Press release</target>
+      </segment>
+    </unit>
+    <unit id="hLwXmEC" name="presskit.communique.info">
+      <segment>
         <source>presskit.communique.info</source>
-        <target>__presskit.communique.info</target>
-      </trans-unit>
-      <trans-unit id="t9VJshH" resname="presskit.notfound">
+        <target>Updated on 09/19/2016</target>
+      </segment>
+    </unit>
+    <unit id="t9VJshH" name="presskit.notfound">
+      <segment>
         <source>presskit.notfound</source>
-        <target>__presskit.notfound</target>
-      </trans-unit>
-      <trans-unit id="gHDzMk4" resname="presskit.contact">
+        <target>You can't find what you need ?</target>
+      </segment>
+    </unit>
+    <unit id="gHDzMk4" name="presskit.contact">
+      <segment>
         <source>presskit.contact</source>
-        <target>__presskit.contact</target>
-      </trans-unit>
-      <trans-unit id="gZlzcWy" resname="press.review">
+        <target>Contact us</target>
+      </segment>
+    </unit>
+    <unit id="gZlzcWy" name="press.review">
+      <segment>
         <source>press.review</source>
-        <target>__press.review</target>
-      </trans-unit>
-      <trans-unit id="V6An5qD" resname="contact.title">
+        <target>Press review</target>
+      </segment>
+    </unit>
+    <unit id="V6An5qD" name="contact.title">
+      <segment>
         <source>contact.title</source>
         <target>__contact.title</target>
-      </trans-unit>
-      <trans-unit id="glRIc1N" resname="contact.text">
+      </segment>
+    </unit>
+    <unit id="glRIc1N" name="contact.text">
+      <segment>
         <source>contact.text</source>
         <target>__contact.text</target>
-      </trans-unit>
-      <trans-unit id="aririzH" resname="contact.form.error">
+      </segment>
+    </unit>
+    <unit id="aririzH" name="contact.form.error">
+      <segment>
         <source>contact.form.error</source>
         <target>__contact.form.error</target>
-      </trans-unit>
-      <trans-unit id="rM4AE95" resname="contact.form.info">
+      </segment>
+    </unit>
+    <unit id="rM4AE95" name="contact.form.info">
+      <segment>
         <source>contact.form.info</source>
         <target>__contact.form.info</target>
-      </trans-unit>
-      <trans-unit id="6wFd3mH" resname="contact.form.name">
+      </segment>
+    </unit>
+    <unit id="6wFd3mH" name="contact.form.name">
+      <segment>
         <source>contact.form.name</source>
         <target>__contact.form.name</target>
-      </trans-unit>
-      <trans-unit id="2pbVlLF" resname="contact.form.email">
+      </segment>
+    </unit>
+    <unit id="2pbVlLF" name="contact.form.email">
+      <segment>
         <source>contact.form.email</source>
         <target>__contact.form.email</target>
-      </trans-unit>
-      <trans-unit id="uy34jBm" resname="contact.form.subject">
+      </segment>
+    </unit>
+    <unit id="uy34jBm" name="contact.form.subject">
+      <segment>
         <source>contact.form.subject</source>
         <target>__contact.form.subject</target>
-      </trans-unit>
-      <trans-unit id="va0Dik0" resname="contact.subject.jobs">
+      </segment>
+    </unit>
+    <unit id="va0Dik0" name="contact.subject.jobs">
+      <segment>
         <source>contact.subject.jobs</source>
         <target>__contact.subject.jobs</target>
-      </trans-unit>
-      <trans-unit id="hlbrlVN" resname="contact.subject.volunteer">
+      </segment>
+    </unit>
+    <unit id="hlbrlVN" name="contact.subject.volunteer">
+      <segment>
         <source>contact.subject.volunteer</source>
         <target>__contact.subject.volunteer</target>
-      </trans-unit>
-      <trans-unit id="2Ki.UTp" resname="contact.subject.other">
+      </segment>
+    </unit>
+    <unit id="2Ki.UTp" name="contact.subject.other">
+      <segment>
         <source>contact.subject.other</source>
         <target>__contact.subject.other</target>
-      </trans-unit>
-      <trans-unit id="kGDlATw" resname="contact.form.message">
+      </segment>
+    </unit>
+    <unit id="kGDlATw" name="contact.form.message">
+      <segment>
         <source>contact.form.message</source>
         <target>__contact.form.message</target>
-      </trans-unit>
-      <trans-unit id="rxOf9wM" resname="contact.form.send">
+      </segment>
+    </unit>
+    <unit id="rxOf9wM" name="contact.form.send">
+      <segment>
         <source>contact.form.send</source>
         <target>__contact.form.send</target>
-      </trans-unit>
-      <trans-unit id="oup04hU" resname="on.the.same.theme">
+      </segment>
+    </unit>
+    <unit id="oup04hU" name="on.the.same.theme">
+      <segment>
         <source>on.the.same.theme</source>
         <target>__on.the.same.theme</target>
-      </trans-unit>
-      <trans-unit id="2wlRIeG" resname="jobs.title">
+      </segment>
+    </unit>
+    <unit id="2wlRIeG" name="jobs.title">
+      <segment>
         <source>jobs.title</source>
-        <target>__jobs.title</target>
-      </trans-unit>
-      <trans-unit id="ENcvSSf" resname="pedagogy.jobs">
+        <target>Jobs</target>
+      </segment>
+    </unit>
+    <unit id="ENcvSSf" name="pedagogy.jobs">
+      <segment>
         <source>pedagogy.jobs</source>
-        <target>__pedagogy.jobs</target>
-      </trans-unit>
-      <trans-unit id="HW2bPMj" resname="profs.volunteers">
+        <target>Pedagogy / Job</target>
+      </segment>
+    </unit>
+    <unit id="HW2bPMj" name="profs.volunteers">
+      <segment>
         <source>profs.volunteers</source>
-        <target>__profs.volunteers</target>
-      </trans-unit>
-      <trans-unit id="FH4x6dd" resname="become.prof">
+        <target>Teachers and volunteers, let's get to know each other better !</target>
+      </segment>
+    </unit>
+    <unit id="FH4x6dd" name="become.prof">
+      <segment>
         <source>become.prof</source>
         <target>__become.prof</target>
-      </trans-unit>
-      <trans-unit id="LlgWUtC" resname="become.volunteer">
+      </segment>
+    </unit>
+    <unit id="LlgWUtC" name="become.volunteer">
+      <segment>
         <source>become.volunteer</source>
         <target>__become.volunteer</target>
-      </trans-unit>
-      <trans-unit id="4OZE87m" resname="prof.jobs.how">
+      </segment>
+    </unit>
+    <unit id="4OZE87m" name="prof.jobs.how">
+      <segment>
         <source>prof.jobs.how</source>
-        <target>__prof.jobs.how</target>
-      </trans-unit>
-      <trans-unit id="Xl4qJ.f" resname="prof.jobs.open">
+        <target>We recruit professors on their excellence</target>
+      </segment>
+    </unit>
+    <unit id="Xl4qJ.f" name="prof.jobs.open">
+      <segment>
         <source>prof.jobs.open</source>
-        <target>__prof.jobs.open</target>
-      </trans-unit>
-      <trans-unit id="jHkywNc" resname="prof.jobs.closed">
+        <target>We are looking for a teacher !</target>
+      </segment>
+    </unit>
+    <unit id="jHkywNc" name="prof.jobs.closed">
+      <segment>
         <source>prof.jobs.closed</source>
-        <target>__prof.jobs.closed</target>
-      </trans-unit>
-      <trans-unit id="tybxCib" resname="profs.jobs.announce">
+        <target>The team of teachers is complete.</target>
+      </segment>
+    </unit>
+    <unit id="tybxCib" name="profs.jobs.announce">
+      <segment>
         <source>profs.jobs.announce</source>
-        <target>__profs.jobs.announce</target>
-      </trans-unit>
-      <trans-unit id="sp6bRsm" resname="prof.jobs.1">
+        <target>If we look for new teachers, we will announce it here and on our Facebook page.</target>
+      </segment>
+    </unit>
+    <unit id="sp6bRsm" name="prof.jobs.1">
+      <segment>
         <source>prof.jobs.1</source>
-        <target>__prof.jobs.1</target>
-      </trans-unit>
-      <trans-unit id="hjS7k9u" resname="prof.jobs.2">
+        <target>Thot's teachers are all qualified in FFL and able to lead our students to the degree corresponding to their goal in France</target>
+      </segment>
+    </unit>
+    <unit id="hjS7k9u" name="prof.jobs.2">
+      <segment>
         <source>prof.jobs.2</source>
-        <target>__prof.jobs.2</target>
-      </trans-unit>
-      <trans-unit id="hjZg.8R" resname="prof.jobs.3">
+        <target>Speaking the language of the students (mainly Farsi, Pashto and Arabic) is a plus but is not as necessary as an qualification with a low educated public.</target>
+      </segment>
+    </unit>
+    <unit id="hjZg.8R" name="prof.jobs.3">
+      <segment>
         <source>prof.jobs.3</source>
-        <target>__prof.jobs.3</target>
-      </trans-unit>
-      <trans-unit id="1dw5iG7" resname="prof.jobs.3.closed">
+        <target>To join Thot as a teacher of French as a Foreign Language, send an email with CV and motivational letter to professors@thot-fle.fr. Posts are based in Saint-Denis.</target>
+      </segment>
+    </unit>
+    <unit id="1dw5iG7" name="prof.jobs.3.closed">
+      <segment>
         <source>prof.jobs.3.closed</source>
-        <target>__prof.jobs.3.closed</target>
-      </trans-unit>
-      <trans-unit id="YFONJMF" resname="volunteer.how">
+        <target>We thank you for your interest in our school, our team of teachers is currently full, check our site regularly to see if we recruit!</target>
+      </segment>
+    </unit>
+    <unit id="YFONJMF" name="volunteer.how">
+      <segment>
         <source>volunteer.how</source>
         <target>__volunteer.how</target>
-      </trans-unit>
-      <trans-unit id="3jrYnX." resname="volunteer.subtitle">
+      </segment>
+    </unit>
+    <unit id="3jrYnX." name="volunteer.subtitle">
+      <segment>
         <source>volunteer.subtitle</source>
-        <target>__volunteer.subtitle</target>
-      </trans-unit>
-      <trans-unit id="xi00ZjG" resname="volunteer.jobs">
+        <target>Thot is effective thanks to the combination of teaching by qualified teachers and your intervention as tutors. Several types of volunteering are possible:</target>
+      </segment>
+    </unit>
+    <unit id="xi00ZjG" name="volunteer.jobs">
+      <segment>
         <source>volunteer.jobs</source>
         <target>__volunteer.jobs</target>
-      </trans-unit>
-      <trans-unit id="kC_E5EM" resname="jobs.school.1">
+      </segment>
+    </unit>
+    <unit id="kC_E5EM" name="jobs.school.1">
+      <segment>
         <source>jobs.school.1</source>
-        <target>__jobs.school.1</target>
-      </trans-unit>
-      <trans-unit id="4OAR6pk" resname="jobs.school.2">
+        <target>Our form will allow you to register - within the limits of the needs of the school - as an assistant or tutor for French courses, tutor in the workshops of employment or translator / interpreter. We will tell you more in the form.</target>
+      </segment>
+    </unit>
+    <unit id="4OAR6pk" name="jobs.school.2">
+      <segment>
         <source>jobs.school.2</source>
-        <target>__jobs.school.2</target>
-      </trans-unit>
-      <trans-unit id="IkFIJQo" resname="jobs.school.3.warning">
+        <target>We receive many applications to join our team of volunteers, we are sorry we can not answer positively to all requests. Future volunteers will be invited to an information meeting at the beginning of the training session.</target>
+      </segment>
+    </unit>
+    <unit id="IkFIJQo" name="jobs.school.3.warning">
+      <segment>
         <source>jobs.school.3.warning</source>
-        <target>__jobs.school.3.warning</target>
-      </trans-unit>
-      <trans-unit id="5cIoX_9" resname="jobs.school.3.text">
+        <target>Warning</target>
+      </segment>
+    </unit>
+    <unit id="5cIoX_9" name="jobs.school.3.text">
+      <segment>
         <source>jobs.school.3.text</source>
-        <target>__jobs.school.3.text</target>
-      </trans-unit>
-      <trans-unit id="LzfF59z" resname="volunteer.jobs.closed">
+        <target>We are located only in Paris and Ile-de-France region. </target>
+      </segment>
+    </unit>
+    <unit id="LzfF59z" name="volunteer.jobs.closed">
+      <segment>
         <source>volunteer.jobs.closed</source>
-        <target>__volunteer.jobs.closed</target>
-      </trans-unit>
-      <trans-unit id="X4BGC6c" resname="volunteer.jobs.announce">
+        <target>Applications for volunteering are closed</target>
+      </segment>
+    </unit>
+    <unit id="X4BGC6c" name="volunteer.jobs.announce">
+      <segment>
         <source>volunteer.jobs.announce</source>
-        <target>__volunteer.jobs.announce</target>
-      </trans-unit>
-      <trans-unit id="MgfNoPf" resname="volunteer.jobs.asso">
+        <target>Our team is currently full for this session. Let's meet here or on our Facebook page if you want to become a volunteer for the next training session.</target>
+      </segment>
+    </unit>
+    <unit id="MgfNoPf" name="volunteer.jobs.asso">
+      <segment>
         <source>volunteer.jobs.asso</source>
-        <target>__volunteer.jobs.asso</target>
-      </trans-unit>
-      <trans-unit id="bbdU0wF" resname="volunteer.jobs.asso.text">
+        <target>Volunteer for the association</target>
+      </segment>
+    </unit>
+    <unit id="bbdU0wF" name="volunteer.jobs.asso.text">
+      <segment>
         <source>volunteer.jobs.asso.text</source>
-        <target>__volunteer.jobs.asso.text</target>
-      </trans-unit>
-      <trans-unit id="iyOCQW0" resname="home.benevoles">
+        <target>If you want to help the association Thot in its organization because you have communication, fundraising, graphics or other wonderful skills to share with us, contact us on the contact form. We will respond as soon as possible.</target>
+      </segment>
+    </unit>
+    <unit id="iyOCQW0" name="home.benevoles">
+      <segment>
         <source>home.benevoles</source>
         <target>__home.benevoles</target>
-      </trans-unit>
-      <trans-unit id="TsiZaJH" resname="warning.lang.2">
+      </segment>
+    </unit>
+    <unit id="TsiZaJH" name="warning.lang.2">
+      <segment>
         <source>warning.lang.2</source>
         <target>__warning.lang.2</target>
-      </trans-unit>
-    </body>
+      </segment>
+    </unit>
   </file>
 </xliff>
