@@ -353,7 +353,9 @@ section {
         color: $text_color;
         text-align: center;
         padding: 80px 40px 0 40px;
-        &.narrow {padding: 80px 260px;}
+        &.narrow {
+            padding: 80px 260px;
+        }
         & > div.title {
             margin-top: 20px;
             font-size: 3em;

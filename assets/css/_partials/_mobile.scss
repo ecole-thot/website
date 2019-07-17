@@ -1,0 +1,33 @@
+@media (max-width: $tabletBreakpoint){
+    .ui.container {
+        width: auto;
+        padding: 0 20px;
+    }
+    section {
+        &.text.narrow {
+            padding: 40px 0;
+        }
+        &.checks {
+            margin-bottom: 40px;
+        }
+        &.team {
+            margin: 0;
+        }
+        &.checks .column > .inside {
+            padding: 40px 5px 30px 5px;
+        }
+    }
+    .moto .big-circle {
+        padding: 170px 0px;
+    }
+}
+
+@media (max-width: $mobileBreakpoint){
+    .ui.container > .ui.stackable.grid > .column, .ui.container > .ui.stackable.grid > .row > .column {
+        padding: 20px !important;
+        min-height: auto;
+    }
+    .moto .big-circle {
+        padding: 160px 0px;
+    }
+}
