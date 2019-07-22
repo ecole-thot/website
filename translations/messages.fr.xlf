@@ -1,688 +1,1020 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
-    <header>
-      <tool tool-id="symfony" tool-name="Symfony"/>
-    </header>
-    <body>
-      <trans-unit id="qvIyBkY" resname="title">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="fr" trgLang="fr">
+  <file id="messages.fr">
+    <unit id="qvIyBkY" name="title">
+      <segment>
         <source>title</source>
         <target>École Thot</target>
-      </trans-unit>
-      <trans-unit id="ayp4kO2" resname="menu.school">
+      </segment>
+    </unit>
+    <unit id="ayp4kO2" name="menu.school">
+      <segment>
         <source>menu.school</source>
         <target>L'École</target>
-      </trans-unit>
-      <trans-unit id="IyiaHy2" resname="menu.news">
+      </segment>
+    </unit>
+    <unit id="IyiaHy2" name="menu.news">
+      <segment>
         <source>menu.news</source>
         <target>Actualités</target>
-      </trans-unit>
-      <trans-unit id="GPtxWS6" resname="menu.courses">
+      </segment>
+    </unit>
+    <unit id="GPtxWS6" name="menu.courses">
+      <segment>
         <source>menu.courses</source>
         <target>Formations</target>
-      </trans-unit>
-      <trans-unit id="C3HpPzJ" resname="menu.contact">
+      </segment>
+    </unit>
+    <unit id="C3HpPzJ" name="menu.contact">
+      <segment>
         <source>menu.contact</source>
         <target>Contact</target>
-      </trans-unit>
-      <trans-unit id="Nn38Z8v" resname="menu.jobs">
+      </segment>
+    </unit>
+    <unit id="Nn38Z8v" name="menu.jobs">
+      <segment>
         <source>menu.jobs</source>
         <target>Recrutement</target>
-      </trans-unit>
-      <trans-unit id="ZmS0a_T" resname="menu.donate">
+      </segment>
+    </unit>
+    <unit id="ZmS0a_T" name="menu.donate">
+      <segment>
         <source>menu.donate</source>
         <target>Faire un don</target>
-      </trans-unit>
-      <trans-unit id="wNnQCIQ" resname="footer.legal">
+      </segment>
+    </unit>
+    <unit id="wNnQCIQ" name="footer.legal">
+      <segment>
         <source>footer.legal</source>
         <target>Mentions légales et Crédits</target>
-      </trans-unit>
-      <trans-unit id="3P24U.9" resname="home.title">
+      </segment>
+    </unit>
+    <unit id="3P24U.9" name="home.title">
+      <segment>
         <source>home.title</source>
         <target>Accueil</target>
-      </trans-unit>
-      <trans-unit id="X_Ennoc" resname="lang.fr">
+      </segment>
+    </unit>
+    <unit id="X_Ennoc" name="lang.fr">
+      <segment>
         <source>lang.fr</source>
         <target>Français</target>
-      </trans-unit>
-      <trans-unit id="BFrbIL0" resname="lang.en">
+      </segment>
+    </unit>
+    <unit id="BFrbIL0" name="lang.en">
+      <segment>
         <source>lang.en</source>
         <target>English</target>
-      </trans-unit>
-      <trans-unit id="2WY6ZD2" resname="lang.ar">
+      </segment>
+    </unit>
+    <unit id="2WY6ZD2" name="lang.ar">
+      <segment>
         <source>lang.ar</source>
         <target>العربية</target>
-      </trans-unit>
-      <trans-unit id="VjHCuox" resname="lang.ps">
+      </segment>
+    </unit>
+    <unit id="VjHCuox" name="lang.ps">
+      <segment>
         <source>lang.ps</source>
         <target>پښتو</target>
-      </trans-unit>
-      <trans-unit id="LAZXf5b" resname="lang.fa">
+      </segment>
+    </unit>
+    <unit id="LAZXf5b" name="lang.fa">
+      <segment>
         <source>lang.fa</source>
         <target>زبان فارسي</target>
-      </trans-unit>
-      <trans-unit id="JbHtlhW" resname="headline">
+      </segment>
+    </unit>
+    <unit id="JbHtlhW" name="headline">
+      <segment>
         <source>headline</source>
         <target>L'école diplômante de Français pour les personnes en situation d’exil, les réfugiés et les demandeurs d'asile</target>
-      </trans-unit>
-      <trans-unit id="fbuLFEI" resname="moto">
+      </segment>
+    </unit>
+    <unit id="fbuLFEI" name="moto">
+      <segment>
         <source>moto</source>
         <target>Pour transmettre un horizon à tous, nous avons créé Thot, école diplômante de français pour les réfugiés et demandeurs d'asile.</target>
-      </trans-unit>
-      <trans-unit id="KA1Eqx6" resname="welcome">
+      </segment>
+    </unit>
+    <unit id="KA1Eqx6" name="welcome">
+      <segment>
         <source>welcome</source>
         <target>Bienvenue chez Thot</target>
-      </trans-unit>
-      <trans-unit id="25GXUyE" resname="inscriptions.know.more">
+      </segment>
+    </unit>
+    <unit id="25GXUyE" name="inscriptions.know.more">
+      <segment>
         <source>inscriptions.know.more</source>
         <target>En savoir plus sur les inscriptions</target>
-      </trans-unit>
-      <trans-unit id="S9k1S7Z" resname="warning">
+      </segment>
+    </unit>
+    <unit id="S9k1S7Z" name="warning">
+      <segment>
         <source>warning</source>
         <target>Attention</target>
-      </trans-unit>
-      <trans-unit id="2Lgvscd" resname="warning.lang">
+      </segment>
+    </unit>
+    <unit id="2Lgvscd" name="warning.lang">
+      <segment>
         <source>warning.lang</source>
         <target>Il est indispensable que le formulaire soit rempli par le candidat (le formulaire est traduit en pashto, farsi, arabe et anglais). Cette règle ne s'applique pas aux personnes ne sachant ni lire ni écrire ou dont la langue n'est pas traduite.</target>
-      </trans-unit>
-      <trans-unit id="TsiZaJH" resname="warning.lang.2">
+      </segment>
+    </unit>
+    <unit id="TsiZaJH" name="warning.lang.2">
+      <segment>
         <source>warning.lang.2</source>
         <target>Nous recevons un très grand nombre de candidatures, une inscription sur les formulaires ne garantit pas une place à l’école. Nous répondrons à l’ensemble des candidats par SMS au numéro renseigné dans le formulaire dans un délai de 1 mois.</target>
-      </trans-unit>
-      <trans-unit id="VLfgfuY" resname="warning.closed">
+      </segment>
+    </unit>
+    <unit id="VLfgfuY" name="warning.closed">
+      <segment>
         <source>warning.closed</source>
-        <target>La prochaine session de formation aura lieu du 3 février au 20 mai 2020. Les inscriptions pour la session de septembre seront ouvertes du 17 décembre à 11h au 19 décembre à 11h. Il n’y a pas de document à fournir pour s’inscrire. Lors des inscriptions précédentes, nous avons reçu plus de 900 candidatures pour une soixantaines de places (au total nous accueillons 105 étudiants), ainsi nous demandons aux associations/centre d'hébergement et soutiens de migrants, de ne pas inscrire plus de 4 personnes.</target>
-      </trans-unit>
-      <trans-unit id="mzXEXUg" resname="warning.closed.2">
+        <target>La prochaine session de formation aura lieu du 9 septembre au 19 décembre 2019. Les inscriptions pour la session de septembre seront ouvertes du 23 juillet à 11h au 25 juillet à 11h. Il n’y a pas de document à fournir pour s’inscrire. Lors des inscriptions précédentes, nous avons reçu plus de 900 candidatures pour une soixantaines de places (au total nous accueillons 105 étudiants), ainsi nous demandons aux associations/centre d'hébergement et soutiens de migrants, de ne pas inscrire plus de 4 personnes.</target>
+      </segment>
+    </unit>
+    <unit id="mzXEXUg" name="warning.closed.2">
+      <segment>
         <source>warning.closed.2</source>
         <target>Les cours de français ont lieu à Saint-Denis, à côté de la station Gare de Saint Denis du RER D, il n’est pas possible de venir s’inscrire sur place car nous ne disposons pas d’un accueil de visiteurs. Cet espace est réservé à nos étudiants et à leur formation.</target>
-      </trans-unit>
-      <trans-unit id="H8MoLmd" resname="warning.closed.3">
+      </segment>
+    </unit>
+    <unit id="H8MoLmd" name="warning.closed.3">
+      <segment>
         <source>warning.closed.3</source>
         <target>Il est important que le candidat soit conscient de l’engagement que demande une inscription à l’école Thot, la formation proposée est intensive, tous les cours sont obligatoires et un suivi des absences est effectué tout au long de la session. Afin de marquer cet engagement, le formulaire doit être rempli par le candidat lui-même, celui-ci étant traduit en pashto, farsi, arabe et anglais. Cette règle ne s'applique pas aux personnes ne sachant ni lire ni écrire ou dont la langue n'est pas traduite.</target>
-      </trans-unit>
-      <trans-unit id="c1zwxoc" resname="who.can.study">
+      </segment>
+    </unit>
+    <unit id="c1zwxoc" name="who.can.study">
+      <segment>
         <source>who.can.study</source>
         <target>Qui peut être étudiant chez Thot ?</target>
-      </trans-unit>
-      <trans-unit id="rcYhXyd" resname="who.can.study.sub">
+      </segment>
+    </unit>
+    <unit id="rcYhXyd" name="who.can.study.sub">
+      <segment>
         <source>who.can.study.sub</source>
         <target>Nos cours s'adressent aux exilés (demandeurs d'asile, dublinés, réfugiés, etc.)</target>
-      </trans-unit>
-      <trans-unit id="U.bO1Xs" resname="dispositif">
+      </segment>
+    </unit>
+    <unit id="U.bO1Xs" name="dispositif">
+      <segment>
         <source>dispositif</source>
         <target>Notre dispositif</target>
-      </trans-unit>
-      <trans-unit id="uceE5Pa" resname="dispositif.sub">
+      </segment>
+    </unit>
+    <unit id="uceE5Pa" name="dispositif.sub">
+      <segment>
         <source>dispositif.sub</source>
         <target>Des sessions courtes, intensives, spécifiques, variées et diplômantes</target>
-      </trans-unit>
-      <trans-unit id="Bst18TJ" resname="partners">
+      </segment>
+    </unit>
+    <unit id="Bst18TJ" name="partners">
+      <segment>
         <source>partners</source>
         <target>Nos partenaires</target>
-      </trans-unit>
-      <trans-unit id="HQdLIVe" resname="partners.sub">
+      </segment>
+    </unit>
+    <unit id="HQdLIVe" name="partners.sub">
+      <segment>
         <source>partners.sub</source>
         <target>Thot remercie ses donateurs, soutiens et partenaires</target>
-      </trans-unit>
-      <trans-unit id="5vyWyFT" resname="inscription.limit">
+      </segment>
+    </unit>
+    <unit id="5vyWyFT" name="inscription.limit">
+      <segment>
         <source>inscription.limit</source>
         <target>Vous avez jusqu'au %date% pour vous inscrire</target>
-      </trans-unit>
-      <trans-unit id="Qk4wHwr" resname="inscription.limit.alt">
+      </segment>
+    </unit>
+    <unit id="Qk4wHwr" name="inscription.limit.alt">
+      <segment>
         <source>inscription.limit.alt</source>
         <target>Vous pouvez vous inscrire jusqu'au %date% à %time%.</target>
-      </trans-unit>
-      <trans-unit id="kMUOXXt" resname="inscriptions.now.open">
+      </segment>
+    </unit>
+    <unit id="kMUOXXt" name="inscriptions.now.open">
+      <segment>
         <source>inscriptions.now.open</source>
         <target>Les inscriptions sont maintenant ouvertes</target>
-      </trans-unit>
-      <trans-unit id="36whLxz" resname="inscription.next">
+      </segment>
+    </unit>
+    <unit id="36whLxz" name="inscription.next">
+      <segment>
         <source>inscription.next</source>
         <target>RDV le %date% pour vous inscrire</target>
-      </trans-unit>
-      <trans-unit id="ro0hUeD" resname="engaged.every.day">
+      </segment>
+    </unit>
+    <unit id="ro0hUeD" name="engaged.every.day">
+      <segment>
         <source>engaged.every.day</source>
         <target>Thot s'engage tous les jours.</target>
-      </trans-unit>
-      <trans-unit id="Y73.wK2" resname="follow.our.actions">
+      </segment>
+    </unit>
+    <unit id="Y73.wK2" name="follow.our.actions">
+      <segment>
         <source>follow.our.actions</source>
         <target>Suivez nos actions !</target>
-      </trans-unit>
-      <trans-unit id="rQTpS2M" resname="manifesto.title">
+      </segment>
+    </unit>
+    <unit id="rQTpS2M" name="manifesto.title">
+      <segment>
         <source>manifesto.title</source>
         <target>Notre manifeste</target>
-      </trans-unit>
-      <trans-unit id="n63ZTWz" resname="legal.title">
+      </segment>
+    </unit>
+    <unit id="n63ZTWz" name="legal.title">
+      <segment>
         <source>legal.title</source>
         <target>Mentions légales</target>
-      </trans-unit>
-      <trans-unit id="jkAv0mB" resname="from.date">
+      </segment>
+    </unit>
+    <unit id="jkAv0mB" name="from.date">
+      <segment>
         <source>from.date</source>
         <target>Depuis 2016</target>
-      </trans-unit>
-      <trans-unit id="gb_1s_Y" resname="i.want.to.register">
+      </segment>
+    </unit>
+    <unit id="gb_1s_Y" name="i.want.to.register">
+      <segment>
         <source>i.want.to.register</source>
         <target>Je veux m'inscrire</target>
-      </trans-unit>
-      <trans-unit id="Y71wZe8" resname="life">
+      </segment>
+    </unit>
+    <unit id="Y71wZe8" name="life">
+      <segment>
         <source>life</source>
-        <target>La vie chez Thot</target>
-      </trans-unit>
-      <trans-unit id="qo6fhxC" resname="life.sub">
+        <target>Les valeurs de l'école Thot</target>
+      </segment>
+    </unit>
+    <unit id="qo6fhxC" name="life.sub">
+      <segment>
         <source>life.sub</source>
-        <target>L'école diplômante de français pour les réfugiés et les demandeurs d'asile</target>
-      </trans-unit>
-      <trans-unit id="raQCp6b" resname="life.equality">
+        <target>Vous pouvez lire notre manifeste dans lequel nous expliquons nos valeurs</target>
+      </segment>
+    </unit>
+    <unit id="raQCp6b" name="life.equality">
+      <segment>
         <source>life.equality</source>
-        <target>Égalité en droit</target>
-      </trans-unit>
-      <trans-unit id="vkpTHGv" resname="life.ambition">
+        <target>Égalité</target>
+      </segment>
+    </unit>
+    <unit id="vkpTHGv" name="life.ambition">
+      <segment>
         <source>life.ambition</source>
-        <target>Ambition</target>
-      </trans-unit>
-      <trans-unit id="z0d1_fw" resname="life.humanism">
+        <target>Solidarité et partage</target>
+      </segment>
+    </unit>
+    <unit id="z0d1_fw" name="life.humanism">
+      <segment>
         <source>life.humanism</source>
-        <target>Humanisme</target>
-      </trans-unit>
-      <trans-unit id="3iD2ZPz" resname="life.access">
+        <target>Professionnalisme</target>
+      </segment>
+    </unit>
+    <unit id="3iD2ZPz" name="life.access">
+      <segment>
         <source>life.access</source>
-        <target>Accès culturel et social</target>
-      </trans-unit>
-      <trans-unit id="FN7vV4l" resname="read.manifesto">
+        <target>Respect</target>
+      </segment>
+    </unit>
+    <unit id="FN7vV4l" name="read.manifesto">
+      <segment>
         <source>read.manifesto</source>
         <target>Lire notre manifeste</target>
-      </trans-unit>
-      <trans-unit id="w9TspZq" resname="school.title">
+      </segment>
+    </unit>
+    <unit id="w9TspZq" name="school.title">
+      <segment>
         <source>school.title</source>
         <target>L'école</target>
-      </trans-unit>
-      <trans-unit id="8XxPGfs" resname="the.school">
+      </segment>
+    </unit>
+    <unit id="8XxPGfs" name="the.school">
+      <segment>
         <source>the.school</source>
         <target>L'école</target>
-      </trans-unit>
-      <trans-unit id="h0gbLhU" resname="intensive.cursus">
+      </segment>
+    </unit>
+    <unit id="h0gbLhU" name="intensive.cursus">
+      <segment>
         <source>intensive.cursus</source>
         <target>Des cours riches et intensifs, pour obtenir un diplôme d'État, valable à vie.</target>
-      </trans-unit>
-      <trans-unit id="ziXSsoQ" resname="quick.access">
+      </segment>
+    </unit>
+    <unit id="ziXSsoQ" name="quick.access">
+      <segment>
         <source>quick.access</source>
         <target>Accès rapide</target>
-      </trans-unit>
-      <trans-unit id="ffxry50" resname="our.story">
+      </segment>
+    </unit>
+    <unit id="ffxry50" name="our.story">
+      <segment>
         <source>our.story</source>
         <target>Notre histoire</target>
-      </trans-unit>
-      <trans-unit id="E57rtHY" resname="our.pedagogy">
+      </segment>
+    </unit>
+    <unit id="E57rtHY" name="our.pedagogy">
+      <segment>
         <source>our.pedagogy</source>
         <target>Notre pédagogie</target>
-      </trans-unit>
-      <trans-unit id="rg.Ogv4" resname="our.team">
+      </segment>
+    </unit>
+    <unit id="rg.Ogv4" name="our.team">
+      <segment>
         <source>our.team</source>
         <target>L'équipe</target>
-      </trans-unit>
-      <trans-unit id="pCYuHJv" resname="about">
+      </segment>
+    </unit>
+    <unit id="pCYuHJv" name="about">
+      <segment>
         <source>about</source>
         <target>À propos</target>
-      </trans-unit>
-      <trans-unit id="F8n4s_j" resname="pedagogy">
+      </segment>
+    </unit>
+    <unit id="F8n4s_j" name="pedagogy">
+      <segment>
         <source>pedagogy</source>
         <target>Notre pédagogie</target>
-      </trans-unit>
-      <trans-unit id="jbjkLYq" resname="news.title">
+      </segment>
+    </unit>
+    <unit id="jbjkLYq" name="news.title">
+      <segment>
         <source>news.title</source>
         <target>Actualités</target>
-      </trans-unit>
-      <trans-unit id="V6An5qD" resname="contact.title">
+      </segment>
+    </unit>
+    <unit id="V6An5qD" name="contact.title">
+      <segment>
         <source>contact.title</source>
         <target>Contact</target>
-      </trans-unit>
-      <trans-unit id=".1aW1IX" resname="courses.title">
+      </segment>
+    </unit>
+    <unit id=".1aW1IX" name="courses.title">
+      <segment>
         <source>courses.title</source>
         <target>Formation</target>
-      </trans-unit>
-      <trans-unit id="2wlRIeG" resname="jobs.title">
+      </segment>
+    </unit>
+    <unit id="2wlRIeG" name="jobs.title">
+      <segment>
         <source>jobs.title</source>
         <target>Recrutement</target>
-      </trans-unit>
-      <trans-unit id="SAq26Zm" resname="school.who.are.we">
+      </segment>
+    </unit>
+    <unit id="SAq26Zm" name="school.who.are.we">
+      <segment>
         <source>school.who.are.we</source>
         <target>Qui sommes-nous ?</target>
-      </trans-unit>
-      <trans-unit id="FVqTlTZ" resname="school.constitution">
+      </segment>
+    </unit>
+    <unit id="FVqTlTZ" name="school.constitution">
+      <segment>
         <source>school.constitution</source>
-        <target>L'équipe de Thot s'est constituée depuis le terrain à l'été 2015 où nous tentions de venir en aide aux réfugiés et demandaeurs d'asile. Malgré leurs nationalités nombreuses et leurs niveaux sociaux très variés, nous avons constaté qu'une question leur demeurait commune : « Où pouvons-nous apprendre le français ? »</target>
-      </trans-unit>
-      <trans-unit id="A1IVo.Z" resname="school.creation">
+        <target>L'équipe de Thot s'est constituée depuis le terrain à l'été 2015 où nous tentions de venir en aide aux réfugiés et demandeurs d'asile dans des campements parisiens. Malgré leurs nationalités nombreuses et leurs niveaux sociaux très variés, nous avons constaté qu'une question leur demeurait commune : « Où pouvons-nous apprendre le français ? »</target>
+      </segment>
+    </unit>
+    <unit id="A1IVo.Z" name="school.creation">
+      <segment>
         <source>school.creation</source>
-        <target>Nous avons donc créé Thot afin de proposer une formation diplômante, prise en charge pas de vrais professeurs, dans un cadre stable, spécifique et complet, à destination des réfugiés et demandeurs d'asile on diplômés, et répondre à une demande toujours croissante de formation en FLE pour ce public.</target>
-      </trans-unit>
-      <trans-unit id="hn1724o" resname="school.accronym">
+        <target>Nous avons donc créé Thot afin de proposer une formation diplômante, prise en charge pas de vrais professeurs, dans un cadre stable, spécifique et complet, à destination des réfugiés et demandeurs d'asile on diplômés, et répondre à une demande toujours croissante de formation en FLE pour ce public. Notre école est actuellement basée en Ile-de-France.</target>
+      </segment>
+    </unit>
+    <unit id="hn1724o" name="school.accronym">
+      <segment>
         <source>school.accronym</source>
         <target>Transmettre un horizon à tous</target>
-      </trans-unit>
-      <trans-unit id="2S_4Bii" resname="school.egypt">
+      </segment>
+    </unit>
+    <unit id="2S_4Bii" name="school.egypt">
+      <segment>
         <source>school.egypt</source>
         <target><![CDATA[Thot était le dieu égyptien qui incarnait le concept de Savoir. Sa mission étant de disséminer ses connaissances, il inventa le langage. Ce symbole est à l'image de la mission que nous nous sommes confiée : transmettre par le langage la possibilité pour les individus de s'épanouir ici, en France.<br>Thot : Transmettre un Horizon à Tous.]]></target>
-      </trans-unit>
-      <trans-unit id="yosi0Nu" resname="team">
+      </segment>
+    </unit>
+    <unit id="yosi0Nu" name="team">
+      <segment>
         <source>team</source>
         <target>Notre équipe</target>
-      </trans-unit>
-      <trans-unit id="4Y.w.4v" resname="team.more">
+      </segment>
+    </unit>
+    <unit id="4Y.w.4v" name="team.more">
+      <segment>
         <source>team.more</source>
         <target>... Et de nombreux et brillants bénévoles qui aident quotidiennement pour la qualité de l'enseignement et de la structure de Thot.</target>
-      </trans-unit>
-      <trans-unit id="Clf2BAx" resname="pedagogy.headline">
+      </segment>
+    </unit>
+    <unit id="Clf2BAx" name="pedagogy.headline">
+      <segment>
         <source>pedagogy.headline</source>
         <target>Les sessions d'apprentissage durent 16 semaines à raison de 14h/semaine.</target>
-      </trans-unit>
-      <trans-unit id="bvII1Q1" resname="pedagogy.offer.title">
+      </segment>
+    </unit>
+    <unit id="bvII1Q1" name="pedagogy.offer.title">
+      <segment>
         <source>pedagogy.offer.title</source>
         <target>Une offre de Français Langue Étrangère (FLE) pour tous les exilé.e.s en dessous du niveau Bac.</target>
-      </trans-unit>
-      <trans-unit id="1PXa7Lj" resname="pedagogy.offer.1">
+      </segment>
+    </unit>
+    <unit id="1PXa7Lj" name="pedagogy.offer.1">
+      <segment>
         <source>pedagogy.offer.1</source>
         <target>Nous assurons les cours pour les niveaux ALPHA, A1 et A2. L'école est destinée aux exilé(e)s n'ayant pas un niveau équivalent au Baccalauréat.</target>
-      </trans-unit>
-      <trans-unit id="Jj1fSF1" resname="pedagogy.offer.2">
+      </segment>
+    </unit>
+    <unit id="Jj1fSF1" name="pedagogy.offer.2">
+      <segment>
         <source>pedagogy.offer.2</source>
         <target>Des structures d'intégration en université existent pour les diplômés du secondaire, que nous encourageons à se renseigner auprès du Resome (http://resome.org/) et de Wintegreat (http://wintegreat.org/).</target>
-      </trans-unit>
-      <trans-unit id="m.k57aV" resname="pedagogy.pro.title">
+      </segment>
+    </unit>
+    <unit id="m.k57aV" name="pedagogy.pro.title">
+      <segment>
         <source>pedagogy.pro.title</source>
         <target>Une école fondée sur le professionnalisme des intervenants</target>
-      </trans-unit>
-      <trans-unit id="JcwupV2" resname="pedagogy.pro.1">
+      </segment>
+    </unit>
+    <unit id="JcwupV2" name="pedagogy.pro.1">
+      <segment>
         <source>pedagogy.pro.1</source>
         <target>Les professeurs de Thot sont tous diplômés en FLE et habilités à mener nos étudiants vers un diplôme de français</target>
-      </trans-unit>
-      <trans-unit id="uN8ehAM" resname="pedagogy.pro.2">
+      </segment>
+    </unit>
+    <unit id="uN8ehAM" name="pedagogy.pro.2">
+      <segment>
         <source>pedagogy.pro.2</source>
         <target>Une équipe d'artistes professionnels anime les ateliers et sorties culturelles</target>
-      </trans-unit>
-      <trans-unit id="Pe4f.Lw" resname="pedagogy.pro.3">
+      </segment>
+    </unit>
+    <unit id="Pe4f.Lw" name="pedagogy.pro.3">
+      <segment>
         <source>pedagogy.pro.3</source>
         <target>Les pôles d'écoute (psy, sociale, juridique) et d'orientation sont assurés par des professionnels</target>
-      </trans-unit>
-      <trans-unit id="uxDIdvi" resname="pedagogy.poles.title">
+      </segment>
+    </unit>
+    <unit id="uxDIdvi" name="pedagogy.poles.title">
+      <segment>
         <source>pedagogy.poles.title</source>
         <target>Des pôles d'écoute et d'assistance</target>
-      </trans-unit>
-      <trans-unit id="Qu9TnOm" resname="pedagogy.poles.1">
+      </segment>
+    </unit>
+    <unit id="Qu9TnOm" name="pedagogy.poles.1">
+      <segment>
         <source>pedagogy.poles.1</source>
         <target>L'expérience de l'exil est difficile. L'implication dans une formation intensive après une période peu ou pas scolarisée est complexe.</target>
-      </trans-unit>
-      <trans-unit id="Ez9cxxc" resname="pedagogy.poles.2">
+      </segment>
+    </unit>
+    <unit id="Ez9cxxc" name="pedagogy.poles.2">
+      <segment>
         <source>pedagogy.poles.2</source>
         <target>Pour permettre à nos étudiants de s'épanouir dans notre langue, nous devons leur permettre de se délester des stress de l'exil. C'est pourquoi nous associons à notre pédagogie</target>
-      </trans-unit>
-      <trans-unit id="wQtfuP_" resname="pedagogy.poles.3">
+      </segment>
+    </unit>
+    <unit id="wQtfuP_" name="pedagogy.poles.3">
+      <segment>
         <source>pedagogy.poles.3</source>
         <target>1 pôle d'écoute psychothérapeutique professionnel</target>
-      </trans-unit>
-      <trans-unit id="87YKuYq" resname="pedagogy.poles.4">
+      </segment>
+    </unit>
+    <unit id="87YKuYq" name="pedagogy.poles.4">
+      <segment>
         <source>pedagogy.poles.4</source>
         <target>1 permanence sociale</target>
-      </trans-unit>
-      <trans-unit id="gSwiMCe" resname="pedagogy.poles.5">
+      </segment>
+    </unit>
+    <unit id="gSwiMCe" name="pedagogy.poles.5">
+      <segment>
         <source>pedagogy.poles.5</source>
         <target>la présence d'une avocate en droit des étrangers</target>
-      </trans-unit>
-      <trans-unit id="DyoAfV8" resname="pedagogy.orient.title">
+      </segment>
+    </unit>
+    <unit id="DyoAfV8" name="pedagogy.orient.title">
+      <segment>
         <source>pedagogy.orient.title</source>
         <target>De l'orientation professionnelle pour préparer la suite</target>
-      </trans-unit>
-      <trans-unit id="5bnZ6DS" resname="pedagogy.orient.1">
+      </segment>
+    </unit>
+    <unit id="5bnZ6DS" name="pedagogy.orient.1">
+      <segment>
         <source>pedagogy.orient.1</source>
         <target>Thot a pour mission de mener les individus à leur autonomie sociale et économique. C'est pourquoi nous détection de manière profilée les opportunités de formation et d'emploi les plus pertinents pour nos étudiants, tenant compte de leur savoir-faire, de leur parcours et de leurs aspirations personnelles, à raison de 16 heures par session :</target>
-      </trans-unit>
-      <trans-unit id="6aUtiPt" resname="pedagogy.orient.2">
+      </segment>
+    </unit>
+    <unit id="6aUtiPt" name="pedagogy.orient.2">
+      <segment>
         <source>pedagogy.orient.2</source>
         <target>Ateliers hebdomadaires d'introduction à la vie professionnelle française</target>
-      </trans-unit>
-      <trans-unit id="C2FMydQ" resname="pedagogy.orient.3">
+      </segment>
+    </unit>
+    <unit id="C2FMydQ" name="pedagogy.orient.3">
+      <segment>
         <source>pedagogy.orient.3</source>
         <target>Orientation vers des offres de formation et emploi</target>
-      </trans-unit>
-      <trans-unit id="xM7LKuB" resname="pedagogy.diploma.title">
+      </segment>
+    </unit>
+    <unit id="xM7LKuB" name="pedagogy.diploma.title">
+      <segment>
         <source>pedagogy.diploma.title</source>
         <target>Un diplôme d'aptitude reconnu par l'État</target>
-      </trans-unit>
-      <trans-unit id="5uFSov7" resname="pedagogy.diploma.1">
+      </segment>
+    </unit>
+    <unit id="5uFSov7" name="pedagogy.diploma.1">
+      <segment>
         <source>pedagogy.diploma.1</source>
         <target>Thot s'engage à mener ses apprenants vers l'obtention du DILF ou du DELF A1 et A2.</target>
-      </trans-unit>
-      <trans-unit id="tyjpenU" resname="pedagogy.diploma.2">
+      </segment>
+    </unit>
+    <unit id="tyjpenU" name="pedagogy.diploma.2">
+      <segment>
         <source>pedagogy.diploma.2</source>
         <target>Il est délivré après examen écrit et oral en centre d'examen, et correspond donc à un diplôme international, reconnu par l'État français.</target>
-      </trans-unit>
-      <trans-unit id="ENcvSSf" resname="pedagogy.jobs">
+      </segment>
+    </unit>
+    <unit id="ENcvSSf" name="pedagogy.jobs">
+      <segment>
         <source>pedagogy.jobs</source>
         <target>Pédagogie / Recrutement</target>
-      </trans-unit>
-      <trans-unit id="HW2bPMj" resname="profs.volunteers">
+      </segment>
+    </unit>
+    <unit id="HW2bPMj" name="profs.volunteers">
+      <segment>
         <source>profs.volunteers</source>
         <target>Professeurs et bénévoles, faisons connaissance !</target>
-      </trans-unit>
-      <trans-unit id="FH4x6dd" resname="become.prof">
+      </segment>
+    </unit>
+    <unit id="FH4x6dd" name="become.prof">
+      <segment>
         <source>become.prof</source>
         <target>Devenir professeur</target>
-      </trans-unit>
-      <trans-unit id="LlgWUtC" resname="become.volunteer">
+      </segment>
+    </unit>
+    <unit id="LlgWUtC" name="become.volunteer">
+      <segment>
         <source>become.volunteer</source>
         <target>Je m'engage</target>
-      </trans-unit>
-      <trans-unit id="4OZE87m" resname="prof.jobs.how">
+      </segment>
+    </unit>
+    <unit id="4OZE87m" name="prof.jobs.how">
+      <segment>
         <source>prof.jobs.how</source>
         <target>Nous recrutons les professeurs sur leur excellence</target>
-      </trans-unit>
-      <trans-unit id="Xl4qJ.f" resname="prof.jobs.open">
+      </segment>
+    </unit>
+    <unit id="Xl4qJ.f" name="prof.jobs.open">
+      <segment>
         <source>prof.jobs.open</source>
         <target>Nous recherchons un(e) professeur !</target>
-      </trans-unit>
-      <trans-unit id="sp6bRsm" resname="prof.jobs.1">
+      </segment>
+    </unit>
+    <unit id="sp6bRsm" name="prof.jobs.1">
+      <segment>
         <source>prof.jobs.1</source>
         <target>Les professeurs de Thot sont tous diplômés en FLE et habilités à mener nos étudiants vers le diplôme correspondant à leur objectif en France</target>
-      </trans-unit>
-      <trans-unit id="hjS7k9u" resname="prof.jobs.2">
+      </segment>
+    </unit>
+    <unit id="hjS7k9u" name="prof.jobs.2">
+      <segment>
         <source>prof.jobs.2</source>
         <target>Le fait de parler la langue des étudiants (principalement farsi, pashto et arabe) est un plus mais n'est pas aussi nécessaire qu'une expérience avec un public peu scolarisé à la base.</target>
-      </trans-unit>
-      <trans-unit id="hjZg.8R" resname="prof.jobs.3">
+      </segment>
+    </unit>
+    <unit id="hjZg.8R" name="prof.jobs.3">
+      <segment>
         <source>prof.jobs.3</source>
         <target>Pour rejoindre Thot en tant que professeur de Français Langue Étrangère, envoyez un mail avec CV et lettre de motivations à professeurs@thot-fle.fr. Les posts sont basés à Saint-Denis.</target>
-      </trans-unit>
-      <trans-unit id="1dw5iG7" resname="prof.jobs.3.closed">
+      </segment>
+    </unit>
+    <unit id="1dw5iG7" name="prof.jobs.3.closed">
+      <segment>
         <source>prof.jobs.3.closed</source>
         <target>Nous vous remercions pour votre intérêt pour notre école, nos équipes de professeurs sont actuellement au complet, consultez notre site régulièrement pour voir si nous recrutons !</target>
-      </trans-unit>
-      <trans-unit id="YFONJMF" resname="volunteer.how">
+      </segment>
+    </unit>
+    <unit id="YFONJMF" name="volunteer.how">
+      <segment>
         <source>volunteer.how</source>
         <target>Être bénévole chez nous</target>
-      </trans-unit>
-      <trans-unit id="3jrYnX." resname="volunteer.subtitle">
+      </segment>
+    </unit>
+    <unit id="3jrYnX." name="volunteer.subtitle">
+      <segment>
         <source>volunteer.subtitle</source>
         <target>Thot est efficace grâce à la conjonction d'un enseignement par des professeurs diplômés et votre intervention en tant que tuteurs et accompangants. Plusieurs types de bénévolats sont possibles :</target>
-      </trans-unit>
-      <trans-unit id="xi00ZjG" resname="volunteer.jobs">
+      </segment>
+    </unit>
+    <unit id="xi00ZjG" name="volunteer.jobs">
+      <segment>
         <source>volunteer.jobs</source>
         <target>Bénévole à l'école</target>
-      </trans-unit>
-      <trans-unit id="MgfNoPf" resname="volunteer.jobs.asso">
+      </segment>
+    </unit>
+    <unit id="MgfNoPf" name="volunteer.jobs.asso">
+      <segment>
         <source>volunteer.jobs.asso</source>
         <target>Bénévolat pour l'association</target>
-      </trans-unit>
-      <trans-unit id="bbdU0wF" resname="volunteer.jobs.asso.text">
+      </segment>
+    </unit>
+    <unit id="bbdU0wF" name="volunteer.jobs.asso.text">
+      <segment>
         <source>volunteer.jobs.asso.text</source>
         <target>Si vous souhaitez aider l'association Thot dans son fonctionnement car vous avez des capacités en communication, en levée de fonds, en graphisme ou d'autres magnifiques compétences à nous faire partager, contactez nous sur le formulaire de contact. Nous vous répondrons dans les meilleurs délais.</target>
-      </trans-unit>
-      <trans-unit id="z_HV96w" resname="volunteer.jobs.open">
+      </segment>
+    </unit>
+    <unit id="z_HV96w" name="volunteer.jobs.open">
+      <segment>
         <source>volunteer.jobs.open</source>
         <target>Les candidatures pour le bénévolat sont ouvertes</target>
-      </trans-unit>
-      <trans-unit id="kC_E5EM" resname="jobs.school.1">
+      </segment>
+    </unit>
+    <unit id="kC_E5EM" name="jobs.school.1">
+      <segment>
         <source>jobs.school.1</source>
         <target>Notre formulaire vous permettra de vous inscrire - dans la limite des besoins de l'école - en tant qu'assistant ou tuteur pour les cours de français, animateur de français dans le monde de l'emploi ou traducteur/interprète. Nous vous en dirons plus dans le formulaire.</target>
-      </trans-unit>
-      <trans-unit id="4OAR6pk" resname="jobs.school.2">
+      </segment>
+    </unit>
+    <unit id="4OAR6pk" name="jobs.school.2">
+      <segment>
         <source>jobs.school.2</source>
         <target>Nous recevons beaucoup de candidatures pour intégrer nos équipes de bénévoles, nous sommes navrées de ne pouvoir répondre à toutes les demandes. Les futur.e.s bénévoles seront ensuite convié.e.s à une réunion d'information qui aura lieu en début de session de formation.</target>
-      </trans-unit>
-      <trans-unit id="IkFIJQo" resname="jobs.school.3.warning">
+      </segment>
+    </unit>
+    <unit id="IkFIJQo" name="jobs.school.3.warning">
+      <segment>
         <source>jobs.school.3.warning</source>
         <target>Attention</target>
-      </trans-unit>
-      <trans-unit id="5cIoX_9" resname="jobs.school.3.text">
+      </segment>
+    </unit>
+    <unit id="5cIoX_9" name="jobs.school.3.text">
+      <segment>
         <source>jobs.school.3.text</source>
         <target>Notre action concerne aujourd'hui uniquement Paris et sa région.</target>
-      </trans-unit>
-      <trans-unit id="jHkywNc" resname="prof.jobs.closed">
+      </segment>
+    </unit>
+    <unit id="jHkywNc" name="prof.jobs.closed">
+      <segment>
         <source>prof.jobs.closed</source>
         <target>L'équipe de professeurs est au complet.</target>
-      </trans-unit>
-      <trans-unit id="tybxCib" resname="profs.jobs.announce">
+      </segment>
+    </unit>
+    <unit id="tybxCib" name="profs.jobs.announce">
+      <segment>
         <source>profs.jobs.announce</source>
         <target>Si nous recherchons de nouveaux professeurs, nous l'annoncerons ici et sur notre page Facebook.</target>
-      </trans-unit>
-      <trans-unit id="LzfF59z" resname="volunteer.jobs.closed">
+      </segment>
+    </unit>
+    <unit id="LzfF59z" name="volunteer.jobs.closed">
+      <segment>
         <source>volunteer.jobs.closed</source>
         <target>Les candidatures pour le bénévolat sont closes</target>
-      </trans-unit>
-      <trans-unit id="X4BGC6c" resname="volunteer.jobs.announce">
+      </segment>
+    </unit>
+    <unit id="X4BGC6c" name="volunteer.jobs.announce">
+      <segment>
         <source>volunteer.jobs.announce</source>
         <target>Nos équipes sont au complet pour cette session. Rendez-vous ici ou sur notre page Facebook pour devenir bénévole à la prochaine session de cours.</target>
-      </trans-unit>
-      <trans-unit id="Ifveqru" resname="manifesto.mission">
+      </segment>
+    </unit>
+    <unit id="Ifveqru" name="manifesto.mission">
+      <segment>
         <source>manifesto.mission</source>
         <target>Notre manifeste : mission et valeurs</target>
-      </trans-unit>
-      <trans-unit id="laxdpBE" resname="manifesto.intro">
+      </segment>
+    </unit>
+    <unit id="laxdpBE" name="manifesto.intro">
+      <segment>
         <source>manifesto.intro</source>
         <target>À ce jour, nous n'avions pas présenté nos valeurs phares. Le travail aidant, nous avons produit une charte qui a également valeur de manifeste, et qui constitue un socle pour nos nvaleurs. Ces éléments, nous y croyons, et si nous nous autorisons évidemment à changer et ouvrir nos champs, les mots présentés ci-après demeureront un ancrage pour notre école.</target>
-      </trans-unit>
-      <trans-unit id="K396rVO" resname="manifesto.definition.title">
+      </segment>
+    </unit>
+    <unit id="K396rVO" name="manifesto.definition.title">
+      <segment>
         <source>manifesto.definition.title</source>
-        <target>Définition</target>
-      </trans-unit>
-      <trans-unit id="ldq8L53" resname="manifesto.definition.1">
+        <target>Egalité</target>
+      </segment>
+    </unit>
+    <unit id="ldq8L53" name="manifesto.definition.1">
+      <segment>
         <source>manifesto.definition.1</source>
-        <target>Thot est un lieu humaniste. Nous avons nommé Thot ainsi car Thot était le dieu égyptien qui a inventé le langage pour disséminer le savoir. C’est aussi l’acronyme de Transmettre un HOrizon à Tous, et la notion de transmission pour l’épanouissement de chacun vers son objectif personnel et son autonomie est centrale dans notre travail. </target>
-      </trans-unit>
-      <trans-unit id="d2VuZZe" resname="manifesto.equality.title">
+        <target>Thot  inclut toutes les personnes, étudiant.e.s ou membres de l’équipe, dans une relation égalitaire de considération mutuelle, de dignité et de respect. Ainsi, chacun.e y est accueilli.e avec bienveillance, sans distinction de sexe, de religion, de nationalité ou de statut légal.
+Nous portons une attention particulière à traiter chacun.e avec équité, selon ses besoins et ses spécificités.</target>
+      </segment>
+    </unit>
+    <unit id="d2VuZZe" name="manifesto.equality.title">
+      <segment>
         <source>manifesto.equality.title</source>
-        <target>L'égalité des droits pour tous</target>
-      </trans-unit>
-      <trans-unit id="N8G24or" resname="manifesto.equality.1">
+        <target>Respect</target>
+      </segment>
+    </unit>
+    <unit id="N8G24or" name="manifesto.equality.1">
+      <segment>
         <source>manifesto.equality.1</source>
-        <target>Nous avons créé Thot car nous croyons que l’égalité commence par un traitement digne, normal et normé, pour chacun. Chacun de nous a étudié à l’école avec des professeurs et un cadre de suivi, l’ensemble de l’enseignement ayant été sanctionné par un diplôme. Thot est une école qui valorise le travail des enseignants et donne accès à la diplômation. Le langage étant une barrière importante à franchir pour s’insérer au sein d’une société, il nous a semblé prioritaire de créer un lieu comme Thot, où l’enseignement est professionnalisé et cadré. Les bénévoles y jouent un rôle d’appui au travail des enseignants, de lien et de possibilité de faire du cas par cas au sein de la classe, mais toujours sous l’égide des professeurs et de la direction pédagogique. 
-
-La grande majorité des demandeurs d’asile n’ont pas ou peu été scolarisés. Nous avons voulu prioriser notre travail sur ces personnes, dont la capacité de travail et la volonté sont fortes, mais dont l’accompagnement pédagogique doit être spécifique. </target>
-      </trans-unit>
-      <trans-unit id="J5vlV6U" resname="manifesto.mission.title">
+        <target>Thot accueille des personnes venant d’horizons divers. Chacun.e, étudiant.e et intervenant.e, est responsable de ses actes et a le droit au respect de ses opinions et de ses différences culturelles et religieuses. Dans le même esprit, Thot applique et transmet la valeur républicaine de laïcité et veille à laisser la pratique religieuse en tant que telle en dehors de l’école.</target>
+      </segment>
+    </unit>
+    <unit id="J5vlV6U" name="manifesto.mission.title">
+      <segment>
         <source>manifesto.mission.title</source>
-        <target>Notre mission, et notre règle de conduite</target>
-      </trans-unit>
-      <trans-unit id="f_y73Oo" resname="manifesto.mission.1">
+        <target>Solidarité</target>
+      </segment>
+    </unit>
+    <unit id="f_y73Oo" name="manifesto.mission.1">
+      <segment>
         <source>manifesto.mission.1</source>
-        <target>Les étudiants de Thot sont des personnes en situation d’exil, ils sont maîtres de leur histoire, elle leur appartient et nous nous engageons à ne pas les inciter à la raconter. L’évocation de leur passé n’est faite que dans un but pédagogique ou dans leur intérêt direct (passé professionnel pour les ateliers d’orientation professionnelle), dans le respect de leur intimité et sans les mettre mal à l’aise. Les permanences psychothérapeutiques sont là pour combler le besoin de parler, à une personne qualifiée et présente dans ce seul objectif, des angoisses personnelles. Une permanence sociale est également mise en place pour résoudre les problèmes administratifs. 
-
-Notre mission est d’accompagner les étudiants afin qu’ils trouvent leur place en France, qu’ils construisent leur avenir. Nous n’avons pas vocation à dicter une conduite, à juger d’un choix, nous nous contentons de les éclairer sur les décisions prises, sans interférer. 
-
-Les étudiants de Thot sont des personnes adultes avec un passé souvent difficile qui témoigne de leur capacité à être autonomes, responsables et capables. Thot est une étape de leur parcours, mais leur statut d’étudiant chez Thot, de personne exilée ne les définit pas. </target>
-      </trans-unit>
-      <trans-unit id="bvjotf0" resname="manifesto.secular.title">
+        <target>Chez Thot, nous pensons que notre impact positif sur l’extérieur est à la mesure de la qualité des relations et de l’épanouissement des individus à l’intérieur de l’organisation. Nous portons une grande attention à chacun.e et nous faisons le choix militant de l’accueil des personnes exilées dans notre société comme manifestation d’une citoyenneté engagée vers une vision inclusive de l’autre.</target>
+      </segment>
+    </unit>
+    <unit id="bvjotf0" name="manifesto.secular.title">
+      <segment>
         <source>manifesto.secular.title</source>
-        <target>Une école laïque</target>
-      </trans-unit>
-      <trans-unit id="W4WPPFH" resname="manifesto.secular.1">
+        <target>Professionnalisme</target>
+      </segment>
+    </unit>
+    <unit id="W4WPPFH" name="manifesto.secular.1">
+      <segment>
         <source>manifesto.secular.1</source>
-        <target>Bien que nous n’en fassions pas état, Thot est une école laïque. La religion n’y est pas tabou mais sa pratique n’y a pas de place, car nous considérons qu’elle relève de l’intimité de chacun et n’a pas de lien avec l’enseignement que nous proposons. Nous considérons en outre que dans la mesure où le travail et l’enseignement en France sont laïques, il est nécessaire d’y préparer nos étudiants. </target>
-      </trans-unit>
-      <trans-unit id="HArTpF." resname="manifesto.respect.title">
+        <target>L’équipe de Thot, pluridisciplinaire et qualifiée, a pour objectif d’accompagner ses étudiant.e.s dans l’apprentissage du français. Elle a à cœur leur bien-être et a construit pour cela un cadre professionnel où chacun.e trouve sa place, tout en gardant la bonne distance qui protège aussi bien les étudiant.e.s que les membres de l’équipe.</target>
+      </segment>
+    </unit>
+    <unit id="HArTpF." name="manifesto.respect.title">
+      <segment>
         <source>manifesto.respect.title</source>
-        <target>Un lieu de respect</target>
-      </trans-unit>
-      <trans-unit id="OhjIdr4" resname="manifesto.respect.1">
+        <target>Partage</target>
+      </segment>
+    </unit>
+    <unit id="OhjIdr4" name="manifesto.respect.1">
+      <segment>
         <source>manifesto.respect.1</source>
-        <target>Chaque intervenant et étudiant est adulte, il est donc nécessaire de s’adresser aux uns et aux autres avec respect, pudeur, sans condescendance, et d’agir avec l’ambition commune d’amener les personnes vers le succès de l’examen, l’autonomie et la confiance en soi. Si un problème se fait jour, la direction de l’école est toujours présente et à l’écoute. </target>
-      </trans-unit>
-      <trans-unit id="glRIc1N" resname="contact.text">
+        <target>La force de Thot réside dans le partage de connaissances, d’échanges humains, de transmission de clés culturelles par et pour l’ensemble des acteurs et actrices de l’école.</target>
+      </segment>
+    </unit>
+    <unit id="glRIc1N" name="contact.text">
+      <segment>
         <source>contact.text</source>
         <target>Contactez-nous, nous serons ravis de vous répondre</target>
-      </trans-unit>
-      <trans-unit id="6wFd3mH" resname="contact.form.name">
+      </segment>
+    </unit>
+    <unit id="6wFd3mH" name="contact.form.name">
+      <segment>
         <source>contact.form.name</source>
         <target>Votre nom</target>
-      </trans-unit>
-      <trans-unit id="2pbVlLF" resname="contact.form.email">
+      </segment>
+    </unit>
+    <unit id="2pbVlLF" name="contact.form.email">
+      <segment>
         <source>contact.form.email</source>
         <target>Votre e-mail</target>
-      </trans-unit>
-      <trans-unit id="uy34jBm" resname="contact.form.subject">
+      </segment>
+    </unit>
+    <unit id="uy34jBm" name="contact.form.subject">
+      <segment>
         <source>contact.form.subject</source>
         <target>Sujet de votre message</target>
-      </trans-unit>
-      <trans-unit id="kGDlATw" resname="contact.form.message">
+      </segment>
+    </unit>
+    <unit id="kGDlATw" name="contact.form.message">
+      <segment>
         <source>contact.form.message</source>
         <target>Votre message</target>
-      </trans-unit>
-      <trans-unit id="rxOf9wM" resname="contact.form.send">
+      </segment>
+    </unit>
+    <unit id="rxOf9wM" name="contact.form.send">
+      <segment>
         <source>contact.form.send</source>
         <target>Envoyer</target>
-      </trans-unit>
-      <trans-unit id="aririzH" resname="contact.form.error">
+      </segment>
+    </unit>
+    <unit id="aririzH" name="contact.form.error">
+      <segment>
         <source>contact.form.error</source>
         <target>Erreur</target>
-      </trans-unit>
-      <trans-unit id="rM4AE95" resname="contact.form.info">
+      </segment>
+    </unit>
+    <unit id="rM4AE95" name="contact.form.info">
+      <segment>
         <source>contact.form.info</source>
         <target>Information</target>
-      </trans-unit>
-      <trans-unit id="va0Dik0" resname="contact.subject.jobs">
+      </segment>
+    </unit>
+    <unit id="va0Dik0" name="contact.subject.jobs">
+      <segment>
         <source>contact.subject.jobs</source>
         <target>Recrutement</target>
-      </trans-unit>
-      <trans-unit id="hlbrlVN" resname="contact.subject.volunteer">
+      </segment>
+    </unit>
+    <unit id="hlbrlVN" name="contact.subject.volunteer">
+      <segment>
         <source>contact.subject.volunteer</source>
         <target>Bénévolat</target>
-      </trans-unit>
-      <trans-unit id="2Ki.UTp" resname="contact.subject.other">
+      </segment>
+    </unit>
+    <unit id="2Ki.UTp" name="contact.subject.other">
+      <segment>
         <source>contact.subject.other</source>
         <target>Autre</target>
-      </trans-unit>
-      <trans-unit id="rgB.JAr" resname="news.ours">
+      </segment>
+    </unit>
+    <unit id="rgB.JAr" name="news.ours">
+      <segment>
         <source>news.ours</source>
         <target>Nos actualités</target>
-      </trans-unit>
-      <trans-unit id="P3fkZyj" resname="news.press">
+      </segment>
+    </unit>
+    <unit id="P3fkZyj" name="news.press">
+      <segment>
         <source>news.press</source>
         <target>Kit presse</target>
-      </trans-unit>
-      <trans-unit id="GOn.I8r" resname="news.others">
+      </segment>
+    </unit>
+    <unit id="GOn.I8r" name="news.others">
+      <segment>
         <source>news.others</source>
         <target>Revue de presse</target>
-      </trans-unit>
-      <trans-unit id="UXeHGRS" resname="presskit">
+      </segment>
+    </unit>
+    <unit id="UXeHGRS" name="presskit">
+      <segment>
         <source>presskit</source>
         <target>Kit presse</target>
-      </trans-unit>
-      <trans-unit id="aAvt864" resname="presskit.photos">
+      </segment>
+    </unit>
+    <unit id="aAvt864" name="presskit.photos">
+      <segment>
         <source>presskit.photos</source>
         <target>Nos photos officielles</target>
-      </trans-unit>
-      <trans-unit id="tMTYwJZ" resname="presskit.photos.info">
+      </segment>
+    </unit>
+    <unit id="tMTYwJZ" name="presskit.photos.info">
+      <segment>
         <source>presskit.photos.info</source>
         <target>15 photos</target>
-      </trans-unit>
-      <trans-unit id="BiscqA1" resname="presskit.logo">
+      </segment>
+    </unit>
+    <unit id="BiscqA1" name="presskit.logo">
+      <segment>
         <source>presskit.logo</source>
         <target>Télécharger le logo HD</target>
-      </trans-unit>
-      <trans-unit id="RBLc_TV" resname="presskit.logo.info">
+      </segment>
+    </unit>
+    <unit id="RBLc_TV" name="presskit.logo.info">
+      <segment>
         <source>presskit.logo.info</source>
         <target>Formats AI</target>
-      </trans-unit>
-      <trans-unit id="uZiSX6y" resname="presskit.communique">
+      </segment>
+    </unit>
+    <unit id="uZiSX6y" name="presskit.communique">
+      <segment>
         <source>presskit.communique</source>
         <target>Communiqué de presse</target>
-      </trans-unit>
-      <trans-unit id="hLwXmEC" resname="presskit.communique.info">
+      </segment>
+    </unit>
+    <unit id="hLwXmEC" name="presskit.communique.info">
+      <segment>
         <source>presskit.communique.info</source>
-        <target>Mise à jour : 19/09/2016</target>
-      </trans-unit>
-      <trans-unit id="t9VJshH" resname="presskit.notfound">
+        <target>Mise à jour : 07/2019</target>
+      </segment>
+    </unit>
+    <unit id="t9VJshH" name="presskit.notfound">
+      <segment>
         <source>presskit.notfound</source>
         <target>Vous ne trouvez pas ce qu'il vous faut ?</target>
-      </trans-unit>
-      <trans-unit id="gHDzMk4" resname="presskit.contact">
+      </segment>
+    </unit>
+    <unit id="gHDzMk4" name="presskit.contact">
+      <segment>
         <source>presskit.contact</source>
         <target>Contactez-nous</target>
-      </trans-unit>
-      <trans-unit id="gZlzcWy" resname="press.review">
+      </segment>
+    </unit>
+    <unit id="gZlzcWy" name="press.review">
+      <segment>
         <source>press.review</source>
         <target>Revue de presse</target>
-      </trans-unit>
-      <trans-unit id="I5SCDa_" resname="see.more">
+      </segment>
+    </unit>
+    <unit id="I5SCDa_" name="see.more">
+      <segment>
         <source>see.more</source>
         <target>Voir plus d'actus</target>
-      </trans-unit>
-      <trans-unit id="oup04hU" resname="on.the.same.theme">
+      </segment>
+    </unit>
+    <unit id="oup04hU" name="on.the.same.theme">
+      <segment>
         <source>on.the.same.theme</source>
         <target>Sur le même thème</target>
-      </trans-unit>
-      <trans-unit id="aCE9GgT" resname="home.students.admitted">
+      </segment>
+    </unit>
+    <unit id="aCE9GgT" name="home.students.admitted">
+      <segment>
         <source>home.students.admitted</source>
         <target>étudiants admis</target>
-      </trans-unit>
-      <trans-unit id="ZpZgEDk" resname="home.diplomas">
+      </segment>
+    </unit>
+    <unit id="ZpZgEDk" name="home.diplomas">
+      <segment>
         <source>home.diplomas</source>
         <target>de diplômes Dilf/Delf</target>
-      </trans-unit>
-      <trans-unit id="VjMR08z" resname="home.promos">
+      </segment>
+    </unit>
+    <unit id="VjMR08z" name="home.promos">
+      <segment>
         <source>home.promos</source>
         <target>promotions par an</target>
-      </trans-unit>
-      <trans-unit id="jLHvtjQ" resname="home.laureates">
+      </segment>
+    </unit>
+    <unit id="jLHvtjQ" name="home.laureates">
+      <segment>
         <source>home.laureates</source>
         <target>Lauréats « La France s'engage »</target>
-      </trans-unit>
-      <trans-unit id="fkFfCt4" resname="home.levels">
+      </segment>
+    </unit>
+    <unit id="fkFfCt4" name="home.levels">
+      <segment>
         <source>home.levels</source>
         <target>Niveau de français Alpha à A2</target>
-      </trans-unit>
-      <trans-unit id="VzKxAl_" resname="home.initialLevel">
+      </segment>
+    </unit>
+    <unit id="VzKxAl_" name="home.initialLevel">
+      <segment>
         <source>home.initialLevel</source>
         <target>Pas ou peu scolarisés à l'origine</target>
-      </trans-unit>
-      <trans-unit id="DRHpkTj" resname="home.dispos">
+      </segment>
+    </unit>
+    <unit id="DRHpkTj" name="home.dispos">
+      <segment>
         <source>home.dispos</source>
-        <target>Disponibles 14h par semaine</target>
-      </trans-unit>
-      <trans-unit id="U.d1wi5" resname="home.tariff">
+        <target>Disponibles 14h par semaine et habiter en Ile-de-France</target>
+      </segment>
+    </unit>
+    <unit id="U.d1wi5" name="home.tariff">
+      <segment>
         <source>home.tariff</source>
         <target>En échange de 7€</target>
-      </trans-unit>
-      <trans-unit id="q2F5byo" resname="home.noBac">
+      </segment>
+    </unit>
+    <unit id="q2F5byo" name="home.noBac">
+      <segment>
         <source>home.noBac</source>
         <target>sans équivalent du Baccalauréat</target>
-      </trans-unit>
-      <trans-unit id="wyEqE6C" resname="home.months.training">
+      </segment>
+    </unit>
+    <unit id="wyEqE6C" name="home.months.training">
+      <segment>
         <source>home.months.training</source>
         <target>mois de formation par session</target>
-      </trans-unit>
-      <trans-unit id="AhDUYT_" resname="home.hours">
+      </segment>
+    </unit>
+    <unit id="AhDUYT_" name="home.hours">
+      <segment>
         <source>home.hours</source>
         <target>heures de français</target>
-      </trans-unit>
-      <trans-unit id="jPjRyyG" resname="home.profPerClass">
+      </segment>
+    </unit>
+    <unit id="jPjRyyG" name="home.profPerClass">
+      <segment>
         <source>home.profPerClass</source>
         <target>professeur de francais langue étrangère par classe de 15</target>
-      </trans-unit>
-      <trans-unit id="2Nmj_CX" resname="home.daysAtelier">
+      </segment>
+    </unit>
+    <unit id="2Nmj_CX" name="home.daysAtelier">
+      <segment>
         <source>home.daysAtelier</source>
         <target>heures d'ateliers artistiques</target>
-      </trans-unit>
-      <trans-unit id="iyOCQW0" resname="home.benevoles">
+      </segment>
+    </unit>
+    <unit id="iyOCQW0" name="home.benevoles">
+      <segment>
         <source>home.benevoles</source>
         <target>bénévoles</target>
-      </trans-unit>
-      <trans-unit id="KmQfaOB" resname="home.polesAssistance">
+      </segment>
+    </unit>
+    <unit id="KmQfaOB" name="home.polesAssistance">
+      <segment>
         <source>home.polesAssistance</source>
         <target>pôles d'assistance (psychologique, sociale, juridique)</target>
-      </trans-unit>
-      <trans-unit id="lGmTDPe" resname="home.polesOrientation">
+      </segment>
+    </unit>
+    <unit id="lGmTDPe" name="home.polesOrientation">
+      <segment>
         <source>home.polesOrientation</source>
         <target>pôle d'orientation professionnelle pour préparer la suite</target>
-      </trans-unit>
-      <trans-unit id="6jQM7ME" resname="home.examen">
+      </segment>
+    </unit>
+    <unit id="6jQM7ME" name="home.examen">
+      <segment>
         <source>home.examen</source>
         <target>examen en fin de session : le DILF/DELF</target>
-      </trans-unit>
-      <trans-unit id="rxZYalZ" resname="linked.file">
+      </segment>
+    </unit>
+    <unit id="rxZYalZ" name="linked.file">
+      <segment>
         <source>linked.file</source>
         <target>Fichier associé</target>
-      </trans-unit>
-    </body>
+      </segment>
+    </unit>
+    <unit id="rxUYa6Z" name="contact.success">
+      <segment>
+        <source>contact.success</source>
+        <target>Votre mail a bien été envoyé</target>
+      </segment>
+    </unit>
   </file>
 </xliff>
