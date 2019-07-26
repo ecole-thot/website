@@ -51,7 +51,16 @@ task('php-fpm:restart', function () {
     run('sudo systemctl restart php7.1-fpm.service');
 });
 
+desc('Correct translations folder rights');
+task('folder:rights', function () {
+    cd('{{deploy_path}}/current');
+    run('sudo chgrp -R www-data .');
+    run('sudo chmod -R g+w ./translations');
+});
+
 // Hooks
 after('deploy:update_code', 'deploy:build_assets');
+after('deploy:symlink', 'folder:rights');
 after('deploy:symlink', 'php-fpm:restart');
 after('deploy:failed', 'deploy:unlock');
+
