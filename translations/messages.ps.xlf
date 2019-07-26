@@ -106,73 +106,83 @@
     <unit id="Ifveqru" name="manifesto.mission">
       <segment>
         <source>manifesto.mission</source>
-        <target>Our manifesto : mission and values</target>
+        <target>د ټاټ اعلامیه  
+د ټاټ ماموریت او ارزښتونه </target>
       </segment>
     </unit>
     <unit id="laxdpBE" name="manifesto.intro">
       <segment>
         <source>manifesto.intro</source>
-        <target>To this day, we have not presented our key values. We have written a charter that is also a manifesto and a foundation for our values. We believe in these elements, and if we obviously allow ourselves to change and open our fields and opinion, the words presented below will remain an anchor for our school.</target>
+        <target>د دې ورځې لپاره موږ خپل کلیدي ارزښتونه نه دي وړاندې کړي.  موږ یو داسې چار لیک لیکلی دی چې د منشور او زموږ د ارزښتونو بنسټ هم دی.  موږ په دغو عناصرو باور لرو، او که موږ په څرګنده توګه ځان ته اجازه ورکړو چې خپلې ځمکې او نظرونه بدل کړو، نو لاندې کلمات به زموږ د ښوونځي لامین پاتې شي.</target>
       </segment>
     </unit>
     <unit id="K396rVO" name="manifesto.definition.title">
       <segment>
         <source>manifesto.definition.title</source>
-        <target>برابري</target>
+        <target>تعریف</target>
       </segment>
     </unit>
     <unit id="ldq8L53" name="manifesto.definition.1">
       <segment>
         <source>manifesto.definition.1</source>
-        <target>Thot is a humanist place. We named Thot because Thot was the Egyptian god who invented language to spread knowledge. It is also the acronym for Transmettre un HOrizon à Tous (to transmit a horizon to all), and the notion of transmission for the fulfillment of each one towards his personal goal and his autonomy is central in our work.</target>
+        <target>ټاټ یو داسی ځای دی چې په دې ځي کې هر یوه ته د خپل د کار استقلالیت یا آزادی ورکړل شوې. مونږ دې ځي ته د ټاټ نوم ځکه ورکړ چې ټاټ د مصر د خدایانو څخه د یوه نوم وه چې ژبه یی اختراع کړه تر وشوکړای علم ته پراختیا ورکړو او تر نورو یې ورسووو. ټاټ (Thot) چې د (Transmettre un HOrizon à Tous) لپاره د مختصر یا لنډ نوم په ډول کارول کیږی او مفهوم یی دا دی چې د هر یو د تحقیق انتقال د خپل شخصی هدف په لور دی تر څو په خپل کار کی استقلالیت ولري. </target>
       </segment>
     </unit>
     <unit id="d2VuZZe" name="manifesto.equality.title">
       <segment>
         <source>manifesto.equality.title</source>
-        <target>درناوى</target>
+        <target>هر چاته مساوي حقوق</target>
       </segment>
     </unit>
     <unit id="N8G24or" name="manifesto.equality.1">
       <segment>
         <source>manifesto.equality.1</source>
-        <target>Thot welcomes people from various backgrounds. Everyone, student and member of the team, is responsible for their actions and has the right to respect for their opinions and cultural and religious differences. In the same spirit, Thot applies and transmits the republican value of secularism and makes sure to leave religious practice as such outside of school.</target>
+        <target>مونږ ټاټ د دې لپاره جوړ کړ او بنسټ مو کیښود چې په دې متیقن شو چې هر یو د مساوی حقوقو څخه برخمند او د قانون په مقرراتو سم هریو خپل کار کولی شي.
+مونږ ټو په پوهنتون کې له استادانو سر یو ځای په یو نظارت شوی چارچوکاټ کې په خپل تحصیل بوخت یو چې په پای کې به هریوه ته د فراغت تصدیق پاڼه ( ډیفلوم ) هم ورکول کیږي. 
+ټاټ داسې یو مرکز دی چې د استادانو د تدریس میتودونو ته احترام لرو چې دا کار به مونږ پر دې قادر کړی چې خپل دیفلوم تر لاسه کړو. 
+لکه څرنګه چې معلومه ده د ژبي نه پوهیدل همیشه یی محصلین له ستونزو سره مخ کړی او د تحصیل د دوام په لاره کې محصلینو ته ستونزی جوړی کړي اما مونږ په ټاټ کی دا ستونزه حل کړی او دلته مو د تحصیل لپاره یو مسلکی او له هیجانه ډک مکان جوړ کړی. 
+ځمونږ رضا کاران له استادانو سره په چارو کی مرسته کوي او کارونه سره په ګډه تر سره کوي تر څو په منظم ډول د کمک کولو لپاره لاره هواره شي په ځانګړي توګه محصلینو ته د استادانو او مدریرانو تر نظر لاندې.  
+د پنا اخیستونکو غوټ اکثریت یا خو بیسواده دي او یا هم لږ تعلیم لري چې د همدې لپاره مونږ و غوښتل چې دا خلک نظر د دوی د پوهې په کچې اولیت بندي کړو چې دا کار مونږ سره مرسته کوي چې له چا سره په کومې کچې همکاري وکړو. </target>
       </segment>
     </unit>
     <unit id="J5vlV6U" name="manifesto.mission.title">
       <segment>
         <source>manifesto.mission.title</source>
-        <target>پیوستون</target>
+        <target> د ټاټ د محصلینو پر وړاندې ځمونږ مأموریت</target>
       </segment>
     </unit>
     <unit id="f_y73Oo" name="manifesto.mission.1">
       <segment>
         <source>manifesto.mission.1</source>
-        <target> At Thot, we believe that our positive impact on the outside world is in line with the quality of relationships and the fulfilment of individuals within the organization. We pay great attention to each other and we make the militant choice of welcoming exiled people into our society as a manifestation of a committed citizenship towards an inclusive vision of the other.</target>
+        <target>دا ټاټ محصلین هغه خلک دي چې په جلاوطنۍ کې ژوند کوي، هغوي د تاریخ ماهرین دي دا هرڅه د هغو پورې اړه لري او مونږ یې نه مجبوروو چې د خپل تر وخت په اړه څه ووایي. 
+زیاتره دا کسان په تیر کې کاروبار او د کسب خاوندان ول چې مونږ د دوی له تیرو تجربو څخه په خپلو برنامو ( تره تجربه د هدایت په ډول په ورکشاپونو کې) کې کار اخلو بی له دې چې هغوی ناراحته کړو. مونږ پوهیږو چې رواني او روحي ستونزې په خبرو کولو کمیږي ځکه نو مونږ غواړو چې هغوی په خپل زړه د خپل د تیر وخت په اړه خبرې وکړي او مونږ د دې ستونزې د حل لپاره په ټولنیزې یوپارچګۍ ټینګار کوو. 
+ځمونږ ماموریت دا دی چې د محصلینو ملاتړ وکړو ترڅو وشي کولای خپل ځای ځایګی په فرانسې کې پیدا کړي او خپل راتلونکي جوړه کړي. 
+مونږ بی له دې چې د هغوي په شخصي مسایلو کې دخالت وکړو هغوی سره د تصمیم نیولو په برخه کې مرسته کوو، د زیاتره محصلینو عمرونه ډیر دي او ځانګري توانایانې لري چې دا کار له دوی سره مرسته کوی ترڅو مستقله، مسووله او توانمنده و اوسي. 
+ټاټ د دوی د سفر یوه برخه ده اما هیڅکله د دوی حالت د یو جلاوطنه مهاجر په توګه نه بیانوي.</target>
       </segment>
     </unit>
     <unit id="bvjotf0" name="manifesto.secular.title">
       <segment>
         <source>manifesto.secular.title</source>
-        <target>Professionalism</target>
+        <target>یو سکولاره پوهنتون</target>
       </segment>
     </unit>
     <unit id="W4WPPFH" name="manifesto.secular.1">
       <segment>
         <source>manifesto.secular.1</source>
-        <target>Thot's multi-disciplinary and qualified team aims to support its students in learning French. We care about their well-being and have built a professional environment where everyone can find their place, while keeping the right distance that protects the students as well as the members of the team.</target>
+        <target>اګرچې مونږ دا نه یادوو چې ټاټ یو سکولاره یا پر مذهب نه ولاړ پوهنتون دی، دین او مذهب دلته کومه ستونزه نده اما عملی کول یی دلته ځای نلري ځکه چې مونږ په پام کې لرو چې دا د هر چا حصوصي حریم دی او د زدکړی په برخه کی کوم تاثیر نلري. </target>
       </segment>
     </unit>
     <unit id="HArTpF." name="manifesto.respect.title">
       <segment>
         <source>manifesto.respect.title</source>
-        <target>Sharing</target>
+        <target>د احترام ځای</target>
       </segment>
     </unit>
     <unit id="OhjIdr4" name="manifesto.respect.1">
       <segment>
         <source>manifesto.respect.1</source>
-        <target>د پوهې، بشري تبادلو، د کلتوري کلیدونو انتقال، د ټولو لوبغاړو او د ښوونځي اداکارانو کې د فکر پیاوړتیا.</target>
+        <target>دلته هریو که محصل دی یا استاد ټول بالغه دي نو لازمه ده چې یو بل ته ډیر احترام وساتو، لازمه ده چې د یو بل خبرو ته په احترام غوږ کیږدو او په ګډه په استقلالیت او پر خپل نفس د اعتماد پر اساس ژوند وکړو. هر کله که کومې ستونزه پیدا کیږی د پوهنتو اداره همیشه حاضره او آماده ده چې دوی ته غوږ کیږدي اوس د حل لاره ورته پیدا کړي.</target>
       </segment>
     </unit>
     <unit id="8XxPGfs" name="the.school">
@@ -472,7 +482,7 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="5vyWyFT" name="inscription.limit">
       <segment>
         <source>inscription.limit</source>
-        <target>   نوم ليكنه جريان لري% Date %  تاسو وخت لري تر </target>
+        <target>   نوم ليكنه جريان لري %date%  تاسو وخت لري تر </target>
       </segment>
     </unit>
     <unit id="gb_1s_Y" name="i.want.to.register">
@@ -484,7 +494,7 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="36whLxz" name="inscription.next">
       <segment>
         <source>inscription.next</source>
-        <target>%Date %نوم لیکنه به پرانیستل شي</target>
+        <target>%date% نوم لیکنه به پرانیستل شي</target>
       </segment>
     </unit>
     <unit id="c1zwxoc" name="who.can.study">
@@ -586,7 +596,7 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="Qk4wHwr" name="inscription.limit.alt">
       <segment>
         <source>inscription.limit.alt</source>
-        <target> .%Time %At% Date %
+        <target> .%time% at %date%
 تاسو کولی شئ تر هغه پوري نوم لیکنه وکړي</target>
       </segment>
     </unit>
@@ -887,7 +897,7 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="hjZg.8R" name="prof.jobs.3">
       <segment>
         <source>prof.jobs.3</source>
-        <target>To join Thot as a teacher of French as a Foreign Language, send an email with CV and motivational letter to professors@thot-fle.fr. Posts are based in Saint-Denis.</target>
+        <target>To join Thot as a teacher of French as a Foreign Language, send an email with CV and motivational letter to professors@thot-fle.fr. Jobs are based in Saint-Denis.</target>
       </segment>
     </unit>
     <unit id="1dw5iG7" name="prof.jobs.3.closed">
@@ -977,7 +987,8 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="VLfgfuY" name="warning.closed">
       <segment>
         <source>warning.closed</source>
-        <target>راتلونکې روزنیز کورس به د سپتامبر له 9 څخه تر ديسمبر ١٩ د  کال ٢٠١٩ پیل شي. د سپتمبر  لپاره داخلہ به د جولای له ٢٣ د ١١ بجو د ګہيځ څخہ تر د جولای ٢٥ د  ګہيځ١١ بجو پورى ختمہ  شي.  د ثبت کولو لپاره هیڅ سند تہ ضرورت نلري.  د پخوانیو ثبتونو په جریان کې، موږ د 60 ځایونو څخه له 900 څخه زیاتې غوښتنلیکونه ترلاسه کړل (په مجموع کې موږ 105 زده کونکي شامل کړى وو)، له همدې کبله موږ د اتحادیې / هستوګنې مرکزونه او رضاکاران غواړو، چې د 4 څخه زیات وګړي راجستر نکړو.</target>
+        <target>راتلونکې روزنیز کورس به د فيبروري له ٣ څخه تر مي  ٢٠ د  کال ٢٠٢٠ پیل شي. د فيبروري   لپاره داخلہ به د ديسمبر له ١٧ د ١١ بجو د ګہيځ څخہ تر د يسمبر  ١٩ د  ګہيځ١١ بجو پورى ختمہ  شي.
+  د ثبت کولو لپاره هیڅ سند تہ ضرورت نلري. د پخوانیو ثبتونو په جریان کې، موږ د ٧٠ ځایونو څخه له ٨٠٠ څخه زیاتې غوښتنلیکونه ترلاسه کړل (په مجموع کې موږ ١١٢ زده کونکي شامل کړى وو), له همدې کبله موږ د اتحادیې / هستوګنې مرکزونه او رضاکاران غواړو، چې د 4 څخه زیات وګړي راجستر نکړو.</target>
       </segment>
     </unit>
     <unit id="mzXEXUg" name="warning.closed.2">
@@ -998,7 +1009,7 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
         <target>Linked file</target>
       </segment>
     </unit>
-    <unit id="rxUYa6Z" name="contact.success">
+    <unit id="nY37r3C" name="contact.success">
       <segment>
         <source>contact.success</source>
         <target>Votre mail a bien été envoyé</target>

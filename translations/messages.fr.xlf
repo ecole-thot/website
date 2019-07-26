@@ -130,7 +130,7 @@
     <unit id="VLfgfuY" name="warning.closed">
       <segment>
         <source>warning.closed</source>
-        <target>La prochaine session de formation aura lieu du 9 septembre au 19 décembre 2019. Les inscriptions pour la session de septembre seront ouvertes du 23 juillet à 11h au 25 juillet à 11h. Il n’y a pas de document à fournir pour s’inscrire. Lors des inscriptions précédentes, nous avons reçu plus de 900 candidatures pour une soixantaines de places (au total nous accueillons 105 étudiants), ainsi nous demandons aux associations/centre d'hébergement et soutiens de migrants, de ne pas inscrire plus de 4 personnes.</target>
+        <target>La prochaine session de formation aura lieu du 3 février au 20 mai 2020. Les inscriptions pour la session de février seront ouvertes du 17 décembre à 11h au 19 décembre à 11h. Il n’y a pas de document à fournir pour s’inscrire. Lors des inscriptions précédentes, nous avons reçu plus de 800 candidatures pour une soixantaines de places (au total nous accueillons 105 étudiants), ainsi nous demandons aux associations/centre d'hébergement et soutiens de migrants, de ne pas inscrire plus de 4 personnes.</target>
       </segment>
     </unit>
     <unit id="mzXEXUg" name="warning.closed.2">
@@ -580,7 +580,7 @@
     <unit id="hjZg.8R" name="prof.jobs.3">
       <segment>
         <source>prof.jobs.3</source>
-        <target>Pour rejoindre Thot en tant que professeur de Français Langue Étrangère, envoyez un mail avec CV et lettre de motivations à professeurs@thot-fle.fr. Les posts sont basés à Saint-Denis.</target>
+        <target>Pour rejoindre Thot en tant que professeur de Français Langue Étrangère, envoyez un mail avec CV et lettre de motivations à professeurs@thot-fle.fr. Les postes sont basés à Saint-Denis.</target>
       </segment>
     </unit>
     <unit id="1dw5iG7" name="prof.jobs.3.closed">
@@ -1010,7 +1010,7 @@ Nous portons une attention particulière à traiter chacun.e avec équité, selo
         <target>Fichier associé</target>
       </segment>
     </unit>
-    <unit id="rxUYa6Z" name="contact.success">
+    <unit id="nY37r3C" name="contact.success">
       <segment>
         <source>contact.success</source>
         <target>Votre mail a bien été envoyé</target>

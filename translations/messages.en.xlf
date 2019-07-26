@@ -124,7 +124,8 @@
     <unit id="ldq8L53" name="manifesto.definition.1">
       <segment>
         <source>manifesto.definition.1</source>
-        <target>Thot is a humanist place. We named Thot because Thot was the Egyptian god who invented language to spread knowledge. It is also the acronym for Transmettre un HOrizon à Tous (to transmit a horizon to all), and the notion of transmission for the fulfillment of each one towards his personal goal and his autonomy is central in our work.</target>
+        <target>Thot includes all persons, students or members of the team, in an egalitarian relationship of mutual consideration, dignity and respect. Thus, everyone is welcomed with kindness, regardless of gender, religion, nationality or legal status.
+We pay particular attention to treating everyone with equity, according to their needs and specificities.</target>
       </segment>
     </unit>
     <unit id="d2VuZZe" name="manifesto.equality.title">
@@ -881,7 +882,7 @@ If the candidate do not speak one of these languages and/or he can't read and wr
     <unit id="hjZg.8R" name="prof.jobs.3">
       <segment>
         <source>prof.jobs.3</source>
-        <target>To join Thot as a teacher of French as a Foreign Language (FFL), send an email with CV and motivational letter to professors@thot-fle.fr. Posts are based in Saint-Denis.</target>
+        <target>To join Thot as a teacher of French as a Foreign Language (FFL), send an email with CV and motivational letter to professors@thot-fle.fr. Jobs are based in Saint-Denis.</target>
       </segment>
     </unit>
     <unit id="1dw5iG7" name="prof.jobs.3.closed">
@@ -971,7 +972,7 @@ If the candidate do not speak one of these languages and/or he can't read and wr
     <unit id="VLfgfuY" name="warning.closed">
       <segment>
         <source>warning.closed</source>
-        <target>The next training session will start from September 9th to December 19th 2019. Registration for the September session will be open from July 23rd at 11 am to July 25th at 11 am. There is no document to provide to register. During previous registrations, we received more than 900 applications for about 60 places (in total we welcome 105 students), so we ask associations / accommodation centers and volunteers, not to register more than 4 people.</target>
+        <target>The next training session will start from February 3rd to May 20th, 2020. Registration for the February session will be open from December 17th at 11 am to December 19th at 11 am. There is no document to provide to register. During previous registrations, we received more than 800 applications for about 70 places (in total we welcome 112 students), so we ask associations / accommodation centers and volunteers, not to register more than 4 people.</target>
       </segment>
     </unit>
     <unit id="mzXEXUg" name="warning.closed.2">
@@ -993,7 +994,7 @@ To reinforce this commitment, the form must be completed by the candidate himsel
         <target>Linked file</target>
       </segment>
     </unit>
-    <unit id="rxUYa6Z" name="contact.success">
+    <unit id="nY37r3C" name="contact.success">
       <segment>
         <source>contact.success</source>
         <target>Votre mail a bien été envoyé</target>
