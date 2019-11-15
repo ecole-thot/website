@@ -27,8 +27,6 @@ class BackendController extends AbstractController
     /**
      * Serves home page.
      *
-     * @return Response
-     *
      * @Route("/", name="admin_home", methods={"GET"})
      */
     public function home(): Response
@@ -57,8 +55,6 @@ class BackendController extends AbstractController
     /**
      * Serves press page.
      *
-     * @return Response
-     *
      * @Route("/revue/de/presse", name="admin_press", methods={"GET"})
      */
     public function press(): Response
@@ -70,8 +66,6 @@ class BackendController extends AbstractController
 
     /**
      * Serves press page.
-     *
-     * @return Response
      *
      * @Route("/revue/de/presse/nouveau", name="admin_press_new", methods={"GET", "POST"}, defaults={"id"=null})
      * @Route("/revue/de/presse/edition/{id}", name="admin_press_edit", methods={"GET", "POST"})
@@ -127,8 +121,6 @@ class BackendController extends AbstractController
     /**
      * Serves news page.
      *
-     * @return Response
-     *
      * @Route("/actualites", name="admin_news", methods={"GET"})
      */
     public function news(): Response
@@ -140,8 +132,6 @@ class BackendController extends AbstractController
 
     /**
      * Edit news.
-     *
-     * @return Response
      *
      * @Route("/actualites/edit/new", name="admin_news_new", methods={"GET","POST"}, defaults={"id":null})
      * @Route("/actualites/edit/{id}", name="admin_news_edit", methods={"GET","POST"})
@@ -222,8 +212,6 @@ class BackendController extends AbstractController
     /**
      * Deletes a news.
      *
-     * @return Response
-     *
      * @Route("/actualites/suppression/{id}", name="admin_news_delete", methods={"GET"})
      */
     public function newsDelete(Request $request, ?int $id): Response
@@ -243,8 +231,6 @@ class BackendController extends AbstractController
     /**
      * Serves partners page.
      *
-     * @return Response
-     *
      * @Route("/partenaires", name="admin_partners", methods={"GET"})
      */
     public function partners(): Response
@@ -256,8 +242,6 @@ class BackendController extends AbstractController
 
     /**
      * Serves partners edition page.
-     *
-     * @return Response
      *
      * @Route("/partenaire/nouveau", name="admin_partner_new", methods={"GET", "POST"}, defaults={"id"=null})
      * @Route("/partenaire/edition/{id}", name="admin_partner_edit", methods={"GET", "POST"})
@@ -317,8 +301,6 @@ class BackendController extends AbstractController
     /**
      * Deletes a partner.
      *
-     * @return Response
-     *
      * @Route("/partenaire/suppression/{id}", name="admin_partner_delete", methods={"GET", "POST"})
      */
     public function partnerDelete(Request $request, ?int $id): Response
@@ -338,8 +320,6 @@ class BackendController extends AbstractController
     /**
      * Serves members page.
      *
-     * @return Response
-     *
      * @Route("/equipe", name="admin_members", methods={"GET"})
      */
     public function members(): Response
@@ -351,8 +331,6 @@ class BackendController extends AbstractController
 
     /**
      * Serves members edition page.
-     *
-     * @return Response
      *
      * @Route("/equipe/nouveau", name="admin_member_new", methods={"GET", "POST"}, defaults={"id"=null})
      * @Route("/equipe/edition/{id}", name="admin_member_edit", methods={"GET", "POST"})
@@ -412,8 +390,6 @@ class BackendController extends AbstractController
     /**
      * Deletes a member.
      *
-     * @return Response
-     *
      * @Route("/partenaire/suppression/{id}", name="admin_member_delete", methods={"GET", "POST"})
      */
     public function memberDelete(Request $request, ?int $id): Response
@@ -433,8 +409,6 @@ class BackendController extends AbstractController
     /**
      * Serves inscriptions page.
      *
-     * @return Response
-     *
      * @Route("/inscriptions", name="admin_inscriptions", methods={"GET"})
      */
     public function inscriptions(): Response
@@ -453,12 +427,9 @@ class BackendController extends AbstractController
     /**
      * Toggle inscriptions status.
      *
-     *
      * @Route("/inscriptions/{which}/{status}", name="admin_inscriptions_toggle", methods={"GET"})
      *
      * @param mixed $status
-     *
-     * @return Response
      */
     public function inscriptionsToggle(string $which, $status): Response
     {
@@ -479,8 +450,6 @@ class BackendController extends AbstractController
 
     /**
      * Change inscriptions values.
-     *
-     * @return Response
      *
      * @Route("/settings/values", name="admin_settings_values", methods={"POST"})
      */

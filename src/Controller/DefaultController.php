@@ -14,8 +14,6 @@ class DefaultController extends AbstractController
     /**
      * Redirect to correct home page following user's locale.
      *
-     * @return Response
-     *
      * @Route("/", name="default", methods={"GET"})
      */
     public function index(): Response

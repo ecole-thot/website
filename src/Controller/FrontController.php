@@ -35,8 +35,6 @@ class FrontController extends AbstractController
     /**
      * Serves home page.
      *
-     * @return Response
-     *
      * @Route("/", name="home", methods={"GET"})
      */
     public function home(): Response
@@ -53,13 +51,10 @@ class FrontController extends AbstractController
     /**
      * Serves news page.
      *
-     *
      * @Route("/actualites", name="news", methods={"GET"}, defaults={"page":0})
      * @Route("/actualites/async/{page}", name="news_ajax", methods={"GET"})
      *
      * @param mixed $_route
-     *
-     * @return Response
      */
     public function news($_route, int $page): Response
     {
@@ -94,8 +89,6 @@ class FrontController extends AbstractController
     /**
      * Serves a specific news.
      *
-     * @return Response
-     *
      * @Route("/actualites/{id}", name="news_article", methods={"GET"})
      */
     public function newsArticle(int $id): Response
@@ -126,8 +119,6 @@ class FrontController extends AbstractController
     /**
      * Serves school page.
      *
-     * @return Response
-     *
      * @Route("/l-ecole", name="school", methods={"GET"})
      */
     public function school(): Response
@@ -140,8 +131,6 @@ class FrontController extends AbstractController
     /**
      * Serves manifesto page.
      *
-     * @return Response
-     *
      * @Route("/manifeste", name="manifesto", methods={"GET"})
      */
     public function manifesto(): Response
@@ -151,8 +140,6 @@ class FrontController extends AbstractController
 
     /**
      * Serves contact page.
-     *
-     * @return Response
      *
      * @Route("/contact", name="contact", methods={"GET", "POST"})
      */
@@ -193,8 +180,6 @@ class FrontController extends AbstractController
     /**
      * Serves jobs page.
      *
-     * @return Response
-     *
      * @Route("/recrutement", name="jobs", methods={"GET"})
      */
     public function jobs(): Response
@@ -206,8 +191,6 @@ class FrontController extends AbstractController
 
     /**
      * Serves legal terms page.
-     *
-     * @return Response
      *
      * @Route("/mentions-legales", name="legal", methods={"GET"})
      */
