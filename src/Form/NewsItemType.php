@@ -13,6 +13,7 @@ class NewsItemType extends AbstractType
         $builder
             ->add('title', null, ['label' => 'Titre de la news'])
             ->add('content', null, ['label' => 'Texte'])
+            ->add('publishedAt', null, ['widget' => 'single_text', 'label' => 'Date de publication', 'attr' => ['placeholder' => 'Format : 2019-12-23T13:30:00']])
             ->add('image', null, ['required' => false, 'label' => 'Mettre à jour l\'image'])
             ->add('linkedFile', null, ['required' => false, 'label' => 'Mettre à jour le fichier associé'])
             ->add('theme', ChoiceType::class, [

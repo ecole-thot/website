@@ -37,6 +37,7 @@
     {% endif %}
   </div>
   <div class="four wide column">
+    {{ form_row(form.publishedAt) }}
     {% if image %}
     <img src="{{ asset('/uploads/news/' ~ image) }}" class="news ui image">
     {% endif %}
