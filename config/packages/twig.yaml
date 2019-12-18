@@ -2,6 +2,7 @@ twig:
     default_path: '%kernel.project_dir%/templates'
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
+    exception_controller: null
     globals:
       social_facebook: '%social_facebook%'
       social_twitter: '%social_twitter%'
