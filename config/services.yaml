@@ -16,6 +16,7 @@ parameters:
     news_images_directory: '%kernel.project_dir%/public/uploads/news'
     news_files_directory: '%kernel.project_dir%/public/uploads/files'
     press_documents_directory: '%kernel.project_dir%/public/uploads/press'
+    recaptcha_secret: '%env(RECAPTCHA_SECRET)%'
 
 services:
     # default configuration for services in *this* file

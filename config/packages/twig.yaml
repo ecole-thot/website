@@ -8,4 +8,5 @@ twig:
       social_youtube: '%social_youtube%'
       donation_link: '%donation_link%'
       GA_TRACKING_ID: '%env(GA_TRACKING_ID)%'
+      recaptcha_id: '%env(RECAPTCHA_ID)%'
 

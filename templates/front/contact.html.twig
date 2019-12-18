@@ -49,10 +49,21 @@
                     <label>{{ "contact.form.message"|trans }}</label>
                     <textarea name="message" rows="10"></textarea>
                 </div>
-                <button class="submit button">{{ "contact.form.send"|trans }}</button>
+                <button class="g-recaptcha submit button" data-sitekey="{{ recaptcha_id }}" data-callback='onSubmit'>{{ "contact.form.send"|trans }}</button>
             </div>
         </div>
     </form>
 </section>
 
+{% endblock %}
+
+{% block javascripts %}
+  {{ parent() }}
+  <script src="//www.google.com/recaptcha/api.js" async defer></script>
+  <script>
+    function onSubmit(token) {
+      console.log("submit")
+      document.getElementById("contact-form").submit();
+    }
+  </script>
 {% endblock %}
