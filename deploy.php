@@ -16,6 +16,8 @@ set('env', function () {
         'GA_TRACKING_ID' => '0',
         'DATABASE_URL' => 'null',
         'MAILER_URL' => 'null',
+        'RECAPTCHA_ID' => '0',
+        'RECAPTCHA_SECRET' => '0',
     ];
 });
 
