@@ -13,6 +13,6 @@ class TeamMemberType extends AbstractType
             ->add('name', null, ['label' => 'Nom'])
             ->add('job', null, ['label' => 'Poste'])
             ->add('sortingOrder', null, ['label' => 'Ordre (Chiffre entier positif — plus petit => en premier)'])
-            ->add('image', null, ['label' => 'Image', 'required' => false]);
+            ->add('image', null, ['label' => 'Image', 'required' => true]);
     }
 }

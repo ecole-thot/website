@@ -15,6 +15,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
@@ -390,7 +391,7 @@ class BackendController extends AbstractController
     /**
      * Deletes a member.
      *
-     * @Route("/partenaire/suppression/{id}", name="admin_member_delete", methods={"GET", "POST"})
+     * @Route("/equipe/suppression/{id}", name="admin_member_delete", methods={"GET", "POST"})
      */
     public function memberDelete(Request $request, ?int $id): Response
     {
