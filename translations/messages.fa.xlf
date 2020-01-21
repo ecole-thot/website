@@ -1014,5 +1014,59 @@
         <target>Votre mail a bien été envoyé</target>
       </segment>
     </unit>
+    <unit id="Va4nyzc" name="school.founders">
+      <segment>
+        <source>school.founders</source>
+        <target>Héloïse Nio, Judith Aquien et Jennifer Leblond, cofondatrices de Thot</target>
+      </segment>
+    </unit>
+    <unit id="qPxIbNZ" name="pedagogy.tailored">
+      <segment>
+        <source>pedagogy.tailored</source>
+        <target>Une pédagogie innovante et sur-mesure</target>
+      </segment>
+    </unit>
+    <unit id=".ZNubYb" name="pedagogy.tailored.intro">
+      <segment>
+        <source>pedagogy.tailored.intro</source>
+        <target>La pédagogie de Thot a été conçue et écrite sur-mesure pour s’adapter et répondre au mieux aux besoins spécifiques de nos étudiants :</target>
+      </segment>
+    </unit>
+    <unit id="MGAM5Zu" name="pedagogy.tailored.1">
+      <segment>
+        <source>pedagogy.tailored.1</source>
+        <target>L’apprentissage du FLE, ancré dans le réel, part des situations quotidiennes rencontrées</target>
+      </segment>
+    </unit>
+    <unit id="TCYCf1x" name="pedagogy.tailored.2">
+      <segment>
+        <source>pedagogy.tailored.2</source>
+        <target>Les langues d’origine des étudiants servent de point de départ pour entrer dans la langue française plus facilement</target>
+      </segment>
+    </unit>
+    <unit id="BwnNJu8" name="pedagogy.tailored.3">
+      <segment>
+        <source>pedagogy.tailored.3</source>
+        <target>Les séquences d’apprentissage sont mobiles et sont abordées selon leur pertinence au gré de l’apprentissage</target>
+      </segment>
+    </unit>
+    <unit id="13QVZmB" name="pedagogy.tailored.4">
+      <segment>
+        <source>pedagogy.tailored.4</source>
+        <target>Les classes sont constituées selon le niveau à l’oral et à l’écrit des étudiants</target>
+      </segment>
+    </unit>
+    <unit id="d3_w7jv" name="pedagogy.tailored.5">
+      <segment>
+        <source>pedagogy.tailored.5</source>
+        <target>Des ateliers lecture sont mis en place pour traiter des difficultés spécifiques</target>
+      </segment>
+    </unit>
+    <unit id="MoFfPmL" name="pedagogy.founders">
+      <segment>
+        <source>pedagogy.founders</source>
+        <target>Mariame Camara et Imaad Ali, fondateurs de la pédagogie</target>
+      </segment>
+    </unit>
   </file>
 </xliff>
