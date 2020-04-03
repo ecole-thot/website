@@ -1,5 +1,17 @@
 {
+    "ocramius/package-versions": {
+        "version": "1.4.2"
+    },
     "php": {
         "version": "7.1.31"
+    },
+    "symfony/error-handler": {
+        "version": "v4.4.7"
+    },
+    "symfony/mime": {
+        "version": "v4.4.7"
+    },
+    "symfony/polyfill-php73": {
+        "version": "v1.15.0"
     }
 }
