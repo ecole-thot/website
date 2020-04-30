@@ -428,7 +428,7 @@
     <unit id="25GXUyE" name="inscriptions.know.more">
       <segment>
         <source>inscriptions.know.more</source>
-        <target>لمعرفة المزيد عن التسجيل</target>
+        <target>لمعرفة المزيد عن التسجيل (تعديل الانتباه بسبب COVID 19)</target>
       </segment>
     </unit>
     <unit id="jkAv0mB" name="from.date">
@@ -482,7 +482,7 @@
     <unit id="36whLxz" name="inscription.next">
       <segment>
         <source>inscription.next</source>
-        <target>%date%  سيتم فتح التسجيل في </target>
+        <target>%date%  سيتم فتح التسجيل في (Covid 19 المعلومات أدناه)</target>
       </segment>
     </unit>
     <unit id="c1zwxoc" name="who.can.study">
@@ -974,7 +974,7 @@
     <unit id="VLfgfuY" name="warning.closed">
       <segment>
         <source>warning.closed</source>
-        <target>ستبدأ الدورة التدريبية التالية في الفترة من  22 يونيو إلى 8 أكتوبر 2020. وسيفتح التسجيل لدورة يونيو من 12 مايو على الساعة 11 صباحًا إلى 14 مايو على الساعة 11 صباحًا.
+        <target>The Covid-19 pandemic forces us to reorganize the training session from June to October, we will have very few places for new students, the students of the previous session - who have not unable to complete their training - being a priority. The online registrations of May 12, 2020 are therefore canceled, we are deeply sorry. The next online registrations will be for the training session from November 9, 2020 to March 12, 2021. Registration for the November session will be open from October 6, 2020 at 11 a.m. to October 8, 2020 at 11 a.m.
  لا يوجد مستند لتقديمه للتسجيل. خلال التسجيلات السابقة ، خلال التسجيلات السابقة ، تلقينا أكثر من ٨٠٠ طلب لحوالي ٧٠ مكانًا (في المجموع ، نرحب بـ ١١٢ طلاب) لذلك نطلب من الجمعيات / مراكز الإقامة والمتطوعين ، وليس تسجيل أكثر من 4 أشخاص</target>
       </segment>
     </unit>
@@ -1007,49 +1007,49 @@
     <unit id="Va4nyzc" name="school.founders">
       <segment>
         <source>school.founders</source>
-        <target>Héloïse Nio, Judith Aquien et Jennifer Leblond, cofondatrices de Thot</target>
+        <target>Héloïse Nio, Judith Aquien et Jennifer Leblond, cofounders of Thot</target>
       </segment>
     </unit>
     <unit id="qPxIbNZ" name="pedagogy.tailored">
       <segment>
         <source>pedagogy.tailored</source>
-        <target>Une pédagogie innovante et sur-mesure</target>
+        <target>An innovative and adapted educational program</target>
       </segment>
     </unit>
     <unit id=".ZNubYb" name="pedagogy.tailored.intro">
       <segment>
         <source>pedagogy.tailored.intro</source>
-        <target>La pédagogie de Thot a été conçue et écrite sur-mesure pour s’adapter et répondre au mieux aux besoins spécifiques de nos étudiants :</target>
+        <target>Thot's pedagogy has been tailor-made and written to best suit and meet the specific needs of our students:</target>
       </segment>
     </unit>
     <unit id="MGAM5Zu" name="pedagogy.tailored.1">
       <segment>
         <source>pedagogy.tailored.1</source>
-        <target>L’apprentissage du FLE, ancré dans le réel, part des situations quotidiennes rencontrées</target>
+        <target>Learning FFL starts from the everyday situations encountered</target>
       </segment>
     </unit>
     <unit id="TCYCf1x" name="pedagogy.tailored.2">
       <segment>
         <source>pedagogy.tailored.2</source>
-        <target>Les langues d’origine des étudiants servent de point de départ pour entrer dans la langue française plus facilement</target>
+        <target>The students' original languages are the starting point to make the French learning process easier</target>
       </segment>
     </unit>
     <unit id="BwnNJu8" name="pedagogy.tailored.3">
       <segment>
         <source>pedagogy.tailored.3</source>
-        <target>Les séquences d’apprentissage sont mobiles et sont abordées selon leur pertinence au gré de l’apprentissage</target>
+        <target>The learning sequences can evolve according to their relevance in the learning process</target>
       </segment>
     </unit>
     <unit id="13QVZmB" name="pedagogy.tailored.4">
       <segment>
         <source>pedagogy.tailored.4</source>
-        <target>Les classes sont constituées selon le niveau à l’oral et à l’écrit des étudiants</target>
+        <target>Classes are organized according to students' oral and written level</target>
       </segment>
     </unit>
     <unit id="d3_w7jv" name="pedagogy.tailored.5">
       <segment>
         <source>pedagogy.tailored.5</source>
-        <target>Des ateliers lecture sont mis en place pour traiter des difficultés spécifiques</target>
+        <target>Reading workshops are set up to help the students who encounter specific difficulties</target>
       </segment>
     </unit>
     <unit id="MoFfPmL" name="pedagogy.founders">

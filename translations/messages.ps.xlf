@@ -440,7 +440,7 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="25GXUyE" name="inscriptions.know.more">
       <segment>
         <source>inscriptions.know.more</source>
-        <target>د ثبت  نام په اړه د لا زیاتو معلوماتو لپاره</target>
+        <target>د ثبت  نام په اړه د لا زیاتو معلوماتو لپاره (beware : modifications due to Covid-19)</target>
       </segment>
     </unit>
     <unit id="jkAv0mB" name="from.date">
@@ -494,7 +494,7 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="36whLxz" name="inscription.next">
       <segment>
         <source>inscription.next</source>
-        <target>%date% نوم لیکنه به پرانیستل شي</target>
+        <target>%date% نوم لیکنه به پرانیستل شي (Covid-19 : informations below)</target>
       </segment>
     </unit>
     <unit id="c1zwxoc" name="who.can.study">
@@ -987,7 +987,7 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="VLfgfuY" name="warning.closed">
       <segment>
         <source>warning.closed</source>
-        <target>راتلونکې روزنیز کورس به د جون له ۲۲ څخه تر اکتوبر ۸ د کال ٢٠٢٠ پیل شي. د جون لپاره داخلہ به د مي له ۱۲ د ١١ بجو د ګہيځ څخہ تر د مي ۱۴ د ګہيځ١١ بجو پورى ختمہ شي.
+        <target>The Covid-19 pandemic forces us to reorganize the training session from June to October, we will have very few places for new students, the students of the previous session - who have not unable to complete their training - being a priority. The online registrations of May 12, 2020 are therefore canceled, we are deeply sorry. The next online registrations will be for the training session from November 9, 2020 to March 12, 2021. Registration for the November session will be open from October 6, 2020 at 11 a.m. to October 8, 2020 at 11 a.m. 
 د ثبت کولو لپاره هیڅ سند تہ ضرورت نلري. د پخوانیو ثبتونو په جریان کې، موږ د ٧٠ ځایونو څخه له ٨٠٠ څخه زیاتې غوښتنلیکونه ترلاسه کړل (په مجموع کې موږ ١١٢ زده کونکي شامل کړى وو), له همدې کبله موږ د اتحادیې / هستوګنې مرکزونه او رضاکاران غواړو، چې د 4 څخه زیات وګړي راجستر نکړو</target>
       </segment>
     </unit>
@@ -1018,13 +1018,13 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="Va4nyzc" name="school.founders">
       <segment>
         <source>school.founders</source>
-        <target>Héloïse Nio, Judith Aquien et Jennifer Leblond, cofondatrices de Thot</target>
+        <target>Héloïse Nio, Judith Aquien et Jennifer Leblond, cofounders of Thot</target>
       </segment>
     </unit>
     <unit id="qPxIbNZ" name="pedagogy.tailored">
       <segment>
         <source>pedagogy.tailored</source>
-        <target>Une pédagogie innovante et sur-mesure</target>
+        <target>An innovative and adapted educational program</target>
       </segment>
     </unit>
     <unit id=".ZNubYb" name="pedagogy.tailored.intro">
@@ -1036,31 +1036,31 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="MGAM5Zu" name="pedagogy.tailored.1">
       <segment>
         <source>pedagogy.tailored.1</source>
-        <target>L’apprentissage du FLE, ancré dans le réel, part des situations quotidiennes rencontrées</target>
+        <target>Learning FFL starts from the everyday situations encountered</target>
       </segment>
     </unit>
     <unit id="TCYCf1x" name="pedagogy.tailored.2">
       <segment>
         <source>pedagogy.tailored.2</source>
-        <target>Les langues d’origine des étudiants servent de point de départ pour entrer dans la langue française plus facilement</target>
+        <target>The students' original languages are the starting point to make the French learning process easier</target>
       </segment>
     </unit>
     <unit id="BwnNJu8" name="pedagogy.tailored.3">
       <segment>
         <source>pedagogy.tailored.3</source>
-        <target>Les séquences d’apprentissage sont mobiles et sont abordées selon leur pertinence au gré de l’apprentissage</target>
+        <target>The learning sequences can evolve according to their relevance in the learning process</target>
       </segment>
     </unit>
     <unit id="13QVZmB" name="pedagogy.tailored.4">
       <segment>
         <source>pedagogy.tailored.4</source>
-        <target>Les classes sont constituées selon le niveau à l’oral et à l’écrit des étudiants</target>
+        <target>Classes are organized according to students' oral and written level</target>
       </segment>
     </unit>
     <unit id="d3_w7jv" name="pedagogy.tailored.5">
       <segment>
         <source>pedagogy.tailored.5</source>
-        <target>Des ateliers lecture sont mis en place pour traiter des difficultés spécifiques</target>
+        <target>Reading workshops are set up to help the students who encounter specific difficulties</target>
       </segment>
     </unit>
     <unit id="MoFfPmL" name="pedagogy.founders">

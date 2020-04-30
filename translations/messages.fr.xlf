@@ -106,7 +106,7 @@
     <unit id="25GXUyE" name="inscriptions.know.more">
       <segment>
         <source>inscriptions.know.more</source>
-        <target>En savoir plus sur les inscriptions</target>
+        <target>En savoir plus sur les inscriptions (attention, modifications dues au Covid-19)</target>
       </segment>
     </unit>
     <unit id="S9k1S7Z" name="warning">
@@ -130,8 +130,8 @@
     <unit id="VLfgfuY" name="warning.closed">
       <segment>
         <source>warning.closed</source>
-        <target>La prochaine session de formation aura lieu du 22 juin au 8 octobre 2020. Les inscriptions pour la session de juin seront ouvertes du 12 mai à 11h au 14 mai à 11h. 
-Il n’y a pas de document à fournir pour s’inscrire. Lors des inscriptions précédentes, nous avons reçu plus de 800 candidatures pour une soixantaines de places (au total nous accueillons 105 étudiants), ainsi nous demandons aux associations/centre d'hébergement et soutiens de migrants, de ne pas inscrire plus de 4 personnes.</target>
+        <target>La pandémie de Covid-19 ne nous permet pas d’organiser la session de cours de juin à octobre comme nous l’espérions, nous n’aurons que très peu de places à pourvoir, les étudiants de la session précédente - qui n’ont pas pu terminer leur formation - étant prioritaires. Les inscriptions en ligne du 12 mai 2020 sont donc annulées, nous en sommes profondément navrés. 
+Les prochaines inscriptions en ligne concerneront la session de formation du 9 novembre 2020 au 12 mars 2021. Les inscriptions pour la session de novembre 2020 seront ouvertes du 6 octobre 2020 à 11h au 8 octobre 2020 à 11h. Il n’y a pas de document à fournir pour s’inscrire. Lors des inscriptions précédentes, nous avons reçu plus de 800 candidatures pour une soixantaines de places (au total nous accueillons 105 étudiants), ainsi nous demandons aux associations/centre d'hébergement et soutiens de migrants, de ne pas inscrire plus de 4 personnes.</target>
       </segment>
     </unit>
     <unit id="mzXEXUg" name="warning.closed.2">
@@ -203,7 +203,7 @@ Il n’y a pas de document à fournir pour s’inscrire. Lors des inscriptions p
     <unit id="36whLxz" name="inscription.next">
       <segment>
         <source>inscription.next</source>
-        <target>RDV le %date% pour vous inscrire</target>
+        <target>RDV le %date% pour vous inscrire (Covid-19 : infos ci-dessous)</target>
       </segment>
     </unit>
     <unit id="ro0hUeD" name="engaged.every.day">
@@ -377,7 +377,7 @@ Il n’y a pas de document à fournir pour s’inscrire. Lors des inscriptions p
     <unit id="A1IVo.Z" name="school.creation">
       <segment>
         <source>school.creation</source>
-        <target>Nous avons donc créé Thot afin de proposer une formation diplômante, prise en charge pas de vrais professeurs, dans un cadre stable, spécifique et complet, à destination des réfugiés et demandeurs d'asile on diplômés, et répondre à une demande toujours croissante de formation en FLE pour ce public. Notre école est actuellement basée en Ile-de-France.</target>
+        <target>Nous avons donc créé Thot afin de proposer une formation diplômante, prise en charge par de vrais professeurs, dans un cadre stable, spécifique et complet, à destination des réfugiés et demandeurs d'asile non diplômés, et répondre à une demande toujours croissante de formation en FLE pour ce public. Notre école est actuellement basée en Ile-de-France.</target>
       </segment>
     </unit>
     <unit id="hn1724o" name="school.accronym">
