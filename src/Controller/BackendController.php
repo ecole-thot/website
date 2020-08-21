@@ -2,11 +2,13 @@
 
 namespace App\Controller;
 
+use App\Entity\ExamSession;
 use App\Entity\NewsItem;
 use App\Entity\Partner;
 use App\Entity\PressItem;
 use App\Entity\Setting;
 use App\Entity\TeamMember;
+use App\Form\ExamSessionType;
 use App\Form\NewsItemType;
 use App\Form\PartnerType;
 use App\Form\PressItemType;
@@ -316,6 +318,71 @@ class BackendController extends AbstractController
         $em->flush();
 
         return $this->redirectToRoute('admin_partners');
+    }
+
+    /**
+     * Serves centre d'examen page.
+     *
+     * @Route("/examens", name="admin_examens", methods={"GET"})
+     */
+    public function examDates(): Response
+    {
+        $sessions = $this->getDoctrine()->getRepository(ExamSession::class)->findAll();
+
+        return $this->render('admin/examsessions.html.twig', ['sessions' => $sessions]);
+    }
+
+    /**
+     * Serves centre d'examen edition page.
+     *
+     * @Route("/examens/nouveau", name="admin_examen_new", methods={"GET", "POST"}, defaults={"id"=null})
+     * @Route("/examens/edition/{id}", name="admin_examen_edit", methods={"GET", "POST"})
+     */
+    public function examDateEdit(Request $request, ?int $id): Response
+    {
+        if ($id) {
+            $session = $this->getDoctrine()->getRepository(ExamSession::class)->findOneById($id);
+            if (!$session) {
+                throw new NotFoundHttpException();
+            }
+        } else {
+            $session = new ExamSession();
+        }
+
+        $form = $this->createForm(ExamSessionType::class, $session);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($session);
+            $em->flush();
+
+            return $this->redirectToRoute('admin_examens');
+        }
+
+        return $this->render('admin/examSession.edit.html.twig', [
+            'session' => $session,
+            'form' => $form->createView(),
+        ]);
+    }
+
+    /**
+     * Deletes a exam date.
+     *
+     * @Route("/examens/suppression/{id}", name="admin_examen_delete", methods={"GET", "POST"})
+     */
+    public function examDateDelete(Request $request, ?int $id): Response
+    {
+        $partner = $this->getDoctrine()->getRepository(Partner::class)->findOneById($id);
+        if (!$partner) {
+            throw new NotFoundHttpException();
+        }
+
+        $em = $this->getDoctrine()->getManager();
+        $em->remove($partner);
+        $em->flush();
+
+        return $this->redirectToRoute('admin_examens');
     }
 
     /**

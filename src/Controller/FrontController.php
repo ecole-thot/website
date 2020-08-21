@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\ExamSession;
 use App\Entity\NewsItem;
 use App\Entity\Partner;
 use App\Entity\PressItem;
@@ -45,6 +46,83 @@ class FrontController extends AbstractController
         return $this->render('front/home.html.twig', [
             'settings' => $this->getAllSettings(),
             'partners' => $partners,
+        ]);
+    }
+
+    /**
+     * Serves centre d'examen page.
+     *
+     * @Route("/centre-examen", name="examination_center", methods={"GET"})
+     */
+    public function examinationCenter(Request $request): Response
+    {
+        $info = null;
+
+        if ('POST' === $request->getMethod()) {
+            // Get all data
+            $data = $request->request->all();
+
+            // Check captcha
+            $params = [
+                'secret' => $this->getParameter('recaptcha_secret'),
+                'response' => $data['g-recaptcha-response'],
+            ];
+
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params));
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+            $recaptcha_response = json_decode(curl_exec($ch));
+            curl_close($ch);
+
+            if (false == $recaptcha_response->success) {
+                return $this->render('front/examinationCenter.html.twig', ['error' => 'captcha.notvalid']);
+            }
+
+            $form = [
+                'name' => $request->request->get('name'),
+                'email' => $request->request->get('email'),
+                'subject' => $request->request->get('subject'),
+                'message' => $request->request->get('message'),
+            ];
+
+            if (!filter_var($form['email'], FILTER_VALIDATE_EMAIL)) {
+                return $this->render('front/examinationCenter.html.twig', ['error' => 'contact.email.notvalid']);
+            }
+
+            $message = (new \Swift_Message('Email de contact site web'))
+                ->setFrom($form['email'])
+                ->setTo($this->getParameter('contact_email_examen'))
+                ->setBody(
+                    $this->renderView(
+                        'emails/contact.html.twig',
+                        $form
+                    ),
+                    'text/html'
+                );
+
+            $mailer->send($message);
+            $info = 'contact.success';
+        }
+
+        // We need all future session dates
+        $dates = $this->getDoctrine()->getRepository(ExamSession::class)->findAllFutureSessions();
+
+        // Now group by type
+        $sessions = [];
+        foreach ($dates as $date) {
+            if (!isset($sessions[$date->getType()])) {
+                $sessions[$date->getType()] = [];
+            }
+            $sessions[$date->getType()][] = $date;
+        }
+
+        return $this->render('front/examinationCenter.html.twig', [
+            'sessions' => $sessions,
+            'settings' => $this->getAllSettings(),
+            'info' => $info,
         ]);
     }
 

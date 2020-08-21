@@ -31,6 +31,12 @@
         <target>Contact</target>
       </segment>
     </unit>
+    <unit id="C3HsdpPzJ" name="menu.exam">
+      <segment>
+        <source>menu.exam</source>
+        <target>Le centre d'examen</target>
+      </segment>
+    </unit>
     <unit id="Nn38Z8v" name="menu.jobs">
       <segment>
         <source>menu.jobs</source>
@@ -813,6 +819,18 @@ Nous portons une attention particulière à traiter chacun.e avec équité, selo
         <target>Autre</target>
       </segment>
     </unit>
+    <unit id="va0Diksdz0" name="contact.subject.exam.inscription">
+      <segment>
+        <source>contact.subject.exam.inscription</source>
+        <target>Demande d’inscription à un examen</target>
+      </segment>
+    </unit>
+    <unit id="va0eazDik0" name="contact.subject.exam.info">
+      <segment>
+        <source>contact.subject.exam.info</source>
+        <target>Demande d’informations sur le centre d’examen</target>
+      </segment>
+    </unit>
     <unit id="rgB.JAr" name="news.ours">
       <segment>
         <source>news.ours</source>
@@ -1069,6 +1087,132 @@ Nous portons une attention particulière à traiter chacun.e avec équité, selo
       <segment>
         <source>pedagogy.founders</source>
         <target>Mariame Camara et Imaad Ali, fondateurs de la pédagogie</target>
+      </segment>
+    </unit>
+    <unit id="MoFfsqPmL" name="exam.title">
+      <segment>
+        <source>exam.title</source>
+        <target>Thot centre d’examen</target>
+      </segment>
+    </unit>
+    <unit id="MoFazqPmL" name="exam.mission">
+      <segment>
+        <source>exam.mission</source>
+        <target>Candidat ou association, passez l’examen du DILF et du DELF avec Thot !</target>
+      </segment>
+    </unit>
+    <unit id="azergefd" name="exam.intro">
+      <segment>
+        <source>exam.intro</source>
+        <target>Contact centre d’examen:</target>
+      </segment>
+    </unit>
+    <unit id="rzer" name="exam.text.1">
+      <segment>
+        <source>exam.text.1</source>
+        <target>L’association Thot dispose de l’agrément de centre d’examen délivré par France Education International (FEI, ex CIEP) pour la passation du DILF (Diplôme Initial de Langue Française) et du DELF (Diplôme d’Études en Langue Française) pour les niveaux A1, A2 et B1. Notre centre d’examen est ouvert aux candidat.e.s extérieur.e.s.</target>
+      </segment>
+    </unit>
+    <unit id="rzeaazer" name="exam.text.warning">
+      <segment>
+        <source>exam.text.warning</source>
+        <target>Attention</target>
+      </segment>
+    </unit>
+    <unit id="yuijjht" name="exam.text.2">
+      <segment>
+        <source>exam.text.2</source>
+        <target>les inscriptions pour la passation d’examens dans le centre d’examen Thot sont différentes des inscriptions à l’école Thot.</target>
+      </segment>
+    </unit>
+    <unit id="yqsdqsht" name="exam.text.dilf">
+      <segment>
+        <source>exam.text.dilf</source>
+        <target>Le DILF est un diplôme de français langue étrangère évaluant les premiers apprentissages (niveau A1.1 du Cadre européen commun de référence pour les langues du Conseil de l'Europe). Il permet la validation de premier niveau de maîtrise du français (niveau A1.1 du Cadre européen commun de référence pour les langues du Conseil de l’Europe).</target>
+      </segment>
+    </unit>
+    <unit id="yucxvbnfjht" name="exam.text.delf">
+      <segment>
+        <source>exam.text.delf</source>
+        <target>Le DELF est un diplôme officiel délivré par le ministère français de l’Éducation nationale, pour certifier les compétences en français des candidats étrangers et des Français originaires d’un pays non francophone et non titulaires d’un diplôme de l’enseignement secondaire ou supérieur public français. Thot dispose de l’agrément pour les 3 diplômes correspondant aux 3 premiers niveaux décrits par le CECR : DELF A1, DELF A2, DELF B1 et DELF B2.</target>
+      </segment>
+    </unit>
+    <unit id="hrgjhgjtgfb" name="exam.level.title">
+      <segment>
+        <source>exam.level.title</source>
+        <target>Niveaux</target>
+      </segment>
+    </unit>
+    <unit id="hrgtgdghfb" name="exam.dates.title">
+      <segment>
+        <source>exam.dates.title</source>
+        <target>Dates</target>
+      </segment>
+    </unit>
+    <unit id="hrgtgfb" name="exam.dates.text">
+      <segment>
+        <source>exam.dates.text</source>
+        <target>Les prochaines dates de passation d’examens sont les suivantes :</target>
+      </segment>
+    </unit>
+    <unit id="hrgtgfb" name="exam.more.title">
+      <segment>
+        <source>exam.more.title</source>
+        <target>En savoir plus sur les différents niveaux</target>
+      </segment>
+    </unit>
+    <unit id="rzretghfeer" name="exam.more.understand">
+      <segment>
+        <source>exam.more.understand</source>
+        <target>Comprendre les différents niveaux du DELF</target>
+      </segment>
+    </unit>
+    <unit id="loompdc" name="exam.more.test">
+      <segment>
+        <source>exam.more.test</source>
+        <target>Testez votre niveau !</target>
+      </segment>
+    </unit>
+    <unit id="loomqsddc" name="exam.infos.title">
+      <segment>
+        <source>exam.infos.title</source>
+        <target>Inscriptions et informations</target>
+      </segment>
+    </unit>
+    <unit id="yuijjhtaerz" name="exam.type.1">
+      <segment>
+        <source>exam.type.1</source>
+        <target>DILF</target>
+      </segment>
+    </unit>
+    <unit id="yuertgbdjht" name="exam.type.2">
+      <segment>
+        <source>exam.type.2</source>
+        <target>DELF A1 et A2</target>
+      </segment>
+    </unit>
+    <unit id="yusfqdsfgdhjht" name="exam.type.3">
+      <segment>
+        <source>exam.type.3</source>
+        <target>DELF B1</target>
+      </segment>
+    </unit>
+    <unit id="loomaererepdc" name="exam.session.date">
+      <segment>
+        <source>exam.session.date</source>
+        <target>Session du %date%</target>
+      </segment>
+    </unit>
+    <unit id="loomasqsererepdc" name="exam.session.closed">
+      <segment>
+        <source>exam.session.closed</source>
+        <target>Inscriptions fermées</target>
+      </segment>
+    </unit>
+    <unit id="loomasqsererepdc" name="exam.session.until">
+      <segment>
+        <source>exam.session.until</source>
+        <target>Inscriptions jusqu'au %date%</target>
       </segment>
     </unit>
   </file>

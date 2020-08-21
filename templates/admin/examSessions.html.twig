@@ -1,0 +1,20 @@
+{% extends 'admin/base.html.twig' %}
+{% set menu = 'exam' %}
+
+{% block body %}
+<h1>Sessions
+<a href="{{ path('admin_examen_new') }}" class="ui button green right floated"><i class="icon add"></i> Ajouter une session</a></h1>
+
+<p>Vous pouvez éditer la liste des sessions.</p>
+
+<div class='ui divided middle aligned selection list sessions'>
+  {% for session in sessions %}
+    <div class="item">
+      <div class="right floated content">
+        <a href="{{ path('admin_examen_edit',{id: session.id}) }}" class="ui mini button">Éditer</a>
+      </div>
+      <div class="content"><a href="{{ path('admin_examen_edit',{id: session.id}) }}" class="header">{{ session.type == 1 ? 'DILF' : (session.type == 2? 'DELF A1/A2' : 'DELF B1') }} - {{ session.sessionDate|date() }}</a></div>
+    </div>
+  {% endfor %}
+</div>
+{% endblock %}

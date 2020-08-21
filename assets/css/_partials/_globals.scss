@@ -378,6 +378,25 @@ section {
                 text-transform: uppercase;
             }
         }
+        .larger {
+            font-size: 1.25em;
+        }
+        .exam-infos {
+            list-style-type: none;
+            li {
+                padding: 10px;
+            }
+        }
+        .exam-bloc {
+            display: flex;
+            margin: 10px 0;
+            img {
+                min-width: 120px;
+            }
+            p {
+                text-align: left;
+            }
+        }
         .ui.grid.texts {
             margin-top: 40px;
             margin-bottom: 70px;

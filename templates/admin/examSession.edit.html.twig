@@ -1,0 +1,35 @@
+{% extends 'admin/base.html.twig' %}
+{% set menu = 'exam' %}
+
+{% form_theme form _self %}
+
+{%- block form_row -%}
+    {%- set widget_attr = {} -%}
+    {%- if help is not empty -%}
+        {%- set widget_attr = {attr: {'aria-describedby': id ~"_help"}} -%}
+    {%- endif -%}
+    <div class="field">
+        {{- form_label(form) -}}
+        {{- form_errors(form) -}}
+        {{- form_widget(form, widget_attr) -}}
+        {{- form_help(form) -}}
+    </div>
+{%- endblock form_row -%}
+
+{% block body %}
+<h1>{% if session.id is defined %}Session : {{ session.sessionDate|date('d/m/Y') }}{% else %}Nouvelle session{% endif %}</h1>
+
+{{ form_start(form, {attr: {class: 'ui form'}}) }}
+{{ form_row(form.type) }}
+
+{{ form_row(form.sessionDate) }}
+{{ form_row(form.inscriptionMaxDate) }}
+{{ form_row(form.closed) }}
+
+<a href="{{ path('admin_examens') }}" class="ui button"><i class='ui icon left arrow'></i> Annuler</a>
+<button class="ui button submit green" type="submit"><i class='ui icon save outline'></i> Enregistrer</button>
+{% if session.id %}
+<a href="{{ path('admin_examen_delete', {id: session.id}) }}" class="ui button red right floated"><i class='ui icon trash'></i> Supprimer</a>
+{% endif %}
+{{ form_rest(form) }}
+{% endblock %}

@@ -1,0 +1,103 @@
+{% extends 'base.html.twig' %}
+{% set menu = "exam" %}
+{% block title %}{{ parent() }} {{ "exam.title"|trans }}{% endblock %}
+
+{% block body %}
+<section class="ui padded grid stackable intro">
+    <div class="main-color ten wide column">
+        <h1 class="title">{{ "exam.title"|trans }}</h1>
+        <h2 class="subtitle">{{ "exam.mission"|trans }}</h2>
+    </div>
+    <div class="secondary-color six wide column">
+        <div class='ui segment basic centered title'>{{ "exam.intro"|trans }}<br><br>examen<span>@</span>thot-fle.fr</div>
+    </div>
+</section>
+
+<section class="text">
+    <p class="larger">{{ "exam.text.1"|trans }}</p>
+    <p><strong>{{ "exam.text.warning"|trans }}</strong>: {{ "exam.text.2"|trans }}</p>
+
+    <h2>{{ "exam.level.title"|trans }}</h2>
+    
+    <div class="exam-bloc">
+        <img src="{{ asset('images/dilf.png') }}" width="120px">
+        <p><br>{{ "exam.text.dilf"|trans }}</p>
+    </div>
+    <div class="exam-bloc">
+        <img src="{{ asset('images/delf.png') }}" width="120px">
+        <p>{{ "exam.text.delf"|trans }}</p>
+    </div>
+
+    <h2>{{ "exam.dates.title"|trans }}</h2>
+    <p>{{ "exam.dates.text"|trans }}</p>
+
+    {% for type, session_list in sessions %}
+    <table class="ui celled table">
+        <thead>
+            <tr>
+                <th colspan="2"><strong>{{ ("exam.type." ~ type)|trans }}</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for session in session_list %}
+            <tr>
+                <td>{{ "exam.session.date"|trans({ '%date%': session.sessionDate|localizeddate('dd MMMM YYYY') }) }}</td>
+                <td><em>{% if session.closed %}{{ "exam.session.closed"|trans }}{% else %}{{ "exam.session.until"|trans({ '%date%': session.inscriptionMaxDate|localizeddate('dd MMMM YYYY') }) }}{% endif %}</em></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% endfor %}
+
+    <h2>{{ "exam.infos.title"|trans }}</h2>
+
+    {% if error is defined and error is not null %}
+    <div class="ui error message">
+        <div class="header">{{ "contact.form.error"|trans }}</div>
+        <p>{{ error|trans }}</p>
+    </div>
+    {% elseif info is defined and info is not null %}
+    <div class="ui success message">
+        <div class="header">{{ "contact.form.info"|trans }}</div>
+        <p>{{ info|trans }}</p>
+    </div>
+    {% endif %}
+
+    <form class="ui form" method="POST" id="contact-form">
+        <div class="ui grid  equal width">
+            <div class="column">
+                <div class="field">
+                    <label>{{ "contact.form.name"|trans }}</label>
+                    <input type="text" name="name" required="required">
+                </div>
+                <div class="field">
+                    <label>{{ "contact.form.email"|trans }}</label>
+                    <input type="email" name="email" required="required">
+                </div>
+                <div class="field">
+                    <label>{{ "contact.form.subject"|trans }}</label>
+                    <select name="subject" class="dropdown">
+                        <option>{{ "contact.subject.exam.inscription"|trans }}</option>
+                        <option>{{ "contact.subject.exam.info"|trans }}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="column">
+                <div class="field">
+                    <label>{{ "contact.form.message"|trans }}</label>
+                    <textarea name="message" rows="10"></textarea>
+                </div>
+                <button class="g-recaptcha submit button" data-sitekey="{{ recaptcha_id }}" data-callback='onSubmit'>{{ "contact.form.send"|trans }}</button>
+            </div>
+        </div>
+    </form>
+
+    <h2>{{ "exam.more.title"|trans }}</h2>
+    <ul class="exam-infos">
+        <li>{{ "exam.more.understand"|trans }}: <a href="https://www.ciep.fr/delf-dalf/delf-tout-public">https://www.ciep.fr/delf-dalf/delf-tout-public</a></li>
+        <li>{{ "exam.more.test"|trans }} <a href="https://savoirs.rfi.fr/fr/testez-votre-niveau-de-francais">https://savoirs.rfi.fr/fr/testez-votre-niveau-de-francais</a></li>
+    </ul>
+
+</section>
+
+{% endblock %}
