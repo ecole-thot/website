@@ -1,5 +1,17 @@
 {
     "php": {
         "version": "7.1.31"
+    },
+    "symfony/cache-contracts": {
+        "version": "v1.1.9"
+    },
+    "symfony/event-dispatcher-contracts": {
+        "version": "v1.1.9"
+    },
+    "symfony/service-contracts": {
+        "version": "v1.1.9"
+    },
+    "symfony/translation-contracts": {
+        "version": "v1.1.9"
     }
 }
