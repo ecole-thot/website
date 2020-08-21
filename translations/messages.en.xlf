@@ -739,7 +739,7 @@ If the candidate do not speak one of these languages and/or he can't read and wr
     <unit id="V6An5qD" name="contact.title">
       <segment>
         <source>contact.title</source>
-        <target>Contact</target>
+        <target>PLEASE NOTE, the messages sent via this contact form between April 20 and May 23 2020 have never been received and are not recoverable. We therefore apologize to the people who contacted us through this channel and invite you to fill out the form again.</target>
       </segment>
     </unit>
     <unit id="glRIc1N" name="contact.text">
