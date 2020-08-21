@@ -547,6 +547,30 @@
         <target>This value should be between {{ min }} and {{ max }}.</target>
       </segment>
     </unit>
+    <unit id="7g313cV" name="This value is not a valid hostname.">
+      <segment>
+        <source>This value is not a valid hostname.</source>
+        <target>This value is not a valid hostname.</target>
+      </segment>
+    </unit>
+    <unit id="xwtBimR" name="d165c02">
+      <segment>
+        <source>The number of elements in this collection should be a multiple of {{ compared_value }}.</source>
+        <target>The number of elements in this collection should be a multiple of {{ compared_value }}.</target>
+      </segment>
+    </unit>
+    <unit id="FDRZr.s" name="This value should satisfy at least one of the following constraints:">
+      <segment>
+        <source>This value should satisfy at least one of the following constraints:</source>
+        <target>This value should satisfy at least one of the following constraints:</target>
+      </segment>
+    </unit>
+    <unit id="WwY0IGI" name="Each element of this collection should satisfy its own set of constraints.">
+      <segment>
+        <source>Each element of this collection should satisfy its own set of constraints.</source>
+        <target>Each element of this collection should satisfy its own set of constraints.</target>
+      </segment>
+    </unit>
     <unit id=".SEaaBa" name="This form should not contain extra fields.">
       <segment>
         <source>This form should not contain extra fields.</source>
@@ -563,6 +587,156 @@
       <segment>
         <source>The CSRF token is invalid. Please try to resubmit the form.</source>
         <target>The CSRF token is invalid. Please try to resubmit the form.</target>
+      </segment>
+    </unit>
+    <unit id="eo1zeih" name="This value is not a valid HTML5 color.">
+      <segment>
+        <source>This value is not a valid HTML5 color.</source>
+        <target>This value is not a valid HTML5 color.</target>
+      </segment>
+    </unit>
+    <unit id="dN.ZVc0" name="Please enter a valid birthdate.">
+      <segment>
+        <source>Please enter a valid birthdate.</source>
+        <target>Please enter a valid birthdate.</target>
+      </segment>
+    </unit>
+    <unit id="OPymPfZ" name="The selected choice is invalid.">
+      <segment>
+        <source>The selected choice is invalid.</source>
+        <target>The selected choice is invalid.</target>
+      </segment>
+    </unit>
+    <unit id="GUH6TYE" name="The collection is invalid.">
+      <segment>
+        <source>The collection is invalid.</source>
+        <target>The collection is invalid.</target>
+      </segment>
+    </unit>
+    <unit id="14il0ha" name="Please select a valid color.">
+      <segment>
+        <source>Please select a valid color.</source>
+        <target>Please select a valid color.</target>
+      </segment>
+    </unit>
+    <unit id="4AJRUCC" name="Please select a valid country.">
+      <segment>
+        <source>Please select a valid country.</source>
+        <target>Please select a valid country.</target>
+      </segment>
+    </unit>
+    <unit id="xAI5mrh" name="Please select a valid currency.">
+      <segment>
+        <source>Please select a valid currency.</source>
+        <target>Please select a valid currency.</target>
+      </segment>
+    </unit>
+    <unit id="c6v9ASZ" name="Please choose a valid date interval.">
+      <segment>
+        <source>Please choose a valid date interval.</source>
+        <target>Please choose a valid date interval.</target>
+      </segment>
+    </unit>
+    <unit id="2BR60Jg" name="Please enter a valid date and time.">
+      <segment>
+        <source>Please enter a valid date and time.</source>
+        <target>Please enter a valid date and time.</target>
+      </segment>
+    </unit>
+    <unit id="ofLBhv0" name="Please enter a valid date.">
+      <segment>
+        <source>Please enter a valid date.</source>
+        <target>Please enter a valid date.</target>
+      </segment>
+    </unit>
+    <unit id="Xsmm6Mc" name="Please select a valid file.">
+      <segment>
+        <source>Please select a valid file.</source>
+        <target>Please select a valid file.</target>
+      </segment>
+    </unit>
+    <unit id="Fka0cZD" name="The hidden field is invalid.">
+      <segment>
+        <source>The hidden field is invalid.</source>
+        <target>The hidden field is invalid.</target>
+      </segment>
+    </unit>
+    <unit id="69ux5Ml" name="Please enter an integer.">
+      <segment>
+        <source>Please enter an integer.</source>
+        <target>Please enter an integer.</target>
+      </segment>
+    </unit>
+    <unit id="TQbat_9" name="Please select a valid language.">
+      <segment>
+        <source>Please select a valid language.</source>
+        <target>Please select a valid language.</target>
+      </segment>
+    </unit>
+    <unit id="vpa7l8w" name="Please select a valid locale.">
+      <segment>
+        <source>Please select a valid locale.</source>
+        <target>Please select a valid locale.</target>
+      </segment>
+    </unit>
+    <unit id="Gz8pWER" name="Please enter a valid money amount.">
+      <segment>
+        <source>Please enter a valid money amount.</source>
+        <target>Please enter a valid money amount.</target>
+      </segment>
+    </unit>
+    <unit id="PRxiOhB" name="Please enter a number.">
+      <segment>
+        <source>Please enter a number.</source>
+        <target>Please enter a number.</target>
+      </segment>
+    </unit>
+    <unit id="seAdKJo" name="The password is invalid.">
+      <segment>
+        <source>The password is invalid.</source>
+        <target>The password is invalid.</target>
+      </segment>
+    </unit>
+    <unit id="A5k0Q20" name="Please enter a percentage value.">
+      <segment>
+        <source>Please enter a percentage value.</source>
+        <target>Please enter a percentage value.</target>
+      </segment>
+    </unit>
+    <unit id="rH6V.WA" name="The values do not match.">
+      <segment>
+        <source>The values do not match.</source>
+        <target>The values do not match.</target>
+      </segment>
+    </unit>
+    <unit id="Eopl1Sm" name="Please enter a valid time.">
+      <segment>
+        <source>Please enter a valid time.</source>
+        <target>Please enter a valid time.</target>
+      </segment>
+    </unit>
+    <unit id="ll14Sm9" name="Please select a valid timezone.">
+      <segment>
+        <source>Please select a valid timezone.</source>
+        <target>Please select a valid timezone.</target>
+      </segment>
+    </unit>
+    <unit id="1xP1kmd" name="Please enter a valid URL.">
+      <segment>
+        <source>Please enter a valid URL.</source>
+        <target>Please enter a valid URL.</target>
+      </segment>
+    </unit>
+    <unit id="iMmAsrC" name="Please enter a valid search term.">
+      <segment>
+        <source>Please enter a valid search term.</source>
+        <target>Please enter a valid search term.</target>
+      </segment>
+    </unit>
+    <unit id="GRMTXRX" name="Please provide a valid phone number.">
+      <segment>
+        <source>Please provide a valid phone number.</source>
+        <target>Please provide a valid phone number.</target>
       </segment>
     </unit>
   </file>

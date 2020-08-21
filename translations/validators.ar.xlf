@@ -499,6 +499,78 @@
         <target>هذه القيمة يجب أن تكون صالحة ل JSON.</target>
       </segment>
     </unit>
+    <unit id="9CWVEGq" name="This collection should contain only unique elements.">
+      <segment>
+        <source>This collection should contain only unique elements.</source>
+        <target>يجب أن تحتوي هذه المجموعة علي عناصر فريدة فقط.</target>
+      </segment>
+    </unit>
+    <unit id="WdvZfq." name="This value should be positive.">
+      <segment>
+        <source>This value should be positive.</source>
+        <target>يجب أن تكون هذه القيمة موجبة.</target>
+      </segment>
+    </unit>
+    <unit id="ubHMK2q" name="This value should be either positive or zero.">
+      <segment>
+        <source>This value should be either positive or zero.</source>
+        <target>يجب أن تكون هذه القيمة إما موجبة او صفر.</target>
+      </segment>
+    </unit>
+    <unit id="IwNTzo_" name="This value should be negative.">
+      <segment>
+        <source>This value should be negative.</source>
+        <target>يجب أن تكون هذه القيمة سالبة.</target>
+      </segment>
+    </unit>
+    <unit id="0GfwMfP" name="This value should be either negative or zero.">
+      <segment>
+        <source>This value should be either negative or zero.</source>
+        <target>يجب أن تكون هذه القيمة إما سالبة او صفر.</target>
+      </segment>
+    </unit>
+    <unit id="fs3qQZR" name="This value is not a valid timezone.">
+      <segment>
+        <source>This value is not a valid timezone.</source>
+        <target>هذه القيمة ليست منطقة زمنية صحيحة.</target>
+      </segment>
+    </unit>
+    <unit id="40dnsod" name="7e27e92">
+      <segment>
+        <source>This password has been leaked in a data breach, it must not be used. Please use another password.</source>
+        <target>تم تسريب كلمة المرور هذه في خرق للبيانات، ويجب عدم استخدامها. يرجي استخدام كلمة مرور أخري.</target>
+      </segment>
+    </unit>
+    <unit id="VvxxWas" name="This value should be between {{ min }} and {{ max }}.">
+      <segment>
+        <source>This value should be between {{ min }} and {{ max }}.</source>
+        <target>يجب أن تكون هذه القيمة بين {{ min }} و {{ max }}.</target>
+      </segment>
+    </unit>
+    <unit id="7g313cV" name="This value is not a valid hostname.">
+      <segment>
+        <source>This value is not a valid hostname.</source>
+        <target>هذه القيمة ليست اسم مضيف صالح.</target>
+      </segment>
+    </unit>
+    <unit id="xwtBimR" name="d165c02">
+      <segment>
+        <source>The number of elements in this collection should be a multiple of {{ compared_value }}.</source>
+        <target>يجب أن يكون عدد العناصر في هذه المجموعة مضاعف {{ compared_value }}.</target>
+      </segment>
+    </unit>
+    <unit id="FDRZr.s" name="This value should satisfy at least one of the following constraints:">
+      <segment>
+        <source>This value should satisfy at least one of the following constraints:</source>
+        <target>يجب أن تستوفي هذه القيمة واحدة من القيود التالية:</target>
+      </segment>
+    </unit>
+    <unit id="WwY0IGI" name="Each element of this collection should satisfy its own set of constraints.">
+      <segment>
+        <source>Each element of this collection should satisfy its own set of constraints.</source>
+        <target>يجب أن يفي كل عنصر من عناصر هذه المجموعة بمجموعة القيود الخاصة به.</target>
+      </segment>
+    </unit>
     <unit id=".SEaaBa" name="This form should not contain extra fields.">
       <segment>
         <source>This form should not contain extra fields.</source>
