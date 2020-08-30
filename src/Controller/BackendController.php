@@ -329,7 +329,7 @@ class BackendController extends AbstractController
     {
         $sessions = $this->getDoctrine()->getRepository(ExamSession::class)->findAll();
 
-        return $this->render('admin/examsessions.html.twig', ['sessions' => $sessions]);
+        return $this->render('admin/examSessions.html.twig', ['sessions' => $sessions]);
     }
 
     /**
