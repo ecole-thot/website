@@ -1059,7 +1059,7 @@ To reinforce this commitment, the form must be completed by the candidate himsel
     <unit id="_qANUZf" name="menu.exam">
       <segment>
         <source>menu.exam</source>
-        <target>__menu.exam</target>
+        <target>Examination Center</target>
       </segment>
     </unit>
     <unit id="5OIyQCp" name="exam.title">
