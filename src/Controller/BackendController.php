@@ -128,7 +128,7 @@ class BackendController extends AbstractController
      */
     public function news(): Response
     {
-        $news = $this->getDoctrine()->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'ASC']);
+        $news = $this->getDoctrine()->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC']);
 
         return $this->render('admin/news.html.twig', ['news' => $news]);
     }
