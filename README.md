@@ -24,3 +24,4 @@ To extract translations from templates :
     bin/console translation:update --no-backup --output-format xlf --xliff-version=2.0 fa --force
     bin/console translation:update --no-backup --output-format xlf --xliff-version=2.0 ps --force
     bin/console translation:update --no-backup --output-format xlf --xliff-version=2.0 ar --force
+
