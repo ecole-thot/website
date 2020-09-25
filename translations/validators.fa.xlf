@@ -511,5 +511,125 @@
         <target>توکن CSRF نامعتبر می باشد. لطفا فرم را مجددا ارسال نمایید.</target>
       </segment>
     </unit>
+    <unit id="7smtimf" name="0d999f2">
+      <segment>
+        <source>0d999f2</source>
+        <target>باید حداقل {{ limit }} گزینه انتخاب نمایید.|باید حداقل {{ limit }} گزینه انتخاب نمایید.</target>
+      </segment>
+    </unit>
+    <unit id="JRlXq2Z" name="0824486">
+      <segment>
+        <source>0824486</source>
+        <target>حداکثر {{ limit }} گزینه می توانید انتخاب نمایید.|حداکثر {{ limit }} گزینه می توانید انتخاب نمایید.</target>
+      </segment>
+    </unit>
+    <unit id="2O3FbJ6" name="1ad411a">
+      <segment>
+        <source>1ad411a</source>
+        <target>فایل بیش از اندازه بزرگ است({{ size }} {{ suffix }}). حداکثر اندازه مجاز برابر با {{ limit }} {{ suffix }} می باشد.</target>
+      </segment>
+    </unit>
+    <unit id="p4L.BFV" name="30a318d">
+      <segment>
+        <source>30a318d</source>
+        <target>این نوع فایل مجاز نمی باشد({{ type }}). نوع های مجاز شامل {{ types }} می باشند.</target>
+      </segment>
+    </unit>
+    <unit id="SjJg9Hy" name="0e0c1e1">
+      <segment>
+        <source>0e0c1e1</source>
+        <target>بسیار طولانی است.حداکثر تعداد حروف مجاز برابر {{ limit }} می باشد.|بسیار طولانی است.حداکثر تعداد حروف مجاز برابر {{ limit }} می باشد.</target>
+      </segment>
+    </unit>
+    <unit id="JJVWzKj" name="5188ff9">
+      <segment>
+        <source>5188ff9</source>
+        <target>مقدار وارد شده بسیار کوتاه است.تعداد حروف وارد شده، باید حداقل شامل {{ limit }} کاراکتر باشد.|مقدار وارد شده بسیار کوتاه است.تعداد حروف وارد شده، باید حداقل شامل {{ limit }} کاراکتر باشد.</target>
+      </segment>
+    </unit>
+    <unit id="g9NoIBz" name="266051e">
+      <segment>
+        <source>266051e</source>
+        <target>طول تصویر بسیار بزرگ است({{ width }}px). بیشینه طول مجاز {{ max_width }}px می باشد.</target>
+      </segment>
+    </unit>
+    <unit id="HTsQNva" name="c1c23f9">
+      <segment>
+        <source>c1c23f9</source>
+        <target>طول تصویر بسیار کوچک است({{ width }}px). کمینه طول موردنظر {{ min_width }}px می باشد.</target>
+      </segment>
+    </unit>
+    <unit id="h3PRqha" name="9a128f7">
+      <segment>
+        <source>9a128f7</source>
+        <target>ارتفاع تصویر بسیار بزرگ است({{ height }}px). بیشینه ارتفاع مجاز {{ max_height }}px می باشد.</target>
+      </segment>
+    </unit>
+    <unit id="IVraZ3b" name="8a4cd70">
+      <segment>
+        <source>8a4cd70</source>
+        <target>ارتفاع تصویر بسیار کوچک است({{ height }}px). کمینه ارتفاع موردنظر {{ min_height }}px می باشد.</target>
+      </segment>
+    </unit>
+    <unit id="Anek_FY" name="fd389d6">
+      <segment>
+        <source>fd389d6</source>
+        <target> این مقدار می بایست دقیقا {{ limit }} کاراکتر داشته باشد.| این مقدار می بایست دقیقا {{ limit }} کاراکتر داشته باشد.</target>
+      </segment>
+    </unit>
+    <unit id="YuLxmhd" name="b54c218">
+      <segment>
+        <source>b54c218</source>
+        <target>این مجموعه می بایست دارای حداقل {{ limit }} عنصر یا بیشتر باشد.|این مجموعه می بایست دارای حداقل {{ limit }} عنصر یا بیشتر باشد.</target>
+      </segment>
+    </unit>
+    <unit id="qXV2OMI" name="949632c">
+      <segment>
+        <source>949632c</source>
+        <target>این مجموعه می بایست دارای حداکثر {{ limit }} عنصر یا کمتر باشد.|این مجموعه می بایست دارای حداکثر {{ limit }} عنصر یا کمتر باشد.</target>
+      </segment>
+    </unit>
+    <unit id="BnjGMFh" name="e0582dc">
+      <segment>
+        <source>e0582dc</source>
+        <target>این مجموعه می بایست به طور دقیق دارای {{ limit }} عنصر باشد.|این مجموعه می بایست به طور دقیق دارای {{ limit }} عنصر باشد.</target>
+      </segment>
+    </unit>
+    <unit id="SreIWoo" name="9670078">
+      <segment>
+        <source>9670078</source>
+        <target>این مقدار باید با {{ compared_value_type }} {{ compared_value }} یکسان باشد.</target>
+      </segment>
+    </unit>
+    <unit id="JIjdvtb" name="0eedf91">
+      <segment>
+        <source>0eedf91</source>
+        <target>این مقدار نباید با {{ compared_value_type }} {{ compared_value }} یکسان باشد.</target>
+      </segment>
+    </unit>
+    <unit id="vzvxzpR" name="9c3ad0f">
+      <segment>
+        <source>9c3ad0f</source>
+        <target>ابعاد({{ ratio }}) عکس بیش از حد بزرگ است.حداکثر ابعاد مجاز {{ max_ratio }} می باشد.</target>
+      </segment>
+    </unit>
+    <unit id="LiDaIWN" name="4376d45">
+      <segment>
+        <source>4376d45</source>
+        <target>ابعاد({{ ratio }}) عکس بیش از حد کوچک است.حداقل ابعاد مجاز {{ min_ratio }} می باشد.</target>
+      </segment>
+    </unit>
+    <unit id="501jWTO" name="1dc128a">
+      <segment>
+        <source>1dc128a</source>
+        <target>این تصویر افقی({{ width }}x{{ height }}px) می باشد. تصویر افقی مجاز نمی باشد.</target>
+      </segment>
+    </unit>
+    <unit id="J4L.QnM" name="9e27714">
+      <segment>
+        <source>9e27714</source>
+        <target>این تصویر عمودی({{ width }}x{{ height }}px) می باشد. تصویر عمودی مجاز نمی باشد.</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

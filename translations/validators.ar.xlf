@@ -589,5 +589,137 @@
         <target>قيمة رمز الموقع غير صحيحة. من فضلك اعد ارسال النموذج.</target>
       </segment>
     </unit>
+    <unit id="7smtimf" name="0d999f2">
+      <segment>
+        <source>0d999f2</source>
+        <target>يجب ان تختار {{ limit }} اختيار على الاقل.|يجب ان تختار {{ limit }} اختيار على الاقل.|يجب ان تختار {{ limit }} اختيارات على الاقل.|يجب ان تختار {{ limit }} اختيار على الاقل.|يجب ان تختار {{ limit }} اختيار على الاقل.|يجب ان تختار {{ limit }} اختيار على الاقل.</target>
+      </segment>
+    </unit>
+    <unit id="JRlXq2Z" name="0824486">
+      <segment>
+        <source>0824486</source>
+        <target>يجب ان تختار {{ limit }} اختيار على الاكثر.|يجب ان تختار {{ limit }} اختيار على الاكثر.|يجب ان تختار {{ limit }} اختيارات على الاكثر.|يجب ان تختار {{ limit }} اختيار على الاكثر.|يجب ان تختار {{ limit }} اختيار على الاكثر.|يجب ان تختار {{ limit }} اختيار على الاكثر.</target>
+      </segment>
+    </unit>
+    <unit id="2O3FbJ6" name="1ad411a">
+      <segment>
+        <source>1ad411a</source>
+        <target>الملف كبير جدا ({{ size }} {{ suffix }}).اقصى مساحه مسموح بها ({{ limit }} {{ suffix }}).</target>
+      </segment>
+    </unit>
+    <unit id="p4L.BFV" name="30a318d">
+      <segment>
+        <source>30a318d</source>
+        <target>نوع الملف غير صحيح ({{ type }}). الانواع المسموح بها هى {{ types }}.</target>
+      </segment>
+    </unit>
+    <unit id="SjJg9Hy" name="0e0c1e1">
+      <segment>
+        <source>0e0c1e1</source>
+        <target>هذه القيمة طويلة جدا. يجب ان تكون {{ limit }} حرف او اقل.|هذه القيمة طويلة جدا. يجب ان تكون {{ limit }} حرف او اقل.|هذه القيمة طويلة جدا. يجب ان تكون {{ limit }} حروف او اقل.|هذه القيمة طويلة جدا. يجب ان تكون {{ limit }} حرف او اقل.|هذه القيمة طويلة جدا. يجب ان تكون {{ limit }} حرف او اقل.|هذه القيمة طويلة جدا. يجب ان تكون {{ limit }} حرف او اقل.</target>
+      </segment>
+    </unit>
+    <unit id="JJVWzKj" name="5188ff9">
+      <segment>
+        <source>5188ff9</source>
+        <target>هذه القيمة قصيرة جدا. يجب ان تكون {{ limit }} حرف او اكثر.|هذه القيمة قصيرة جدا. يجب ان تكون {{ limit }} حرف او اكثر.|هذه القيمة قصيرة جدا. يجب ان تكون {{ limit }} حروف او اكثر.|هذه القيمة قصيرة جدا. يجب ان تكون {{ limit }} حرف او اكثر.|هذه القيمة قصيرة جدا. يجب ان تكون {{ limit }} حرف او اكثر.|هذه القيمة قصيرة جدا. يجب ان تكون {{ limit }} حرف او اكثر.</target>
+      </segment>
+    </unit>
+    <unit id="g9NoIBz" name="266051e">
+      <segment>
+        <source>266051e</source>
+        <target>عرض الصورة كبير جدا ({{ width }}px). اقصى عرض مسموح به هو{{ max_width }}px.</target>
+      </segment>
+    </unit>
+    <unit id="HTsQNva" name="c1c23f9">
+      <segment>
+        <source>c1c23f9</source>
+        <target>عرض الصورة صغير جدا ({{ width }}px). اقل عرض مسموح به هو{{ min_width }}px.</target>
+      </segment>
+    </unit>
+    <unit id="h3PRqha" name="9a128f7">
+      <segment>
+        <source>9a128f7</source>
+        <target>طول الصورة كبير جدا ({{ height }}px). اقصى طول مسموح به هو{{ max_height }}px.</target>
+      </segment>
+    </unit>
+    <unit id="IVraZ3b" name="8a4cd70">
+      <segment>
+        <source>8a4cd70</source>
+        <target>طول الصورة صغير جدا ({{ height }}px). اقل طول مسموح به هو{{ min_height }}px.</target>
+      </segment>
+    </unit>
+    <unit id="Anek_FY" name="fd389d6">
+      <segment>
+        <source>fd389d6</source>
+        <target>هذه القيمة يجب ان تحتوى على {{ limit }} حرف فقط.|هذه القيمة يجب ان تحتوى على {{ limit }} حرف فقط.|هذه القيمة يجب ان تحتوى على {{ limit }} حروف فقط.|هذه القيمة يجب ان تحتوى على {{ limit }} حرف فقط.|هذه القيمة يجب ان تحتوى على {{ limit }} حرف فقط.|هذه القيمة يجب ان تحتوى على {{ limit }} حرف فقط.</target>
+      </segment>
+    </unit>
+    <unit id="YuLxmhd" name="b54c218">
+      <segment>
+        <source>b54c218</source>
+        <target>هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر او اكثر.|هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر او اكثر.|هذه المجموعة يجب ان تحتوى على {{ limit }} عناصر او اكثر.|هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر او اكثر.|هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر او اكثر.|هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر او اكثر.</target>
+      </segment>
+    </unit>
+    <unit id="qXV2OMI" name="949632c">
+      <segment>
+        <source>949632c</source>
+        <target>هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر او اقل.|هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر او اقل.|هذه المجموعة يجب ان تحتوى على {{ limit }} عناصر او اقل.|هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر او اقل.|هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر او اقل.|هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر او اقل.</target>
+      </segment>
+    </unit>
+    <unit id="BnjGMFh" name="e0582dc">
+      <segment>
+        <source>e0582dc</source>
+        <target>هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر فقط.|هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر فقط.|هذه المجموعة يجب ان تحتوى على {{ limit }} عناصر فقط.|هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر فقط.|هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر فقط.|هذه المجموعة يجب ان تحتوى على {{ limit }} عنصر فقط.</target>
+      </segment>
+    </unit>
+    <unit id="SreIWoo" name="9670078">
+      <segment>
+        <source>9670078</source>
+        <target>القيمة يجب ان تطابق {{ compared_value_type }} {{ compared_value }}.</target>
+      </segment>
+    </unit>
+    <unit id="JIjdvtb" name="0eedf91">
+      <segment>
+        <source>0eedf91</source>
+        <target>القيمة يجب ان لا تطابق {{ compared_value_type }} {{ compared_value }}.</target>
+      </segment>
+    </unit>
+    <unit id="vzvxzpR" name="9c3ad0f">
+      <segment>
+        <source>9c3ad0f</source>
+        <target>نسبة العرض على الارتفاع للصورة كبيرة جدا ({{ ratio }}). الحد الأقصى للنسبة المسموح به هو {{ max_ratio }}.</target>
+      </segment>
+    </unit>
+    <unit id="LiDaIWN" name="4376d45">
+      <segment>
+        <source>4376d45</source>
+        <target>نسبة العرض على الارتفاع للصورة صغيرة جدا ({{ ratio }}). الحد الأدنى للنسبة المسموح به هو {{ max_ratio }}.</target>
+      </segment>
+    </unit>
+    <unit id="501jWTO" name="1dc128a">
+      <segment>
+        <source>1dc128a</source>
+        <target>الصورة في وضع أفقي ({{ width }}x{{ height }}px). الصور في وضع أفقي غير مسموح بها.</target>
+      </segment>
+    </unit>
+    <unit id="J4L.QnM" name="9e27714">
+      <segment>
+        <source>9e27714</source>
+        <target>الصورة في وضع عمودي ({{ width }}x{{ height }}px). الصور في وضع عمودي غير مسموح بها.</target>
+      </segment>
+    </unit>
+    <unit id="A3Gr4fn" name="7e27e92">
+      <segment>
+        <source>7e27e92</source>
+        <target>تم تسريب كلمة المرور هذه في خرق للبيانات، ويجب عدم استخدامها. يرجي استخدام كلمة مرور أخري.</target>
+      </segment>
+    </unit>
+    <unit id="PG_l9lY" name="d165c02">
+      <segment>
+        <source>d165c02</source>
+        <target>يجب أن يكون عدد العناصر في هذه المجموعة مضاعف {{ compared_value }}.</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

@@ -571,6 +571,12 @@
         <target>Each element of this collection should satisfy its own set of constraints.</target>
       </segment>
     </unit>
+    <unit id="lrbaa8g" name="This value is not a valid International Securities Identification Number (ISIN).">
+      <segment>
+        <source>This value is not a valid International Securities Identification Number (ISIN).</source>
+        <target>This value is not a valid International Securities Identification Number (ISIN).</target>
+      </segment>
+    </unit>
     <unit id=".SEaaBa" name="This form should not contain extra fields.">
       <segment>
         <source>This form should not contain extra fields.</source>
@@ -737,6 +743,138 @@
       <segment>
         <source>Please provide a valid phone number.</source>
         <target>Please provide a valid phone number.</target>
+      </segment>
+    </unit>
+    <unit id="7smtimf" name="0d999f2">
+      <segment>
+        <source>0d999f2</source>
+        <target>You must select at least {{ limit }} choice.|You must select at least {{ limit }} choices.</target>
+      </segment>
+    </unit>
+    <unit id="JRlXq2Z" name="0824486">
+      <segment>
+        <source>0824486</source>
+        <target>You must select at most {{ limit }} choice.|You must select at most {{ limit }} choices.</target>
+      </segment>
+    </unit>
+    <unit id="2O3FbJ6" name="1ad411a">
+      <segment>
+        <source>1ad411a</source>
+        <target>The file is too large ({{ size }} {{ suffix }}). Allowed maximum size is {{ limit }} {{ suffix }}.</target>
+      </segment>
+    </unit>
+    <unit id="p4L.BFV" name="30a318d">
+      <segment>
+        <source>30a318d</source>
+        <target>The mime type of the file is invalid ({{ type }}). Allowed mime types are {{ types }}.</target>
+      </segment>
+    </unit>
+    <unit id="SjJg9Hy" name="0e0c1e1">
+      <segment>
+        <source>0e0c1e1</source>
+        <target>This value is too long. It should have {{ limit }} character or less.|This value is too long. It should have {{ limit }} characters or less.</target>
+      </segment>
+    </unit>
+    <unit id="JJVWzKj" name="5188ff9">
+      <segment>
+        <source>5188ff9</source>
+        <target>This value is too short. It should have {{ limit }} character or more.|This value is too short. It should have {{ limit }} characters or more.</target>
+      </segment>
+    </unit>
+    <unit id="g9NoIBz" name="266051e">
+      <segment>
+        <source>266051e</source>
+        <target>The image width is too big ({{ width }}px). Allowed maximum width is {{ max_width }}px.</target>
+      </segment>
+    </unit>
+    <unit id="HTsQNva" name="c1c23f9">
+      <segment>
+        <source>c1c23f9</source>
+        <target>The image width is too small ({{ width }}px). Minimum width expected is {{ min_width }}px.</target>
+      </segment>
+    </unit>
+    <unit id="h3PRqha" name="9a128f7">
+      <segment>
+        <source>9a128f7</source>
+        <target>The image height is too big ({{ height }}px). Allowed maximum height is {{ max_height }}px.</target>
+      </segment>
+    </unit>
+    <unit id="IVraZ3b" name="8a4cd70">
+      <segment>
+        <source>8a4cd70</source>
+        <target>The image height is too small ({{ height }}px). Minimum height expected is {{ min_height }}px.</target>
+      </segment>
+    </unit>
+    <unit id="Anek_FY" name="fd389d6">
+      <segment>
+        <source>fd389d6</source>
+        <target>This value should have exactly {{ limit }} character.|This value should have exactly {{ limit }} characters.</target>
+      </segment>
+    </unit>
+    <unit id="YuLxmhd" name="b54c218">
+      <segment>
+        <source>b54c218</source>
+        <target>This collection should contain {{ limit }} element or more.|This collection should contain {{ limit }} elements or more.</target>
+      </segment>
+    </unit>
+    <unit id="qXV2OMI" name="949632c">
+      <segment>
+        <source>949632c</source>
+        <target>This collection should contain {{ limit }} element or less.|This collection should contain {{ limit }} elements or less.</target>
+      </segment>
+    </unit>
+    <unit id="BnjGMFh" name="e0582dc">
+      <segment>
+        <source>e0582dc</source>
+        <target>This collection should contain exactly {{ limit }} element.|This collection should contain exactly {{ limit }} elements.</target>
+      </segment>
+    </unit>
+    <unit id="SreIWoo" name="9670078">
+      <segment>
+        <source>9670078</source>
+        <target>This value should be identical to {{ compared_value_type }} {{ compared_value }}.</target>
+      </segment>
+    </unit>
+    <unit id="JIjdvtb" name="0eedf91">
+      <segment>
+        <source>0eedf91</source>
+        <target>This value should not be identical to {{ compared_value_type }} {{ compared_value }}.</target>
+      </segment>
+    </unit>
+    <unit id="vzvxzpR" name="9c3ad0f">
+      <segment>
+        <source>9c3ad0f</source>
+        <target>The image ratio is too big ({{ ratio }}). Allowed maximum ratio is {{ max_ratio }}.</target>
+      </segment>
+    </unit>
+    <unit id="LiDaIWN" name="4376d45">
+      <segment>
+        <source>4376d45</source>
+        <target>The image ratio is too small ({{ ratio }}). Minimum ratio expected is {{ min_ratio }}.</target>
+      </segment>
+    </unit>
+    <unit id="501jWTO" name="1dc128a">
+      <segment>
+        <source>1dc128a</source>
+        <target>The image is landscape oriented ({{ width }}x{{ height }}px). Landscape oriented images are not allowed.</target>
+      </segment>
+    </unit>
+    <unit id="J4L.QnM" name="9e27714">
+      <segment>
+        <source>9e27714</source>
+        <target>The image is portrait oriented ({{ width }}x{{ height }}px). Portrait oriented images are not allowed.</target>
+      </segment>
+    </unit>
+    <unit id="A3Gr4fn" name="7e27e92">
+      <segment>
+        <source>7e27e92</source>
+        <target>This password has been leaked in a data breach, it must not be used. Please use another password.</target>
+      </segment>
+    </unit>
+    <unit id="PG_l9lY" name="d165c02">
+      <segment>
+        <source>d165c02</source>
+        <target>The number of elements in this collection should be a multiple of {{ compared_value }}.</target>
       </segment>
     </unit>
   </file>
