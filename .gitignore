@@ -20,6 +20,7 @@ deploy/servers.yml
 ###< symfony/web-server-bundle ###
 ###> friendsofphp/php-cs-fixer ###
 /.php_cs.cache
+/.php_cs.dist
 ###< friendsofphp/php-cs-fixer ###
 
 ###> symfony/webpack-encore-bundle ###

@@ -4,7 +4,7 @@
     <unit id="zh5oKD9" name="This value should be false.">
       <segment>
         <source>This value should be false.</source>
-        <target state="needs-review-translation">این مقدار باید نادرست(False) باشد.</target>
+        <target>این مقدار باید نادرست(False) باشد.</target>
       </segment>
     </unit>
     <unit id="NN2_iru" name="This value should be true.">

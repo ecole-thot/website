@@ -2,40 +2,38 @@
     "type": "project",
     "license": "proprietary",
     "require": {
-        "php": "^7.1.3",
+        "php": "^7.4.10",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "doctrine/doctrine-bundle": "^1.6.10",
+        "doctrine/doctrine-bundle": "^2.1",
         "doctrine/orm": "^2.5.11",
-        "php-translation/symfony-bundle": "^0.8.1",
+        "php-translation/symfony-bundle": "^0.12.1",
         "sensio/framework-extra-bundle": "^5.2",
-        "symfony/asset": "*",
-        "symfony/console": "*",
-        "symfony/expression-language": "*",
-        "symfony/flex": "^1.1",
-        "symfony/form": "*",
-        "symfony/framework-bundle": "*",
-        "symfony/monolog-bundle": "^3.1",
-        "symfony/process": "*",
-        "symfony/security-bundle": "*",
-        "symfony/serializer-pack": "*",
-        "symfony/swiftmailer-bundle": "^3.2",
+        "symfony/asset": "5.*",
+        "symfony/console": "5.*",
+        "symfony/expression-language": "5.*",
+        "symfony/flex": "^1.9",
+        "symfony/form": "5.*",
+        "symfony/framework-bundle": "5.*",
+        "symfony/monolog-bundle": "^3.5",
+        "symfony/process": "5.*",
+        "symfony/security-bundle": "5.*",
+        "symfony/serializer-pack": "^1.0",
+        "symfony/swiftmailer-bundle": "^3.4",
         "symfony/translation": "*",
-        "symfony/twig-bundle": "*",
-        "symfony/validator": "*",
-        "symfony/web-link": "*",
-        "symfony/webpack-encore-bundle": "^1.1",
-        "symfony/yaml": "*"
+        "symfony/twig-bundle": "5.*",
+        "symfony/validator": "5.*",
+        "symfony/web-link": "5.*",
+        "symfony/webpack-encore-bundle": "^1.7",
+        "symfony/yaml": "5.*"
     },
     "require-dev": {
         "deployer/deployer": "^6.4",
         "friendsofphp/php-cs-fixer": "^2.13",
-        "symfony/debug-pack": "*",
-        "symfony/dotenv": "*",
-        "symfony/maker-bundle": "^1.0",
-        "symfony/profiler-pack": "*",
-        "symfony/test-pack": "*",
-        "symfony/web-server-bundle": "*"
+        "symfony/debug-pack": "^1.0",
+        "symfony/dotenv": "5.*",
+        "symfony/maker-bundle": "*",
+        "symfony/profiler-pack": "*"
     },
     "config": {
         "preferred-install": {
@@ -43,7 +41,7 @@
         },
         "sort-packages": true,
         "platform": {
-            "php": "7.1.31"
+            "php": "7.4.10"
         }
     },
     "autoload": {
@@ -82,7 +80,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "4.*"
+            "require": "5.*"
         }
     }
 }
