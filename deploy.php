@@ -35,9 +35,7 @@ set('clear_paths', [
   './deploy',
   './.php_cs',
   './deploy.php',
-  './.env*',
 ]);
-//set('writable_mode', "chmod");
 
 desc('Build bundle assets');
 task('deploy:build_assets', function () {
