@@ -52,7 +52,7 @@ class FrontController extends AbstractController
     /**
      * Serves centre d'examen page.
      *
-     * @Route("/centre-examen", name="examination_center", methods={"GET"})
+     * @Route("/centre-examen", name="examination_center", methods={"GET", "POST"})
      */
     public function examinationCenter(Request $request): Response
     {
