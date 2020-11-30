@@ -54,7 +54,7 @@ class FrontController extends AbstractController
      *
      * @Route("/centre-examen", name="examination_center", methods={"GET", "POST"})
      */
-    public function examinationCenter(Request $request): Response
+    public function examinationCenter(Request $request, \Swift_Mailer $mailer): Response
     {
         $info = null;
 
