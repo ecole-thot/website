@@ -11,7 +11,7 @@ parameters:
     social_facebook: "https://www.facebook.com/thot.fle/"
     social_twitter: "https://twitter.com/Thot_fle"
     social_youtube: "https://www.youtube.com/channel/UCbKtvXMn1XspArDyJvbIGLQ"
-    donation_link: "https://thot.iraiser.eu/b/mon-don"
+    donation_link: "https://www.helloasso.com/associations/thot-transmettre-un-horizon-a-tous/formulaires/1"
     partner_images_directory: '%kernel.project_dir%/public/uploads/partners'
     members_images_directory: '%kernel.project_dir%/public/uploads/members'
     news_images_directory: '%kernel.project_dir%/public/uploads/news'
