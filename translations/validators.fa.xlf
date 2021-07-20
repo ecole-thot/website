@@ -493,6 +493,90 @@
         <target>این(BIC) با IBAN ارتباطی ندارد.</target>
       </segment>
     </unit>
+    <unit id="2v2xpAh" name="This value should be valid JSON.">
+      <segment>
+        <source>This value should be valid JSON.</source>
+        <target>این مقدار باید یک JSON معتبر باشد.</target>
+      </segment>
+    </unit>
+    <unit id="9CWVEGq" name="This collection should contain only unique elements.">
+      <segment>
+        <source>This collection should contain only unique elements.</source>
+        <target>این مجموعه باید تنها شامل عناصر یکتا باشد.</target>
+      </segment>
+    </unit>
+    <unit id="WdvZfq." name="This value should be positive.">
+      <segment>
+        <source>This value should be positive.</source>
+        <target>این مقدار باید مثبت باشد.</target>
+      </segment>
+    </unit>
+    <unit id="ubHMK2q" name="This value should be either positive or zero.">
+      <segment>
+        <source>This value should be either positive or zero.</source>
+        <target>این مقدار باید مثبت یا صفر باشد.</target>
+      </segment>
+    </unit>
+    <unit id="IwNTzo_" name="This value should be negative.">
+      <segment>
+        <source>This value should be negative.</source>
+        <target>این مقدار باید منفی باشد.</target>
+      </segment>
+    </unit>
+    <unit id="0GfwMfP" name="This value should be either negative or zero.">
+      <segment>
+        <source>This value should be either negative or zero.</source>
+        <target>این مقدار باید منفی یا صفر باشد.</target>
+      </segment>
+    </unit>
+    <unit id="fs3qQZR" name="This value is not a valid timezone.">
+      <segment>
+        <source>This value is not a valid timezone.</source>
+        <target>این مقدار یک منطقه‌زمانی (timezone) معتبر نیست.</target>
+      </segment>
+    </unit>
+    <unit id="40dnsod" name="7e27e92">
+      <segment>
+        <source>This password has been leaked in a data breach, it must not be used. Please use another password.</source>
+        <target>این رمزعبور در یک رخنه‌ی اطلاعاتی نشت کرده است. لطفاً از یک رمزعبور دیگر استفاده کنید.</target>
+      </segment>
+    </unit>
+    <unit id="VvxxWas" name="This value should be between {{ min }} and {{ max }}.">
+      <segment>
+        <source>This value should be between {{ min }} and {{ max }}.</source>
+        <target>این مقدار باید بین {{ min }} و {{ max }} باشد</target>
+      </segment>
+    </unit>
+    <unit id="7g313cV" name="This value is not a valid hostname.">
+      <segment>
+        <source>This value is not a valid hostname.</source>
+        <target>این مقدار یک hostname معتبر نیست.</target>
+      </segment>
+    </unit>
+    <unit id="xwtBimR" name="d165c02">
+      <segment>
+        <source>The number of elements in this collection should be a multiple of {{ compared_value }}.</source>
+        <target>تعداد عناصر این مجموعه باید ضریبی از {{ compared_value }} باشد.</target>
+      </segment>
+    </unit>
+    <unit id="FDRZr.s" name="This value should satisfy at least one of the following constraints:">
+      <segment>
+        <source>This value should satisfy at least one of the following constraints:</source>
+        <target>این مقدار باید حداقل یکی از محدودیت‌های زیر را ارضا کند:</target>
+      </segment>
+    </unit>
+    <unit id="WwY0IGI" name="Each element of this collection should satisfy its own set of constraints.">
+      <segment>
+        <source>Each element of this collection should satisfy its own set of constraints.</source>
+        <target>هر یک از عناصر این مجموعه باید دسته محدودیت‌های خودش را ارضا کند.</target>
+      </segment>
+    </unit>
+    <unit id="lrbaa8g" name="This value is not a valid International Securities Identification Number (ISIN).">
+      <segment>
+        <source>This value is not a valid International Securities Identification Number (ISIN).</source>
+        <target>این مقدار یک شماره شناسایی بین‌المللی اوراق بهادار (ISIN) معتبر نیست.</target>
+      </segment>
+    </unit>
     <unit id=".SEaaBa" name="This form should not contain extra fields.">
       <segment>
         <source>This form should not contain extra fields.</source>
@@ -509,6 +593,186 @@
       <segment>
         <source>The CSRF token is invalid. Please try to resubmit the form.</source>
         <target>توکن CSRF نامعتبر می باشد. لطفا فرم را مجددا ارسال نمایید.</target>
+      </segment>
+    </unit>
+    <unit id="eo1zeih" name="This value is not a valid HTML5 color.">
+      <segment>
+        <source>This value is not a valid HTML5 color.</source>
+        <target>این مقدار یک رنگ معتبر HTML5  نیست.</target>
+      </segment>
+    </unit>
+    <unit id="dN.ZVc0" name="Please enter a valid birthdate.">
+      <segment>
+        <source>Please enter a valid birthdate.</source>
+        <target>لطفاً یک تاریخ تولد معتبر وارد نمایید.</target>
+      </segment>
+    </unit>
+    <unit id="OPymPfZ" name="The selected choice is invalid.">
+      <segment>
+        <source>The selected choice is invalid.</source>
+        <target>گزینه‌ی انتخاب‌شده نامعتبر است</target>
+      </segment>
+    </unit>
+    <unit id="GUH6TYE" name="The collection is invalid.">
+      <segment>
+        <source>The collection is invalid.</source>
+        <target>این مجموعه نامعتبر است.</target>
+      </segment>
+    </unit>
+    <unit id="14il0ha" name="Please select a valid color.">
+      <segment>
+        <source>Please select a valid color.</source>
+        <target>لطفاً یک رنگ معتبر انتخاب کنید.</target>
+      </segment>
+    </unit>
+    <unit id="4AJRUCC" name="Please select a valid country.">
+      <segment>
+        <source>Please select a valid country.</source>
+        <target>لطفاً یک کشور معتبر انتخاب کنید.</target>
+      </segment>
+    </unit>
+    <unit id="xAI5mrh" name="Please select a valid currency.">
+      <segment>
+        <source>Please select a valid currency.</source>
+        <target>لطفاً یک واحد پولی معتبر انتخاب کنید.</target>
+      </segment>
+    </unit>
+    <unit id="c6v9ASZ" name="Please choose a valid date interval.">
+      <segment>
+        <source>Please choose a valid date interval.</source>
+        <target>لطفاً یک بازه‌ی زمانی معتبر انتخاب کنید.</target>
+      </segment>
+    </unit>
+    <unit id="2BR60Jg" name="Please enter a valid date and time.">
+      <segment>
+        <source>Please enter a valid date and time.</source>
+        <target>لطفاً یک تاریخ و زمان معتبر وارد کنید.</target>
+      </segment>
+    </unit>
+    <unit id="ofLBhv0" name="Please enter a valid date.">
+      <segment>
+        <source>Please enter a valid date.</source>
+        <target>لطفاً یک تاریخ معتبر وارد کنید.</target>
+      </segment>
+    </unit>
+    <unit id="Xsmm6Mc" name="Please select a valid file.">
+      <segment>
+        <source>Please select a valid file.</source>
+        <target>لطفاً یک فایل معتبر انتخاب کنید.</target>
+      </segment>
+    </unit>
+    <unit id="Fka0cZD" name="The hidden field is invalid.">
+      <segment>
+        <source>The hidden field is invalid.</source>
+        <target>فیلد مخفی نامعتبر است.</target>
+      </segment>
+    </unit>
+    <unit id="69ux5Ml" name="Please enter an integer.">
+      <segment>
+        <source>Please enter an integer.</source>
+        <target>لطفاً یک عدد صحیح وارد کنید.</target>
+      </segment>
+    </unit>
+    <unit id="TQbat_9" name="Please select a valid language.">
+      <segment>
+        <source>Please select a valid language.</source>
+        <target>لطفاً یک زبان معتبر انتخاب کنید.</target>
+      </segment>
+    </unit>
+    <unit id="vpa7l8w" name="Please select a valid locale.">
+      <segment>
+        <source>Please select a valid locale.</source>
+        <target>لطفاً یک جغرافیای (locale) معتبر انتخاب کنید.</target>
+      </segment>
+    </unit>
+    <unit id="Gz8pWER" name="Please enter a valid money amount.">
+      <segment>
+        <source>Please enter a valid money amount.</source>
+        <target>لطفاً یک مقدار پول معتبر وارد کنید.</target>
+      </segment>
+    </unit>
+    <unit id="PRxiOhB" name="Please enter a number.">
+      <segment>
+        <source>Please enter a number.</source>
+        <target>لطفاً یک عدد وارد کنید.</target>
+      </segment>
+    </unit>
+    <unit id="seAdKJo" name="The password is invalid.">
+      <segment>
+        <source>The password is invalid.</source>
+        <target>رمزعبور نامعتبر است.</target>
+      </segment>
+    </unit>
+    <unit id="A5k0Q20" name="Please enter a percentage value.">
+      <segment>
+        <source>Please enter a percentage value.</source>
+        <target>لطفاً یک درصد معتبر وارد کنید.</target>
+      </segment>
+    </unit>
+    <unit id="rH6V.WA" name="The values do not match.">
+      <segment>
+        <source>The values do not match.</source>
+        <target>مقادیر تطابق ندارند.</target>
+      </segment>
+    </unit>
+    <unit id="Eopl1Sm" name="Please enter a valid time.">
+      <segment>
+        <source>Please enter a valid time.</source>
+        <target>لطفاً یک زمان معتبر وارد کنید.</target>
+      </segment>
+    </unit>
+    <unit id="ll14Sm9" name="Please select a valid timezone.">
+      <segment>
+        <source>Please select a valid timezone.</source>
+        <target>لطفاً یک منطقه‌زمانی معتبر وارد کنید.</target>
+      </segment>
+    </unit>
+    <unit id="1xP1kmd" name="Please enter a valid URL.">
+      <segment>
+        <source>Please enter a valid URL.</source>
+        <target>لطفاً یک URL معتبر وارد کنید.</target>
+      </segment>
+    </unit>
+    <unit id="iMmAsrC" name="Please enter a valid search term.">
+      <segment>
+        <source>Please enter a valid search term.</source>
+        <target>لطفاً یک عبارت جستجوی معتبر وارد کنید.</target>
+      </segment>
+    </unit>
+    <unit id="GRMTXRX" name="Please provide a valid phone number.">
+      <segment>
+        <source>Please provide a valid phone number.</source>
+        <target>لطفاً یک شماره تلفن معتبر وارد کنید.</target>
+      </segment>
+    </unit>
+    <unit id="WkYuMDd" name="The checkbox has an invalid value.">
+      <segment>
+        <source>The checkbox has an invalid value.</source>
+        <target>کادر انتخاب (checkbox)  دارای مقداری نامعتبر است.</target>
+      </segment>
+    </unit>
+    <unit id="lY5Mzyl" name="Please enter a valid email address.">
+      <segment>
+        <source>Please enter a valid email address.</source>
+        <target>لطفاً یک آدرس رایانامه‌ی معتبر وارد کنید.</target>
+      </segment>
+    </unit>
+    <unit id="TzSC4.o" name="Please select a valid option.">
+      <segment>
+        <source>Please select a valid option.</source>
+        <target>لطفاً یک گزینه‌ی معتبر انتخاب کنید.</target>
+      </segment>
+    </unit>
+    <unit id="qGRcTk7" name="Please select a valid range.">
+      <segment>
+        <source>Please select a valid range.</source>
+        <target>لطفاً یک محدوده‌ی معتبر انتخاب کنید.</target>
+      </segment>
+    </unit>
+    <unit id="PU.w6nC" name="Please enter a valid week.">
+      <segment>
+        <source>Please enter a valid week.</source>
+        <target>لطفاً یک هفته‌ی معتبر وارد کنید.</target>
       </segment>
     </unit>
     <unit id="7smtimf" name="0d999f2">

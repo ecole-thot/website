@@ -91,5 +91,17 @@
         <target>حساب کاربری قفل گردیده است.</target>
       </segment>
     </unit>
+    <unit id="gd.MOnZ" name="Too many failed login attempts, please try again later.">
+      <segment>
+        <source>Too many failed login attempts, please try again later.</source>
+        <target>تلاش‌های ناموفق زیادی برای ورود صورت گرفته است، لطفاً بعداً دوباره تلاش کنید.</target>
+      </segment>
+    </unit>
+    <unit id="l9VYRj0" name="Invalid or expired login link.">
+      <segment>
+        <source>Invalid or expired login link.</source>
+        <target>لینک ورود نامعتبر یا تاریخ‌گذشته است.</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

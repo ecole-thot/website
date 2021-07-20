@@ -601,6 +601,180 @@
         <target>Cette valeur n'est pas une couleur HTML5 valide.</target>
       </segment>
     </unit>
+    <unit id="dN.ZVc0" name="Please enter a valid birthdate.">
+      <segment>
+        <source>Please enter a valid birthdate.</source>
+        <target>Veuillez entrer une date de naissance valide.</target>
+      </segment>
+    </unit>
+    <unit id="OPymPfZ" name="The selected choice is invalid.">
+      <segment>
+        <source>The selected choice is invalid.</source>
+        <target>Le choix sélectionné est invalide.</target>
+      </segment>
+    </unit>
+    <unit id="GUH6TYE" name="The collection is invalid.">
+      <segment>
+        <source>The collection is invalid.</source>
+        <target>La collection est invalide.</target>
+      </segment>
+    </unit>
+    <unit id="14il0ha" name="Please select a valid color.">
+      <segment>
+        <source>Please select a valid color.</source>
+        <target>Veuillez sélectionner une couleur valide.</target>
+      </segment>
+    </unit>
+    <unit id="4AJRUCC" name="Please select a valid country.">
+      <segment>
+        <source>Please select a valid country.</source>
+        <target>Veuillez sélectionner un pays valide.</target>
+      </segment>
+    </unit>
+    <unit id="xAI5mrh" name="Please select a valid currency.">
+      <segment>
+        <source>Please select a valid currency.</source>
+        <target>Veuillez sélectionner une devise valide.</target>
+      </segment>
+    </unit>
+    <unit id="c6v9ASZ" name="Please choose a valid date interval.">
+      <segment>
+        <source>Please choose a valid date interval.</source>
+        <target>Veuillez choisir un intervalle de dates valide.</target>
+      </segment>
+    </unit>
+    <unit id="2BR60Jg" name="Please enter a valid date and time.">
+      <segment>
+        <source>Please enter a valid date and time.</source>
+        <target>Veuillez saisir une date et une heure valides.</target>
+      </segment>
+    </unit>
+    <unit id="ofLBhv0" name="Please enter a valid date.">
+      <segment>
+        <source>Please enter a valid date.</source>
+        <target>Veuillez entrer une date valide.</target>
+      </segment>
+    </unit>
+    <unit id="Xsmm6Mc" name="Please select a valid file.">
+      <segment>
+        <source>Please select a valid file.</source>
+        <target>Veuillez sélectionner un fichier valide.</target>
+      </segment>
+    </unit>
+    <unit id="Fka0cZD" name="The hidden field is invalid.">
+      <segment>
+        <source>The hidden field is invalid.</source>
+        <target>Le champ masqué n'est pas valide.</target>
+      </segment>
+    </unit>
+    <unit id="69ux5Ml" name="Please enter an integer.">
+      <segment>
+        <source>Please enter an integer.</source>
+        <target>Veuillez saisir un entier.</target>
+      </segment>
+    </unit>
+    <unit id="TQbat_9" name="Please select a valid language.">
+      <segment>
+        <source>Please select a valid language.</source>
+        <target>Veuillez sélectionner une langue valide.</target>
+      </segment>
+    </unit>
+    <unit id="vpa7l8w" name="Please select a valid locale.">
+      <segment>
+        <source>Please select a valid locale.</source>
+        <target>Veuillez sélectionner une langue valide.</target>
+      </segment>
+    </unit>
+    <unit id="Gz8pWER" name="Please enter a valid money amount.">
+      <segment>
+        <source>Please enter a valid money amount.</source>
+        <target>Veuillez saisir un montant valide.</target>
+      </segment>
+    </unit>
+    <unit id="PRxiOhB" name="Please enter a number.">
+      <segment>
+        <source>Please enter a number.</source>
+        <target>Veuillez saisir un nombre.</target>
+      </segment>
+    </unit>
+    <unit id="seAdKJo" name="The password is invalid.">
+      <segment>
+        <source>The password is invalid.</source>
+        <target>Le mot de passe est invalide.</target>
+      </segment>
+    </unit>
+    <unit id="A5k0Q20" name="Please enter a percentage value.">
+      <segment>
+        <source>Please enter a percentage value.</source>
+        <target>Veuillez saisir un pourcentage valide.</target>
+      </segment>
+    </unit>
+    <unit id="rH6V.WA" name="The values do not match.">
+      <segment>
+        <source>The values do not match.</source>
+        <target>Les valeurs ne correspondent pas.</target>
+      </segment>
+    </unit>
+    <unit id="Eopl1Sm" name="Please enter a valid time.">
+      <segment>
+        <source>Please enter a valid time.</source>
+        <target>Veuillez saisir une heure valide.</target>
+      </segment>
+    </unit>
+    <unit id="ll14Sm9" name="Please select a valid timezone.">
+      <segment>
+        <source>Please select a valid timezone.</source>
+        <target>Veuillez sélectionner un fuseau horaire valide.</target>
+      </segment>
+    </unit>
+    <unit id="1xP1kmd" name="Please enter a valid URL.">
+      <segment>
+        <source>Please enter a valid URL.</source>
+        <target>Veuillez saisir une URL valide.</target>
+      </segment>
+    </unit>
+    <unit id="iMmAsrC" name="Please enter a valid search term.">
+      <segment>
+        <source>Please enter a valid search term.</source>
+        <target>Veuillez saisir un terme de recherche valide.</target>
+      </segment>
+    </unit>
+    <unit id="GRMTXRX" name="Please provide a valid phone number.">
+      <segment>
+        <source>Please provide a valid phone number.</source>
+        <target>Veuillez fournir un numéro de téléphone valide.</target>
+      </segment>
+    </unit>
+    <unit id="WkYuMDd" name="The checkbox has an invalid value.">
+      <segment>
+        <source>The checkbox has an invalid value.</source>
+        <target>La case à cocher a une valeur non valide.</target>
+      </segment>
+    </unit>
+    <unit id="lY5Mzyl" name="Please enter a valid email address.">
+      <segment>
+        <source>Please enter a valid email address.</source>
+        <target>Veuillez saisir une adresse email valide.</target>
+      </segment>
+    </unit>
+    <unit id="TzSC4.o" name="Please select a valid option.">
+      <segment>
+        <source>Please select a valid option.</source>
+        <target>Veuillez sélectionner une option valide.</target>
+      </segment>
+    </unit>
+    <unit id="qGRcTk7" name="Please select a valid range.">
+      <segment>
+        <source>Please select a valid range.</source>
+        <target>Veuillez sélectionner une plage valide.</target>
+      </segment>
+    </unit>
+    <unit id="PU.w6nC" name="Please enter a valid week.">
+      <segment>
+        <source>Please enter a valid week.</source>
+        <target>Veuillez entrer une semaine valide.</target>
+      </segment>
+    </unit>
     <unit id="7smtimf" name="0d999f2">
       <segment>
         <source>0d999f2</source>

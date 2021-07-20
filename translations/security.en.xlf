@@ -91,5 +91,17 @@
         <target>Account is locked.</target>
       </segment>
     </unit>
+    <unit id="gd.MOnZ" name="Too many failed login attempts, please try again later.">
+      <segment>
+        <source>Too many failed login attempts, please try again later.</source>
+        <target>Too many failed login attempts, please try again later.</target>
+      </segment>
+    </unit>
+    <unit id="l9VYRj0" name="Invalid or expired login link.">
+      <segment>
+        <source>Invalid or expired login link.</source>
+        <target>Invalid or expired login link.</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

@@ -745,6 +745,36 @@
         <target>Please provide a valid phone number.</target>
       </segment>
     </unit>
+    <unit id="WkYuMDd" name="The checkbox has an invalid value.">
+      <segment>
+        <source>The checkbox has an invalid value.</source>
+        <target>The checkbox has an invalid value.</target>
+      </segment>
+    </unit>
+    <unit id="lY5Mzyl" name="Please enter a valid email address.">
+      <segment>
+        <source>Please enter a valid email address.</source>
+        <target>Please enter a valid email address.</target>
+      </segment>
+    </unit>
+    <unit id="TzSC4.o" name="Please select a valid option.">
+      <segment>
+        <source>Please select a valid option.</source>
+        <target>Please select a valid option.</target>
+      </segment>
+    </unit>
+    <unit id="qGRcTk7" name="Please select a valid range.">
+      <segment>
+        <source>Please select a valid range.</source>
+        <target>Please select a valid range.</target>
+      </segment>
+    </unit>
+    <unit id="PU.w6nC" name="Please enter a valid week.">
+      <segment>
+        <source>Please enter a valid week.</source>
+        <target>Please enter a valid week.</target>
+      </segment>
+    </unit>
     <unit id="7smtimf" name="0d999f2">
       <segment>
         <source>0d999f2</source>
