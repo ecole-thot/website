@@ -1186,5 +1186,11 @@
         <target>__exam.more.test</target>
       </segment>
     </unit>
+    <unit id="0NLCiPE" name="home.qualiopy">
+      <segment>
+        <source>home.qualiopy</source>
+        <target>La certification qualité a été délivrée au titre de la catégorie d'action suivante : Actions de formation</target>
+      </segment>
+    </unit>
   </file>
 </xliff>
