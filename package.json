@@ -7,7 +7,7 @@
     "sass-loader": "^9.0.1",
     "semantic-ui-css": "^2.3.1",
     "standard": "github:standard/standard",
-    "webpack-notifier": "^1.8.0"
+    "webpack-notifier": "^1.15.0"
   },
   "license": "proprietary",
   "private": true,
