@@ -9,9 +9,9 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class ExamSession
 {
-    const TYPE_DILF = 1;
-    const TYPE_DELF_A1_A2 = 2;
-    const TYPE_DELF_B1 = 3;
+    public const TYPE_DILF = 1;
+    public const TYPE_DELF_A1_A2 = 2;
+    public const TYPE_DELF_B1 = 3;
 
     /**
      * @ORM\Id

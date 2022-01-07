@@ -1,4 +1,7 @@
 {
+    "composer/pcre": {
+        "version": "1.0.0"
+    },
     "composer/semver": {
         "version": "1.7.0"
     },
@@ -140,6 +143,9 @@
     "phpdocumentor/type-resolver": {
         "version": "1.4.0"
     },
+    "phpstan/phpdoc-parser": {
+        "version": "1.2.0"
+    },
     "pimple/pimple": {
         "version": "v3.3.0"
     },
@@ -208,9 +214,6 @@
         "files": [
             "config/packages/dev/debug.yaml"
         ]
-    },
-    "symfony/debug-pack": {
-        "version": "v1.0.8"
     },
     "symfony/dependency-injection": {
         "version": "v5.1.5"
@@ -354,9 +357,6 @@
     "symfony/process": {
         "version": "v5.1.5"
     },
-    "symfony/profiler-pack": {
-        "version": "v1.0.5"
-    },
     "symfony/property-access": {
         "version": "v5.1.5"
     },
@@ -403,9 +403,6 @@
     },
     "symfony/serializer": {
         "version": "v5.1.5"
-    },
-    "symfony/serializer-pack": {
-        "version": "v1.0.3"
     },
     "symfony/service-contracts": {
         "version": "v1.1.9"

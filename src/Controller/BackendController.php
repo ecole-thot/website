@@ -13,6 +13,7 @@ use App\Form\NewsItemType;
 use App\Form\PartnerType;
 use App\Form\PressItemType;
 use App\Form\TeamMemberType;
+use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Console\Input\ArrayInput;
@@ -36,14 +37,14 @@ class BackendController extends AbstractController
      *
      * @Route("/", name="admin_home", methods={"GET"})
      */
-    public function home(): Response
+    public function home(ManagerRegistry $doctrine): Response
     {
         // We need all settings
-        $settingsRaw = $this->getDoctrine()->getRepository(Setting::class)->findAll();
-        $partners = $this->getDoctrine()->getRepository(Partner::class)->findAll();
-        $members = $this->getDoctrine()->getRepository(TeamMember::class)->findAll();
-        $news = $this->getDoctrine()->getRepository(NewsItem::class)->findAll();
-        $press = $this->getDoctrine()->getRepository(PressItem::class)->findAll();
+        $settingsRaw = $doctrine->getRepository(Setting::class)->findAll();
+        $partners = $doctrine->getRepository(Partner::class)->findAll();
+        $members = $doctrine->getRepository(TeamMember::class)->findAll();
+        $news = $doctrine->getRepository(NewsItem::class)->findAll();
+        $press = $doctrine->getRepository(PressItem::class)->findAll();
 
         // Flatten settings array
         foreach ($settingsRaw as $setting) {
@@ -95,9 +96,9 @@ class BackendController extends AbstractController
      *
      * @Route("/revue/de/presse", name="admin_press", methods={"GET"})
      */
-    public function press(): Response
+    public function press(ManagerRegistry $doctrine): Response
     {
-        $pressItems = $this->getDoctrine()->getRepository(PressItem::class)->findBy([], ['publishedAt' => 'DESC']);
+        $pressItems = $doctrine->getRepository(PressItem::class)->findBy([], ['publishedAt' => 'DESC']);
 
         return $this->render('admin/press.html.twig', ['press' => $pressItems]);
     }
@@ -108,16 +109,18 @@ class BackendController extends AbstractController
      * @Route("/revue/de/presse/nouveau", name="admin_press_new", methods={"GET", "POST"}, defaults={"id"=null})
      * @Route("/revue/de/presse/edition/{id}", name="admin_press_edit", methods={"GET", "POST"})
      */
-    public function pressEdit(Request $request, ?int $id): Response
+    public function pressEdit(ManagerRegistry $doctrine, Request $request, ?int $id): Response
     {
         if ($id) {
-            $press = $this->getDoctrine()->getRepository(PressItem::class)->findOneById($id);
+            $press = $doctrine->getRepository(PressItem::class)->findOneById($id);
             if (!$press) {
                 throw new NotFoundHttpException();
             }
             if ($press->getDocument()) {
                 $previousDocument = $press->getDocument();
                 $press->setDocument(new File($this->getParameter('press_documents_directory').'/'.$press->getDocument()));
+            } else {
+                $previousDocument = null;
             }
         } else {
             $press = new PressItem();
@@ -143,7 +146,7 @@ class BackendController extends AbstractController
                 $press->setDocument($previousDocument);
             }
 
-            $em = $this->getDoctrine()->getManager();
+            $em = $doctrine->getManager();
             $em->persist($press);
             $em->flush();
 
@@ -161,9 +164,9 @@ class BackendController extends AbstractController
      *
      * @Route("/actualites", name="admin_news", methods={"GET"})
      */
-    public function news(): Response
+    public function news(ManagerRegistry $doctrine): Response
     {
-        $news = $this->getDoctrine()->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC']);
+        $news = $doctrine->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC']);
 
         return $this->render('admin/news.html.twig', ['news' => $news]);
     }
@@ -174,10 +177,10 @@ class BackendController extends AbstractController
      * @Route("/actualites/edit/new", name="admin_news_new", methods={"GET","POST"}, defaults={"id":null})
      * @Route("/actualites/edit/{id}", name="admin_news_edit", methods={"GET","POST"})
      */
-    public function newsEdit(Request $request, int $id = null): Response
+    public function newsEdit(ManagerRegistry $doctrine, Request $request, int $id = null): Response
     {
         if ($id) {
-            $news = $this->getDoctrine()->getRepository(NewsItem::class)->findOneById($id);
+            $news = $doctrine->getRepository(NewsItem::class)->findOneById($id);
             if (!$news) {
                 throw new NotFoundHttpException();
             }
@@ -237,7 +240,7 @@ class BackendController extends AbstractController
                 $news->setLinkedFile($linkedFile);
             }
 
-            $em = $this->getDoctrine()->getManager();
+            $em = $doctrine->getManager();
             $em->persist($news);
             $em->flush();
 
@@ -252,14 +255,14 @@ class BackendController extends AbstractController
      *
      * @Route("/actualites/suppression/{id}", name="admin_news_delete", methods={"GET"})
      */
-    public function newsDelete(Request $request, ?int $id): Response
+    public function newsDelete(ManagerRegistry $doctrine, Request $request, ?int $id): Response
     {
-        $news = $this->getDoctrine()->getRepository(NewsItem::class)->findOneById($id);
+        $news = $doctrine->getRepository(NewsItem::class)->findOneById($id);
         if (!$news) {
             throw new NotFoundHttpException();
         }
 
-        $em = $this->getDoctrine()->getManager();
+        $em = $doctrine->getManager();
         $em->remove($news);
         $em->flush();
 
@@ -271,9 +274,9 @@ class BackendController extends AbstractController
      *
      * @Route("/partenaires", name="admin_partners", methods={"GET"})
      */
-    public function partners(): Response
+    public function partners(ManagerRegistry $doctrine): Response
     {
-        $partners = $this->getDoctrine()->getRepository(Partner::class)->findAll();
+        $partners = $doctrine->getRepository(Partner::class)->findAll();
 
         return $this->render('admin/partners.html.twig', ['partners' => $partners]);
     }
@@ -284,10 +287,10 @@ class BackendController extends AbstractController
      * @Route("/partenaire/nouveau", name="admin_partner_new", methods={"GET", "POST"}, defaults={"id"=null})
      * @Route("/partenaire/edition/{id}", name="admin_partner_edit", methods={"GET", "POST"})
      */
-    public function partnerEdit(Request $request, ?int $id): Response
+    public function partnerEdit(ManagerRegistry $doctrine, Request $request, ?int $id): Response
     {
         if ($id) {
-            $partner = $this->getDoctrine()->getRepository(Partner::class)->findOneById($id);
+            $partner = $doctrine->getRepository(Partner::class)->findOneById($id);
             if (!$partner) {
                 throw new NotFoundHttpException();
             }
@@ -322,7 +325,7 @@ class BackendController extends AbstractController
                 $partner->setImage($image);
             }
 
-            $em = $this->getDoctrine()->getManager();
+            $em = $doctrine->getManager();
             $em->persist($partner);
             $em->flush();
 
@@ -341,14 +344,14 @@ class BackendController extends AbstractController
      *
      * @Route("/partenaire/suppression/{id}", name="admin_partner_delete", methods={"GET", "POST"})
      */
-    public function partnerDelete(Request $request, ?int $id): Response
+    public function partnerDelete(ManagerRegistry $doctrine, Request $request, ?int $id): Response
     {
-        $partner = $this->getDoctrine()->getRepository(Partner::class)->findOneById($id);
+        $partner = $doctrine->getRepository(Partner::class)->findOneById($id);
         if (!$partner) {
             throw new NotFoundHttpException();
         }
 
-        $em = $this->getDoctrine()->getManager();
+        $em = $doctrine->getManager();
         $em->remove($partner);
         $em->flush();
 
@@ -360,9 +363,9 @@ class BackendController extends AbstractController
      *
      * @Route("/examens", name="admin_examens", methods={"GET"})
      */
-    public function examDates(): Response
+    public function examDates(ManagerRegistry $doctrine): Response
     {
-        $sessions = $this->getDoctrine()->getRepository(ExamSession::class)->findAll();
+        $sessions = $doctrine->getRepository(ExamSession::class)->findAll();
 
         return $this->render('admin/examSessions.html.twig', ['sessions' => $sessions]);
     }
@@ -373,10 +376,10 @@ class BackendController extends AbstractController
      * @Route("/examens/nouveau", name="admin_examen_new", methods={"GET", "POST"}, defaults={"id"=null})
      * @Route("/examens/edition/{id}", name="admin_examen_edit", methods={"GET", "POST"})
      */
-    public function examDateEdit(Request $request, ?int $id): Response
+    public function examDateEdit(ManagerRegistry $doctrine, Request $request, ?int $id): Response
     {
         if ($id) {
-            $session = $this->getDoctrine()->getRepository(ExamSession::class)->findOneById($id);
+            $session = $doctrine->getRepository(ExamSession::class)->findOneById($id);
             if (!$session) {
                 throw new NotFoundHttpException();
             }
@@ -388,7 +391,7 @@ class BackendController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
+            $em = $doctrine->getManager();
             $em->persist($session);
             $em->flush();
 
@@ -406,14 +409,14 @@ class BackendController extends AbstractController
      *
      * @Route("/examens/suppression/{id}", name="admin_examen_delete", methods={"GET", "POST"})
      */
-    public function examDateDelete(Request $request, ?int $id): Response
+    public function examDateDelete(ManagerRegistry $doctrine, Request $request, ?int $id): Response
     {
-        $partner = $this->getDoctrine()->getRepository(Partner::class)->findOneById($id);
+        $partner = $doctrine->getRepository(Partner::class)->findOneById($id);
         if (!$partner) {
             throw new NotFoundHttpException();
         }
 
-        $em = $this->getDoctrine()->getManager();
+        $em = $doctrine->getManager();
         $em->remove($partner);
         $em->flush();
 
@@ -425,9 +428,9 @@ class BackendController extends AbstractController
      *
      * @Route("/equipe", name="admin_members", methods={"GET"})
      */
-    public function members(): Response
+    public function members(ManagerRegistry $doctrine): Response
     {
-        $members = $this->getDoctrine()->getRepository(TeamMember::class)->findAll();
+        $members = $doctrine->getRepository(TeamMember::class)->findAll();
 
         return $this->render('admin/members.html.twig', ['members' => $members]);
     }
@@ -438,10 +441,10 @@ class BackendController extends AbstractController
      * @Route("/equipe/nouveau", name="admin_member_new", methods={"GET", "POST"}, defaults={"id"=null})
      * @Route("/equipe/edition/{id}", name="admin_member_edit", methods={"GET", "POST"})
      */
-    public function membersEdit(Request $request, ?int $id): Response
+    public function membersEdit(ManagerRegistry $doctrine, Request $request, ?int $id): Response
     {
         if ($id) {
-            $member = $this->getDoctrine()->getRepository(TeamMember::class)->findOneById($id);
+            $member = $doctrine->getRepository(TeamMember::class)->findOneById($id);
             if (!$member) {
                 throw new NotFoundHttpException();
             }
@@ -476,7 +479,7 @@ class BackendController extends AbstractController
                 $member->setImage($image);
             }
 
-            $em = $this->getDoctrine()->getManager();
+            $em = $doctrine->getManager();
             $em->persist($member);
             $em->flush();
 
@@ -495,14 +498,14 @@ class BackendController extends AbstractController
      *
      * @Route("/equipe/suppression/{id}", name="admin_member_delete", methods={"GET", "POST"})
      */
-    public function memberDelete(Request $request, ?int $id): Response
+    public function memberDelete(ManagerRegistry $doctrine, Request $request, ?int $id): Response
     {
-        $member = $this->getDoctrine()->getRepository(TeamMember::class)->findOneById($id);
+        $member = $doctrine->getRepository(TeamMember::class)->findOneById($id);
         if (!$member) {
             throw new NotFoundHttpException();
         }
 
-        $em = $this->getDoctrine()->getManager();
+        $em = $doctrine->getManager();
         $em->remove($member);
         $em->flush();
 
@@ -514,10 +517,10 @@ class BackendController extends AbstractController
      *
      * @Route("/inscriptions", name="admin_inscriptions", methods={"GET"})
      */
-    public function inscriptions(): Response
+    public function inscriptions(ManagerRegistry $doctrine): Response
     {
         // We need all settings
-        $settingsRaw = $this->getDoctrine()->getRepository(Setting::class)->findAll();
+        $settingsRaw = $doctrine->getRepository(Setting::class)->findAll();
 
         // Flatten settings array
         foreach ($settingsRaw as $setting) {
@@ -534,10 +537,10 @@ class BackendController extends AbstractController
      *
      * @param mixed $status
      */
-    public function inscriptionsToggle(string $which, $status): Response
+    public function inscriptionsToggle(ManagerRegistry $doctrine, string $which, $status): Response
     {
         // We need all settings
-        $setting = $this->getDoctrine()->getRepository(Setting::class)->findOneBySlug($which);
+        $setting = $doctrine->getRepository(Setting::class)->findOneBySlug($which);
 
         if (!$setting) {
             throw new NotFoundHttpException();
@@ -545,7 +548,7 @@ class BackendController extends AbstractController
 
         $setting->setValue($status);
 
-        $em = $this->getDoctrine()->getManager();
+        $em = $doctrine->getManager();
         $em->flush();
 
         return $this->redirectToRoute('admin_inscriptions');
@@ -556,10 +559,10 @@ class BackendController extends AbstractController
      *
      * @Route("/settings/values", name="admin_settings_values", methods={"POST"})
      */
-    public function settingsValues(Request $request): Response
+    public function settingsValues(ManagerRegistry $doctrine, Request $request): Response
     {
         // We need all settings
-        $settings = $this->getDoctrine()->getRepository(Setting::class)->findAll();
+        $settings = $doctrine->getRepository(Setting::class)->findAll();
 
         foreach ($request->request as $key => $data) {
             foreach ($settings as $setting) {
@@ -569,7 +572,7 @@ class BackendController extends AbstractController
             }
         }
 
-        $em = $this->getDoctrine()->getManager();
+        $em = $doctrine->getManager();
         $em->flush();
 
         return new Response($this->generateUrl('admin_inscriptions'));

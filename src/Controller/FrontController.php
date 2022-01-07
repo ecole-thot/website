@@ -8,6 +8,7 @@ use App\Entity\Partner;
 use App\Entity\PressItem;
 use App\Entity\Setting;
 use App\Entity\TeamMember;
+use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -20,9 +21,9 @@ use Symfony\Component\Routing\Annotation\Route;
  */
 class FrontController extends AbstractController
 {
-    private function getAllSettings(): array
+    private function getAllSettings(ManagerRegistry $doctrine): array
     {
-        $settingsRaw = $this->getDoctrine()->getRepository(Setting::class)->findAll();
+        $settingsRaw = $doctrine->getRepository(Setting::class)->findAll();
 
         // Flatten settings array
         $settings = [];
@@ -38,13 +39,13 @@ class FrontController extends AbstractController
      *
      * @Route("/", name="home", methods={"GET"})
      */
-    public function home(): Response
+    public function home(ManagerRegistry $doctrine): Response
     {
         // We need all partners
-        $partners = $this->getDoctrine()->getRepository(Partner::class)->findAll();
+        $partners = $doctrine->getRepository(Partner::class)->findAll();
 
         return $this->render('front/home.html.twig', [
-            'settings' => $this->getAllSettings(),
+            'settings' => $this->getAllSettings($doctrine),
             'partners' => $partners,
         ]);
     }
@@ -54,7 +55,7 @@ class FrontController extends AbstractController
      *
      * @Route("/centre-examen", name="examination_center", methods={"GET", "POST"})
      */
-    public function examinationCenter(Request $request, \Swift_Mailer $mailer): Response
+    public function examinationCenter(ManagerRegistry $doctrine, Request $request, \Swift_Mailer $mailer): Response
     {
         $info = null;
 
@@ -108,7 +109,7 @@ class FrontController extends AbstractController
         }
 
         // We need all future session dates
-        $dates = $this->getDoctrine()->getRepository(ExamSession::class)->findAllFutureSessions();
+        $dates = $doctrine->getRepository(ExamSession::class)->findAllFutureSessions();
 
         // Now group by type
         $sessions = [];
@@ -121,7 +122,7 @@ class FrontController extends AbstractController
 
         return $this->render('front/examinationCenter.html.twig', [
             'sessions' => $sessions,
-            'settings' => $this->getAllSettings(),
+            'settings' => $this->getAllSettings($doctrine),
             'info' => $info,
         ]);
     }
@@ -134,12 +135,12 @@ class FrontController extends AbstractController
      *
      * @param mixed $_route
      */
-    public function news($_route, int $page): Response
+    public function news(ManagerRegistry $doctrine, $_route, int $page): Response
     {
         if ('news' == $_route) {
-            $lastNews = $this->getDoctrine()->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC']);
+            $lastNews = $doctrine->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC']);
 
-            $reviews = $this->getDoctrine()->getRepository(PressItem::class)->findBy([], ['publishedAt' => 'DESC']);
+            $reviews = $doctrine->getRepository(PressItem::class)->findBy([], ['publishedAt' => 'DESC']);
 
             // Order by year
             $reviewsByYear = [];
@@ -156,7 +157,7 @@ class FrontController extends AbstractController
                 'reviews' => $reviewsByYear,
             ]);
         } else {
-            $lastNews = $this->getDoctrine()->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC'], 4, $page * 4 + 1);
+            $lastNews = $doctrine->getRepository(NewsItem::class)->findBy([], ['publishedAt' => 'DESC'], 4, $page * 4 + 1);
 
             return $this->render('_partials/articles.html.twig', [
                 'articles' => $lastNews,
@@ -169,16 +170,16 @@ class FrontController extends AbstractController
      *
      * @Route("/actualites/{id}", name="news_article", methods={"GET"})
      */
-    public function newsArticle(int $id): Response
+    public function newsArticle(ManagerRegistry $doctrine, int $id): Response
     {
-        $news = $this->getDoctrine()->getRepository(NewsItem::class)->findOneById($id);
+        $news = $doctrine->getRepository(NewsItem::class)->findOneById($id);
 
         if (!$news) {
             return $this->redirectToRoute('news');
         }
 
         // On the same theme
-        $sameThemeNewsRaw = $this->getDoctrine()->getRepository(NewsItem::class)->findBy(['theme' => $news->getTheme()], ['publishedAt' => 'DESC'], 2);
+        $sameThemeNewsRaw = $doctrine->getRepository(NewsItem::class)->findBy(['theme' => $news->getTheme()], ['publishedAt' => 'DESC'], 2);
 
         $sameThemeNews = [];
         // Remove the actual news
@@ -199,9 +200,9 @@ class FrontController extends AbstractController
      *
      * @Route("/l-ecole", name="school", methods={"GET"})
      */
-    public function school(): Response
+    public function school(ManagerRegistry $doctrine): Response
     {
-        $members = $this->getDoctrine()->getRepository(TeamMember::class)->findBy([], ['sortingOrder' => 'ASC']);
+        $members = $doctrine->getRepository(TeamMember::class)->findBy([], ['sortingOrder' => 'ASC']);
 
         return $this->render('front/school.html.twig', ['members' => $members]);
     }
@@ -282,10 +283,10 @@ class FrontController extends AbstractController
      *
      * @Route("/recrutement", name="jobs", methods={"GET"})
      */
-    public function jobs(): Response
+    public function jobs(ManagerRegistry $doctrine): Response
     {
         return $this->render('front/jobs.html.twig', [
-            'settings' => $this->getAllSettings(),
+            'settings' => $this->getAllSettings($doctrine),
         ]);
     }
 

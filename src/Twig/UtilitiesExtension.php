@@ -17,7 +17,7 @@ class UtilitiesExtension extends AbstractExtension
     /**
      * {@inheritdoc}
      */
-    public function getFilters()
+    public function getFilters(): array
     {
         return [
             new TwigFilter('localizeddate', [$this, 'generateLocalizedDate'], ['needs_environment' => true]),
@@ -27,7 +27,7 @@ class UtilitiesExtension extends AbstractExtension
     /**
      * {@inheritdoc}
      */
-    public function getFunctions()
+    public function getFunctions(): array
     {
         return [];
     }
