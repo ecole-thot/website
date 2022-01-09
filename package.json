@@ -5,7 +5,7 @@
     "node-sass": "^7.0.1",
     "quill": "^1.3.7",
     "sass-loader": "^12.0",
-    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-css": "^2.4",
     "standard": "github:standard/standard"
   },
   "license": "proprietary",
