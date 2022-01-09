@@ -1,6 +1,6 @@
-# THOT Website — v2 / 2018-2019
+# THOT Website — v2 / 2018-2021
 
-Based on Symfony 4 + Webpack
+Based on Symfony 5 + Webpack
 
 #### To install dependencies
 
