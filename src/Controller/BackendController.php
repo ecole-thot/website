@@ -219,7 +219,7 @@ class BackendController extends AbstractController
                 }
 
                 $news->setImage($imageFileName);
-            } else {
+            } elseif (isset($image)) {
                 $news->setImage($image);
             }
 
@@ -236,7 +236,7 @@ class BackendController extends AbstractController
                 }
 
                 $news->setLinkedFile($linkedFileName);
-            } else {
+            } elseif (isset($linkedFile)) {
                 $news->setLinkedFile($linkedFile);
             }
 
@@ -321,7 +321,7 @@ class BackendController extends AbstractController
                 }
 
                 $partner->setImage($fileName);
-            } else {
+            } elseif (isset($image)) {
                 $partner->setImage($image);
             }
 
