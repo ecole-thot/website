@@ -103,5 +103,17 @@
         <target>رابط تسجيل الدخول غير صالح أو منتهي الصلاحية.</target>
       </segment>
     </unit>
+    <unit id="9qGC3hG" name="Too many failed login attempts, please try again in %minutes% minute.">
+      <segment>
+        <source>Too many failed login attempts, please try again in %minutes% minute.</source>
+        <target>عدد كبير جدا من محاولات الدخول الفاشلة، يرجى اعادة المحاولة بعد %minutes% دقيقة.</target>
+      </segment>
+    </unit>
+    <unit id="AJR3lMs" name="Too many failed login attempts, please try again in %minutes% minutes.">
+      <segment>
+        <source>Too many failed login attempts, please try again in %minutes% minutes.</source>
+        <target>عدد كبير جدا من محاولات الدخول الفاشلة، يرجى اعادة المحاولة بعد %minutes% دقيقة.</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

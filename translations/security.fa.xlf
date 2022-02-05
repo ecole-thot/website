@@ -103,5 +103,17 @@
         <target>لینک ورود نامعتبر یا تاریخ‌گذشته است.</target>
       </segment>
     </unit>
+    <unit id="9qGC3hG" name="Too many failed login attempts, please try again in %minutes% minute.">
+      <segment>
+        <source>Too many failed login attempts, please try again in %minutes% minute.</source>
+        <target>تلاش‌های ناموفق زیادی برای ورود صورت گرفته است، لطفاً %minutes% دقیقه دیگر دوباره امتحان کنید.</target>
+      </segment>
+    </unit>
+    <unit id="AJR3lMs" name="Too many failed login attempts, please try again in %minutes% minutes.">
+      <segment>
+        <source>Too many failed login attempts, please try again in %minutes% minutes.</source>
+        <target>تلاش‌های ناموفق زیادی برای ورود صورت گرفته است، لطفاً %minutes% دقیقه دیگر دوباره امتحان کنید.</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

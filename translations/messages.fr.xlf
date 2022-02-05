@@ -112,7 +112,7 @@
     <unit id="25GXUyE" name="inscriptions.know.more">
       <segment>
         <source>inscriptions.know.more</source>
-        <target>En savoir plus sur les inscriptions (attention, modifications dues au Covid-19)</target>
+        <target>En savoir plus sur les inscriptions</target>
       </segment>
     </unit>
     <unit id="S9k1S7Z" name="warning">
@@ -136,8 +136,8 @@
     <unit id="VLfgfuY" name="warning.closed">
       <segment>
         <source>warning.closed</source>
-        <target>La pandémie de Covid-19 ne nous permet pas d’organiser la session de cours de juin à octobre comme nous l’espérions, nous n’aurons que très peu de places à pourvoir, les étudiants de la session précédente - qui n’ont pas pu terminer leur formation - étant prioritaires. Les inscriptions en ligne du 12 mai 2020 sont donc annulées, nous en sommes profondément navrés. 
-Les prochaines inscriptions en ligne concerneront la session de formation du 16 novembre 2020 au 4 mars 2021. Les inscriptions pour la session de novembre 2020 seront ouvertes du 6 octobre 2020 à 11h au 8 octobre 2020 à 11h. Il n’y a pas de document à fournir pour s’inscrire. Lors des inscriptions précédentes, nous avons reçu plus de 800 candidatures pour une soixantaines de places (au total nous accueillons 105 étudiants), ainsi nous demandons aux associations/centre d'hébergement et soutiens de migrants, de ne pas inscrire plus de 4 personnes.</target>
+        <target>Ce formulaire restera ouvert 48 heures - du 1er février à 11h au 3 février à 11h - quel que soit le nombre de candidatures enregistrées.
+La formation Thot est de 10 heures par semaine pendant 16 semaines, du 14 mars 2022 au 30 juin 2022. Lors des inscriptions précédentes, nous avons reçu plus de 800 candidatures pour une quarantaine de places, ainsi nous demandons aux associations/centre d'hébergement et soutiens de migrants, de ne pas inscrire plus de 4 personnes.</target>
       </segment>
     </unit>
     <unit id="mzXEXUg" name="warning.closed.2">
@@ -210,7 +210,7 @@ Les prochaines inscriptions en ligne concerneront la session de formation du 16 
     <unit id="36whLxz" name="inscription.next">
       <segment>
         <source>inscription.next</source>
-        <target>RDV le %date% pour vous inscrire (Covid-19 : infos ci-dessous)</target>
+        <target>RDV le %date% pour vous inscrire</target>
       </segment>
     </unit>
     <unit id="ro0hUeD" name="engaged.every.day">

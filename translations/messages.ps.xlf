@@ -440,7 +440,7 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="25GXUyE" name="inscriptions.know.more">
       <segment>
         <source>inscriptions.know.more</source>
-        <target>د ثبت  نام په اړه د لا زیاتو معلوماتو لپاره (beware : modifications due to Covid-19)</target>
+        <target>د ثبت  نام په اړه د لا زیاتو معلوماتو لپاره </target>
       </segment>
     </unit>
     <unit id="jkAv0mB" name="from.date">
@@ -494,7 +494,7 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="36whLxz" name="inscription.next">
       <segment>
         <source>inscription.next</source>
-        <target>%date% نوم لیکنه به پرانیستل شي (Covid-19 : informations below)</target>
+        <target>%date% نوم لیکنه به پرانیستل شي </target>
       </segment>
     </unit>
     <unit id="c1zwxoc" name="who.can.study">
@@ -987,10 +987,8 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="VLfgfuY" name="warning.closed">
       <segment>
         <source>warning.closed</source>
-        <target>COVID- 19 موږ د جون څخه تر اکتوبر پورې د کورس ناستې تنظیم کولو څخه مخنیوی کوو لکه څنګه چې موږ پلان کړی و. د جون کورسونو لپاره ، د تیرې دورې زده کونکي - څوک چې نشي کولی د دوی روزنې بشپړ کړي - لومړیتوب لري نو موږ به د نوي زده کونکو لپاره ډیر لږ ځایونه ولرو.
-د می 12 ، 2020 لپاره آنلاین ثبتونه له همدې امله فسخ شوي ، موږ په ژوره بخښنه غواړو. راتلونکی آنلاین راجسټریشن به دد نومبر 16 ، 2020 څخه تر مارچ 4 ، 2021 پورې پورې د روزنې ناستې لپاره وي.
-د نومبر غونډې لپاره نوم لیکنه به د  6 اکتوبر  2020 کې د سهار له 11 څخه د 8 اکتوبر ، 2020 په 11 بجی سهر به خلاصه وي.
-د ثبت کولو لپاره هیڅ سند تہ ضرورت نلري. د پخوانیو ثبتونو په جریان کې، موږ د ٧٠ ځایونو څخه له ٨٠٠ څخه زیاتې غوښتنلیکونه ترلاسه کړل (په مجموع کې موږ ١١٢ زده کونکي شامل کړى وو), له همدې کبله موږ د اتحادیې / هستوګنې مرکزونه او رضاکاران غواړو، چې د 4 څخه زیات وګړي راجستر نکړو</target>
+        <target>دا فورمه به د 48 ساعتونو لپاره خلاص وي - د فبروري له 1 څخه د سهار له 11:00 بجو څخه د فبروري 3 تر 11:00 بجو پورې - پرته له دې چې سپارل شوي غوښتنلیکونو شمیر ته پام وکړي.
+روزنه د 16 اونیو لپاره په اونۍ کې 10 ساعته ده د 14 مارچ 2022 څخه تر 2022 جون 30. په تیرو رجسټریشنونو کې موږ د نږدې 40 ځایونو لپاره له 800 څخه ډیر غوښتنلیکونه ترلاسه کړي دي او له همدې امله موږ د اتحادیې / سرپناه او د مرستې غوښتنه کوو. د کډوالو مرکزونه له څلورو څخه زیات کسان نه راجستر کوي</target>
       </segment>
     </unit>
     <unit id="mzXEXUg" name="warning.closed.2">
