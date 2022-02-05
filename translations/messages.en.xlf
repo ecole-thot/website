@@ -1064,115 +1064,115 @@ To reinforce this commitment, the form must be completed by the candidate himsel
     <unit id="5OIyQCp" name="exam.title">
       <segment>
         <source>exam.title</source>
-        <target>__exam.title</target>
+        <target>Thot exam centre</target>
       </segment>
     </unit>
     <unit id="kE1nnIk" name="exam.mission">
       <segment>
         <source>exam.mission</source>
-        <target>__exam.mission</target>
+        <target>Candidate or association, take the DILF and DELF exam with Thot!</target>
       </segment>
     </unit>
     <unit id="v75Zl5k" name="exam.intro">
       <segment>
         <source>exam.intro</source>
-        <target>__exam.intro</target>
+        <target>Exam center contact : </target>
       </segment>
     </unit>
     <unit id="VpHjGA0" name="exam.text.1">
       <segment>
         <source>exam.text.1</source>
-        <target>__exam.text.1</target>
+        <target>Thot association has the approval to be an examination center issued by France Education International (FEI, ex CIEP) for the DILF (Diplôme Initial de Langue Française) and DELF (Diplôme d'Études en Langue Française) diploma for levels A1, A2 and B1. Our examination center is open to external candidates.</target>
       </segment>
     </unit>
     <unit id="cjZ_tiZ" name="exam.text.warning">
       <segment>
         <source>exam.text.warning</source>
-        <target>__exam.text.warning</target>
+        <target>Warning</target>
       </segment>
     </unit>
     <unit id="a1w4GbT" name="exam.text.2">
       <segment>
         <source>exam.text.2</source>
-        <target>__exam.text.2</target>
+        <target>registrations for taking exams at Thot examination center are different from registrations at Thot school.</target>
       </segment>
     </unit>
     <unit id="Y2J8mIm" name="exam.level.title">
       <segment>
         <source>exam.level.title</source>
-        <target>__exam.level.title</target>
+        <target>Levels</target>
       </segment>
     </unit>
     <unit id="d_VlP2f" name="exam.text.dilf">
       <segment>
         <source>exam.text.dilf</source>
-        <target>__exam.text.dilf</target>
+        <target>The DILF is a diploma in French as a foreign language assessing early learning (level A1.1 of the Common European Framework of Reference for Languages of the Council of Europe). It allows the validation of the first level of proficiency in French.</target>
       </segment>
     </unit>
     <unit id="htQGlY9" name="exam.text.delf">
       <segment>
         <source>exam.text.delf</source>
-        <target>__exam.text.delf</target>
+        <target>The DELF is an official diploma issued by the French Ministry of National Education, to certify the skills in French of foreign candidates and French people from a non-French-speaking country and not holding a French public secondary or higher education diploma. Thot has approval for the 3 diplomas corresponding to the first 3 levels described by the CECR: DELF A1, DELF A2, DELF B1 and DELF B2.</target>
       </segment>
     </unit>
     <unit id="GRVfRmJ" name="exam.dates.title">
       <segment>
         <source>exam.dates.title</source>
-        <target>__exam.dates.title</target>
+        <target>Dates</target>
       </segment>
     </unit>
     <unit id="93u5Lmq" name="exam.dates.text">
       <segment>
         <source>exam.dates.text</source>
-        <target>__exam.dates.text</target>
+        <target>The next exam dates are as follows:</target>
       </segment>
     </unit>
     <unit id="FcR2RHk" name="exam.session.date">
       <segment>
         <source>exam.session.date</source>
-        <target>__exam.session.date</target>
+        <target>Session of %date%</target>
       </segment>
     </unit>
     <unit id="FD62HYE" name="exam.session.closed">
       <segment>
         <source>exam.session.closed</source>
-        <target>__exam.session.closed</target>
+        <target>Inscriptions fermées</target>
       </segment>
     </unit>
     <unit id="AeSVFlk" name="exam.session.until">
       <segment>
         <source>exam.session.until</source>
-        <target>__exam.session.until</target>
+        <target>Registrations until %date%</target>
       </segment>
     </unit>
     <unit id="qSVIGD4" name="exam.infos.title">
       <segment>
         <source>exam.infos.title</source>
-        <target>__exam.infos.title</target>
+        <target>Registration and information</target>
       </segment>
     </unit>
     <unit id="246tkOM" name="contact.subject.exam.inscription">
       <segment>
         <source>contact.subject.exam.inscription</source>
-        <target>__contact.subject.exam.inscription</target>
+        <target>Application for registration for an exam</target>
       </segment>
     </unit>
     <unit id="Op3LXTZ" name="contact.subject.exam.info">
       <segment>
         <source>contact.subject.exam.info</source>
-        <target>__contact.subject.exam.info</target>
+        <target>Request for information on the examination center</target>
       </segment>
     </unit>
     <unit id="77id867" name="exam.more.title">
       <segment>
         <source>exam.more.title</source>
-        <target>__exam.more.title</target>
+        <target>Learn more about the different levels</target>
       </segment>
     </unit>
     <unit id="WvDJeXX" name="exam.more.understand">
       <segment>
         <source>exam.more.understand</source>
-        <target>__exam.more.understand</target>
+        <target>Understand the different levels of the DELF</target>
       </segment>
     </unit>
     <unit id="fKxeJyW" name="exam.more.test">

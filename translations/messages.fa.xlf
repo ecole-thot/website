@@ -1070,121 +1070,121 @@
     <unit id="_qANUZf" name="menu.exam">
       <segment>
         <source>menu.exam</source>
-        <target>__menu.exam</target>
+        <target>مرکز معاینه</target>
       </segment>
     </unit>
     <unit id="5OIyQCp" name="exam.title">
       <segment>
         <source>exam.title</source>
-        <target>__exam.title</target>
+        <target>مرکز امتحانات Thot</target>
       </segment>
     </unit>
     <unit id="kE1nnIk" name="exam.mission">
       <segment>
         <source>exam.mission</source>
-        <target>__exam.mission</target>
+        <target>نامزد یا انجمن ، در DILF و DELF با Thot شرکت کنید!</target>
       </segment>
     </unit>
     <unit id="v75Zl5k" name="exam.intro">
       <segment>
         <source>exam.intro</source>
-        <target>__exam.intro</target>
+        <target>تماس با مرکز آزمون:</target>
       </segment>
     </unit>
     <unit id="VpHjGA0" name="exam.text.1">
       <segment>
         <source>exam.text.1</source>
-        <target>__exam.text.1</target>
+        <target>انجمن Thot دارای تاییدیه مرکز امتحانی است که توسط France Education International (FEI ، CIEP سابق) برای DILF (دیپلم اولیه زبان فرانسه) و DELF (دیپلم زبان فرانسه) برای A1 ، A2 و B1 صادر شده است. مرکز آزمون ما برای داوطلبان خارجی آزاد است.</target>
       </segment>
     </unit>
     <unit id="cjZ_tiZ" name="exam.text.warning">
       <segment>
         <source>exam.text.warning</source>
-        <target>__exam.text.warning</target>
+        <target>هشدار</target>
       </segment>
     </unit>
     <unit id="a1w4GbT" name="exam.text.2">
       <segment>
         <source>exam.text.2</source>
-        <target>__exam.text.2</target>
+        <target>لطفا توجه داشته باشید: ثبت نام برای شرکت در امتحانات در مرکز آزمون Thot با ثبت نام در مدرسه Thot متفاوت است.</target>
       </segment>
     </unit>
     <unit id="Y2J8mIm" name="exam.level.title">
       <segment>
         <source>exam.level.title</source>
-        <target>__exam.level.title</target>
+        <target>سطح</target>
       </segment>
     </unit>
     <unit id="d_VlP2f" name="exam.text.dilf">
       <segment>
         <source>exam.text.dilf</source>
-        <target>__exam.text.dilf</target>
+        <target>DILF یک مدرک دیپلم در فرانسه به عنوان یک زبان خارجی است که یادگیری اولیه را ارزیابی می کند (سطح A1.1 CECRL). این اولین سطح تسلط بر زبان فرانسه را تأیید می کند.</target>
       </segment>
     </unit>
     <unit id="htQGlY9" name="exam.text.delf">
       <segment>
         <source>exam.text.delf</source>
-        <target>__exam.text.delf</target>
+        <target>DELF یک دیپلم رسمی است که توسط وزارت آموزش ملی برای تأیید مهارت فرانسوی نامزدهای خارجی صادر شده است. Thot می تواند 3 سطح اول توصیف شده توسط CEFR را ارائه دهد: DELF A1 ، DELF A2 و DELF B1.</target>
       </segment>
     </unit>
     <unit id="GRVfRmJ" name="exam.dates.title">
       <segment>
         <source>exam.dates.title</source>
-        <target>__exam.dates.title</target>
+        <target>تاریخ</target>
       </segment>
     </unit>
     <unit id="93u5Lmq" name="exam.dates.text">
       <segment>
         <source>exam.dates.text</source>
-        <target>__exam.dates.text</target>
+        <target>تاریخ امتحانات بعدی به شرح زیر است</target>
       </segment>
     </unit>
     <unit id="FcR2RHk" name="exam.session.date">
       <segment>
         <source>exam.session.date</source>
-        <target>__exam.session.date</target>
+        <target>Session du %date%</target>
       </segment>
     </unit>
     <unit id="FD62HYE" name="exam.session.closed">
       <segment>
         <source>exam.session.closed</source>
-        <target>__exam.session.closed</target>
+        <target>Inscriptions fermées</target>
       </segment>
     </unit>
     <unit id="AeSVFlk" name="exam.session.until">
       <segment>
         <source>exam.session.until</source>
-        <target>__exam.session.until</target>
+        <target>Inscriptions jusqu'au %date%</target>
       </segment>
     </unit>
     <unit id="qSVIGD4" name="exam.infos.title">
       <segment>
         <source>exam.infos.title</source>
-        <target>__exam.infos.title</target>
+        <target>ثبت نام و اطلاعات</target>
       </segment>
     </unit>
     <unit id="246tkOM" name="contact.subject.exam.inscription">
       <segment>
         <source>contact.subject.exam.inscription</source>
-        <target>__contact.subject.exam.inscription</target>
+        <target>درخواست ثبت نام در آزمون</target>
       </segment>
     </unit>
     <unit id="Op3LXTZ" name="contact.subject.exam.info">
       <segment>
         <source>contact.subject.exam.info</source>
-        <target>__contact.subject.exam.info</target>
+        <target>درباره مرکز امتحان اطلاعات بخواهید</target>
       </segment>
     </unit>
     <unit id="77id867" name="exam.more.title">
       <segment>
         <source>exam.more.title</source>
-        <target>__exam.more.title</target>
+        <target>درباره سطوح مختلف اطلاعات بیشتری کسب کنید</target>
       </segment>
     </unit>
     <unit id="WvDJeXX" name="exam.more.understand">
       <segment>
         <source>exam.more.understand</source>
-        <target>__exam.more.understand</target>
+        <target>سطح مختلف DELF را درک کنید:</target>
       </segment>
     </unit>
     <unit id="fKxeJyW" name="exam.more.test">
