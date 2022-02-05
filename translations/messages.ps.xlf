@@ -1192,7 +1192,7 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
     <unit id="fKxeJyW" name="exam.more.test">
       <segment>
         <source>exam.more.test</source>
-        <target>__exam.more.test</target>
+        <target>خپلې کچې معاینه کړئ.</target>
       </segment>
     </unit>
     <unit id="0NLCiPE" name="home.qualiopy">

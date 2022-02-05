@@ -1178,7 +1178,7 @@ To reinforce this commitment, the form must be completed by the candidate himsel
     <unit id="fKxeJyW" name="exam.more.test">
       <segment>
         <source>exam.more.test</source>
-        <target>__exam.more.test</target>
+        <target>Test your level!</target>
       </segment>
     </unit>
     <unit id="0NLCiPE" name="home.qualiopy">

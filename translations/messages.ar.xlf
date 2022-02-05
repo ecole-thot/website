@@ -1181,7 +1181,7 @@
     <unit id="fKxeJyW" name="exam.more.test">
       <segment>
         <source>exam.more.test</source>
-        <target>__exam.more.test</target>
+        <target>Testez votre niveau !</target>
       </segment>
     </unit>
     <unit id="0NLCiPE" name="home.qualiopy">
