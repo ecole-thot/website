@@ -136,6 +136,12 @@ VALUES
     (78, 'Une école pour migrants gratuite et diplômante pourrait voir le jour en France', 'Libération', 'liberation', '2016-04-18', 'http://www.liberation.fr/direct/element/une-ecole-pour-migrants-gratuite-et-diplomante-pourrait-voir-le-jour-en-france_35401/', NULL),
     (79, 'Chronique « Ma Parole » : Interview d\'Imaad Ali, directeur pédagogique de l\'école Thot - 17\'55', 'RFI', 'rfi', '2016-04-18', 'http://www.rfi.fr/emission/20160418-institut-francais-bucarest', NULL),
     (80, 'Chronique « Ma Parole » : on vous présente Thot', 'Émission « Danse avec les mots »', 'rfi', '2016-04-11', 'https://savoirs.rfi.fr/fr/communaute/langue-francaise/ma-parole-on-vous-presente-thot', NULL),
+    (86, 'Heloise Nio. Etorkinen aldean', 'Argia', NULL, '2017-04-30', NULL, 'ArticleArgia-Thot-Heloise-Nio.pdf'),
+    (85, 'De l\'exil à l\'ancrage linguistique', 'Magazine Mémoire - Centre Primo Levi', NULL, '2018-04-01', NULL, 'CPLmagazinememoiren72-BD-18-18.pdf'),
+    (83, 'L’intégration sur le bout de la langue', 'ELLE', 'elle', '2016-10-07', NULL, 'ELLE_Integration_Langue.pdf'),
+    (84, 'Parti pris', 'L’Humanité dimanche', 'l_humanite', '2018-08-02', NULL, 'HD620_20180802_p008-11 planche.pdf'),
+    (82, 'Réfugiés - En lisant, en écrivant (n°555 du 6 au 12 avril 2017)', 'L’Humanité Dimanche', 'l_humanite', '2017-04-06', NULL, 'HumaniteDimanche555.pdf'),
+    (81, 'Judith Aquien - La directrice (n°54 du 13 avril au 10 mai 2017)', 'Society', 'society', '2017-04-13', NULL, 'Society54.pdf'),
     (87, 'Reportage RTBF', 'RTBF', 'rtbf', '2018-06-13', 'https://www.rtbf.be/auvio/detail_la-semaine-de-l-europe-reportages?id=2363044', NULL),
     (88, 'Abd Al Malik chez ARTE', 'ARTE', 'arte', '2017-01-26', 'https://www.youtube.com/watch?v=Z5Nsq7LyXKg', NULL),
     (89, 'Enseignement aux réfugiés : Pourquoi ne pas laisser nos étudiants finir leur cycle ?', 'Respect Mag', NULL, '2017-03-29', 'https://www.respectmag.com/27528-etudiants-thot-transferts', NULL),
@@ -155,13 +161,3 @@ VALUES
     (103, 'Trophées, bières & gifs : la Nuit des Festivals comme si vous y étiez', 'Tous les festivals', NULL, '2018-02-09', 'https://www.touslesfestivals.com/actualites/trophees-bieres-gifs-la-nuit-des-festivals-comme-si-vous-y-etiez-190218', NULL),
     (104, 'Thot, pour apprendre le français', 'RFI', 'rfi', '2018-11-14', 'http://www.rfi.fr/emission/20181114-ecole-thot', NULL),
     (105, 'Abd Al Malik nous raconte son engagement contre l\'illettrisme et les inégalités', 'Le Mouv\'', 'le_mouv', '2018-11-16', 'https://www.mouv.fr/emissions/mouv-13-actu/abd-al-malik-nous-raconte-son-engagement-contre-l-illettrisme-et-les-inegalites-345625', NULL);
-
-INSERT INTO `press_item` (`id`, `title`, `issue`, `source`, `published_at`, `link`, `document`)
-VALUES
-    (86, 'Heloise Nio. Etorkinen aldean', 'Argia', NULL, '2017-04-30', NULL, 'ArticleArgia-Thot-Heloise-Nio.pdf'),
-    (85, 'De l\'exil à l\'ancrage linguistique', 'Magazine Mémoire - Centre Primo Levi', NULL, '2018-04-01', NULL, 'CPLmagazinememoiren72-BD-18-18.pdf'),
-    (83, 'L’intégration sur le bout de la langue', 'ELLE', 'elle', '2016-10-07', NULL, 'ELLE_Integration_Langue.pdf'),
-    (84, 'Parti pris', 'L’Humanité dimanche', 'l_humanite', '2018-08-02', NULL, 'HD620_20180802_p008-11 planche.pdf'),
-    (82, 'Réfugiés - En lisant, en écrivant (n°555 du 6 au 12 avril 2017)', 'L’Humanité Dimanche', 'l_humanite', '2017-04-06', NULL, 'HumaniteDimanche555.pdf'),
-    (81, 'Judith Aquien - La directrice (n°54 du 13 avril au 10 mai 2017)', 'Society', 'society', '2017-04-13', NULL, 'Society54.pdf');
-
