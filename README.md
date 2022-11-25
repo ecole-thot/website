@@ -1,12 +1,14 @@
 # THOT Website — v2 / 2018-2022+
 
+![website home page](_resources_/website.png)
+
 Based on Symfony 5 + Webpack
 
 Requirements:
 
-- PHP
+- PHP 8
 - MySQL or MariaDB
-- Node and NPM (to build the frontend assets)
+- Node with NPM (to build the frontend assets)
 
 ## Installation
 
@@ -80,7 +82,30 @@ production:
 
 And then run
 
-    ./vendor/bin/dep deploy prod
+    ./vendor/bin/dep deploy
+
+It should yield the following log if everything runs smoothly:
+
+```
+❯ ./vendor/bin/dep deploy
+✈︎ Deploying master on thot-fle.fr
+✔ Executing task deploy:prepare
+✔ Executing task deploy:lock
+✔ Executing task deploy:release
+✔ Executing task deploy:update_code
+✔ Executing task deploy:build_assets
+✔ Executing task deploy:shared
+✔ Executing task deploy:vendors
+✔ Executing task deploy:writable
+✔ Executing task deploy:cache:clear
+✔ Executing task deploy:cache:warmup
+✔ Executing task deploy:symlink
+✔ Executing task folder:rights
+✔ Executing task php-fpm:restart
+✔ Executing task deploy:unlock
+✔ Executing task cleanup
+Successfully deployed!
+```
 
 ## Translations
 
