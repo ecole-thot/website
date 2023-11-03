@@ -73,10 +73,10 @@ Example:
 ```yml
 production:
     hostname: XX.YY.ZZ.WW
-    user: ubuntu
+    user: debian
     forward_agent: ~
     stage: production
-    deploy_path: "/var/www/path_to_directory"
+    deploy_path: "/var/www/thot-fle.fr"
     branch: master
 ```
 
