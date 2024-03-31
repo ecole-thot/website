@@ -12,6 +12,14 @@ Requirements:
 
 ## Installation
 
+#### To install PHP
+
+For ubuntu find below, you need the php-cli & php-mysql add-ins
+
+    sudo apt install php libapache2-mod-php
+    sudo apt install php-cli
+    sudo apt install php-mysql
+
 #### To install dependencies
 
 [Composer](https://getcomposer.org/) is the PHP package manager. Install it first and then run
@@ -31,14 +39,17 @@ Once you have a MySQL instance running, you can connect to it with `sudo mysql` 
 
 ```sql
 CREATE USER 'thot'@'localhost' IDENTIFIED BY 'thot';
+CREATE DATABASE thot;
 GRANT ALL PRIVILEGES ON thot.* TO 'thot'@'localhost';
 ```
 
 This will create a user `thot` with password `thot` and a database named `thot`.
 
-You can then change the MySQL connection line with theses credentials in the `.env.local` file that you must create at the root of the folder.
+You can then change the MySQL connection line with theses credentials in the `.env.local` file that you must create at the root of the folder, for instance:
 
-After you have done that, you can create the schema:
+    DATABASE_URL=mysql://thot:thot@127.0.0.1:3306/thot
+
+After you have done that, you can create the schema running into a terminal:
 
     bin/console doctrine:schema:update --force
 
