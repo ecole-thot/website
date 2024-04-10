@@ -1195,9 +1195,9 @@ http://resome.org/) and Wintegreat (http://wintegreat.org/). </target>
         <target>خپلې کچې معاینه کړئ.</target>
       </segment>
     </unit>
-    <unit id="0NLCiPE" name="home.qualiopy">
+    <unit id="0NLCiPE" name="school.qualiopy">
       <segment>
-        <source>home.qualiopy</source>
+        <source>school.qualiopy</source>
         <target>La certification qualité a été délivrée au titre de la catégorie d'action suivante : Actions de formation</target>
       </segment>
     </unit>

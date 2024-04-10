@@ -946,9 +946,9 @@ Nous portons une attention particulière à traiter chacun.e avec équité, selo
         <target>Lauréats « La France s'engage »</target>
       </segment>
     </unit>
-    <unit id="0NLCiPE" name="home.qualiopy">
+    <unit id="0NLCiPE" name="school.qualiopy">
       <segment>
-        <source>home.qualiopy</source>
+        <source>school.qualiopy</source>
         <target>La certification qualité a été délivrée au titre de la catégorie d'action suivante : Actions de formation</target>
       </segment>
     </unit>
